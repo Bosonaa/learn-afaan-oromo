@@ -1,0 +1,298 @@
+id: unit-01-family
+order: 1
+title: Family
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: mother
+    pos: noun
+    oromo: aayyee
+    alternates:
+      - deessee
+      - aayyoo
+      - dhalee
+      - haadha
+    ipa: /ɑːjːéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/73/Om-aayyee.ogg/Om-aayyee.ogg.mp3
+    confidence: medium
+    glossSeen: mother
+  - english: father
+    pos: noun
+    oromo: abbaa
+    alternates:
+      - aabba
+      - habbaayyoo
+      - aabbaabba
+      - abaabayyuu
+    ipa: /ɐbːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8e/Om-abbaa.ogg/Om-abbaa.ogg.mp3
+    confidence: medium
+    glossSeen: father
+  - english: child
+    pos: noun
+    oromo: daa'im
+    alternates:
+      - dhala
+      - saldheessa
+      - mucaa
+      - mucayyoo
+    ipa: /ˈdɑːʔɪm/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9a/Om-daa%27im.ogg/Om-daa%27im.ogg.mp3
+    confidence: medium
+    glossSeen: child
+  - english: baby
+    pos: noun
+    oromo: daa'ima
+    alternates:
+      - taaboree
+      - amnuu
+      - cittaa
+      - arrittii
+    ipa: /ˈdɑːʔɪmɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5f/Om-daa%27ima.ogg/Om-daa%27ima.ogg.mp3
+    confidence: medium
+    glossSeen: baby, infant
+  - english: brother
+    pos: noun
+    oromo: obboleessa
+    alternates:
+      - koodee
+      - goofaa
+      - haadhoo
+      - mandicha
+    ipa: /ɔbːɔleːsːɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: brother
+  - english: sister
+    pos: noun
+    oromo: obboleettii
+    alternates:
+      - koodee
+      - obboo
+      - beembeetoo
+      - bembeetoo
+    ipa: /ɔbːɔleːtːíː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: sister
+  - english: son
+    pos: noun
+    oromo: ilma
+    alternates:
+      - balcha
+      - sooree
+      - abbaa gurbaa
+      - ilma Kiristinnaa
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: son
+  - english: daughter
+    pos: noun
+    oromo: intala
+    alternates:
+      - intalattii
+      - jaartii-ilmaa
+      - sootala
+      - abbaa intalaa
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: daughter
+  - english: grandmother
+    pos: noun
+    oromo: akkayyaa
+    alternates: []
+    ipa: /ɐkːɐjːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/38/Om-akkayyaa.ogg/Om-akkayyaa.ogg.mp3
+    confidence: high
+    glossSeen: grandmother
+  - english: grandfather
+    pos: noun
+    oromo: akaakayyuu
+    alternates:
+      - abaabiyyoo
+    ipa: /ɐkɑːkɐjːúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/59/Om-akaakayyuu.ogg/Om-akaakayyuu.ogg.mp3
+    confidence: high
+    glossSeen: grandfather
+  - english: family
+    pos: noun
+    oromo: maatii
+    alternates:
+      - abbaadhoo
+      - haskaa
+      - hortee
+      - warra
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: family
+  - english: boy
+    pos: noun
+    oromo: gurbicha
+    alternates:
+      - dhiyeessaa
+      - arrittii
+      - gurbayyoo
+      - gaarayyuu
+    ipa: /ˈɡʊrbɪt͡ʃɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: the bridegroom
+  - english: girl
+    pos: noun
+    oromo: dubara
+    alternates:
+      - intalattii
+      - aseennaa
+      - dumbushee
+      - habalee
+    ipa: /ˈdʊbɐrɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8c/Om-dubara.ogg/Om-dubara.ogg.mp3
+    confidence: high
+    glossSeen: girl
+  - english: man
+    pos: noun
+    oromo: dhiira
+    alternates:
+      - namittii
+      - dhiirti
+      - ja'uu
+      - aseennaa
+    ipa: /ˈᶑiːrɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b6/Om-dhiira.ogg/Om-dhiira.ogg.mp3
+    confidence: medium
+    glossSeen: man
+  - english: woman
+    pos: noun
+    oromo: dubarti
+    alternates:
+      - dubartii
+      - gannee
+      - hanfalaa
+      - nadheen
+    ipa: /ˈdʊbɐrtɪ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ac/Om-dubarti.ogg/Om-dubarti.ogg.mp3
+    confidence: medium
+    glossSeen: woman
+  - english: friend
+    pos: noun
+    oromo: daraboo
+    alternates:
+      - jaaltuu
+      - michuu
+      - saahiba
+      - addooyyee
+    ipa: /ˈdɐrɐbóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b8/Om-daraboo.ogg/Om-daraboo.ogg.mp3
+    confidence: medium
+    glossSeen: friend
+  - english: name
+    pos: noun
+    oromo: maqaa
+    alternates:
+      - adulaala
+      - adulee
+      - amallaqaa
+      - ameeraa
+    ipa: /mɐˈkʼɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: name
+  - english: home
+    pos: noun
+    oromo: ardaga
+    alternates:
+      - ka'umsa
+      - agibaarittii
+      - hojmanee
+      - kaleeffama
+    ipa: /ɐrdɐɡɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/66/Om-ardaga.ogg/Om-ardaga.ogg.mp3
+    confidence: medium
+    glossSeen: home, see 'qeyee'
+  - english: husband
+    pos: noun
+    oromo: dhirsa
+    alternates:
+      - abbaa warraa
+      - abbaa manaa
+      - goofaa
+      - qaraa
+    ipa: /ˈᶑɪrsɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ef/Om-dhirsa.ogg/Om-dhirsa.ogg.mp3
+    confidence: high
+    glossSeen: husband
+  - english: wife
+    pos: noun
+    oromo: jaartii
+    alternates:
+      - niitii
+      - niitiifuudhuu
+      - haadha manaa
+      - obbolee
+    ipa: /ˈd͡ʒɑːrtíː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: old (fem.)
+  - english: uncle
+    pos: noun
+    oromo: eessuma
+    alternates:
+      - wasiila
+      - abbuyyaa
+      - aabboo xiqqaa
+      - abbo guddoo
+    ipa: /eːsːʊmɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/be/Om-eessuma.ogg/Om-eessuma.ogg.mp3
+    confidence: medium
+    glossSeen: uncle (maternal)
+  - english: aunt
+    pos: noun
+    oromo: indoo
+    alternates:
+      - indoodoo
+      - indootiyyaa
+      - indootoo
+      - adaadaa
+    ipa: /ɪndóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: aunt, sister of one's mother
+  - english: people
+    pos: noun
+    oromo: nama
+    alternates:
+      - namoota
+      - ummata
+      - warra
+      - boordoo
+    ipa: /ˈnɐ́mɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: people
+  - english: neighbor
+    pos: noun
+    oromo: ollummaa
+    alternates: []
+    ipa: /ɔlːʊmːɑ́ː/
+    audioUrl: null
+    confidence: low
+    glossSeen: neighbor hood
+  - english: guest
+    pos: noun
+    oromo: keessummaa
+    alternates:
+      - askutii
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: guest

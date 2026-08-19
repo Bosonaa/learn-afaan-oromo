@@ -1,0 +1,308 @@
+id: unit-03-animals
+order: 3
+title: Animals
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: dog
+    pos: noun
+    oromo: buchillaa
+    alternates:
+      - foroca
+      - forocuu
+      - duchiifamuu
+    ipa: /ˈbʊt͡ʃɪlːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/df/Om-buchillaa.ogg/Om-buchillaa.ogg.mp3
+    confidence: low
+    glossSeen: pup or puppy i.e. young dog
+  - english: cat
+    pos: noun
+    oromo: adurree
+    alternates:
+      - bashoo
+      - leessuu
+      - agala
+      - deeroo
+    ipa: /ɐdʊrːéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a3/Om-adurree.ogg/Om-adurree.ogg.mp3
+    confidence: medium
+    glossSeen: cat
+  - english: cow
+    pos: noun
+    oromo: saawwa
+    alternates:
+      - sawwa
+      - ameessa
+      - dhaltii
+      - elmaa
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: cow
+  - english: ox
+    pos: noun
+    oromo: sangaa
+    alternates:
+      - qotiyyoo
+      - haraashi
+      - carii
+      - dilbeetumma
+    ipa: /sɐnɡɑː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: ox
+  - english: goat
+    pos: noun
+    oromo: re'ee
+    alternates:
+      - goorana
+      - kal'ee
+      - hobobsa
+      - karrooyyee
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: goat
+  - english: sheep
+    pos: noun
+    oromo: bidoo
+    alternates:
+      - hoolee
+      - hoolaa
+      - busaayee
+      - addamaree
+    ipa: /ˈbɪdóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0e/Om-bidoo.ogg/Om-bidoo.ogg.mp3
+    confidence: medium
+    glossSeen: sheep
+  - english: horse
+    pos: noun
+    oromo: farda
+    alternates:
+      - lammacha
+      - beennacha
+      - cidhoo
+      - bulloo
+    ipa: /ˈfɐ́rdɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ef/Om-farda.ogg/Om-farda.ogg.mp3
+    confidence: high
+    glossSeen: horse
+  - english: donkey
+    pos: noun
+    oromo: waaluu
+    alternates:
+      - harree
+      - lammacha
+      - bukurattii
+      - bukurii
+    ipa: /ˈwɑːlúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: donkey (male)
+  - english: camel
+    pos: noun
+    oromo: gaala
+    alternates:
+      - gurboo
+      - orgee
+    ipa: /ˈɡɑ́ːlɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b9/Gaala.wav/Gaala.wav.mp3
+    confidence: high
+    glossSeen: camel
+  - english: chicken
+    pos: noun
+    oromo: handaaqqoo
+    alternates:
+      - hindaaqqoo
+      - indaanqoo
+      - cuucii
+      - handaaqqoo sookiyyoo
+    ipa: /ˈhɐndɑːkʼːóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: hen/chicken/cock
+  - english: bird
+    pos: noun
+    oromo: allaattii
+    alternates:
+      - simbirroo
+      - shimbiro
+      - simbira
+      - abarjulaa
+    ipa: /ɐlːɑːtːíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fd/Om-allaattii.ogg/Om-allaattii.ogg.mp3
+    confidence: medium
+    glossSeen: bird
+  - english: fish
+    pos: noun
+    oromo: kalluuna
+    alternates:
+      - qurxummii
+      - kiilobuu
+      - waantoo
+      - giilii
+    ipa: /ˈkɐlːuːnɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: fish
+  - english: lion
+    pos: noun
+    oromo: leenca
+    alternates:
+      - anfarroo
+      - kublee
+      - kulbee
+      - saafela
+    ipa: /ˈleːnt͡ʃʼɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: lion
+  - english: elephant
+    pos: noun
+    oromo: arba
+    alternates:
+      - humbaawoo
+      - roodisa
+      - huumbii
+      - kunbii
+    ipa: /ɐrbɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/87/Om-arbaa.ogg/Om-arbaa.ogg.mp3
+    confidence: high
+    glossSeen: elephant
+  - english: monkey
+    pos: noun
+    oromo: anfarroo
+    alternates:
+      - buukumsa
+      - jaldeessa-kootama
+      - qurii
+      - weennii
+    ipa: /ɐnfɐrːóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a4/Om-anfarroo.ogg/Om-anfarroo.ogg.mp3
+    confidence: low
+    glossSeen: mane of lion or monkey
+  - english: snake
+    pos: noun
+    oromo: bofa
+    alternates:
+      - darabii
+      - magarsuu
+      - magariisuu
+      - mar'ataa
+    ipa: /ˈbɔ́fɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/00/Om-bofa.ogg/Om-bofa.ogg.mp3
+    confidence: high
+    glossSeen: snake
+  - english: mouse
+    pos: noun
+    oromo: hantuuttee
+    alternates:
+      - fuliyoo
+      - abbaa simboo
+      - focii
+    ipa: /ˈhɐntuːtːéː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: muscle
+  - english: hyena
+    pos: noun
+    oromo: waraabeessa
+    alternates:
+      - qaxxaamuraa
+      - harrittaa
+      - yuusisuu
+      - yuusaa
+    ipa: /ˈwɐrɑːbeːsːɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: hyena
+  - english: leopard
+    pos: noun
+    oromo: qeeransa
+    alternates:
+      - adokol
+      - harqa
+      - carquu
+      - cirriqquu
+    ipa: /ˈkʼeːrɐnsɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: leopard
+  - english: buffalo
+    pos: noun
+    oromo: yadii
+    alternates:
+      - gafarsa
+      - gafaarsa
+      - gurraalee
+      - amartoo
+    ipa: /ˈjɐdíː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: buffalo(fem)
+  - english: bee
+    pos: noun
+    oromo: kannisa
+    alternates:
+      - kaanniissa
+      - gaagura'
+      - jiisaa
+      - sonii
+    ipa: /ˈkɐnːɪsɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: bee
+  - english: fly
+    pos: noun
+    oromo: tisiisa
+    alternates:
+      - barrisuu
+      - balali'uu
+      - ooffuu
+      - qarcaasaa
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: fly (insect)
+  - english: hen
+    pos: noun
+    oromo: lukkuu
+    alternates:
+      - handaaqqoo
+      - hindaaqqoo
+      - indaanqoo
+      - haadha lukkuu
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: hen
+  - english: calf
+    pos: noun
+    oromo: sarbaa
+    alternates:
+      - jaabi
+      - dhalattuu
+      - jabbii
+      - waatii
+    ipa: /ˈsɐrbɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: calf
+  - english: animal
+    pos: noun
+    oromo: neefkaa
+    alternates:
+      - cibra
+      - uusoo
+      - caxoo
+      - afuuffee
+    ipa: /ˈneːfkɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: animal

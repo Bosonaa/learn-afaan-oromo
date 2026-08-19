@@ -1,0 +1,20 @@
+{
+  "name": "learn-afaan-oromo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Duolingo-style Afaan Oromo learning app",
+  "scripts": {
+    "fetch:lexicon": "tsx scripts/fetch-lexicon.ts",
+    "build:lexicon": "tsx scripts/build-lexicon.ts",
+    "draft:units": "tsx scripts/draft-units.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "yaml": "^2.4.5"
+  }
+}
