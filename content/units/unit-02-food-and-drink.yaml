@@ -1,0 +1,306 @@
+id: unit-02-food-and-drink
+order: 2
+title: Food & drink
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: water
+    pos: noun
+    oromo: bishaan
+    alternates:
+      - bisaani
+      - dhimphuu
+      - bacaqqee
+      - baccee
+    ipa: /bɪˈʃɑ́ːn/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9f/Om-bishaan.ogg/Om-bishaan.ogg.mp3
+    confidence: medium
+    glossSeen: water
+  - english: milk
+    pos: noun
+    oromo: annan
+    alternates:
+      - aannan
+      - elmuu
+      - adii sa'aa
+      - helemachuu
+    ipa: /ɐnːɐn/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/29/Om-annan.ogg/Om-annan.ogg.mp3
+    confidence: medium
+    glossSeen: milk
+  - english: coffee
+    pos: noun
+    oromo: buna
+    alternates:
+      - qaawwa
+      - jalasoqa
+      - aboolii
+      - baaloo
+    ipa: /ˈbʊnɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/83/Om-buna.ogg/Om-buna.ogg.mp3
+    confidence: medium
+    glossSeen: coffee
+  - english: tea
+    pos: noun
+    oromo: baalashaay
+    alternates:
+      - baaloo
+      - makirajii
+      - makrajii
+      - masalee
+    ipa: /ˈbɑːlɐʃɑːj/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/07/Om-baalashaay.ogg/Om-baalashaay.ogg.mp3
+    confidence: low
+    glossSeen: tea leaf
+  - english: bread
+    pos: noun
+    oromo: abshiloo
+    alternates:
+      - amashoommoo
+      - bixxibixxii
+      - bixxiluu
+      - caabitaa
+    ipa: /ɐbʃɪlóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4f/Om-abshiloo.ogg/Om-abshiloo.ogg.mp3
+    confidence: low
+    glossSeen: tick bread used to make local beer
+  - english: meat
+    pos: noun
+    oromo: foon
+    alternates:
+      - addamaree
+      - baktii
+      - bocola
+      - busuqqee
+    ipa: /ˈfoːn/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/93/Om-foon.ogg/Om-foon.ogg.mp3
+    confidence: high
+    glossSeen: meat
+  - english: egg
+    pos: noun
+    oromo: buphaa
+    alternates:
+      - hangaaquu
+      - hanqaaquu
+      - cinii
+      - anqaaquu
+    ipa: /ˈbʊpʼɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b0/Om-buphaa.ogg/Om-buphaa.ogg.mp3
+    confidence: medium
+    glossSeen: egg
+  - english: salt
+    pos: noun
+    oromo: ashaboo
+    alternates:
+      - soogidda
+      - amoolee
+      - bassoo
+      - basseessuu
+    ipa: /ɐʃɐbóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: salt
+  - english: sugar
+    pos: noun
+    oromo: shukkaaraa
+    alternates:
+      - sukkaara
+      - abraasaa
+      - hagadaa
+      - hoomisha shukkaaraa
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: sugar
+  - english: butter
+    pos: noun
+    oromo: dhadhaa
+    alternates:
+      - dhalee
+      - addaannoo
+      - addaanuu
+      - addanoo
+    ipa: /ˈᶑɐᶑɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d7/Om-dhadhaa.ogg/Om-dhadhaa.ogg.mp3
+    confidence: medium
+    glossSeen: butter
+  - english: honey
+    pos: noun
+    oromo: damma
+    alternates:
+      - arraabsisa
+      - daamuu
+      - fasasee
+      - jiisaa
+    ipa: /ˈdɐmːɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f8/Om-damma.ogg/Om-damma.ogg.mp3
+    confidence: high
+    glossSeen: honey
+  - english: food
+    pos: noun
+    oromo: sorrata
+    alternates:
+      - nyaata
+      - lillaata
+      - soorata
+      - aboorada
+    ipa: /ˈsɔrːɐtɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: food (of animals)
+  - english: fruit
+    pos: noun
+    oromo: fuduraa
+    alternates:
+      - ijoo
+      - arraddoo
+      - ashooka
+      - baddeessa
+    ipa: /ˈfʊdʊrɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/41/Om-fuduraa.ogg/Om-fuduraa.ogg.mp3
+    confidence: high
+    glossSeen: fruit
+  - english: banana
+    pos: noun
+    oromo: muuzii
+    alternates:
+      - hoofichoo
+      - huuxoo
+      - ofichoo
+      - oofichoo
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: banana
+  - english: orange
+    pos: noun
+    oromo: birtukaanii
+    alternates:
+      - burtukaana
+      - boora
+    ipa: /ˈbɪrtʊkɑːníː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bd/Om-birtukaanii.ogg/Om-birtukaanii.ogg.mp3
+    confidence: medium
+    glossSeen: orange (fruit)
+  - english: onion
+    pos: noun
+    oromo: alaangallee
+    alternates:
+      - shunkurtaa
+      - qullubbii diimaa
+    ipa: /ɐlɑːnɡɐlːéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1c/Om-alaangallee.ogg/Om-alaangallee.ogg.mp3
+    confidence: low
+    glossSeen: kind of onion
+  - english: potato
+    pos: noun
+    oromo: dinnicha
+    alternates:
+      - ifaatee
+      - mosee
+      - shoonee
+      - shonee
+    ipa: /ˈdɪnːɪt͡ʃɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bf/Om-dinnicha.ogg/Om-dinnicha.ogg.mp3
+    confidence: medium
+    glossSeen: potato (Coleus edulis)
+  - english: maize
+    pos: noun
+    oromo: boqqolloo
+    alternates:
+      - ansaaroo
+      - algee
+      - jalaharaa
+      - oromee
+    ipa: /ˈbɔkʼːɔlːóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0a/Om-boqqolloo.ogg/Om-boqqolloo.ogg.mp3
+    confidence: high
+    glossSeen: corn, maize
+  - english: barley
+    pos: noun
+    oromo: garbuu
+    alternates:
+      - bassoo
+      - buttujjii
+      - samareeta
+      - toloola
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: barley
+  - english: porridge
+    pos: noun
+    oromo: shuuroo
+    alternates:
+      - awandaroo
+      - solloqii
+      - jaaloo
+      - askutii
+    ipa: /ˈʃuːróː/
+    audioUrl: null
+    confidence: high
+    glossSeen: porridge
+  - english: cup
+    pos: noun
+    oromo: kokii
+    alternates:
+      - kubbaayyaa
+      - sinii
+      - xoofoo
+      - abooree
+    ipa: /ˈkɔkíː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: cup
+  - english: plate
+    pos: noun
+    oromo: caabii
+    alternates:
+      - asaafaa
+      - shaanii
+      - arkee
+      - quuraa
+    ipa: /ˈt͡ʃʼɑːbíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/35/Om-caabii.ogg/Om-caabii.ogg.mp3
+    confidence: medium
+    glossSeen: plate
+  - english: spoon
+    pos: noun
+    oromo: fallaana
+    alternates:
+      - fal'aana
+      - keenxoo
+    ipa: /ˈfɐlːɑːnɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/89/Om-fallaana.ogg/Om-fallaana.ogg.mp3
+    confidence: medium
+    glossSeen: spoon
+  - english: eat
+    pos: verb
+    oromo: nyaachuu
+    alternates:
+      - raamuu
+      - nyaatamaa
+      - anfiriiruu
+      - cafaquu
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: to eat
+  - english: drink
+    pos: verb
+    oromo: dhuguu
+    alternates:
+      - dhugaatii
+      - dhugdoo
+      - obaafachuu
+      - obaasisuu
+    ipa: /ˈᶑʊɡúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/46/Om-dhuguu.ogg/Om-dhuguu.ogg.mp3
+    confidence: high
+    glossSeen: to drink
