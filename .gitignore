@@ -2,3 +2,5 @@ node_modules/
 data/kaikki-oromo.jsonl
 data/lexicon.json
 .next/
+next-env.d.ts
+*.tsbuildinfo
