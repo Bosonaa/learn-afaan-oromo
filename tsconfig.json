@@ -3,14 +3,27 @@
     "target": "ES2022",
     "module": "ESNext",
     "moduleResolution": "bundler",
-    "lib": ["ES2022"],
-    "types": ["node"],
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "jsx": "preserve",
     "strict": true,
     "noUncheckedIndexedAccess": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "noEmit": true,
-    "resolveJsonModule": true
+    "incremental": true,
+    "isolatedModules": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "plugins": [{ "name": "next" }],
+    "paths": { "@/*": ["./*"] }
   },
-  "include": ["scripts/**/*.ts", "content/**/*.ts"]
+  "include": [
+    "next-env.d.ts",
+    "app/**/*.ts",
+    "app/**/*.tsx",
+    "lib/**/*.ts",
+    "tailwind.config.ts",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": ["node_modules", "scripts", "content"]
 }

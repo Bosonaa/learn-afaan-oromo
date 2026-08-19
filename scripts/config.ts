@@ -8,6 +8,10 @@ export const DATA_DIR = resolve(REPO_ROOT, "data");
 export const CONTENT_DIR = resolve(REPO_ROOT, "content");
 export const REVIEW_DIR = resolve(REPO_ROOT, "review");
 
+export const PUBLIC_DIR = resolve(REPO_ROOT, "public");
+export const AUDIO_DIR = resolve(PUBLIC_DIR, "audio");
+export const AUDIO_CREDITS_PATH = resolve(AUDIO_DIR, "credits.json");
+
 export const RAW_LEXICON_PATH = resolve(DATA_DIR, "kaikki-oromo.jsonl");
 export const LEXICON_PATH = resolve(DATA_DIR, "lexicon.json");
 
