@@ -50,6 +50,14 @@ npm run typecheck && npm run lint
 `mirror:audio` only mirrors a clip once it has resolved that file's own Commons licence and
 author; anything unresolved is skipped and reported rather than shipped uncredited.
 
+## Reviewer corrections
+
+`content/overrides.yaml` holds fluent-speaker verdicts keyed by unit and English
+prompt. `npm run draft:units` applies them over whatever the lexicon proposes and
+marks those words `verified: true`, so regenerating content never discards a
+review. IPA and audio are re-looked-up for the corrected spelling; a word the
+lexicon does not carry simply ships without a recording.
+
 ## Reviewing the draft
 
 `review/units-01-03-review.csv` proposes an Oromo word per English concept, with alternates,

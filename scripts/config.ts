@@ -7,6 +7,7 @@ export const REPO_ROOT = resolve(scriptDir, "..");
 export const DATA_DIR = resolve(REPO_ROOT, "data");
 export const CONTENT_DIR = resolve(REPO_ROOT, "content");
 export const REVIEW_DIR = resolve(REPO_ROOT, "review");
+export const OVERRIDES_PATH = resolve(CONTENT_DIR, "overrides.yaml");
 
 export const PUBLIC_DIR = resolve(REPO_ROOT, "public");
 export const AUDIO_DIR = resolve(PUBLIC_DIR, "audio");

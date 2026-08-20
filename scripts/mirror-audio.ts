@@ -7,7 +7,7 @@
  * out and reported rather than shipped without credit.
  */
 import { createWriteStream } from "node:fs";
-import { mkdir, readFile, readdir, writeFile } from "node:fs/promises";
+import { mkdir, readFile, readdir, unlink, writeFile } from "node:fs/promises";
 import { Readable } from "node:stream";
 import { pipeline } from "node:stream/promises";
 import { resolve } from "node:path";
@@ -158,6 +158,18 @@ async function main(): Promise<void> {
   }
 
   await writeFile(AUDIO_CREDITS_PATH, `${JSON.stringify(credits, null, 2)}\n`, "utf8");
+
+  // A reviewer correction changes which word is taught, so clips for the old
+  // word would otherwise linger uncredited in the repo.
+  const kept = new Set(credits.map((credit) => credit.file));
+  const stale = (await readdir(AUDIO_DIR)).filter(
+    (name) => name.endsWith(".mp3") && !kept.has(name),
+  );
+  for (const name of stale) {
+    await unlink(resolve(AUDIO_DIR, name));
+    console.log(`removed unused ${name}`);
+  }
+
   console.log(`\nmirrored ${credits.length} clips -> ${AUDIO_DIR}`);
   if (skipped.length > 0) {
     console.log(`skipped ${skipped.length}:`);

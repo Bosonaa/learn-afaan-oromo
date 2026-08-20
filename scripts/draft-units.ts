@@ -9,12 +9,22 @@
  */
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
-import { stringify } from "yaml";
+import { parse, stringify } from "yaml";
 import { UNITS, type UnitSpec } from "../content/curriculum.js";
-import { CONTENT_DIR, LEXICON_PATH, REVIEW_DIR } from "./config.js";
+import { CONTENT_DIR, LEXICON_PATH, OVERRIDES_PATH, REVIEW_DIR } from "./config.js";
 import type { Lexicon, LexiconEntry } from "./build-lexicon.js";
 
 type Confidence = "high" | "medium" | "low" | "none";
+
+interface Override {
+  oromo: string;
+  alternates?: string[];
+  reviewer?: string;
+  note?: string;
+}
+
+/** unit id -> English prompt -> reviewer's correction. */
+type Overrides = Record<string, Record<string, Override>>;
 
 interface Candidate {
   entry: LexiconEntry;
@@ -31,6 +41,41 @@ interface DraftedWord {
   audioUrl: string | null;
   confidence: Confidence;
   glossSeen: string | null;
+  /** True once a fluent speaker has signed the word off in overrides.yaml. */
+  verified: boolean;
+  reviewer?: string;
+}
+
+async function loadOverrides(): Promise<Overrides> {
+  try {
+    return (parse(await readFile(OVERRIDES_PATH, "utf8")) as Overrides | null) ?? {};
+  } catch (error) {
+    if ((error as NodeJS.ErrnoException).code === "ENOENT") return {};
+    throw error;
+  }
+}
+
+/**
+ * Replaces a drafted candidate with the reviewer's word, re-looking up IPA and
+ * audio for the corrected spelling so pronunciation still matches what is
+ * taught. A correction with no lexicon entry simply ships without audio.
+ */
+function applyOverride(word: DraftedWord, override: Override, lexicon: Lexicon): DraftedWord {
+  const entry = lexicon.entries.find(
+    (candidate) => candidate.oromo.toLowerCase() === override.oromo.toLowerCase(),
+  );
+  const alternates = override.alternates ?? [];
+  return {
+    ...word,
+    oromo: override.oromo,
+    alternates,
+    ipa: entry?.ipa[0] ?? null,
+    audioUrl: entry?.audioUrl ?? null,
+    confidence: "high",
+    glossSeen: entry?.glosses[0] ?? word.glossSeen,
+    verified: true,
+    ...(override.reviewer === undefined ? {} : { reviewer: override.reviewer }),
+  };
 }
 
 /** Splits "water, liquid (drinking)" into comparable gloss fragments. */
@@ -99,6 +144,7 @@ function draftWord(spec: UnitSpec["words"][number], lexicon: Lexicon): DraftedWo
       audioUrl: null,
       confidence: "none",
       glossSeen: null,
+      verified: false,
     };
   }
 
@@ -112,6 +158,7 @@ function draftWord(spec: UnitSpec["words"][number], lexicon: Lexicon): DraftedWo
     audioUrl: top.entry.audioUrl,
     confidence: confidenceOf(candidates),
     glossSeen: top.entry.glosses[0] ?? null,
+    verified: false,
   };
 }
 
@@ -121,6 +168,7 @@ function csvCell(value: string): string {
 
 async function main(): Promise<void> {
   const lexicon = JSON.parse(await readFile(LEXICON_PATH, "utf8")) as Lexicon;
+  const overrides = await loadOverrides();
   await mkdir(resolve(CONTENT_DIR, "units"), { recursive: true });
   await mkdir(REVIEW_DIR, { recursive: true });
 
@@ -135,18 +183,26 @@ async function main(): Promise<void> {
       "has_audio",
       "confidence",
       "gloss_seen",
+      "reviewed",
       "verdict_ok_or_fix",
       "notes",
     ].join(","),
   ];
   const tally: Record<Confidence, number> = { high: 0, medium: 0, low: 0, none: 0 };
   let withAudio = 0;
+  let verified = 0;
 
   for (const unit of UNITS) {
-    const words = unit.words.map((spec) => draftWord(spec, lexicon));
+    const unitOverrides = overrides[unit.id] ?? {};
+    const words = unit.words.map((spec) => {
+      const drafted = draftWord(spec, lexicon);
+      const override = unitOverrides[spec.english];
+      return override === undefined ? drafted : applyOverride(drafted, override, lexicon);
+    });
     for (const word of words) {
       tally[word.confidence] += 1;
       if (word.audioUrl !== null) withAudio += 1;
+      if (word.verified) verified += 1;
       rows.push(
         [
           unit.id,
@@ -158,6 +214,7 @@ async function main(): Promise<void> {
           word.audioUrl === null ? "no" : "yes",
           word.confidence,
           word.glossSeen ?? "",
+          word.verified ? "reviewed" : "",
           "",
           "",
         ]
@@ -173,7 +230,7 @@ async function main(): Promise<void> {
         id: unit.id,
         order: unit.order,
         title: unit.title,
-        status: "draft-unreviewed",
+        status: words.every((word) => word.verified) ? "reviewed" : "draft-unreviewed",
         source: lexicon.source,
         words,
       }),
@@ -192,6 +249,7 @@ async function main(): Promise<void> {
     `confidence: high ${tally.high}, medium ${tally.medium}, low ${tally.low}, no match ${tally.none}`,
   );
   console.log(`with pronunciation audio: ${withAudio} (${Math.round((100 * withAudio) / total)}%)`);
+  console.log(`reviewer-verified: ${verified}`);
 }
 
 main().catch((error: unknown) => {

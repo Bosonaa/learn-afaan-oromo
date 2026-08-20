@@ -21,6 +21,7 @@ words:
     audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/df/Om-buchillaa.ogg/Om-buchillaa.ogg.mp3
     confidence: low
     glossSeen: pup or puppy i.e. young dog
+    verified: false
   - english: cat
     pos: noun
     oromo: adurree
@@ -33,6 +34,7 @@ words:
     audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a3/Om-adurree.ogg/Om-adurree.ogg.mp3
     confidence: medium
     glossSeen: cat
+    verified: false
   - english: cow
     pos: noun
     oromo: saawwa
@@ -45,6 +47,7 @@ words:
     audioUrl: null
     confidence: medium
     glossSeen: cow
+    verified: false
   - english: ox
     pos: noun
     oromo: sangaa
@@ -57,6 +60,7 @@ words:
     audioUrl: null
     confidence: medium
     glossSeen: ox
+    verified: false
   - english: goat
     pos: noun
     oromo: re'ee
@@ -69,6 +73,7 @@ words:
     audioUrl: null
     confidence: medium
     glossSeen: goat
+    verified: false
   - english: sheep
     pos: noun
     oromo: bidoo
@@ -81,6 +86,7 @@ words:
     audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0e/Om-bidoo.ogg/Om-bidoo.ogg.mp3
     confidence: medium
     glossSeen: sheep
+    verified: false
   - english: horse
     pos: noun
     oromo: farda
@@ -93,6 +99,7 @@ words:
     audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ef/Om-farda.ogg/Om-farda.ogg.mp3
     confidence: high
     glossSeen: horse
+    verified: false
   - english: donkey
     pos: noun
     oromo: waaluu
@@ -105,6 +112,7 @@ words:
     audioUrl: null
     confidence: medium
     glossSeen: donkey (male)
+    verified: false
   - english: camel
     pos: noun
     oromo: gaala
@@ -115,6 +123,7 @@ words:
     audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b9/Gaala.wav/Gaala.wav.mp3
     confidence: high
     glossSeen: camel
+    verified: false
   - english: chicken
     pos: noun
     oromo: handaaqqoo
@@ -127,6 +136,7 @@ words:
     audioUrl: null
     confidence: medium
     glossSeen: hen/chicken/cock
+    verified: false
   - english: bird
     pos: noun
     oromo: allaattii
@@ -139,6 +149,7 @@ words:
     audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fd/Om-allaattii.ogg/Om-allaattii.ogg.mp3
     confidence: medium
     glossSeen: bird
+    verified: false
   - english: fish
     pos: noun
     oromo: kalluuna
@@ -151,6 +162,7 @@ words:
     audioUrl: null
     confidence: medium
     glossSeen: fish
+    verified: false
   - english: lion
     pos: noun
     oromo: leenca
@@ -163,6 +175,7 @@ words:
     audioUrl: null
     confidence: high
     glossSeen: lion
+    verified: false
   - english: elephant
     pos: noun
     oromo: arba
@@ -175,6 +188,7 @@ words:
     audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/87/Om-arbaa.ogg/Om-arbaa.ogg.mp3
     confidence: high
     glossSeen: elephant
+    verified: false
   - english: monkey
     pos: noun
     oromo: anfarroo
@@ -187,6 +201,7 @@ words:
     audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a4/Om-anfarroo.ogg/Om-anfarroo.ogg.mp3
     confidence: low
     glossSeen: mane of lion or monkey
+    verified: false
   - english: snake
     pos: noun
     oromo: bofa
@@ -199,6 +214,7 @@ words:
     audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/00/Om-bofa.ogg/Om-bofa.ogg.mp3
     confidence: high
     glossSeen: snake
+    verified: false
   - english: mouse
     pos: noun
     oromo: hantuuttee
@@ -210,6 +226,7 @@ words:
     audioUrl: null
     confidence: medium
     glossSeen: muscle
+    verified: false
   - english: hyena
     pos: noun
     oromo: waraabeessa
@@ -222,6 +239,7 @@ words:
     audioUrl: null
     confidence: medium
     glossSeen: hyena
+    verified: false
   - english: leopard
     pos: noun
     oromo: qeeransa
@@ -234,6 +252,7 @@ words:
     audioUrl: null
     confidence: high
     glossSeen: leopard
+    verified: false
   - english: buffalo
     pos: noun
     oromo: yadii
@@ -246,6 +265,7 @@ words:
     audioUrl: null
     confidence: medium
     glossSeen: buffalo(fem)
+    verified: false
   - english: bee
     pos: noun
     oromo: kannisa
@@ -258,6 +278,7 @@ words:
     audioUrl: null
     confidence: medium
     glossSeen: bee
+    verified: false
   - english: fly
     pos: noun
     oromo: tisiisa
@@ -270,6 +291,7 @@ words:
     audioUrl: null
     confidence: medium
     glossSeen: fly (insect)
+    verified: false
   - english: hen
     pos: noun
     oromo: lukkuu
@@ -282,6 +304,7 @@ words:
     audioUrl: null
     confidence: medium
     glossSeen: hen
+    verified: false
   - english: calf
     pos: noun
     oromo: sarbaa
@@ -294,6 +317,7 @@ words:
     audioUrl: null
     confidence: medium
     glossSeen: calf
+    verified: false
   - english: animal
     pos: noun
     oromo: neefkaa
@@ -306,3 +330,4 @@ words:
     audioUrl: null
     confidence: medium
     glossSeen: animal
+    verified: false

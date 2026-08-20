@@ -11,6 +11,8 @@ export interface Word {
   /** Local mirrored clip, or null when no correctly-licensed recording exists. */
   audio: string | null;
   confidence: "high" | "medium" | "low" | "none";
+  /** Signed off by a fluent speaker rather than machine-proposed. */
+  verified: boolean;
 }
 
 export interface Unit {
@@ -28,6 +30,7 @@ interface RawWord {
   alternates: string[];
   ipa: string | null;
   confidence: Word["confidence"];
+  verified?: boolean;
 }
 
 interface RawUnit {
@@ -87,6 +90,7 @@ export async function loadUnits(): Promise<Unit[]> {
               ipa: word.ipa,
               audio: clips.has(file) ? `/audio/${file}` : null,
               confidence: word.confidence,
+              verified: word.verified ?? false,
             },
           ];
         }),

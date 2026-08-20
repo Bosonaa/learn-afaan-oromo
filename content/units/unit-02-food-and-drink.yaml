@@ -22,6 +22,7 @@ words:
     audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9f/Om-bishaan.ogg/Om-bishaan.ogg.mp3
     confidence: medium
     glossSeen: water
+    verified: false
   - english: milk
     pos: noun
     oromo: annan
@@ -34,6 +35,7 @@ words:
     audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/29/Om-annan.ogg/Om-annan.ogg.mp3
     confidence: medium
     glossSeen: milk
+    verified: false
   - english: coffee
     pos: noun
     oromo: buna
@@ -46,6 +48,7 @@ words:
     audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/83/Om-buna.ogg/Om-buna.ogg.mp3
     confidence: medium
     glossSeen: coffee
+    verified: false
   - english: tea
     pos: noun
     oromo: baalashaay
@@ -58,6 +61,7 @@ words:
     audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/07/Om-baalashaay.ogg/Om-baalashaay.ogg.mp3
     confidence: low
     glossSeen: tea leaf
+    verified: false
   - english: bread
     pos: noun
     oromo: abshiloo
@@ -70,6 +74,7 @@ words:
     audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4f/Om-abshiloo.ogg/Om-abshiloo.ogg.mp3
     confidence: low
     glossSeen: tick bread used to make local beer
+    verified: false
   - english: meat
     pos: noun
     oromo: foon
@@ -82,18 +87,18 @@ words:
     audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/93/Om-foon.ogg/Om-foon.ogg.mp3
     confidence: high
     glossSeen: meat
+    verified: false
   - english: egg
     pos: noun
-    oromo: buphaa
+    oromo: bupha
     alternates:
-      - hangaaquu
-      - hanqaaquu
-      - cinii
-      - anqaaquu
-    ipa: /ˈbʊpʼɑ́ː/
-    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b0/Om-buphaa.ogg/Om-buphaa.ogg.mp3
-    confidence: medium
+      - kallee
+    ipa: null
+    audioUrl: null
+    confidence: high
     glossSeen: egg
+    verified: true
+    reviewer: Kitesso
   - english: salt
     pos: noun
     oromo: ashaboo
@@ -106,6 +111,7 @@ words:
     audioUrl: null
     confidence: medium
     glossSeen: salt
+    verified: false
   - english: sugar
     pos: noun
     oromo: shukkaaraa
@@ -118,6 +124,7 @@ words:
     audioUrl: null
     confidence: medium
     glossSeen: sugar
+    verified: false
   - english: butter
     pos: noun
     oromo: dhadhaa
@@ -130,6 +137,7 @@ words:
     audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d7/Om-dhadhaa.ogg/Om-dhadhaa.ogg.mp3
     confidence: medium
     glossSeen: butter
+    verified: false
   - english: honey
     pos: noun
     oromo: damma
@@ -142,18 +150,17 @@ words:
     audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f8/Om-damma.ogg/Om-damma.ogg.mp3
     confidence: high
     glossSeen: honey
+    verified: false
   - english: food
     pos: noun
-    oromo: sorrata
-    alternates:
-      - nyaata
-      - lillaata
-      - soorata
-      - aboorada
-    ipa: /ˈsɔrːɐtɐ/
+    oromo: nyaata
+    alternates: []
+    ipa: null
     audioUrl: null
-    confidence: medium
-    glossSeen: food (of animals)
+    confidence: high
+    glossSeen: food
+    verified: true
+    reviewer: Kitesso
   - english: fruit
     pos: noun
     oromo: fuduraa
@@ -166,6 +173,7 @@ words:
     audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/41/Om-fuduraa.ogg/Om-fuduraa.ogg.mp3
     confidence: high
     glossSeen: fruit
+    verified: false
   - english: banana
     pos: noun
     oromo: muuzii
@@ -178,6 +186,7 @@ words:
     audioUrl: null
     confidence: high
     glossSeen: banana
+    verified: false
   - english: orange
     pos: noun
     oromo: birtukaanii
@@ -188,6 +197,7 @@ words:
     audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bd/Om-birtukaanii.ogg/Om-birtukaanii.ogg.mp3
     confidence: medium
     glossSeen: orange (fruit)
+    verified: false
   - english: onion
     pos: noun
     oromo: alaangallee
@@ -198,6 +208,7 @@ words:
     audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1c/Om-alaangallee.ogg/Om-alaangallee.ogg.mp3
     confidence: low
     glossSeen: kind of onion
+    verified: false
   - english: potato
     pos: noun
     oromo: dinnicha
@@ -210,6 +221,7 @@ words:
     audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bf/Om-dinnicha.ogg/Om-dinnicha.ogg.mp3
     confidence: medium
     glossSeen: potato (Coleus edulis)
+    verified: false
   - english: maize
     pos: noun
     oromo: boqqolloo
@@ -222,6 +234,7 @@ words:
     audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0a/Om-boqqolloo.ogg/Om-boqqolloo.ogg.mp3
     confidence: high
     glossSeen: corn, maize
+    verified: false
   - english: barley
     pos: noun
     oromo: garbuu
@@ -234,18 +247,17 @@ words:
     audioUrl: null
     confidence: high
     glossSeen: barley
+    verified: false
   - english: porridge
     pos: noun
-    oromo: shuuroo
-    alternates:
-      - awandaroo
-      - solloqii
-      - jaaloo
-      - askutii
-    ipa: /ˈʃuːróː/
+    oromo: marqa
+    alternates: []
+    ipa: null
     audioUrl: null
     confidence: high
     glossSeen: porridge
+    verified: true
+    reviewer: Kitesso
   - english: cup
     pos: noun
     oromo: kokii
@@ -258,6 +270,7 @@ words:
     audioUrl: null
     confidence: medium
     glossSeen: cup
+    verified: false
   - english: plate
     pos: noun
     oromo: caabii
@@ -270,6 +283,7 @@ words:
     audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/35/Om-caabii.ogg/Om-caabii.ogg.mp3
     confidence: medium
     glossSeen: plate
+    verified: false
   - english: spoon
     pos: noun
     oromo: fallaana
@@ -280,6 +294,7 @@ words:
     audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/89/Om-fallaana.ogg/Om-fallaana.ogg.mp3
     confidence: medium
     glossSeen: spoon
+    verified: false
   - english: eat
     pos: verb
     oromo: nyaachuu
@@ -292,6 +307,7 @@ words:
     audioUrl: null
     confidence: medium
     glossSeen: to eat
+    verified: false
   - english: drink
     pos: verb
     oromo: dhuguu
@@ -304,3 +320,4 @@ words:
     audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/46/Om-dhuguu.ogg/Om-dhuguu.ogg.mp3
     confidence: high
     glossSeen: to drink
+    verified: false
