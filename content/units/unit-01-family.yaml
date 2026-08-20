@@ -12,16 +12,15 @@ source:
 words:
   - english: mother
     pos: noun
-    oromo: aayyee
+    oromo: ayyoo
     alternates:
-      - deessee
-      - aayyoo
-      - dhalee
       - haadha
-    ipa: /ɑːjːéː/
-    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/73/Om-aayyee.ogg/Om-aayyee.ogg.mp3
-    confidence: medium
-    glossSeen: mother
+    ipa: /ɐjːóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f7/Om-ayyoo.ogg/Om-ayyoo.ogg.mp3
+    confidence: high
+    glossSeen: see 'aayyoo'
+    verified: true
+    reviewer: Kitesso
   - english: father
     pos: noun
     oromo: abbaa
@@ -34,6 +33,7 @@ words:
     audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8e/Om-abbaa.ogg/Om-abbaa.ogg.mp3
     confidence: medium
     glossSeen: father
+    verified: false
   - english: child
     pos: noun
     oromo: daa'im
@@ -46,6 +46,7 @@ words:
     audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9a/Om-daa%27im.ogg/Om-daa%27im.ogg.mp3
     confidence: medium
     glossSeen: child
+    verified: false
   - english: baby
     pos: noun
     oromo: daa'ima
@@ -58,6 +59,7 @@ words:
     audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5f/Om-daa%27ima.ogg/Om-daa%27ima.ogg.mp3
     confidence: medium
     glossSeen: baby, infant
+    verified: false
   - english: brother
     pos: noun
     oromo: obboleessa
@@ -70,6 +72,7 @@ words:
     audioUrl: null
     confidence: medium
     glossSeen: brother
+    verified: false
   - english: sister
     pos: noun
     oromo: obboleettii
@@ -82,6 +85,7 @@ words:
     audioUrl: null
     confidence: medium
     glossSeen: sister
+    verified: false
   - english: son
     pos: noun
     oromo: ilma
@@ -94,6 +98,7 @@ words:
     audioUrl: null
     confidence: high
     glossSeen: son
+    verified: false
   - english: daughter
     pos: noun
     oromo: intala
@@ -106,14 +111,17 @@ words:
     audioUrl: null
     confidence: high
     glossSeen: daughter
+    verified: false
   - english: grandmother
     pos: noun
-    oromo: akkayyaa
+    oromo: akkoo
     alternates: []
-    ipa: /ɐkːɐjːɑ́ː/
-    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/38/Om-akkayyaa.ogg/Om-akkayyaa.ogg.mp3
+    ipa: /ɐkːóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e5/Om-akkoo.ogg/Om-akkoo.ogg.mp3
     confidence: high
-    glossSeen: grandmother
+    glossSeen: see 'akkawoo'
+    verified: true
+    reviewer: Kitesso
   - english: grandfather
     pos: noun
     oromo: akaakayyuu
@@ -123,6 +131,7 @@ words:
     audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/59/Om-akaakayyuu.ogg/Om-akaakayyuu.ogg.mp3
     confidence: high
     glossSeen: grandfather
+    verified: false
   - english: family
     pos: noun
     oromo: maatii
@@ -135,18 +144,17 @@ words:
     audioUrl: null
     confidence: medium
     glossSeen: family
+    verified: false
   - english: boy
     pos: noun
-    oromo: gurbicha
-    alternates:
-      - dhiyeessaa
-      - arrittii
-      - gurbayyoo
-      - gaarayyuu
-    ipa: /ˈɡʊrbɪt͡ʃɐ/
+    oromo: gurbaa
+    alternates: []
+    ipa: /ˈɡʊrbɑ́ː/
     audioUrl: null
-    confidence: medium
-    glossSeen: the bridegroom
+    confidence: high
+    glossSeen: you!, son!
+    verified: true
+    reviewer: Kitesso
   - english: girl
     pos: noun
     oromo: dubara
@@ -159,6 +167,7 @@ words:
     audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8c/Om-dubara.ogg/Om-dubara.ogg.mp3
     confidence: high
     glossSeen: girl
+    verified: false
   - english: man
     pos: noun
     oromo: dhiira
@@ -171,6 +180,7 @@ words:
     audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b6/Om-dhiira.ogg/Om-dhiira.ogg.mp3
     confidence: medium
     glossSeen: man
+    verified: false
   - english: woman
     pos: noun
     oromo: dubarti
@@ -183,6 +193,7 @@ words:
     audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ac/Om-dubarti.ogg/Om-dubarti.ogg.mp3
     confidence: medium
     glossSeen: woman
+    verified: false
   - english: friend
     pos: noun
     oromo: daraboo
@@ -195,6 +206,7 @@ words:
     audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b8/Om-daraboo.ogg/Om-daraboo.ogg.mp3
     confidence: medium
     glossSeen: friend
+    verified: false
   - english: name
     pos: noun
     oromo: maqaa
@@ -207,18 +219,17 @@ words:
     audioUrl: null
     confidence: high
     glossSeen: name
+    verified: false
   - english: home
     pos: noun
-    oromo: ardaga
-    alternates:
-      - ka'umsa
-      - agibaarittii
-      - hojmanee
-      - kaleeffama
-    ipa: /ɐrdɐɡɐ/
-    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/66/Om-ardaga.ogg/Om-ardaga.ogg.mp3
-    confidence: medium
-    glossSeen: home, see 'qeyee'
+    oromo: mana
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: house
+    verified: true
+    reviewer: Kitesso
   - english: husband
     pos: noun
     oromo: dhirsa
@@ -231,6 +242,7 @@ words:
     audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ef/Om-dhirsa.ogg/Om-dhirsa.ogg.mp3
     confidence: high
     glossSeen: husband
+    verified: false
   - english: wife
     pos: noun
     oromo: jaartii
@@ -243,6 +255,7 @@ words:
     audioUrl: null
     confidence: medium
     glossSeen: old (fem.)
+    verified: false
   - english: uncle
     pos: noun
     oromo: eessuma
@@ -255,6 +268,7 @@ words:
     audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/be/Om-eessuma.ogg/Om-eessuma.ogg.mp3
     confidence: medium
     glossSeen: uncle (maternal)
+    verified: false
   - english: aunt
     pos: noun
     oromo: indoo
@@ -267,6 +281,7 @@ words:
     audioUrl: null
     confidence: medium
     glossSeen: aunt, sister of one's mother
+    verified: false
   - english: people
     pos: noun
     oromo: nama
@@ -279,6 +294,7 @@ words:
     audioUrl: null
     confidence: medium
     glossSeen: people
+    verified: false
   - english: neighbor
     pos: noun
     oromo: ollummaa
@@ -287,6 +303,7 @@ words:
     audioUrl: null
     confidence: low
     glossSeen: neighbor hood
+    verified: false
   - english: guest
     pos: noun
     oromo: keessummaa
@@ -296,3 +313,4 @@ words:
     audioUrl: null
     confidence: high
     glossSeen: guest
+    verified: false

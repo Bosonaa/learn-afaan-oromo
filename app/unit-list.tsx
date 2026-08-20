@@ -11,6 +11,7 @@ export interface UnitSummary {
   reviewed: boolean;
   words: string[];
   withAudio: number;
+  verified: number;
 }
 
 export function UnitList({ units }: { units: UnitSummary[] }) {
@@ -22,6 +23,8 @@ export function UnitList({ units }: { units: UnitSummary[] }) {
 
   const due = new Set(dueWords(progress));
   const anyUnreviewed = units.some((unit) => !unit.reviewed);
+  const verified = units.reduce((sum, unit) => sum + unit.verified, 0);
+  const total = units.reduce((sum, unit) => sum + unit.words.length, 0);
 
   return (
     <div className="space-y-6">
@@ -33,8 +36,9 @@ export function UnitList({ units }: { units: UnitSummary[] }) {
 
       {anyUnreviewed ? (
         <p className="rounded-xl border border-amber-300 bg-amber-50 p-3 text-sm text-amber-900">
-          These words are an <strong>unreviewed draft</strong> generated from open dictionary data.
-          Some are wrong — check them against the review sheet before trusting a lesson.
+          {verified} of {total} words are <strong>checked by a fluent speaker</strong>. The rest are
+          still a machine-generated draft from open dictionary data — some are wrong, so check them
+          against the review sheet before trusting a lesson.
         </p>
       ) : null}
 
@@ -59,7 +63,8 @@ export function UnitList({ units }: { units: UnitSummary[] }) {
                   <div className="h-full bg-teal-600" style={{ width: `${mastery}%` }} />
                 </div>
                 <p className="mt-2 text-sm text-slate-500">
-                  {unit.words.length} words · {unit.withAudio} with native audio
+                  {unit.words.length} words · {unit.withAudio} with native audio ·{" "}
+                  {unit.verified} checked
                   {dueHere > 0 ? ` · ${dueHere} to review` : ""}
                 </p>
               </Link>

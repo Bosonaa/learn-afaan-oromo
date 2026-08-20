@@ -1,0 +1,36 @@
+# Corrections from a fluent speaker. These win over anything the draft proposes
+# and mark the word verified, so regenerating content never loses a review.
+# Keyed by unit id, then by the English prompt.
+#
+# oromo:      the word to teach
+# alternates: also accepted when the learner types an answer
+# reviewer:   who signed it off
+
+unit-01-family:
+  mother:
+    oromo: ayyoo
+    alternates:
+      - haadha
+    reviewer: Kitesso
+  boy:
+    oromo: gurbaa
+    reviewer: Kitesso
+  grandmother:
+    oromo: akkoo
+    reviewer: Kitesso
+  home:
+    oromo: mana
+    reviewer: Kitesso
+
+unit-02-food-and-drink:
+  egg:
+    oromo: bupha
+    alternates:
+      - kallee
+    reviewer: Kitesso
+  food:
+    oromo: nyaata
+    reviewer: Kitesso
+  porridge:
+    oromo: marqa
+    reviewer: Kitesso
