@@ -125,11 +125,26 @@ function confidenceOf(candidates: Candidate[]): Confidence {
   return "low";
 }
 
+/**
+ * Wiktionary glosses mix British and American spellings, so a prompt has to be
+ * matched under both or the word looks absent ("grey" finds nothing, "gray"
+ * finds daalacha). Only spelling variants belong here — never synonyms, which
+ * would quietly change what the prompt means.
+ */
+const SPELLING_VARIANTS: Record<string, string[]> = {
+  colour: ["color"],
+  grey: ["gray"],
+};
+
 function draftWord(spec: UnitSpec["words"][number], lexicon: Lexicon): DraftedWord {
+  const spellings = [spec.english, ...(SPELLING_VARIANTS[spec.english] ?? [])];
   const candidates = lexicon.entries
     .flatMap((entry) => {
-      const scored = scoreCandidate(entry, spec.english, spec.pos);
-      return scored === null ? [] : [scored];
+      const scored = spellings
+        .map((spelling) => scoreCandidate(entry, spelling, spec.pos))
+        .filter((candidate): candidate is Candidate => candidate !== null)
+        .sort((a, b) => b.score - a.score);
+      return scored.slice(0, 1);
     })
     .sort((a, b) => b.score - a.score);
 
@@ -172,7 +187,7 @@ async function main(): Promise<void> {
   await mkdir(resolve(CONTENT_DIR, "units"), { recursive: true });
   await mkdir(REVIEW_DIR, { recursive: true });
 
-  const rows: string[] = [
+  const header = [
     [
       "unit",
       "english",
@@ -188,6 +203,7 @@ async function main(): Promise<void> {
       "notes",
     ].join(","),
   ];
+  const allRows = [...header];
   const tally: Record<Confidence, number> = { high: 0, medium: 0, low: 0, none: 0 };
   let withAudio = 0;
   let verified = 0;
@@ -199,6 +215,7 @@ async function main(): Promise<void> {
       const override = unitOverrides[spec.english];
       return override === undefined ? drafted : applyOverride(drafted, override, lexicon);
     });
+    const rows = [...header];
     for (const word of words) {
       tally[word.confidence] += 1;
       if (word.audioUrl !== null) withAudio += 1;
@@ -222,6 +239,12 @@ async function main(): Promise<void> {
           .join(","),
       );
     }
+    allRows.push(...rows.slice(1));
+
+    // One sheet per unit keeps a reviewer's attention on the batch they are
+    // signing off, rather than re-reading words they already approved.
+    const unitReviewPath = resolve(REVIEW_DIR, `${unit.id}.csv`);
+    await writeFile(unitReviewPath, `${rows.join("\n")}\n`, "utf8");
 
     const path = resolve(CONTENT_DIR, "units", `${unit.id}.yaml`);
     await writeFile(
@@ -239,8 +262,8 @@ async function main(): Promise<void> {
     console.log(`wrote ${path} (${words.length} words)`);
   }
 
-  const reviewPath = resolve(REVIEW_DIR, "units-01-03-review.csv");
-  await writeFile(reviewPath, `${rows.join("\n")}\n`, "utf8");
+  const reviewPath = resolve(REVIEW_DIR, "all-units-review.csv");
+  await writeFile(reviewPath, `${allRows.join("\n")}\n`, "utf8");
 
   const total = Object.values(tally).reduce((sum, count) => sum + count, 0);
   console.log(`\nwrote ${reviewPath}`);

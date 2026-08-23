@@ -1,0 +1,336 @@
+id: unit-05-colours-and-sizes
+order: 5
+title: Colours & sizes
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: red
+    pos: adj
+    oromo: diimaa
+    alternates:
+      - dimbiixxii
+      - biluu
+      - jorroo
+      - algaasee
+    ipa: /ˈdiːmɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d8/Om-diimaa.ogg/Om-diimaa.ogg.mp3
+    confidence: high
+    glossSeen: red
+    verified: false
+  - english: white
+    pos: adj
+    oromo: adii
+    alternates:
+      - adanii
+      - addaata
+      - akkabaddoo
+      - amaamaa
+    ipa: /ɐdíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c7/Om-adii.ogg/Om-adii.ogg.mp3
+    confidence: high
+    glossSeen: white
+    verified: false
+  - english: black
+    pos: adj
+    oromo: gurraacha
+    alternates:
+      - gugura
+      - asaabala
+      - gurraalee
+      - dirbisaa
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: black
+    verified: false
+  - english: green
+    pos: adj
+    oromo: dheedhii
+    alternates:
+      - magarisa
+      - magariisa
+      - haffe
+      - aanannoo
+    ipa: /ˈᶑeːᶑíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/17/Om-dheedhii.ogg/Om-dheedhii.ogg.mp3
+    confidence: medium
+    glossSeen: raw (food)
+    verified: false
+  - english: yellow
+    pos: adj
+    oromo: kelloo
+    alternates:
+      - keelloo
+      - bororoo
+      - adaa
+      - bulloo
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: yellow, misspelling of keelloo
+    verified: false
+  - english: blue
+    pos: adj
+    oromo: cuquliisa
+    alternates:
+      - dooqee
+      - cuquliisa
+      - buulloo
+    ipa: /ˈt͡ʃʼʊkʼʊliːsɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ae/Om-cuquliisa.ogg/Om-cuquliisa.ogg.mp3
+    confidence: high
+    glossSeen: blue
+    verified: false
+  - english: brown
+    pos: adj
+    oromo: daammii
+    alternates:
+      - magaala
+      - daabii
+      - adaa
+      - dummunyii
+    ipa: /ˈdɑːmːíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/43/Om-daammii.ogg/Om-daammii.ogg.mp3
+    confidence: high
+    glossSeen: brown
+    verified: false
+  - english: grey
+    pos: adj
+    oromo: daalacha
+    alternates:
+      - odolcha
+      - arraayuu
+      - bullaa
+      - boolee
+    ipa: /ˈdɑːlɐt͡ʃɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/84/Om-daalacha.ogg/Om-daalacha.ogg.mp3
+    confidence: high
+    glossSeen: gray
+    verified: false
+  - english: big
+    pos: adj
+    oromo: guddaa
+    alternates:
+      - alabicha
+      - gidaaduu
+      - jajjabaa
+      - bokkolluu
+    ipa: /ˈɡʊdːɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: big
+    verified: false
+  - english: small
+    pos: adj
+    oromo: dikkoo
+    alternates:
+      - canuu
+      - yaraa
+      - beeddee
+      - faturaa
+    ipa: /ˈdɪkːóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c7/Om-dikkoo.ogg/Om-dikkoo.ogg.mp3
+    confidence: medium
+    glossSeen: small, some, little
+    verified: false
+  - english: long
+    pos: adj
+    oromo: dheeraa
+    alternates:
+      - hordaa
+      - aliiwaayaa
+      - arrabiiyyee
+      - babal'ii
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: long
+    verified: false
+  - english: short
+    pos: adj
+    oromo: gabaabaa
+    alternates:
+      - dekkoo
+      - ankaaksuu
+      - hankaakaa
+      - murqicha
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: short
+    verified: false
+  - english: tall
+    pos: adj
+    oromo: sooyyama
+    alternates:
+      - jabaachuu
+      - gaaltama
+      - alalaa
+      - dheerachuu
+    ipa: /ˈsoːjːɐmɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: a tall, slender plant with tubular
+    verified: false
+  - english: wide
+    pos: adj
+    oromo: boochoo
+    alternates:
+      - mandiidaa
+      - ruuda
+      - babal'ii
+      - basanqalaa
+    ipa: /ˈboːt͡ʃóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1d/Om-boochoo.ogg/Om-boochoo.ogg.mp3
+    confidence: high
+    glossSeen: Wide
+    verified: false
+  - english: narrow
+    pos: adj
+    oromo: dhiphoo
+    alternates:
+      - daandii
+      - dhula
+      - fucucii
+      - dhiphisiisuu
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: narrow, tight
+    verified: false
+  - english: heavy
+    pos: adj
+    oromo: ulfaataa
+    alternates:
+      - jorroo
+      - dirsaa
+      - eeluu
+      - jirkaa
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: heavy
+    verified: false
+  - english: light
+    pos: adj
+    oromo: ifaa
+    alternates:
+      - ibsaa
+      - ifee
+      - iftuu
+      - balaqii
+    ipa: /ɪfɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: light
+    verified: false
+  - english: new
+    pos: adj
+    oromo: haaraa
+    alternates:
+      - boonqoo
+      - elellee
+      - damboobuu
+      - handhuuruu
+    ipa: /hɑːrɑː/
+    audioUrl: null
+    confidence: high
+    glossSeen: new
+    verified: false
+  - english: old
+    pos: adj
+    oromo: moofaa
+    alternates:
+      - jaartii
+      - raagaa
+      - boordoo
+      - dullum
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: old
+    verified: false
+  - english: hot
+    pos: adj
+    oromo: oo'aa
+    alternates:
+      - bulluquu
+      - baktii
+      - baqqoo
+      - barbaree
+    ipa: /oːʔɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: hot; wam.
+    verified: false
+  - english: cold
+    pos: adj
+    oromo: qorraa
+    alternates:
+      - qabbanaayaa
+      - dilalla'aa
+      - dhaamocha
+      - qorra
+    ipa: /ˈkʼɔrːɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: cold
+    verified: false
+  - english: clean
+    pos: adj
+    oromo: haruu
+    alternates:
+      - qulleessuu
+      - haxaawuu
+      - foksuu
+      - haqsiisuu
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: to clean
+    verified: false
+  - english: dirty
+    pos: adj
+    oromo: boosaa
+    alternates:
+      - dhiqaa
+      - booxxessuu
+      - koseessuu
+      - qamaaca'uu
+    ipa: /ˈboːsɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fc/Om-boosaa.ogg/Om-boosaa.ogg.mp3
+    confidence: high
+    glossSeen: dirty, slovenly
+    verified: false
+  - english: colour
+    pos: noun
+    oromo: bifa
+    alternates:
+      - halluu
+      - buulloo
+      - qalama
+      - halloomsuu
+    ipa: /ˈbɪfɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f8/Om-bifa.ogg/Om-bifa.ogg.mp3
+    confidence: medium
+    glossSeen: colour
+    verified: false
+  - english: size
+    pos: noun
+    oromo: hammamaa
+    alternates:
+      - afoollee
+      - bixxiluu
+      - bixxilachiisuu
+      - lakka'achuu
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: size
+    verified: false
