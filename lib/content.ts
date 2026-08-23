@@ -1,6 +1,7 @@
 import { readFile, readdir } from "node:fs/promises";
 import { resolve } from "node:path";
 import { parse } from "yaml";
+import { loadRecordings } from "./recordings";
 
 export interface Word {
   english: string;
@@ -8,8 +9,10 @@ export interface Word {
   oromo: string;
   alternates: string[];
   ipa: string | null;
-  /** Local mirrored clip, or null when no correctly-licensed recording exists. */
+  /** Playable clip, or null when nobody has recorded this word yet. */
   audio: string | null;
+  /** Wikimedia mirror, or a recording made by the family. */
+  audioSource: "commons" | "family" | null;
   confidence: "high" | "medium" | "low" | "none";
   /** Signed off by a fluent speaker rather than machine-proposed. */
   verified: boolean;
@@ -68,6 +71,7 @@ async function mirroredClips(): Promise<Set<string>> {
 
 export async function loadUnits(): Promise<Unit[]> {
   const clips = await mirroredClips();
+  const recorded = new Map((await loadRecordings()).map((rec) => [rec.oromo, rec.file]));
   const files = (await readdir(CONTENT_ROOT)).filter((name) => name.endsWith(".yaml"));
 
   const units = await Promise.all(
@@ -81,6 +85,13 @@ export async function loadUnits(): Promise<Unit[]> {
         words: raw.words.flatMap((word): Word[] => {
           if (word.oromo === null) return [];
           const file = `${slugify(word.oromo)}.mp3`;
+          // A licensed native recording wins; a family recording fills the gaps.
+          const ownRecording = recorded.get(word.oromo);
+          const audio = clips.has(file)
+            ? `/audio/${file}`
+            : ownRecording === undefined
+              ? null
+              : `/audio/recorded/${ownRecording}`;
           return [
             {
               english: word.english,
@@ -88,7 +99,8 @@ export async function loadUnits(): Promise<Unit[]> {
               oromo: word.oromo,
               alternates: word.alternates,
               ipa: word.ipa,
-              audio: clips.has(file) ? `/audio/${file}` : null,
+              audio,
+              audioSource: audio === null ? null : clips.has(file) ? "commons" : "family",
               confidence: word.confidence,
               verified: word.verified ?? false,
             },

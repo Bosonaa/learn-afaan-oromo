@@ -14,7 +14,7 @@ kaikki.org Oromo JSONL   content/curriculum.ts
           \                     /
            npm run draft:units
                     |
-        content/units/*.yaml        review/units-01-03-review.csv
+        content/units/*.yaml        review/<unit-id>.csv
         (draft, unreviewed)         (for a fluent speaker to correct)
 ```
 
@@ -34,8 +34,17 @@ Progress (XP, streak, spaced-repetition schedule) is stored in `localStorage` on
 accounts, no server, no analytics, nothing about a child leaves the device.
 
 Lessons are 10 prompts drawn from four exercise kinds — English→Oromo choice, Oromo→English
-choice, listen-and-choose (only for words with a mirrored recording), and type-the-word.
+choice, listen-and-choose (only for words with a recording), and type-the-word.
 Words due for review lead the lesson; a miss resets its interval so it returns the same day.
+
+## Recording the missing words
+
+About half the vocabulary has no Wikimedia recording, so `/record` (dev only) walks through
+exactly those words and captures a clip per word straight into `public/audio/recorded/`,
+listed in `content/recordings.json`. Commit both; the listening exercises then use a family
+voice wherever no licensed native clip exists. `ffmpeg`, if installed, transcodes the take
+to mp3 so iOS can play it. The route refuses to run in production because a hosted
+deployment has a read-only checkout.
 
 ## Regenerating content
 
@@ -60,7 +69,7 @@ lexicon does not carry simply ships without a recording.
 
 ## Reviewing the draft
 
-`review/units-01-03-review.csv` proposes an Oromo word per English concept, with alternates,
+`review/<unit-id>.csv` (plus a combined `review/all-units-review.csv`) proposes an Oromo word per English concept, with alternates,
 IPA, audio availability and a confidence flag. Automatic gloss inversion produces plausible
 errors (e.g. English "head" can map to `abbaa manaa`, head of a household), so every row
 needs a human verdict in the `verdict_ok_or_fix` column before it is used in a lesson.
