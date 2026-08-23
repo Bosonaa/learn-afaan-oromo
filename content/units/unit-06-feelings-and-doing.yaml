@@ -1,0 +1,319 @@
+id: unit-06-feelings-and-doing
+order: 6
+title: Feelings & doing
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: happy
+    pos: adj
+    oromo: gammachiisuu
+    alternates:
+      - gammaduu
+    ipa: /ˈɡɐmːɐt͡ʃiːsúː/
+    audioUrl: null
+    confidence: low
+    glossSeen: make some body happy
+    verified: false
+  - english: sad
+    pos: adj
+    oromo: gom'uu
+    alternates:
+      - goommuu
+    ipa: /ˈɡɔmʔúː/
+    audioUrl: null
+    confidence: low
+    glossSeen: mourned, be depressed pensive or sad
+    verified: false
+  - english: angry
+    pos: adj
+    oromo: dheekkamuu
+    alternates:
+      - aarsuu
+      - heeluu
+      - gubachuu
+      - gubuu
+    ipa: /ˈᶑeːkːɐmúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9e/Om-dheekkamuu.ogg/Om-dheekkamuu.ogg.mp3
+    confidence: high
+    glossSeen: to scold, rebuke, angry
+    verified: false
+  - english: tired
+    pos: adj
+    oromo: dadhabuu
+    alternates:
+      - labbeessuu
+    ipa: /ˈdɐᶑɐbúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/58/Om-dadhabuu.ogg/Om-dadhabuu.ogg.mp3
+    confidence: low
+    glossSeen: tire, toil be weak ===Verb===
+    verified: false
+  - english: hungry
+    pos: adj
+    oromo: xannisuu
+    alternates:
+      - beela'uu
+      - beelessuu
+      - qoonqa'uu
+      - soomayyuu
+    ipa: /ˈtʼɐnːɪsúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: to hungry, to be fanmine stricken
+    verified: false
+  - english: thirsty
+    pos: adj
+    oromo: dhabsuu
+    alternates:
+      - dheebochuu
+    ipa: /ˈᶑɐbsúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/57/Om-dhabsuu.ogg/Om-dhabsuu.ogg.mp3
+    confidence: high
+    glossSeen: thirsty
+    verified: false
+  - english: sick
+    pos: adj
+    oromo: alaan'aluu
+    alternates:
+      - kinoofuu
+      - wal'aansa
+      - dhibama
+      - balaqqamsiisuu
+    ipa: /ɐlɑːnʔɐlúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c0/Om-alaan%27aluu.ogg/Om-alaan%27aluu.ogg.mp3
+    confidence: high
+    glossSeen: cry, esp. when they feel pain, sick (eg. babies)
+    verified: false
+  - english: afraid
+    pos: adj
+    oromo: bacachuu
+    alternates: []
+    ipa: /ˈbɐt͡ʃʼɐt͡ʃúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0d/Om-bacachuu.ogg/Om-bacachuu.ogg.mp3
+    confidence: low
+    glossSeen: be afraid
+    verified: false
+  - english: good
+    pos: adj
+    oromo: kiilolee
+    alternates:
+      - dabaqqaa
+      - aagimuu
+      - cala'uu
+      - aagituu
+    ipa: /ˈkiːlɔléː/
+    audioUrl: null
+    confidence: low
+    glossSeen: clear and good voice
+    verified: false
+  - english: bad
+    pos: adj
+    oromo: badaa
+    alternates:
+      - buqa
+      - ciinca'aa
+      - curaa
+      - dhangaggeessaa
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: bad, evil, wicked
+    verified: false
+  - english: play
+    pos: verb
+    oromo: dhilliquu
+    alternates:
+      - taphachiisuu
+      - taphachuu
+      - galagaltoo
+      - raambaa
+    ipa: /ˈᶑɪlːɪkʼúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/81/Om-dhilliquu.ogg/Om-dhilliquu.ogg.mp3
+    confidence: low
+    glossSeen: play the drum
+    verified: false
+  - english: sleep
+    pos: verb
+    oromo: ciisuu
+    alternates:
+      - muguu
+      - muusahuu
+      - raffu
+      - hirriiba
+    ipa: /ˈt͡ʃʼiːsúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/78/Om-ciisuu.ogg/Om-ciisuu.ogg.mp3
+    confidence: medium
+    glossSeen: to sleep
+    verified: false
+  - english: run
+    pos: verb
+    oromo: fiiguu
+    alternates:
+      - arreeduu
+      - fiffiiguu
+      - harreeduu
+      - kaachuu
+    ipa: /ˈfiːɡúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2b/Om-fiiguu.ogg/Om-fiiguu.ogg.mp3
+    confidence: medium
+    glossSeen: to run
+    verified: false
+  - english: walk
+    pos: verb
+    oromo: adeemuu
+    alternates:
+      - billisuu
+      - deemsisuu
+      - jaammmisuu
+      - gamaluu
+    ipa: /ɐdeːmúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a8/Om-adeemuu.ogg/Om-adeemuu.ogg.mp3
+    confidence: high
+    glossSeen: to walk
+    verified: false
+  - english: sit
+    pos: verb
+    oromo: taa'uu
+    alternates:
+      - ammachiisuu
+      - ammachuu
+      - bashaaduu
+      - gaditaa'uu
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: to sit
+    verified: false
+  - english: stand
+    pos: verb
+    oromo: eejjennoo
+    alternates:
+      - dhaabbii
+      - eejjennaa
+      - ejjennaa
+      - habalaka
+    ipa: /eːd͡ʒːɛnːóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b8/Om-eejjennoo.ogg/Om-eejjennoo.ogg.mp3
+    confidence: medium
+    glossSeen: stand
+    verified: false
+  - english: come
+    pos: verb
+    oromo: dhufuu
+    alternates:
+      - kottu
+      - cinaa'uu
+      - daandessuu
+      - daaruu
+    ipa: /ˈᶑʊfúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/82/Om-dhufuu.ogg/Om-dhufuu.ogg.mp3
+    confidence: medium
+    glossSeen: to come
+    verified: false
+  - english: go
+    pos: verb
+    oromo: deemuu
+    alternates:
+      - dhaquu
+      - lixuu
+      - bahuu
+      - cala'uu
+    ipa: /ˈdeːmúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/36/Om-deemuu.ogg/Om-deemuu.ogg.mp3
+    confidence: medium
+    glossSeen: to go
+    verified: false
+  - english: speak
+    pos: verb
+    oromo: dubbachuu
+    alternates:
+      - baanuu
+      - dubbisiisuu
+      - mammaaksisuu
+      - minaaguu
+    ipa: /ˈdʊbːɐt͡ʃúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/87/Om-dubbachuu.ogg/Om-dubbachuu.ogg.mp3
+    confidence: medium
+    glossSeen: to speak
+    verified: false
+  - english: hear
+    pos: verb
+    oromo: dhaga'uu
+    alternates:
+      - dhageessisuu
+      - gurraqeensuu
+    ipa: /ˈᶑɐɡɐʔúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/82/Om-dhaga%27uu.ogg/Om-dhaga%27uu.ogg.mp3
+    confidence: high
+    glossSeen: to hear
+    verified: false
+  - english: see
+    pos: verb
+    oromo: arguu
+    alternates:
+      - arkuu
+      - ilaaluu
+      - laaluu
+      - addeeysuu
+    ipa: /ɐrɡúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1e/Om-arguu.ogg/Om-arguu.ogg.mp3
+    confidence: medium
+    glossSeen: to see
+    verified: false
+  - english: read
+    pos: verb
+    oromo: dubbisuu
+    alternates:
+      - qara'uu
+      - dubbifamuu
+      - dubbisiisuu
+      - seecca'uu
+    ipa: /ˈdʊbːɪsúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e3/Om-dubbisuu.ogg/Om-dubbisuu.ogg.mp3
+    confidence: medium
+    glossSeen: to greet
+    verified: false
+  - english: write
+    pos: verb
+    oromo: barreessuu
+    alternates:
+      - katabuu
+      - asoosuu
+      - barreessifachuu
+      - barreessisuu
+    ipa: /ˈbɐrːeːsːúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8a/Om-barreessuu.ogg/Om-barreessuu.ogg.mp3
+    confidence: medium
+    glossSeen: to write
+    verified: false
+  - english: laugh
+    pos: verb
+    oromo: kokkolfuu
+    alternates:
+      - qasaasuu
+      - kolfuu
+      - kofalchiisuu
+      - kolfisiisuu
+    ipa: /ˈkɔkːɔlfúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: to laugh
+    verified: false
+  - english: cry
+    pos: verb
+    oromo: alaan'aluu
+    alternates:
+      - watwaachuu
+      - iyyaa
+      - carquu
+      - cirriqquu
+    ipa: /ɐlɑːnʔɐlúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c0/Om-alaan%27aluu.ogg/Om-alaan%27aluu.ogg.mp3
+    confidence: medium
+    glossSeen: cry, esp. when they feel pain, sick (eg. babies)
+    verified: false

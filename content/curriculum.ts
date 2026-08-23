@@ -12,8 +12,16 @@ export interface UnitSpec {
   words: { english: string; pos: "noun" | "verb" | "adj" | "num" }[];
 }
 
-const nouns = (...words: string[]): UnitSpec["words"] =>
-  words.map((english) => ({ english, pos: "noun" as const }));
+type Pos = UnitSpec["words"][number]["pos"];
+
+const of = (pos: Pos) =>
+  (...words: string[]): UnitSpec["words"] =>
+    words.map((english) => ({ english, pos }));
+
+const nouns = of("noun");
+const verbs = of("verb");
+const adjectives = of("adj");
+const numbers = of("num");
 
 export const UNITS: UnitSpec[] = [
   {
@@ -78,8 +86,7 @@ export const UNITS: UnitSpec[] = [
         "plate",
         "spoon",
       ),
-      { english: "eat", pos: "verb" },
-      { english: "drink", pos: "verb" },
+      ...verbs("eat", "drink"),
     ],
   },
   {
@@ -113,5 +120,106 @@ export const UNITS: UnitSpec[] = [
       "calf",
       "animal",
     ),
+  },
+  {
+    id: "unit-04-numbers",
+    order: 4,
+    title: "Numbers & counting",
+    words: [
+      ...numbers(
+        "one",
+        "two",
+        "three",
+        "four",
+        "five",
+        "six",
+        "seven",
+        "eight",
+        "nine",
+        "ten",
+        "eleven",
+        "twelve",
+        "twenty",
+        "thirty",
+        "fifty",
+        "hundred",
+        "thousand",
+        "first",
+        "second",
+        "third",
+      ),
+      ...nouns("number", "half"),
+      ...adjectives("many", "few"),
+      ...verbs("count"),
+    ],
+  },
+  {
+    id: "unit-05-colours-and-sizes",
+    order: 5,
+    title: "Colours & sizes",
+    words: [
+      ...adjectives(
+        "red",
+        "white",
+        "black",
+        "green",
+        "yellow",
+        "blue",
+        "brown",
+        "grey",
+        "big",
+        "small",
+        "long",
+        "short",
+        "tall",
+        "wide",
+        "narrow",
+        "heavy",
+        "light",
+        "new",
+        "old",
+        "hot",
+        "cold",
+        "clean",
+        "dirty",
+      ),
+      ...nouns("colour", "size"),
+    ],
+  },
+  {
+    id: "unit-06-feelings-and-doing",
+    order: 6,
+    title: "Feelings & doing",
+    words: [
+      ...adjectives(
+        "happy",
+        "sad",
+        "angry",
+        "tired",
+        "hungry",
+        "thirsty",
+        "sick",
+        "afraid",
+        "good",
+        "bad",
+      ),
+      ...verbs(
+        "play",
+        "sleep",
+        "run",
+        "walk",
+        "sit",
+        "stand",
+        "come",
+        "go",
+        "speak",
+        "hear",
+        "see",
+        "read",
+        "write",
+        "laugh",
+        "cry",
+      ),
+    ],
   },
 ];

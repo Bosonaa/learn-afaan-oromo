@@ -23,9 +23,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Link href="/" className="text-lg font-bold text-teal-700">
               Barsiisaa
             </Link>
-            <Link href="/about" className="text-sm text-slate-500 hover:text-slate-800">
-              About the words
-            </Link>
+            <nav className="flex gap-4 text-sm text-slate-500">
+              {process.env.NODE_ENV === "production" ? null : (
+                <Link href="/record" className="hover:text-slate-800">
+                  Record
+                </Link>
+              )}
+              <Link href="/about" className="hover:text-slate-800">
+                About the words
+              </Link>
+            </nav>
           </div>
         </header>
         <main className="mx-auto max-w-2xl px-4 py-6">{children}</main>

@@ -1,5 +1,6 @@
 import { readFile } from "node:fs/promises";
 import { resolve } from "node:path";
+import { loadRecordings } from "@/lib/recordings";
 
 interface Credit {
   file: string;
@@ -20,6 +21,8 @@ async function loadCredits(): Promise<Credit[]> {
 
 export default async function AboutPage() {
   const credits = await loadCredits();
+  const recordings = await loadRecordings();
+  const speakers = [...new Set(recordings.map((recording) => recording.speaker))].sort();
   return (
     <div className="space-y-6">
       <section className="space-y-3 rounded-xl bg-white p-5 shadow-sm">
@@ -42,8 +45,17 @@ export default async function AboutPage() {
         </p>
       </section>
 
+      {speakers.length === 0 ? null : (
+        <section className="space-y-2 rounded-xl bg-white p-5 shadow-sm">
+          <h2 className="text-lg font-semibold">Voices</h2>
+          <p className="text-sm text-slate-600">
+            {recordings.length} words are spoken by {speakers.join(", ")}, recorded for this app.
+          </p>
+        </section>
+      )}
+
       <section className="space-y-2 rounded-xl bg-white p-5 shadow-sm">
-        <h2 className="text-lg font-semibold">Recording credits</h2>
+        <h2 className="text-lg font-semibold">Wikimedia recording credits</h2>
         {credits.length === 0 ? (
           <p className="text-slate-500">No recordings mirrored yet.</p>
         ) : (

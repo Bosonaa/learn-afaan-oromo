@@ -1,0 +1,294 @@
+id: unit-04-numbers
+order: 4
+title: Numbers & counting
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: one
+    pos: num
+    oromo: tokko
+    alternates:
+      - aaragalfataa
+      - adamsisaa
+      - addeessaa
+      - alagaa
+    ipa: /ˈtɔkːɔ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9a/Tokko.wav/Tokko.wav.mp3
+    confidence: high
+    glossSeen: one
+    verified: false
+  - english: two
+    pos: num
+    oromo: lama
+    alternates:
+      - walaallammii
+      - lachuu
+      - lolsiisuu
+      - qarqabuu
+    ipa: /ˈlɐmɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/07/L_Lama.wav/L_Lama.wav.mp3
+    confidence: high
+    glossSeen: two
+    verified: false
+  - english: three
+    pos: num
+    oromo: sadii
+    alternates:
+      - sadeen
+      - erbaa
+      - fuulsadee
+      - duququla
+    ipa: /ˈsɐdíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/03/Sadii.wav/Sadii.wav.mp3
+    confidence: high
+    glossSeen: three
+    verified: false
+  - english: four
+    pos: num
+    oromo: afur
+    alternates:
+      - yagutoo
+    ipa: /ˈʔɐ́fʊr/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/ff/L_Afur.wav/L_Afur.wav.mp3
+    confidence: high
+    glossSeen: four
+    verified: false
+  - english: five
+    pos: num
+    oromo: shan
+    alternates:
+      - kiraar
+      - chinkoo
+      - duroo
+      - meezoo
+    ipa: /ˈʃɐ́n/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f7/L_Shan.wav/L_Shan.wav.mp3
+    confidence: high
+    glossSeen: five
+    verified: false
+  - english: six
+    pos: num
+    oromo: ja'a
+    alternates:
+      - jaha
+      - jahii
+      - jayii
+    ipa: null
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6b/L_Ja%27a.wav/L_Ja%27a.wav.mp3
+    confidence: medium
+    glossSeen: six
+    verified: false
+  - english: seven
+    pos: num
+    oromo: torba
+    alternates: []
+    ipa: /ˈtɔ́rbɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d0/Torba.wav/Torba.wav.mp3
+    confidence: high
+    glossSeen: seven
+    verified: false
+  - english: eight
+    pos: num
+    oromo: saddeet
+    alternates:
+      - zoodiyaak
+    ipa: /sɐdˈdéːt/
+    audioUrl: null
+    confidence: high
+    glossSeen: eight
+    verified: false
+  - english: nine
+    pos: num
+    oromo: sagal
+    alternates: []
+    ipa: /sɐˈɡɐ́l/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f2/Sagal.wav/Sagal.wav.mp3
+    confidence: high
+    glossSeen: nine
+    verified: false
+  - english: ten
+    pos: num
+    oromo: kudhan
+    alternates:
+      - boondii
+      - dumbulloo
+      - saantima kudhan
+    ipa: /kʊˈᶑɐ́n/
+    audioUrl: null
+    confidence: high
+    glossSeen: ten
+    verified: false
+  - english: eleven
+    pos: num
+    oromo: kudha tokko
+    alternates: []
+    ipa: /ˈkʊᶑɐ tɔkːɔ/
+    audioUrl: null
+    confidence: high
+    glossSeen: eleven
+    verified: false
+  - english: twelve
+    pos: num
+    oromo: kudha lama
+    alternates:
+      - saddeeqa
+    ipa: /ˈkʊᶑɐ lɐmɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: twelve
+    verified: false
+  - english: twenty
+    pos: num
+    oromo: digdama
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: twenty
+    verified: false
+  - english: thirty
+    pos: num
+    oromo: sodoma
+    alternates:
+      - soddoma
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: thirty
+    verified: false
+  - english: fifty
+    pos: num
+    oromo: shantama
+    alternates:
+      - alaada
+    ipa: null
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/85/Shantama.wav/Shantama.wav.mp3
+    confidence: high
+    glossSeen: fifty
+    verified: false
+  - english: hundred
+    pos: num
+    oromo: dhibba
+    alternates:
+      - daawullaa
+    ipa: /ˈᶑɪbːɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/64/Om-dhibba.ogg/Om-dhibba.ogg.mp3
+    confidence: high
+    glossSeen: hundred
+    verified: false
+  - english: thousand
+    pos: num
+    oromo: kuma
+    alternates:
+      - kumsaa
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: thousand
+    verified: false
+  - english: first
+    pos: num
+    oromo: aboolii
+    alternates:
+      - ashuuqqii
+      - fugguu
+      - dursiisuu
+      - dursuu
+    ipa: /ɐboːlíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ab/Om-aboolii.ogg/Om-aboolii.ogg.mp3
+    confidence: low
+    glossSeen: first round boiled coffee
+    verified: false
+  - english: second
+    pos: num
+    oromo: abbalamii
+    alternates:
+      - cichaa
+      - jechisiifachuu
+      - lammeefachiisuu
+      - lammeeffachuu
+    ipa: /ɐbːɐlɐmíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c7/Om-abbalamii.ogg/Om-abbalamii.ogg.mp3
+    confidence: low
+    glossSeen: the second owner of wealth
+    verified: false
+  - english: third
+    pos: num
+    oromo: hiribbii
+    alternates:
+      - siisoo
+    ipa: /ˈhɪrɪbːíː/
+    audioUrl: null
+    confidence: low
+    glossSeen: tend somebody's cattle to get half or onc third of th breed
+    verified: false
+  - english: number
+    pos: noun
+    oromo: lakkoofsa
+    alternates:
+      - buqqisii
+      - mangoo
+      - lakkoofsa tartibaa
+    ipa: /ˈlɐkːoːfsɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: number
+    verified: false
+  - english: half
+    pos: noun
+    oromo: cinaacha
+    alternates:
+      - walakkaa
+      - alaada
+      - hiribbii
+      - abbaa cinaachaa
+    ipa: /ˈt͡ʃʼɪnɑːt͡ʃɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/70/Om-cinaacha.ogg/Om-cinaacha.ogg.mp3
+    confidence: medium
+    glossSeen: ribs
+    verified: false
+  - english: many
+    pos: adj
+    oromo: galaana
+    alternates:
+      - badaa
+      - hoomaa
+      - disaasaa
+      - ciccituu
+    ipa: /ˈɡɐlɑːnɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: many/much
+    verified: false
+  - english: few
+    pos: adj
+    oromo: xiqqishoo
+    alternates:
+      - merqa
+      - dudubbisaa
+      - shikifii
+      - shillimii
+    ipa: /ˈtʼɪkʼːɪʃóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: a few
+    verified: false
+  - english: count
+    pos: verb
+    oromo: lakkaa'uu
+    alternates:
+      - lakkaawwachuu
+      - lakkoofsisuu
+      - oflakka'uu
+      - herreegachuu
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: to count
+    verified: false
