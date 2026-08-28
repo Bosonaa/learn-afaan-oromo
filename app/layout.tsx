@@ -1,11 +1,21 @@
 import type { Metadata, Viewport } from "next";
 import Link from "next/link";
 import "./globals.css";
+import { ServiceWorker } from "./service-worker";
 
 export const metadata: Metadata = {
   title: "Barsiisaa — learn Afaan Oromo",
   description: "Practise Afaan Oromo words with short daily lessons.",
   manifest: "/manifest.webmanifest",
+  applicationName: "Barsiisaa",
+  appleWebApp: { capable: true, title: "Barsiisaa", statusBarStyle: "default" },
+  icons: {
+    icon: [
+      { url: "/icons/icon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/icons/icon-512.png", sizes: "512x512", type: "image/png" },
+    ],
+    apple: "/icons/apple-touch-icon.png",
+  },
 };
 
 export const viewport: Viewport = {
@@ -36,6 +46,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </div>
         </header>
         <main className="mx-auto max-w-2xl px-4 py-6">{children}</main>
+        <ServiceWorker />
       </body>
     </html>
   );

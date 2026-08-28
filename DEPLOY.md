@@ -100,9 +100,12 @@ It then opens full-screen with no browser chrome, like a normal app. Each device
 own progress, so two kids on two devices do not overwrite each other — but the same device
 shared by two kids shares one streak (per-child profiles are still on the backlog).
 
-Two current gaps worth knowing: the manifest has no icon yet, so the home-screen icon is a
-generic letter tile, and there is no offline service worker yet, so it needs a connection to
-load (once loaded, a lesson finishes fine).
+The installed app has a real icon and works offline: a service worker (`public/sw.js`, only
+registered in production builds) caches the shell, the built JS/CSS and every audio clip that
+has been played once, so units you have already opened keep working on a plane or in the car.
+Something never opened while online shows the "You are offline" page instead. Icons are
+committed under `public/icons`; regenerate them with `scripts/make-icons.sh` (needs
+ImageMagick + librsvg) after editing `assets/icon.svg`.
 
 ## 7. Recording missing pronunciations (local only)
 
