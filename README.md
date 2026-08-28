@@ -30,6 +30,7 @@ npm run dev        # http://localhost:3000
 ```
 
 Unit YAML and mirrored audio are committed, so the app runs without regenerating content.
+[DEPLOY.md](DEPLOY.md) walks through building it, putting it on a phone and deploying.
 Progress (XP, streak, spaced-repetition schedule) is stored in `localStorage` only: no
 accounts, no server, no analytics, nothing about a child leaves the device.
 
