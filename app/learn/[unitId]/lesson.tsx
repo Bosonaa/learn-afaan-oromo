@@ -66,7 +66,12 @@ export function Lesson({
   };
 
   if (exercises === null) {
-    return <p className="text-slate-500">Loading lesson…</p>;
+    return (
+      <div className="space-y-4">
+        <BackToUnits />
+        <p className="text-slate-500">Loading lesson…</p>
+      </div>
+    );
   }
 
   if (exercise === null) {
@@ -105,9 +110,10 @@ export function Lesson({
   return (
     <div className="space-y-5">
       <div>
-        <div className="flex items-baseline justify-between text-sm text-slate-500">
-          <span>{title}</span>
-          <span>
+        <div className="flex items-baseline justify-between gap-3 text-sm text-slate-500">
+          <BackToUnits />
+          <span className="truncate">{title}</span>
+          <span className="whitespace-nowrap">
             {index + 1} / {exercises.length}
           </span>
         </div>
@@ -212,6 +218,14 @@ export function Lesson({
         </div>
       ) : null}
     </div>
+  );
+}
+
+function BackToUnits() {
+  return (
+    <Link href="/" className="text-sm font-medium text-teal-700 hover:underline">
+      ← Units
+    </Link>
   );
 }
 
