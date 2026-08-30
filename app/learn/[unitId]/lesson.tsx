@@ -6,6 +6,7 @@ import type { Word } from "@/lib/content";
 import { buildLesson, isCorrect, type Exercise } from "@/lib/exercises";
 import { loadProfiles, type Profile } from "@/lib/profiles";
 import { dueWords, loadProgress, recordAnswer, saveProgress } from "@/lib/progress";
+import { ReportWord } from "@/app/report-word";
 
 const LESSON_LENGTH = 10;
 
@@ -228,6 +229,11 @@ export function Lesson({
           >
             Continue
           </button>
+          <ReportWord
+            unitId={unitId}
+            english={exercise.word.english}
+            oromo={exercise.word.oromo}
+          />
         </div>
       ) : null}
     </div>
