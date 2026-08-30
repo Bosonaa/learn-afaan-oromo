@@ -97,8 +97,9 @@ Open the `https://…vercel.app` URL on the device, then:
 - **Android (Chrome):** ⋮ menu → **Install app** (or "Add to Home screen").
 
 It then opens full-screen with no browser chrome, like a normal app. Each device keeps its
-own progress, so two kids on two devices do not overwrite each other — but the same device
-shared by two kids shares one streak (per-child profiles are still on the backlog).
+own progress, so two kids on two devices do not overwrite each other. On a shared device, add
+a profile per child from "Who is learning" at the top of the unit list: each profile keeps its
+own XP, streak and review schedule, and switching is one tap.
 
 The installed app has a real icon and works offline: a service worker (`public/sw.js`, only
 registered in production builds) caches the shell, the built JS/CSS and every audio clip that
