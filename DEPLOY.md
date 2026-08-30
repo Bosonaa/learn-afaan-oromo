@@ -89,6 +89,25 @@ A Vercel URL is public. If you would rather the kids' app not be, either enable 
 Authentication (Project → Settings → Deployment Protection, requires a Pro plan) or add a
 simple shared password later — say the word and I will wire one up.
 
+### Turning on "this looks wrong" reports
+
+Reports are filed as GitHub issues in this repo, so there is no database to run. Set two
+environment variables on the deployment (Vercel → Project → Settings → Environment Variables,
+or a local `.env.local`):
+
+| Variable | Value |
+| --- | --- |
+| `REPORTS_GITHUB_TOKEN` | a fine-grained GitHub token with **Issues: read and write** on `Bosonaa/learn-afaan-oromo` only — https://github.com/settings/personal-access-tokens/new |
+| `REPORTS_REPO` | optional; defaults to `Bosonaa/learn-afaan-oromo` |
+
+Without the token the flag button never appears and the app behaves exactly as before. With it,
+each report opens an issue labelled `word-report` containing the unit, the English prompt, the
+word being taught, the category and the note — GitHub emails you, and the fix goes into
+`content/overrides.yaml` as usual. The token is never sent to the browser.
+
+Reports are deliberately open to anyone using the app (it is your family's URL); a bad report
+costs one click to close. Say the word if you later want it restricted to named reviewers.
+
 ## 6. Install it on a phone or tablet
 
 Open the `https://…vercel.app` URL on the device, then:
@@ -97,8 +116,9 @@ Open the `https://…vercel.app` URL on the device, then:
 - **Android (Chrome):** ⋮ menu → **Install app** (or "Add to Home screen").
 
 It then opens full-screen with no browser chrome, like a normal app. Each device keeps its
-own progress, so two kids on two devices do not overwrite each other — but the same device
-shared by two kids shares one streak (per-child profiles are still on the backlog).
+own progress, so two kids on two devices do not overwrite each other. On a shared device, add
+a profile per child from "Who is learning" at the top of the unit list: each profile keeps its
+own XP, streak and review schedule, and switching is one tap.
 
 The installed app has a real icon and works offline: a service worker (`public/sw.js`, only
 registered in production builds) caches the shell, the built JS/CSS and every audio clip that

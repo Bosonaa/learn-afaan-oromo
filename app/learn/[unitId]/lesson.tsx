@@ -4,7 +4,9 @@ import Link from "next/link";
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { Word } from "@/lib/content";
 import { buildLesson, isCorrect, type Exercise } from "@/lib/exercises";
+import { loadProfiles, type Profile } from "@/lib/profiles";
 import { dueWords, loadProgress, recordAnswer, saveProgress } from "@/lib/progress";
+import { ReportWord } from "@/app/report-word";
 
 const LESSON_LENGTH = 10;
 
@@ -25,10 +27,15 @@ export function Lesson({
   const [verdict, setVerdict] = useState<Verdict>(null);
   const [score, setScore] = useState(0);
   const audio = useRef<HTMLAudioElement | null>(null);
+  // Pinned at mount: whoever started the lesson is credited with it, even if
+  // the profile is switched in another tab.
+  const [learner, setLearner] = useState<Profile | null>(null);
 
   // Built after mount because lesson composition depends on locally stored progress.
   useEffect(() => {
-    const progress = loadProgress();
+    const { profiles, activeId } = loadProfiles();
+    setLearner(profiles.find((profile) => profile.id === activeId) ?? null);
+    const progress = loadProgress(activeId);
     setExercises(
       buildLesson(words, `${unitId}:${progress.xp}`, {
         due: dueWords(progress),
@@ -56,7 +63,11 @@ export function Lesson({
     const correct = isCorrect(exercise, response);
     setVerdict({ correct, expected: exercise.answer });
     if (correct) setScore((current) => current + 1);
-    saveProgress(recordAnswer(loadProgress(), exercise.word.oromo, correct));
+    const profileId = learner?.id;
+    saveProgress(
+      recordAnswer(loadProgress(profileId), exercise.word.oromo, correct),
+      profileId,
+    );
   };
 
   const next = (): void => {
@@ -88,7 +99,7 @@ export function Lesson({
           <button
             type="button"
             onClick={() => {
-              const progress = loadProgress();
+              const progress = loadProgress(learner?.id);
               setExercises(
                 buildLesson(words, `${unitId}:${progress.xp}`, {
                   due: dueWords(progress),
@@ -112,7 +123,10 @@ export function Lesson({
       <div>
         <div className="flex items-baseline justify-between gap-3 text-sm text-slate-500">
           <BackToUnits />
-          <span className="truncate">{title}</span>
+          <span className="truncate">
+            {title}
+            {learner === null ? "" : ` · ${learner.name}`}
+          </span>
           <span className="whitespace-nowrap">
             {index + 1} / {exercises.length}
           </span>
@@ -215,6 +229,11 @@ export function Lesson({
           >
             Continue
           </button>
+          <ReportWord
+            unitId={unitId}
+            english={exercise.word.english}
+            oromo={exercise.word.oromo}
+          />
         </div>
       ) : null}
     </div>

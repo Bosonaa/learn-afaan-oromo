@@ -41,7 +41,13 @@ export default async function AboutPage() {
         </p>
         <p className="text-slate-700">
           Nothing you do here is uploaded. Progress is stored only in this browser and there is
-          no account and no analytics.
+          no account and no analytics. Profiles are names on this device, kept apart so children
+          sharing it do not share a streak.
+        </p>
+        <p className="text-slate-700">
+          The one exception is the &ldquo;this looks wrong&rdquo; button after an answer: it sends
+          the word, the problem you picked and your note so a reviewer can fix the lesson. Nothing
+          about who you are or how you are doing goes with it.
         </p>
       </section>
 
