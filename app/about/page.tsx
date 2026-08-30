@@ -41,7 +41,8 @@ export default async function AboutPage() {
         </p>
         <p className="text-slate-700">
           Nothing you do here is uploaded. Progress is stored only in this browser and there is
-          no account and no analytics.
+          no account and no analytics. Profiles are names on this device, kept apart so children
+          sharing it do not share a streak.
         </p>
       </section>
 

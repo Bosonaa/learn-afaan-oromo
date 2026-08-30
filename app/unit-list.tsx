@@ -2,7 +2,9 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
+import { loadProfiles, type Profiles } from "@/lib/profiles";
 import { dueWords, emptyProgress, loadProgress, unitMastery, type Progress } from "@/lib/progress";
+import { ProfileSwitcher } from "./profile-switcher";
 
 export interface UnitSummary {
   id: string;
@@ -17,9 +19,17 @@ export interface UnitSummary {
 export function UnitList({ units }: { units: UnitSummary[] }) {
   // Progress is client-only, so render the server view first and fill it in after mount.
   const [progress, setProgress] = useState<Progress>(emptyProgress);
+  const [profiles, setProfiles] = useState<Profiles | null>(null);
   useEffect(() => {
-    setProgress(loadProgress());
+    const stored = loadProfiles();
+    setProfiles(stored);
+    setProgress(loadProgress(stored.activeId));
   }, []);
+
+  const switchProfiles = (next: Profiles): void => {
+    setProfiles(next);
+    setProgress(loadProgress(next.activeId));
+  };
 
   const due = new Set(dueWords(progress));
   const anyUnreviewed = units.some((unit) => !unit.reviewed);
@@ -28,6 +38,10 @@ export function UnitList({ units }: { units: UnitSummary[] }) {
 
   return (
     <div className="space-y-6">
+      {profiles === null ? null : (
+        <ProfileSwitcher profiles={profiles} onChange={switchProfiles} />
+      )}
+
       <div className="flex gap-4 rounded-xl bg-white p-4 shadow-sm">
         <Stat label="XP" value={String(progress.xp)} />
         <Stat label="Day streak" value={String(progress.streakDays)} />

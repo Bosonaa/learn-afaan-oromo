@@ -2,9 +2,11 @@
 
 /**
  * Progress lives entirely in the browser: no accounts, no analytics, nothing
- * about a child leaves the device. localStorage is enough for one profile and
- * keeps the app usable offline.
+ * about a child leaves the device. Each profile gets its own localStorage key,
+ * so siblings sharing a tablet keep separate XP, streaks and review schedules.
  */
+
+import { activeProfileId, progressKey } from "./profiles";
 
 export interface WordProgress {
   /** SM-2 style ease factor. */
@@ -23,7 +25,6 @@ export interface Progress {
   words: Record<string, WordProgress>;
 }
 
-const STORAGE_KEY = "learn-afaan-oromo:progress:v1";
 const DAY_MS = 24 * 60 * 60 * 1000;
 
 export const emptyProgress = (): Progress => ({
@@ -36,9 +37,9 @@ export const emptyProgress = (): Progress => ({
 
 const dayKey = (at: number): string => new Date(at).toISOString().slice(0, 10);
 
-export function loadProgress(): Progress {
+export function loadProgress(profileId?: string): Progress {
   if (typeof window === "undefined") return emptyProgress();
-  const stored = window.localStorage.getItem(STORAGE_KEY);
+  const stored = window.localStorage.getItem(progressKey(profileId ?? activeProfileId()));
   if (stored === null) return emptyProgress();
   try {
     const parsed = JSON.parse(stored) as Progress;
@@ -48,9 +49,12 @@ export function loadProgress(): Progress {
   }
 }
 
-export function saveProgress(progress: Progress): void {
+export function saveProgress(progress: Progress, profileId?: string): void {
   if (typeof window === "undefined") return;
-  window.localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+  window.localStorage.setItem(
+    progressKey(profileId ?? activeProfileId()),
+    JSON.stringify(progress),
+  );
 }
 
 /**
