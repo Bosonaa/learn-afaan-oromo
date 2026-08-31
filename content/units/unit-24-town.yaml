@@ -1,0 +1,226 @@
+id: unit-24-town
+order: 24
+title: Town & buildings
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: town
+    pos: noun
+    oromo: magaalaa
+    alternates:
+      - jireenya magalaa
+      - bushooftuu
+      - dirgabaa
+      - ammarreessaa
+    ipa: /mɐɡɑːlɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: city, town, village
+    verified: false
+  - english: city
+    pos: noun
+    oromo: magaalaa
+    alternates:
+      - dirbojaa
+      - dirmalkee
+      - jijjigaa
+      - handhuura magaalaa
+    ipa: /mɐɡɑːlɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: city, town, village
+    verified: false
+  - english: village
+    pos: noun
+    oromo: baadiyyaa
+    alternates:
+      - geerrii
+      - ganda
+      - magaalaa
+      - bulchaagandaa
+    ipa: /ˈbɑːdɪjːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7c/Om-baadiyyaa.ogg/Om-baadiyyaa.ogg.mp3
+    confidence: medium
+    glossSeen: countryside
+    verified: false
+  - english: street
+    pos: noun
+    oromo: machaarree
+    alternates:
+      - macharree
+      - rooree
+      - ibsaa daandii
+    ipa: /ˈmɐt͡ʃɑːrːéː/
+    audioUrl: null
+    confidence: low
+    glossSeen: back street market
+    verified: false
+  - english: church
+    pos: noun
+    oromo: bataskaana
+    alternates:
+      - mana amantii
+      - cirintii
+      - qulqulleessummaa
+      - mana kadhannaa
+    ipa: /ˈbɐtɐskɑːnɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f4/Om-bataskaana.ogg/Om-bataskaana.ogg.mp3
+    confidence: high
+    glossSeen: church
+    verified: false
+  - english: mosque
+    pos: noun
+    oromo: masgiida
+    alternates:
+      - mana amantii
+      - mana kadhannaa
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: mosque
+    verified: false
+  - english: office
+    pos: noun
+    oromo: waajjira
+    alternates:
+      - biiroo
+      - mana poostaa
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: office
+    verified: false
+  - english: hotel
+    pos: noun
+    oromo: hoteela
+    alternates:
+      - mana ciree
+    ipa: /ˈhɔteːlɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: hotel
+    verified: false
+  - english: station
+    pos: noun
+    oromo: buufata
+    alternates:
+      - tooya
+      - mana torobbee
+    ipa: /ˈbuːfɐtɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7a/Om-buufata.ogg/Om-buufata.ogg.mp3
+    confidence: high
+    glossSeen: station
+    verified: false
+  - english: bank
+    pos: noun
+    oromo: baankii
+    alternates:
+      - mana baankii
+      - daarii
+      - dibuu
+      - baankii dhiigaa
+    ipa: /ˈbɑːnkíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6e/Om-baankii.ogg/Om-baankii.ogg.mp3
+    confidence: high
+    glossSeen: bank (financial institution)
+    verified: false
+  - english: post
+    pos: noun
+    oromo: duubbee
+    alternates:
+      - gabbaa
+      - postikaardii
+      - qochoma
+      - kuusa albuudaa
+    ipa: /ˈduːbːéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/dc/Om-duubbee.ogg/Om-duubbee.ogg.mp3
+    confidence: low
+    glossSeen: post position
+    verified: false
+  - english: prison
+    pos: noun
+    oromo: wankii
+    alternates:
+      - mana hidhaa
+      - hiukamuu
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: prison, jail
+    verified: false
+  - english: court
+    pos: noun
+    oromo: dhaddacha
+    alternates:
+      - ilaallii
+      - ilaallachuu
+      - mana shanachaa
+      - xaddacha
+    ipa: /ˈᶑɐdːɐt͡ʃɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ed/Om-dhaddacha.ogg/Om-dhaddacha.ogg.mp3
+    confidence: high
+    glossSeen: a large tree where laws are enacted or legislated.
+    verified: false
+  - english: palace
+    pos: noun
+    oromo: masaraa
+    alternates: []
+    ipa: /ˈmɐsɐrɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: palace
+    verified: false
+  - english: square
+    pos: noun
+    oromo: arfakkuu
+    alternates:
+      - mijjirii
+      - rog afree walqixaa
+      - addabaabayii
+      - saqalaa
+    ipa: /ɐrfɐkːúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a0/Om-arfakkuu.ogg/Om-arfakkuu.ogg.mp3
+    confidence: high
+    glossSeen: square
+    verified: false
+  - english: building
+    pos: noun
+    oromo: kaabii
+    alternates:
+      - gamoo
+      - foroorsaa
+      - fooqii
+      - gaawoo
+    ipa: /ˈkɑːbíː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: building
+    verified: false
+  - english: camp
+    pos: noun
+    oromo: buufachuu
+    alternates: []
+    ipa: /ˈbuːfɐt͡ʃúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/55/Om-buufachuu.ogg/Om-buufachuu.ogg.mp3
+    confidence: high
+    glossSeen: camp
+    verified: false
+  - english: compound
+    pos: noun
+    oromo: diigala
+    alternates:
+      - abaadaa
+      - mirroo
+      - abaada
+      - baaldanee
+    ipa: /ˈdiːɡɐlɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c7/Om-diigala.ogg/Om-diigala.ogg.mp3
+    confidence: medium
+    glossSeen: compound
+    verified: false

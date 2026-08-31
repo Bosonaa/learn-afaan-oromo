@@ -1,0 +1,322 @@
+id: unit-07-body
+order: 7
+title: Body
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: head
+    pos: noun
+    oromo: mataa
+    alternates:
+      - durayyeessa
+      - abbaa manaa
+      - abrii
+      - agibaar
+    ipa: /mɐtɑː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: head
+    verified: false
+  - english: hair
+    pos: noun
+    oromo: rifeensa
+    alternates:
+      - dabbasaa
+      - balaalii
+      - cadheedhee
+      - cimama
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: hair (on head)
+    verified: false
+  - english: eye
+    pos: noun
+    oromo: ija
+    alternates:
+      - agartuu
+      - dhanfoora
+      - dunuunfannaa
+      - amajaajii
+    ipa: /ʔɪd͡ʒɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: eye
+    verified: false
+  - english: ear
+    pos: noun
+    oromo: dhageettii
+    alternates:
+      - gurra
+      - balaqa
+      - guurii
+      - dhagahuu
+    ipa: /ˈᶑɐɡeːtːíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2f/Om-dhageettii.ogg/Om-dhageettii.ogg.mp3
+    confidence: medium
+    glossSeen: ear
+    verified: false
+  - english: nose
+    pos: noun
+    oromo: funyaan
+    alternates:
+      - funuuna
+      - funuunsuu
+      - funuunuu
+      - furribaafachuu
+    ipa: /fʊɲːɑːn/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/50/Om-funyaan.ogg/Om-funyaan.ogg.mp3
+    confidence: high
+    glossSeen: nose
+    verified: false
+  - english: mouth
+    pos: noun
+    oromo: afaan
+    alternates:
+      - ciffata
+      - irgoo
+      - lulluuqqaa
+      - handartaa
+    ipa: /ɐfɑːn/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/41/Om-afaan.ogg/Om-afaan.ogg.mp3
+    confidence: high
+    glossSeen: mouth
+    verified: false
+  - english: tooth
+    pos: noun
+    oromo: ilkee
+    alternates:
+      - ilkaan
+      - aadigaa
+      - andilkaa
+      - shuwaaka
+    ipa: /ʔɪl.keː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: tooth
+    verified: false
+  - english: tongue
+    pos: noun
+    oromo: arraba
+    alternates:
+      - arrabmurii
+    ipa: /ɐrːɐbɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e0/Om-arraba.ogg/Om-arraba.ogg.mp3
+    confidence: high
+    glossSeen: tongue
+    verified: false
+  - english: lip
+    pos: noun
+    oromo: hidhii
+    alternates:
+      - buuyyuu
+      - hamdoo
+      - dura dhugduu
+      - hidhii gubbaa
+    ipa: /ˈhɪᶑíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: lip
+    verified: false
+  - english: neck
+    pos: noun
+    oromo: moqoo
+    alternates:
+      - morgoo
+      - morma
+      - dannoo
+      - boquu
+    ipa: /ˈmɔkʼóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: neck
+    verified: false
+  - english: shoulder
+    pos: noun
+    oromo: gateetti
+    alternates:
+      - qoyiirara
+      - gatiittii
+      - ceekuu
+      - da'ifoo
+    ipa: /ˈɡɐteːtːɪ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: shoulder
+    verified: false
+  - english: arm
+    pos: noun
+    oromo: dhundhuma
+    alternates:
+      - irree
+      - hidhachiisuu
+      - dhundhumuu
+    ipa: /ˈᶑʊnᶑʊmɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/32/Om-dhundhuma.ogg/Om-dhundhuma.ogg.mp3
+    confidence: medium
+    glossSeen: arm
+    verified: false
+  - english: hand
+    pos: noun
+    oromo: harka
+    alternates:
+      - ansoosillaa
+      - ejjetaa
+      - habalaa
+      - habansa
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: hand
+    verified: false
+  - english: finger
+    pos: noun
+    oromo: quba
+    alternates:
+      - abbuxiqqoo
+      - arrabsaa
+      - daagujjaa
+      - elemoo
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: finger
+    verified: false
+  - english: nail
+    pos: noun
+    oromo: bismaara
+    alternates:
+      - mismaara
+      - morodee
+    ipa: /ˈbɪsmɑːrɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b5/Om-bismaara.ogg/Om-bismaara.ogg.mp3
+    confidence: medium
+    glossSeen: nail
+    verified: false
+  - english: chest
+    pos: noun
+    oromo: laphee
+    alternates:
+      - handaraafa
+    ipa: /ˈlɐpʼéː/
+    audioUrl: null
+    confidence: high
+    glossSeen: chest, breast
+    verified: false
+  - english: heart
+    pos: noun
+    oromo: onnee
+    alternates:
+      - laphee
+      - honnee
+      - gaggabsaa
+      - singigeessuu
+    ipa: /ɔnːéː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: heart
+    verified: false
+  - english: back
+    pos: noun
+    oromo: dugda
+    alternates:
+      - anqalbaa
+      - dudduuba
+      - duuboo
+      - erkoo
+    ipa: /ˈdʊɡdɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/16/Om-dugda.ogg/Om-dugda.ogg.mp3
+    confidence: high
+    glossSeen: back
+    verified: false
+  - english: stomach
+    pos: noun
+    oromo: garaacha
+    alternates:
+      - garaa
+      - bulgasuu
+      - halteeta
+      - qochoma
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: stomach
+    verified: false
+  - english: belly
+    pos: noun
+    oromo: borcii
+    alternates:
+      - macoo
+      - garaa
+      - huffoo
+      - xerrebbee
+    ipa: /ˈbɔrt͡ʃʼíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e8/Om-borcii.ogg/Om-borcii.ogg.mp3
+    confidence: high
+    glossSeen: belly
+    verified: false
+  - english: leg
+    pos: noun
+    oromo: luka
+    alternates:
+      - dachaafattuu
+      - diriirfannaa
+      - cabsoo
+      - gambaallee
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: leg
+    verified: false
+  - english: knee
+    pos: noun
+    oromo: jilba
+    alternates:
+      - gambaallee
+      - many ee
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: knee
+    verified: false
+  - english: foot
+    pos: noun
+    oromo: kottee
+    alternates:
+      - miilla
+      - ansoosillaa
+      - dukkaa
+      - faanajala
+    ipa: /ˈkɔtːéː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: foot print, trace, trail track hoof
+    verified: false
+  - english: toe
+    pos: noun
+    oromo: quba miillaa
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: toe
+    verified: false
+  - english: skin
+    pos: noun
+    oromo: googa
+    alternates:
+      - gogaa
+      - condorroo
+      - baarilee
+      - injicha
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: skin
+    verified: false

@@ -1,0 +1,234 @@
+id: unit-11-kitchen
+order: 11
+title: Kitchen & utensils
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: pot
+    pos: noun
+    oromo: giicuu
+    alternates:
+      - hokkotee
+      - okkotee
+      - washoo
+      - go'oo
+    ipa: /ˈɡiːt͡ʃʼúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: pot
+    verified: false
+  - english: pan
+    pos: noun
+    oromo: caabitaa
+    alternates:
+      - mosollee
+      - xiliitee
+      - maxabashaa
+      - distii sibiilaa
+    ipa: /ˈt͡ʃʼɑːbɪtɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d3/Om-caabitaa.ogg/Om-caabitaa.ogg.mp3
+    confidence: low
+    glossSeen: local bread made on clay pan
+    verified: false
+  - english: knife
+    pos: noun
+    oromo: ablee
+    alternates:
+      - billaa
+      - haaduu
+      - qalaa
+      - cuubee
+    ipa: /ɐbléː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c1/Om-ablee.ogg/Om-ablee.ogg.mp3
+    confidence: medium
+    glossSeen: knife
+    verified: false
+  - english: fork
+    pos: noun
+    oromo: filoo
+    alternates:
+      - qoorbii
+    ipa: /ˈfɪlóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8e/Om-filoo.ogg/Om-filoo.ogg.mp3
+    confidence: high
+    glossSeen: fork, strip
+    verified: false
+  - english: bowl
+    pos: noun
+    oromo: gabatee
+    alternates:
+      - killoo
+      - qorii
+      - golbachuu
+    ipa: /ˈɡɐbɐtéː/
+    audioUrl: null
+    confidence: low
+    glossSeen: large wooden dish or bowl
+    verified: false
+  - english: bottle
+    pos: noun
+    oromo: dulloo
+    alternates:
+      - qaruuraa
+      - xaarmusii
+      - buttullee
+      - koddaa
+    ipa: /ˈdʊlːóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/72/Om-dulloo.ogg/Om-dulloo.ogg.mp3
+    confidence: medium
+    glossSeen: bottle
+    verified: false
+  - english: jug
+    pos: noun
+    oromo: ninniqa
+    alternates:
+      - ninniga
+    ipa: /ˈnɪnːɪkʼɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: jug
+    verified: false
+  - english: kettle
+    pos: noun
+    oromo: manqorqoraa
+    alternates:
+      - masloolee
+      - maarashoo
+      - makrajii
+    ipa: /ˈmɐnkʼɔrkʼɔrɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: kettle
+    verified: false
+  - english: lid
+    pos: noun
+    oromo: ankalaba
+    alternates:
+      - gombiftuu
+      - daboolaa
+      - gunjaa
+      - qadaada
+    ipa: /ɐnkɐlɐbɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2c/Om-ankalaba.ogg/Om-ankalaba.ogg.mp3
+    confidence: medium
+    glossSeen: see 'anqalbaa'
+    verified: false
+  - english: cover
+    pos: noun
+    oromo: boonkisii
+    alternates:
+      - daboolaa
+      - dayeessa
+      - gunjaa
+      - qadaada
+    ipa: /ˈboːnkɪsíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d9/Om-boonkisii.ogg/Om-boonkisii.ogg.mp3
+    confidence: medium
+    glossSeen: cover
+    verified: false
+  - english: firewood
+    pos: noun
+    oromo: qoraan
+    alternates:
+      - xiifoo
+      - libaallibbee
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: firewood
+    verified: false
+  - english: oven
+    pos: noun
+    oromo: furnoo
+    alternates:
+      - romaca
+      - geemmoo
+    ipa: /ˈfʊrnóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9e/Om-furnoo.ogg/Om-furnoo.ogg.mp3
+    confidence: medium
+    glossSeen: oven
+    verified: false
+  - english: flour
+    pos: noun
+    oromo: baarree
+    alternates:
+      - qaatii
+      - toloola
+      - unkuroo
+      - wandaroo
+    ipa: /ˈbɑːrːéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/14/Om-baarree.ogg/Om-baarree.ogg.mp3
+    confidence: low
+    glossSeen: large gourd used to contain dough grass made container of flour.
+    verified: false
+  - english: oil
+    pos: noun
+    oromo: zayitii
+    alternates:
+      - quyyisa
+      - fagulloo
+      - nuugii
+      - baqsiisuu
+    ipa: /ˈzɐjɪtíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d0/Om-zayitii.ogg/Om-zayitii.ogg.mp3
+    confidence: medium
+    glossSeen: edible oil, oil
+    verified: false
+  - english: cheese
+    pos: noun
+    oromo: baaduu
+    alternates:
+      - qimixuu
+      - ittoo loonii
+      - cororsaa
+      - irra buusa
+    ipa: /ˈbɑːdúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d6/Om-baaduu.ogg/Om-baaduu.ogg.mp3
+    confidence: medium
+    glossSeen: cheese
+    verified: false
+  - english: spice
+    pos: noun
+    oromo: hawaaja
+    alternates:
+      - mi'eessituu
+      - urgeessituu
+      - urgoo
+      - quyyifa
+    ipa: /ˈhɐwɑːd͡ʒɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: spice
+    verified: false
+  - english: pepper
+    pos: noun
+    oromo: barbaree
+    alternates:
+      - kolofoo
+      - mimmixoo
+      - lojoo
+      - qaaraa
+    ipa: /ˈbɐrbɐréː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ec/Om-barbaree.ogg/Om-barbaree.ogg.mp3
+    confidence: low
+    glossSeen: hot pepper
+    verified: false
+  - english: soup
+    pos: noun
+    oromo: layyoo
+    alternates:
+      - shorbaa
+      - hurgufoo
+      - koosara
+      - mooquu
+    ipa: /ˈlɐjːóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: soup
+    verified: false

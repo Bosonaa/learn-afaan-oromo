@@ -1,0 +1,330 @@
+id: unit-10-house
+order: 10
+title: House & home
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: house
+    pos: noun
+    oromo: mana
+    alternates:
+      - agibaar
+      - agibaarittii
+      - aseennaa
+      - buyyitii
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: house
+    verified: false
+  - english: door
+    pos: noun
+    oromo: balbala
+    alternates:
+      - cufaa
+      - cufanna
+      - maqaanii
+      - michichilaa
+    ipa: /ˈbɐlbɐlɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/57/Om-balbala.ogg/Om-balbala.ogg.mp3
+    confidence: medium
+    glossSeen: door, gate
+    verified: false
+  - english: window
+    pos: noun
+    oromo: foddaa
+    alternates:
+      - maqaanii
+    ipa: /ˈfɔdːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3c/Om-foddaa.ogg/Om-foddaa.ogg.mp3
+    confidence: high
+    glossSeen: window
+    verified: false
+  - english: roof
+    pos: noun
+    oromo: awayaata
+    alternates:
+      - ajjeerraa
+      - baabbuu
+      - dimdimii
+      - kabaa
+    ipa: /ɐwɐjɑːtɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/94/Om-awayaata.ogg/Om-awayaata.ogg.mp3
+    confidence: high
+    glossSeen: roof
+    verified: false
+  - english: wall
+    pos: noun
+    oromo: gidaara
+    alternates:
+      - girgiddaa
+      - duppoo
+      - girgijii
+      - gorroo
+    ipa: /ˈɡɪdɑːrɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: wall
+    verified: false
+  - english: floor
+    pos: noun
+    oromo: lafama
+    alternates:
+      - seexoo
+      - afata
+      - hogdii
+      - oodii
+    ipa: /ˈlɐfɐmɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: floor
+    verified: false
+  - english: room
+    pos: noun
+    oromo: xallisa
+    alternates:
+      - kuuta
+      - adiyyee
+      - dilboo
+      - cichaa
+    ipa: /ˈtʼɐlːɪsɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: the situation of being in wander, room
+    verified: false
+  - english: bed
+    pos: noun
+    oromo: siree
+    alternates:
+      - golaciisaa
+      - inshiree
+      - itillee
+      - jal-galee
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: bed
+    verified: false
+  - english: chair
+    pos: noun
+    oromo: barcuma
+    alternates:
+      - irrateessoo
+      - erkoo
+      - dura bu'aa
+      - haadha koraa
+    ipa: /ˈbɐrt͡ʃʼʊmɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5c/Om-barcuma.ogg/Om-barcuma.ogg.mp3
+    confidence: medium
+    glossSeen: chair/seat/stool
+    verified: false
+  - english: table
+    pos: noun
+    oromo: minjaala
+    alternates:
+      - baafannoo
+      - dhi'aan
+      - gabataa
+      - leemaatii
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: table
+    verified: false
+  - english: lamp
+    pos: noun
+    oromo: faanosii
+    alternates:
+      - faanusa
+      - ibsaa
+      - kinnaaya
+      - laambaa
+    ipa: /ˈfɑːnɔsíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/74/Om-faanosii.ogg/Om-faanosii.ogg.mp3
+    confidence: medium
+    glossSeen: lamp
+    verified: false
+  - english: key
+    pos: noun
+    oromo: bantuu
+    alternates:
+      - furtuu
+      - furaa
+      - gurra buusa
+      - furtuu afuurfannoo
+    ipa: /ˈbɐntúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/61/Om-bantuu.ogg/Om-bantuu.ogg.mp3
+    confidence: medium
+    glossSeen: key
+    verified: false
+  - english: fence
+    pos: noun
+    oromo: dallaa
+    alternates:
+      - dhayii
+      - mikkiila
+      - araaressuu
+      - dalleessuu
+    ipa: /ˈdɐlːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/30/Om-dallaa.ogg/Om-dallaa.ogg.mp3
+    confidence: medium
+    glossSeen: fence
+    verified: false
+  - english: gate
+    pos: noun
+    oromo: balbala
+    alternates:
+      - cufaa
+      - cufanna
+      - hulaa
+      - bitimaa
+    ipa: /ˈbɐlbɐlɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/57/Om-balbala.ogg/Om-balbala.ogg.mp3
+    confidence: medium
+    glossSeen: door, gate
+    verified: false
+  - english: yard
+    pos: noun
+    oromo: abaada
+    alternates:
+      - hiikee
+      - marjeeji
+      - hogolee
+      - mana duuba
+    ipa: /ɐbɑːdɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f8/Om-abaada.ogg/Om-abaada.ogg.mp3
+    confidence: high
+    glossSeen: compound, yard
+    verified: false
+  - english: kitchen
+    pos: noun
+    oromo: alawaadaa
+    alternates:
+      - alwaadaa
+      - kushinaa
+      - mana duuba
+      - cichaa
+    ipa: /ɐlɐwɑːdɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7a/Om-alawaadaa.ogg/Om-alawaadaa.ogg.mp3
+    confidence: medium
+    glossSeen: kitchen
+    verified: false
+  - english: garden
+    pos: noun
+    oromo: oboruu
+    alternates:
+      - manduubee
+      - cilaaddama
+      - jalaharaa
+      - jalasoquu
+    ipa: /ɔbɔrúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: garden
+    verified: false
+  - english: stairs
+    pos: noun
+    oromo: ejjeta
+    alternates:
+      - yaabbannoo
+    ipa: /ɛd͡ʒːɛtɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/07/Om-ejjeta.ogg/Om-ejjeta.ogg.mp3
+    confidence: low
+    glossSeen: stairs or steps
+    verified: false
+  - english: shelf
+    pos: noun
+    oromo: dulaaba
+    alternates:
+      - aansada
+      - zalangaa
+      - girgijii
+    ipa: /ˈdʊlɑːbɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8d/Om-dulaaba.ogg/Om-dulaaba.ogg.mp3
+    confidence: medium
+    glossSeen: shelf
+    verified: false
+  - english: box
+    pos: noun
+    oromo: aboona
+    alternates:
+      - saanduqa
+      - baakkoo
+      - habootuu
+      - baalkosaa
+    ipa: /ɐboːnɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/07/Om-aboona.ogg/Om-aboona.ogg.mp3
+    confidence: medium
+    glossSeen: box
+    verified: false
+  - english: basket
+    pos: noun
+    oromo: ajanbilii
+    alternates:
+      - gibbona
+      - gonofee
+      - qembee
+      - xooqee
+    ipa: /ɐd͡ʒɐnbɪlíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/86/Om-ajanbilii.ogg/Om-ajanbilii.ogg.mp3
+    confidence: medium
+    glossSeen: basket
+    verified: false
+  - english: bag
+    pos: noun
+    oromo: boorsaa
+    alternates:
+      - aloolloo
+      - qalqalloo
+      - qaraxixii
+      - biiroo
+    ipa: /ˈboːrsɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cd/Om-boorsaa.ogg/Om-boorsaa.ogg.mp3
+    confidence: high
+    glossSeen: bag, sack
+    verified: false
+  - english: broom
+    pos: noun
+    oromo: axoolaa
+    alternates:
+      - hartuu
+      - harataa
+      - acarabaa
+      - hacarabaa
+    ipa: /ɐtʼoːlɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bf/Om-axoolaa.ogg/Om-axoolaa.ogg.mp3
+    confidence: medium
+    glossSeen: broom
+    verified: false
+  - english: mat
+    pos: noun
+    oromo: keeshaa
+    alternates:
+      - jibbaa
+      - kachoo
+      - raroo
+      - handaqii
+    ipa: /ˈkeːʃɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: mat, sack
+    verified: false
+  - english: curtain
+    pos: noun
+    oromo: daatii
+    alternates:
+      - girdoo
+      - machabaaloo
+      - golga
+      - dayeessa
+    ipa: /ˈdɑːtíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a8/Om-daatii.ogg/Om-daatii.ogg.mp3
+    confidence: medium
+    glossSeen: curtain
+    verified: false

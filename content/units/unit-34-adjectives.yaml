@@ -1,0 +1,263 @@
+id: unit-34-adjectives
+order: 34
+title: Describing things
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: young
+    pos: adj
+    oromo: bombaatuu
+    alternates:
+      - jibicha
+      - qacalee
+      - buchillaa
+      - bukurattii
+    ipa: /ˈbɔmbɑːtúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/08/Om-bombaatuu.ogg/Om-bombaatuu.ogg.mp3
+    confidence: medium
+    glossSeen: young (of cattle)
+    verified: false
+  - english: large
+    pos: adj
+    oromo: asaabala
+    alternates:
+      - daabboo
+      - iiba'uu
+      - gundoo
+      - kootama
+    ipa: /ɐsɑːbɐlɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/79/Om-asaabala.ogg/Om-asaabala.ogg.mp3
+    confidence: medium
+    glossSeen: a large, black, red beaked bird
+    verified: false
+  - english: strong
+    pos: adj
+    oromo: jabaa
+    alternates:
+      - onnoomuu
+      - gichillaa'
+      - jabaachuu
+      - jajjabaa
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: strong
+    verified: false
+  - english: weak
+    pos: adj
+    oromo: yaroomuu
+    alternates:
+      - darree
+      - culculjechuu
+      - dadhabsiisuu
+      - kachachaluu
+    ipa: /ˈjɐroːmúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: to be bad, weak
+    verified: false
+  - english: full
+    pos: adj
+    oromo: goobana
+    alternates:
+      - guulaa
+      - ciffata
+      - bacaqsuu
+      - cinaa'uu
+    ipa: /ˈɡoːbɐnɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: full
+    verified: false
+  - english: empty
+    pos: adj
+    oromo: duwwaa
+    alternates:
+      - qolqolee
+      - ona
+      - adiyyoo
+      - deeqqa'uu
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: empty
+    verified: false
+  - english: warm
+    pos: adj
+    oromo: seerrachuu
+    alternates:
+      - bulluqa
+      - bulluqsiisuu
+      - hoo'uu
+      - o'isuu
+    ipa: /ˈseːrːɐt͡ʃúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: warm
+    verified: false
+  - english: sweet
+    pos: adj
+    oromo: mi'aa
+    alternates:
+      - mi'aawaa
+      - mi'ooftuu
+      - adanii
+      - baqarii
+    ipa: /ˈmɪʔɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: sweet (taste)
+    verified: false
+  - english: bitter
+    pos: adj
+    oromo: arancii
+    alternates:
+      - hadheessuu
+      - eebicha
+      - faaluu
+      - harma guusaa
+    ipa: /ɐrɐnt͡ʃʼíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b8/Om-arancii.ogg/Om-arancii.ogg.mp3
+    confidence: low
+    glossSeen: bitter cabbage
+    verified: false
+  - english: sour
+    pos: adj
+    oromo: komxaaxxee
+    alternates:
+      - qammana
+      - dhangaggoo
+      - canuu
+      - qammansiisuu
+    ipa: /ˈkɔmtʼɑːtʼːéː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: sour
+    verified: false
+  - english: soft
+    pos: adj
+    oromo: hoffeessuu
+    alternates:
+      - laafuu
+      - dabbasaa
+    ipa: /ˈhɔfːeːsːúː/
+    audioUrl: null
+    confidence: low
+    glossSeen: to make soft &light
+    verified: false
+  - english: hard
+    pos: adj
+    oromo: jabeessuu
+    alternates:
+      - bilbillee
+      - dallaqa
+      - ciqilchuu
+      - eelchuu
+    ipa: /ˈd͡ʒɐbeːsːúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: make strong, rigorous, hard
+    verified: false
+  - english: fast
+    pos: adj
+    oromo: laamuu
+    alternates:
+      - qomoruu
+      - soomanuu
+      - soomuu
+      - xoomuu
+    ipa: /ˈlɑːmúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: to fast
+    verified: false
+  - english: slow
+    pos: adj
+    oromo: suutee
+    alternates:
+      - sissiqaa
+      - lafarra butuu
+    ipa: /ˈsuːtéː/
+    audioUrl: null
+    confidence: high
+    glossSeen: slow
+    verified: false
+  - english: beautiful
+    pos: adj
+    oromo: xurunbullee
+    alternates:
+      - dhangaatuu
+      - koonnoo
+      - dumbushee
+      - bareechisuu
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: beautiful
+    verified: false
+  - english: ugly
+    pos: adj
+    oromo: ulufa
+    alternates:
+      - fokkachuu
+      - godoomuu
+      - xelxeba
+      - bifa baduu
+    ipa: /ʊlʊfɐ/
+    audioUrl: null
+    confidence: low
+    glossSeen: miss happen navel and protruding i.e. ugly
+    verified: false
+  - english: rich
+    pos: adj
+    oromo: tujaara
+    alternates:
+      - qaljii
+      - soorettii
+      - duroomsuu
+      - saca'uu
+    ipa: /ˈtʊd͡ʒɑːrɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: rich
+    verified: false
+  - english: poor
+    pos: adj
+    oromo: dhabduu
+    alternates:
+      - qoloqoiee
+      - harka marachiisuu
+      - harka marachuu
+      - daaruu
+    ipa: /ˈᶑɐbdúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ed/Om-dhabduu.ogg/Om-dhabduu.ogg.mp3
+    confidence: medium
+    glossSeen: poor, destitute (fem.)
+    verified: false
+  - english: easy
+    pos: adj
+    oromo: salpha
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: easy
+    verified: false
+  - english: difficult
+    pos: adj
+    oromo: laqanyoo
+    alternates:
+      - guulaa
+      - darbuu
+      - waalluu
+    ipa: /ˈlɐkʼɐɲóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: problem, difficult
+    verified: false

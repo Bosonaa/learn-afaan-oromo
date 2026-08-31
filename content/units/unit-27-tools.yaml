@@ -1,0 +1,300 @@
+id: unit-27-tools
+order: 27
+title: Tools & materials
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: tool
+    pos: noun
+    oromo: buttoo
+    alternates:
+      - soofuu
+      - kukkuttuu
+      - gadiitoo
+      - qugqurxaa
+    ipa: /ˈbʊtːóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cb/Om-buttoo.ogg/Om-buttoo.ogg.mp3
+    confidence: low
+    glossSeen: tool used to clear forest
+    verified: false
+  - english: axe
+    pos: noun
+    oromo: qottoo
+    alternates:
+      - dongora
+      - faasii
+      - fal'aatuu
+      - fottoysituu
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: axe, hatchet
+    verified: false
+  - english: hoe
+    pos: noun
+    oromo: caqii
+    alternates:
+      - jembee
+      - cakii
+      - shuqunuu
+      - caqee
+    ipa: /ˈt͡ʃʼɐkʼíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6e/Om-caqii.ogg/Om-caqii.ogg.mp3
+    confidence: medium
+    glossSeen: hoe
+    verified: false
+  - english: rope
+    pos: noun
+    oromo: funyoo
+    alternates:
+      - finyoo
+      - foo'aa
+      - haada
+      - tushaa
+    ipa: /ˈfʊɲóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/38/Om-funyoo.ogg/Om-funyoo.ogg.mp3
+    confidence: medium
+    glossSeen: rope
+    verified: false
+  - english: string
+    pos: noun
+    oromo: siibaagoo
+    alternates:
+      - diruu
+      - masanqoo
+      - ribuu
+      - xamboo
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: string
+    verified: false
+  - english: hammer
+    pos: noun
+    oromo: burruusa
+    alternates:
+      - madooshaa
+    ipa: /ˈbʊrːuːsɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c4/Om-burruusa.ogg/Om-burruusa.ogg.mp3
+    confidence: medium
+    glossSeen: hammer
+    verified: false
+  - english: saw
+    pos: noun
+    oromo: ilkaliila
+    alternates:
+      - seeruu
+      - jiima-gordannaa
+    ipa: /ɪlkɐliːlɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: saw
+    verified: false
+  - english: stick
+    pos: noun
+    oromo: ulee
+    alternates:
+      - qabata
+      - liccee
+      - hapheeffamuu
+      - satimuu
+    ipa: /ʔʊˈléː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: stick
+    verified: false
+  - english: spear
+    pos: noun
+    oromo: eeboo
+    alternates:
+      - bashir
+      - cokoo
+      - faccee
+      - jinfuu
+    ipa: /eːbóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d7/Om-eeboo.ogg/Om-eeboo.ogg.mp3
+    confidence: high
+    glossSeen: spear
+    verified: false
+  - english: bow
+    pos: noun
+    oromo: hiddaa
+    alternates:
+      - gugguutuu
+      - dagaanii
+      - futaasoo
+      - halgata
+    ipa: /ˈhɪdːɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: bow
+    verified: false
+  - english: arrow
+    pos: noun
+    oromo: xiiyyoo
+    alternates:
+      - xiyyaa
+      - futaasoo
+    ipa: /ˈtʼiːjːóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: arrow
+    verified: false
+  - english: shield
+    pos: noun
+    oromo: gaachana
+    alternates:
+      - gachana
+      - wantee
+      - golboobuu
+    ipa: /ˈɡɑːt͡ʃɐnɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: shield
+    verified: false
+  - english: gun
+    pos: noun
+    oromo: qawwee
+    alternates:
+      - albeenii
+      - beeljigii
+      - naasii
+      - wacafoo
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: gun (usually musket or rifle)
+    verified: false
+  - english: net
+    pos: noun
+    oromo: mattangoo
+    alternates:
+      - saaphana
+      - marayoo
+      - binnoo
+      - kiyyoo
+    ipa: /ˈmɐtːɐnɡóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: net (of fishing)
+    verified: false
+  - english: trap
+    pos: noun
+    oromo: kilooba
+    alternates:
+      - meendo
+      - mendoo
+      - kiyyoo
+      - qamaaxirii
+    ipa: /ˈkɪloːbɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: trap (of fish)
+    verified: false
+  - english: plough
+    pos: noun
+    oromo: sibbattii
+    alternates:
+      - tattaraaruu
+      - qotuu
+      - ciqirtii
+      - dhiitaa
+    ipa: /ˈsɪbːɐtːíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: plough
+    verified: false
+  - english: yoke
+    pos: noun
+    oromo: waanjoo
+    alternates:
+      - camaduu
+      - xamaduu
+      - cimdii
+      - daagi
+    ipa: /ˈwɑːnd͡ʒóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: yoke
+    verified: false
+  - english: iron
+    pos: noun
+    oromo: sibiila
+    alternates:
+      - sibiilaa
+      - kaawuyyaa
+      - distii sibiilaa
+      - eelee sibiilaa
+    ipa: /ˈsɪbiːlɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: iron
+    verified: false
+  - english: metal
+    pos: noun
+    oromo: sibiila
+    alternates:
+      - distii
+      - hankaassee
+      - jinfuu
+      - maddaa
+    ipa: /ˈsɪbiːlɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: iron
+    verified: false
+  - english: glass
+    pos: noun
+    oromo: fullee
+    alternates:
+      - burcuqqoo
+      - callee
+      - abooree
+      - buurana
+    ipa: /ˈfʊlːéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/52/Om-fullee.ogg/Om-fullee.ogg.mp3
+    confidence: medium
+    glossSeen: glass (material)
+    verified: false
+  - english: clay
+    pos: noun
+    oromo: suphee
+    alternates:
+      - faaraa
+      - caabitaa
+      - keyifa
+      - maarashoo
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: clay
+    verified: false
+  - english: leather
+    pos: noun
+    oromo: gogaa
+    alternates:
+      - adoolaa
+      - akorbashii
+      - anqalbaa
+      - bonkoo
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: hide, pelt
+    verified: false
+  - english: plastic
+    pos: noun
+    oromo: koongoo
+    alternates:
+      - kokii laastikii
+    ipa: /ˈkoːnɡóː/
+    audioUrl: null
+    confidence: low
+    glossSeen: a shoe made up of plastic
+    verified: false

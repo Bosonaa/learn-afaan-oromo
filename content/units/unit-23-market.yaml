@@ -1,0 +1,320 @@
+id: unit-23-market
+order: 23
+title: Market & money
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: market
+    pos: noun
+    oromo: gabaa
+    alternates:
+      - machaara
+      - araadaa
+      - jaldhaaba
+      - kofalee
+    ipa: /ˈɡɐbɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f7/Om-gabaa.ogg/Om-gabaa.ogg.mp3
+    confidence: medium
+    glossSeen: market
+    verified: false
+  - english: money
+    pos: noun
+    oromo: maallaqa
+    alternates:
+      - qarshii
+      - horoo
+      - afalaamaa
+      - diriidii
+    ipa: /ˈmɑːlːɐkʼɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: money
+    verified: false
+  - english: price
+    pos: noun
+    oromo: qaala'a
+    alternates:
+      - dabala gatii
+      - jargii
+      - gati baasuu
+    ipa: /ˈkʼɑːlɐʔɐ/
+    audioUrl: null
+    confidence: low
+    glossSeen: expensive of high price
+    verified: false
+  - english: shop
+    pos: noun
+    oromo: dukkaana
+    alternates:
+      - suuqii
+      - hujaarsa
+      - mana bareedimaa
+      - mana foonii
+    ipa: /ˈdʊkːɑːnɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7e/Om-dukkaana.ogg/Om-dukkaana.ogg.mp3
+    confidence: high
+    glossSeen: shop
+    verified: false
+  - english: trade
+    pos: noun
+    oromo: daldala
+    alternates:
+      - daldaluu
+      - nagaduu
+      - daldalachuu
+      - daldalchiisuu
+    ipa: /ˈdɐldɐlɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/96/Om-daldala.ogg/Om-daldala.ogg.mp3
+    confidence: high
+    glossSeen: trade
+    verified: false
+  - english: coin
+    pos: noun
+    oromo: jannatoo
+    alternates:
+      - saantima
+      - dinaara
+      - farankaa
+      - beesaa
+    ipa: /ˈd͡ʒɐnːɐtóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: coin
+    verified: false
+  - english: silver
+    pos: noun
+    oromo: meeta
+    alternates:
+      - meetii
+      - jannatoo-meetii
+      - madaaliyaa meetii
+    ipa: /ˈmeːtɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: silver
+    verified: false
+  - english: gold
+    pos: noun
+    oromo: sokoo
+    alternates:
+      - warqii
+      - warqee
+      - seeqa
+      - dahaaba
+    ipa: /ˈsɔkóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: gold
+    verified: false
+  - english: change
+    pos: noun
+    oromo: diddiiruu
+    alternates:
+      - jijjiirama
+      - sharafuu
+      - jijjiiruu
+      - deebii
+    ipa: /ˈdɪdːiːrúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/57/Om-diddiiruu.ogg/Om-diddiiruu.ogg.mp3
+    confidence: medium
+    glossSeen: change
+    verified: false
+  - english: debt
+    pos: noun
+    oromo: liqeeffattuu
+    alternates: []
+    ipa: /ˈlɪkʼeːfːɐtːúː/
+    audioUrl: null
+    confidence: low
+    glossSeen: one who is in debt (fem)
+    verified: false
+  - english: loan
+    pos: noun
+    oromo: hunjoo
+    alternates:
+      - liqaa
+      - liqii
+      - leqeessuu
+      - liqeeffachuu
+    ipa: /ˈhʊnd͡ʒóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: loan
+    verified: false
+  - english: profit
+    pos: noun
+    oromo: dhala
+    alternates:
+      - akkaa ol buufachuu
+    ipa: /ˈᶑɐlɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5a/Om-dhala.ogg/Om-dhala.ogg.mp3
+    confidence: high
+    glossSeen: interest
+    verified: false
+  - english: loss
+    pos: noun
+    oromo: hemaa
+    alternates:
+      - gaggaba
+      - gachisuu
+      - qarreessuu
+      - irraa bawuu
+    ipa: /ˈhɛmɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: loss
+    verified: false
+  - english: wealth
+    pos: noun
+    oromo: badhaadhina
+    alternates:
+      - dunyaa
+      - horooma
+      - badhaadha
+      - duniyaa
+    ipa: /ˈbɐᶑɑːᶑɪnɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ac/Om-badhaadhina.ogg/Om-badhaadhina.ogg.mp3
+    confidence: medium
+    glossSeen: wealth
+    verified: false
+  - english: poverty
+    pos: noun
+    oromo: hiyyummaa
+    alternates:
+      - deega
+      - deegabaasuu
+      - agabuu bulaa
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: poverty
+    verified: false
+  - english: scale
+    pos: noun
+    oromo: daansaga
+    alternates:
+      - madaalloo
+      - madaallii
+      - gulantaa
+      - madaala
+    ipa: /ˈdɑːnsɐɡɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a7/Om-daansaga.ogg/Om-daansaga.ogg.mp3
+    confidence: medium
+    glossSeen: scale
+    verified: false
+  - english: weight
+    pos: noun
+    oromo: ulfina
+    alternates:
+      - farasullaa
+      - madaala ulfinaa
+      - meeshaa madaalaa
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: weight
+    verified: false
+  - english: measure
+    pos: noun
+    oromo: biikkaa
+    alternates:
+      - qebellaa
+      - daawullaa
+      - bikkuu
+      - dhahuu
+    ipa: /ˈbiːkːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/87/Om-biikkaa.ogg/Om-biikkaa.ogg.mp3
+    confidence: medium
+    glossSeen: measure
+    verified: false
+  - english: sack
+    pos: noun
+    oromo: jooniyyaa
+    alternates:
+      - boorsaa
+      - keeshaa
+      - cilgee
+      - dooniyyaa
+    ipa: /ˈd͡ʒoːnɪjːɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: sack
+    verified: false
+  - english: customer
+    pos: noun
+    oromo: maamila
+    alternates:
+      - beedee
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: customer
+    verified: false
+  - english: goods
+    pos: noun
+    oromo: mi'a
+    alternates:
+      - alergama
+      - dhiquu
+      - meeshaa alergi
+      - meeshaa dhumataa
+    ipa: /ˈmɪʔɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: goods
+    verified: false
+  - english: work
+    pos: noun
+    oromo: maa'ii
+    alternates:
+      - hujii
+      - qadhaaba
+      - hojjetachuu
+      - ojjechuu
+    ipa: /ˈmɑːʔíː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: work
+    verified: false
+  - english: wage
+    pos: noun
+    oromo: mindaa
+    alternates:
+      - riphaan loluu
+    ipa: /ˈmɪndɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/92/Om-mindaa.ogg/Om-mindaa.ogg.mp3
+    confidence: high
+    glossSeen: wage
+    verified: false
+  - english: tax
+    pos: noun
+    oromo: gibira
+    alternates:
+      - qaraxa
+      - ashuura
+      - asxeessuu
+      - abbaa galchaa
+    ipa: /ˈɡɪbɪrɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: tax
+    verified: false
+  - english: gift
+    pos: noun
+    oromo: kennaa
+    alternates:
+      - baalcha
+      - gonfa
+      - argaa
+      - cirintii
+    ipa: /ˈkɛnːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c2/Om-kennaa.ogg/Om-kennaa.ogg.mp3
+    confidence: medium
+    glossSeen: talent
+    verified: false

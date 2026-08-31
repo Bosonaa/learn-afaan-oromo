@@ -1,0 +1,233 @@
+id: unit-37-colours-and-shapes
+order: 37
+title: More colours & shapes
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: purple
+    pos: adj
+    oromo: bildiimoo
+    alternates:
+      - siddisee
+      - bildiimessuu
+      - bildiimaa
+    ipa: /ˈbɪldiːmóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/47/Om-bildiimoo.ogg/Om-bildiimoo.ogg.mp3
+    confidence: medium
+    glossSeen: purple
+    verified: false
+  - english: dark
+    pos: adj
+    oromo: cilaa'uu
+    alternates:
+      - bororoo
+      - dukkanaa'uu
+      - halkanaa'uu
+      - limixaa'uu
+    ipa: /ˈt͡ʃʼɪlɑːʔúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/53/Om-cilaa%27uu.ogg/Om-cilaa%27uu.ogg.mp3
+    confidence: high
+    glossSeen: being charcoal
+    verified: false
+  - english: bright
+    pos: adj
+    oromo: bisinqillee
+    alternates:
+      - baarilee
+      - jorroo
+      - cululugsuu
+      - cululuqfachuu
+    ipa: /ˈbɪsɪnkʼɪlːéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2e/Om-bisinqillee.ogg/Om-bisinqillee.ogg.mp3
+    confidence: low
+    glossSeen: bright red
+    verified: false
+  - english: round
+    pos: adj
+    oromo: marsaa
+    alternates:
+      - daabboo
+      - gofocuu
+      - inkoo
+      - maagoftuu
+    ipa: /ˈmɐrsɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: round
+    verified: false
+  - english: flat
+    pos: adj
+    oromo: dalga
+    alternates:
+      - beeddee
+      - jalqaba
+      - batteessuu
+      - damacaa
+    ipa: /ˈdɐlɡɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/60/Om-dalga.ogg/Om-dalga.ogg.mp3
+    confidence: medium
+    glossSeen: horizontal/flat
+    verified: false
+  - english: straight
+    pos: adj
+    oromo: lommaa
+    alternates:
+      - loomaa
+      - luuccessuu
+      - oljechuu
+      - solola'uu
+    ipa: /ˈlɔmːɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: straight
+    verified: false
+  - english: crooked
+    pos: adj
+    oromo: jalloo
+    alternates:
+      - qonyee
+      - jallaa
+      - jal'achuu
+      - jallachuu
+    ipa: /ˈd͡ʒɐlːóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: crooked (feminine)
+    verified: false
+  - english: deep
+    pos: adj
+    oromo: aanannoo
+    alternates:
+      - boolla'uu
+      - bool'eessuu
+      - boolleffachuu
+      - cookuu
+    ipa: /ɑːnɐnːóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e4/Om-aanannoo.ogg/Om-aanannoo.ogg.mp3
+    confidence: low
+    glossSeen: deep green milky climbing plant
+    verified: false
+  - english: thick
+    pos: adj
+    oromo: furdaa
+    alternates:
+      - furdachuu
+      - gaagubbaa
+      - gobbuu
+      - cororsaa
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: thick
+    verified: false
+  - english: thin
+    pos: adj
+    oromo: loollii
+    alternates:
+      - qallaa
+      - kuyyisa
+      - goggogaa
+      - huqqisuu
+    ipa: /ˈloːlːíː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: thin
+    verified: false
+  - english: sharp
+    pos: adj
+    oromo: aaddoo
+    alternates:
+      - aʼa
+      - dongora
+      - dongoruu
+      - muxxaawuu
+    ipa: /ɑːdːóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/dc/Om-aaddoo.ogg/Om-aaddoo.ogg.mp3
+    confidence: low
+    glossSeen: sharp shooter
+    verified: false
+  - english: blunt
+    pos: adj
+    oromo: dooma
+    alternates:
+      - doomuu
+      - doomsuu
+    ipa: /ˈdoːmɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/61/Om-dooma.ogg/Om-dooma.ogg.mp3
+    confidence: high
+    glossSeen: pickaxe
+    verified: false
+  - english: smooth
+    pos: adj
+    oromo: mushulugsuu
+    alternates:
+      - mushuluqsuu
+      - mushulugsa
+      - bosonqora
+      - morodamuu
+    ipa: /ˈmʊʃʊlʊɡsúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: to smooth
+    verified: false
+  - english: rough
+    pos: adj
+    oromo: saakarraa'uu
+    alternates:
+      - callabiyyoo
+      - baalaansoofii
+      - qugquuquu
+      - quuquu
+    ipa: /ˈsɑːkɐrːɑːʔúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: become course, rough
+    verified: false
+  - english: curved
+    pos: adj
+    oromo: golba
+    alternates:
+      - goggoolboo
+      - jallaa
+      - jallachuu
+      - cororsaa
+    ipa: /ˈɡɔlbɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: bowl- shaped, curved
+    verified: false
+  - english: pointed
+    pos: adj
+    oromo: dirmuu
+    alternates:
+      - hankaassee
+      - togga 'amuu
+    ipa: /ˈdɪrmúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5f/Om-dirmuu.ogg/Om-dirmuu.ogg.mp3
+    confidence: low
+    glossSeen: hurt oneself by thrusting oneself on a pointed object.
+    verified: false
+  - english: spotted
+    pos: adj
+    oromo: hoolee
+    alternates: []
+    ipa: /ˈhoːléː/
+    audioUrl: null
+    confidence: high
+    glossSeen: colored, spotted
+    verified: false
+  - english: striped
+    pos: adj
+    oromo: holee
+    alternates: []
+    ipa: /ˈhɔléː/
+    audioUrl: null
+    confidence: low
+    glossSeen: striped orspoted
+    verified: false

@@ -1,0 +1,306 @@
+id: unit-18-cooking
+order: 18
+title: Cooking & meals
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: meal
+    pos: noun
+    oromo: dhi'aan
+    alternates:
+      - dhiyeessuu
+      - maaddii
+      - dhiyeeffachuu
+    ipa: /ˈᶑɪʔɑːn/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c0/Om-dhi%27aan.ogg/Om-dhi%27aan.ogg.mp3
+    confidence: low
+    glossSeen: meal table
+    verified: false
+  - english: lunch
+    pos: noun
+    oromo: dhiyaana
+    alternates:
+      - laaqana
+    ipa: /ˈᶑɪjɑːnɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3d/Om-dhiyaana.ogg/Om-dhiyaana.ogg.mp3
+    confidence: medium
+    glossSeen: lunch
+    verified: false
+  - english: supper
+    pos: noun
+    oromo: irbaata
+    alternates:
+      - oolchaa
+      - maganfachuu
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: supper
+    verified: false
+  - english: dinner
+    pos: noun
+    oromo: subaaxa
+    alternates:
+      - bulaa
+      - waamuu
+    ipa: /ˈsʊbɑːtʼɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: dinner
+    verified: false
+  - english: stew
+    pos: noun
+    oromo: waxii
+    alternates:
+      - maraqaa
+      - waxuu
+      - duphoo
+      - kollaa
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: stew
+    verified: false
+  - english: sauce
+    pos: noun
+    oromo: maashaa
+    alternates:
+      - sinaabii
+      - mosollee
+      - cuubata
+      - distii sibiilaa
+    ipa: /ˈmɑːʃɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: sauce (of bean, pean)
+    verified: false
+  - english: dough
+    pos: noun
+    oromo: bukoo
+    alternates:
+      - daabbooqoloo
+      - daqqii
+      - baarree
+      - ganaana
+    ipa: /ˈbʊkóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4f/Om-bukoo.ogg/Om-bukoo.ogg.mp3
+    confidence: high
+    glossSeen: dough, batter
+    verified: false
+  - english: juice
+    pos: noun
+    oromo: cuunfaa
+    alternates:
+      - cimmiga
+      - cumaa
+      - cuunfachuu
+      - cuunfuu
+    ipa: /ˈt͡ʃʼuːnfɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/17/Om-cuunfaa.ogg/Om-cuunfaa.ogg.mp3
+    confidence: medium
+    glossSeen: juice
+    verified: false
+  - english: beer
+    pos: noun
+    oromo: biiraa
+    alternates:
+      - abshiloo
+      - buqqurii
+      - buttullee
+      - calalii
+    ipa: /ˈbiːrɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/af/Om-biiraa.ogg/Om-biiraa.ogg.mp3
+    confidence: high
+    glossSeen: beer
+    verified: false
+  - english: taste
+    pos: noun
+    oromo: dhamdhama
+    alternates:
+      - qacii
+      - dhandhama
+      - dhandhamchuu
+      - tuttufachuu
+    ipa: /ˈᶑɐmᶑɐmɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e5/Om-dhamdhama.ogg/Om-dhamdhama.ogg.mp3
+    confidence: medium
+    glossSeen: taste
+    verified: false
+  - english: cream
+    pos: noun
+    oromo: qurruu
+    alternates:
+      - dibata
+      - quyyifata
+      - saaphaphuu
+      - jalaatii
+    ipa: /ˈkʼʊrːúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: cream
+    verified: false
+  - english: fat
+    pos: noun
+    oromo: cooma
+    alternates:
+      - dummunyii
+      - ridama
+      - tuntunoo
+      - bokoree
+    ipa: /ˈt͡ʃʼoːmɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5f/Om-cooma.ogg/Om-cooma.ogg.mp3
+    confidence: medium
+    glossSeen: fat (bodily tissue)
+    verified: false
+  - english: broth
+    pos: noun
+    oromo: koosara
+    alternates:
+      - maraqaa
+    ipa: /ˈkoːsɐrɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: soup, broth
+    verified: false
+  - english: mash
+    pos: noun
+    oromo: lanqaxuu
+    alternates:
+      - lanqaxsiisuu
+    ipa: /ˈlɐnkʼɐtʼúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: mash, grind wet grain
+    verified: false
+  - english: slice
+    pos: noun
+    oromo: kakamma'amuu
+    alternates:
+      - muraa
+      - baqqana
+      - kartafuu
+      - kutachuu
+    ipa: /ˈkɐkɐmːɐʔɐmúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: slice
+    verified: false
+  - english: loaf
+    pos: noun
+    oromo: fooggaluu
+    alternates:
+      - ishkiruu
+      - cubbuxoo
+      - cumboola
+      - cafaqaa
+    ipa: /ˈfoːɡːɐlúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c0/Om-fooggaluu.ogg/Om-fooggaluu.ogg.mp3
+    confidence: high
+    glossSeen: loaf
+    verified: false
+  - english: grain
+    pos: noun
+    oromo: midhaan
+    alternates:
+      - abaqii
+      - akaawwii
+      - ashaaroo
+      - awwaaroo
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: grain
+    verified: false
+  - english: husk
+    pos: noun
+    oromo: quncee
+    alternates:
+      - shuqulsiisuu
+    ipa: /ˈkʼʊnt͡ʃʼéː/
+    audioUrl: null
+    confidence: high
+    glossSeen: rind, husk
+    verified: false
+  - english: peel
+    pos: noun
+    oromo: hophoo
+    alternates:
+      - solloqsuu
+      - quncisuu
+      - solloqqee firi
+      - qunca'uu
+    ipa: /ˈhɔpʼóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: cortex, peel
+    verified: false
+  - english: yeast
+    pos: noun
+    oromo: rushii
+    alternates:
+      - xa'aa
+      - raacitii
+      - xajja'uu
+    ipa: /ˈrʊʃíː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: yeast
+    verified: false
+  - english: portion
+    pos: noun
+    oromo: dirgoo
+    alternates: []
+    ipa: /ˈdɪrɡóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/db/Om-dirgoo.ogg/Om-dirgoo.ogg.mp3
+    confidence: high
+    glossSeen: part, portion
+    verified: false
+  - english: leftovers
+    pos: noun
+    oromo: hagooqqi
+    alternates:
+      - haqoogqachuu
+      - haqooqqachiisuu
+      - haqooqqamuu
+      - haqooquu
+    ipa: /ˈhɐɡoːkʼːɪ/
+    audioUrl: null
+    confidence: low
+    glossSeen: cleared leftovers in a dish
+    verified: false
+  - english: feast
+    pos: noun
+    oromo: qomora
+    alternates:
+      - nyaachisa
+    ipa: /ˈkʼɔmɔrɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: feast
+    verified: false
+  - english: snack
+    pos: noun
+    oromo: nyaabullee
+    alternates: []
+    ipa: /ˈɲɑːbʊlːéː/
+    audioUrl: null
+    confidence: high
+    glossSeen: snack
+    verified: false
+  - english: cake
+    pos: noun
+    oromo: keekii
+    alternates:
+      - caabetaa
+      - xessoo
+    ipa: /ˈkeːkíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: cake
+    verified: false

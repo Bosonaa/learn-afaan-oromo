@@ -1,0 +1,218 @@
+id: unit-25-travel
+order: 25
+title: Travel & transport
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: journey
+    pos: noun
+    oromo: deemsa
+    alternates:
+      - adeemmii
+      - amna
+      - adeemsa
+      - deemicha
+    ipa: /ˈdeːmsɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/86/Om-deemsa.ogg/Om-deemsa.ogg.mp3
+    confidence: medium
+    glossSeen: journey, trip, voyage
+    verified: false
+  - english: car
+    pos: noun
+    oromo: makiinaa
+    alternates:
+      - faturaa
+      - kaamiyooni
+      - kaaboo
+      - maasdaa
+    ipa: /ˈmɐkiːnɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: car
+    verified: false
+  - english: bus
+    pos: noun
+    oromo: otobusii
+    alternates:
+      - otobisii
+    ipa: /ɔtɔbʊsíː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: bus
+    verified: false
+  - english: truck
+    pos: noun
+    oromo: kaamiyooni
+    alternates: []
+    ipa: /ˈkɑːmɪjoːnɪ/
+    audioUrl: null
+    confidence: high
+    glossSeen: car, truck
+    verified: false
+  - english: bicycle
+    pos: noun
+    oromo: biskileettii
+    alternates:
+      - doqdoqqee
+    ipa: /ˈbɪskɪleːtːíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ef/Om-biskileettii.ogg/Om-biskileettii.ogg.mp3
+    confidence: high
+    glossSeen: bicycle
+    verified: false
+  - english: wheel
+    pos: noun
+    oromo: goloollee
+    alternates:
+      - daarota
+      - koryala
+    ipa: /ˈɡɔloːlːéː/
+    audioUrl: null
+    confidence: high
+    glossSeen: see 'korboo'
+    verified: false
+  - english: cart
+    pos: noun
+    oromo: guurtoo
+    alternates:
+      - hoboloo
+    ipa: /ˈɡuːrtóː/
+    audioUrl: null
+    confidence: low
+    glossSeen: wooden cart
+    verified: false
+  - english: train
+    pos: noun
+    oromo: baabura
+    alternates:
+      - ogoomsuu
+      - leenjisuu
+      - qaroomsuu
+      - barsiifachuu
+    ipa: /ˈbɑːbʊrɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e8/Om-baabura.ogg/Om-baabura.ogg.mp3
+    confidence: high
+    glossSeen: train
+    verified: false
+  - english: boat
+    pos: noun
+    oromo: hoboloo
+    alternates:
+      - doonii
+      - bidiruu bishaanii
+      - leendhaa
+    ipa: /ˈhɔbɔlóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: cart for transporting crop to threshing floor
+    verified: false
+  - english: ship
+    pos: noun
+    oromo: doonii
+    alternates:
+      - firoom
+      - cituu
+      - kaappiteenii doonii
+    ipa: /ˈdoːníː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/71/Om-doonii.ogg/Om-doonii.ogg.mp3
+    confidence: high
+    glossSeen: ship, boat
+    verified: false
+  - english: canoe
+    pos: noun
+    oromo: bidiruu
+    alternates: []
+    ipa: /ˈbɪdɪrúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b1/Om-bidiruu.ogg/Om-bidiruu.ogg.mp3
+    confidence: high
+    glossSeen: canoe
+    verified: false
+  - english: ticket
+    pos: noun
+    oromo: billeettoo
+    alternates:
+      - tikkeeta
+    ipa: /ˈbɪlːeːtːóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/48/Om-billeettoo.ogg/Om-billeettoo.ogg.mp3
+    confidence: medium
+    glossSeen: ticket
+    verified: false
+  - english: passenger
+    pos: noun
+    oromo: imalla
+    alternates:
+      - kara deema
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: passenger
+    verified: false
+  - english: distance
+    pos: noun
+    oromo: fageenya
+    alternates:
+      - taakkuu
+    ipa: /ˈfɐɡeːɲɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a7/Om-fageenya.ogg/Om-fageenya.ogg.mp3
+    confidence: high
+    glossSeen: distance
+    verified: false
+  - english: direction
+    pos: noun
+    oromo: kallattii
+    alternates:
+      - qixa
+      - addeela
+      - itti-
+      - galagalchaa
+    ipa: /ˈkɐlːɐtːíː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: direction
+    verified: false
+  - english: map
+    pos: noun
+    oromo: maappii
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: map
+    verified: false
+  - english: speed
+    pos: noun
+    oromo: saffisa
+    alternates:
+      - guulaa
+    ipa: /ˈsɐfːɪsɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: rate, speed
+    verified: false
+  - english: stop
+    pos: noun
+    oromo: iggituu
+    alternates:
+      - kutuu
+      - cuqqaallaa
+      - dhaabbannaa
+      - xiixaa
+    ipa: /ɪɡːɪtúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: to stop
+    verified: false
+  - english: departure
+    pos: noun
+    oromo: galaalcha
+    alternates: []
+    ipa: /ˈɡɐlɑːlt͡ʃɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: linger/delay/ departure
+    verified: false
