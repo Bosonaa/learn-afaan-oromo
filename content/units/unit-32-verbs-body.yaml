@@ -1,0 +1,313 @@
+id: unit-32-verbs-body
+order: 32
+title: "Verbs: body & senses"
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: wake
+    pos: verb
+    oromo: dammaquu
+    alternates:
+      - dammaqsuu
+      - hulmaa bawuu
+    ipa: /ˈdɐmːɐkʼúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fb/Om-dammaquu.ogg/Om-dammaquu.ogg.mp3
+    confidence: low
+    glossSeen: to wake up (intransitive)
+    verified: false
+  - english: listen
+    pos: verb
+    oromo: dhaggeeffachuu
+    alternates:
+      - dhageeffachuu
+      - dhaggeeffatamuu
+      - jalaa qabuu
+    ipa: /ˈᶑɐɡːeːfːɐt͡ʃúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/26/Om-dhaggeeffachuu.ogg/Om-dhaggeeffachuu.ogg.mp3
+    confidence: medium
+    glossSeen: to listen
+    verified: false
+  - english: smell
+    pos: verb
+    oromo: suurrachuu
+    alternates:
+      - fuunfachuu
+      - suufuu
+      - foolii
+      - ciincaa
+    ipa: /ˈsuːrːɐt͡ʃúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: smell
+    verified: false
+  - english: touch
+    pos: verb
+    oromo: xuquu
+    alternates:
+      - tuquu
+      - tuqsisuu
+      - tuttuquu
+      - qaqqabaa
+    ipa: /ˈtʼʊkʼúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: touch
+    verified: false
+  - english: feel
+    pos: verb
+    oromo: ceemma'uu
+    alternates:
+      - dhaamochuu
+      - dukukuu
+      - hafuursuu
+      - mararsiifachuu
+    ipa: /ˈt͡ʃʼeːmːɐʔúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f5/Om-ceemma%27uu.ogg/Om-ceemma%27uu.ogg.mp3
+    confidence: low
+    glossSeen: being hesitant
+    verified: false
+  - english: breathe
+    pos: verb
+    oromo: hafuura baafachuu
+    alternates:
+      - afuura baasuu
+    ipa: /ˈhɐfuːrɐ bɑːfɐt͡ʃúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: breathe
+    verified: false
+  - english: bite
+    pos: verb
+    oromo: ciniinuu
+    alternates:
+      - cininnachuu
+      - hamachuu
+      - hiddisiisuu
+      - maqaa dhawuu
+    ipa: /ˈt͡ʃʼɪniːnúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/59/Om-ciniinuu.ogg/Om-ciniinuu.ogg.mp3
+    confidence: medium
+    glossSeen: to bite
+    verified: false
+  - english: chew
+    pos: verb
+    oromo: alaanfachuu
+    alternates:
+      - alanfachuu
+      - qamahuu
+      - gogordamuu
+      - alanfachiisuu
+    ipa: /ɐlɑːnfɐt͡ʃúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/48/Om-alaanfachuu.ogg/Om-alaanfachuu.ogg.mp3
+    confidence: medium
+    glossSeen: chew
+    verified: false
+  - english: spit
+    pos: verb
+    oromo: tufuu
+    alternates:
+      - akkifata
+      - aakkii
+      - aakkifachuu
+      - bulgaafachuu
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: to spit
+    verified: false
+  - english: bathe
+    pos: verb
+    oromo: qaqqaammachuu
+    alternates: []
+    ipa: /ˈkʼɐkʼːɑːmːɐt͡ʃúː/
+    audioUrl: null
+    confidence: low
+    glossSeen: warm oneself by fire sun- bathe
+    verified: false
+  - english: rest
+    pos: verb
+    oromo: aaragalfachuu
+    alternates:
+      - bayyanachuu
+      - boqonnaa
+      - qabbaneeffannaa
+      - hobbaafannaa
+    ipa: /ɑːrɐɡɐlfɐt͡ʃúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/54/Om-aaragalfachuu.ogg/Om-aaragalfachuu.ogg.mp3
+    confidence: medium
+    glossSeen: to rest
+    verified: false
+  - english: die
+    pos: verb
+    oromo: du'uu
+    alternates:
+      - cichuu
+      - biyyee nyaachuu
+      - biliqjechuu
+      - gamuu
+    ipa: /ˈdʊʔúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/13/Om-du%27uu.ogg/Om-du%27uu.ogg.mp3
+    confidence: medium
+    glossSeen: to die
+    verified: false
+  - english: grow
+    pos: verb
+    oromo: biqiluu
+    alternates:
+      - marguu
+      - dagaagsisuu
+      - dargaggoomuu
+      - dagaaguu
+    ipa: /ˈbɪkʼɪlúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b7/Om-biqiluu.ogg/Om-biqiluu.ogg.mp3
+    confidence: medium
+    glossSeen: grow, geminate/sprout
+    verified: false
+  - english: heal
+    pos: verb
+    oromo: dhinuu
+    alternates: []
+    ipa: /ˈᶑɪnúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e9/Om-dhinuu.ogg/Om-dhinuu.ogg.mp3
+    confidence: low
+    glossSeen: recover heal
+    verified: false
+  - english: yawn
+    pos: verb
+    oromo: hamuummachuu
+    alternates:
+      - hamuummaa
+      - hamuummachisuu
+    ipa: /ˈhɐmuːmːɐt͡ʃúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: to yawn (self)
+    verified: false
+  - english: blink
+    pos: verb
+    oromo: qisuu
+    alternates:
+      - biliqisuu
+      - libsachuu
+      - libsuu
+      - billiqa
+    ipa: /ˈkʼɪsúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: to blink
+    verified: false
+  - english: shiver
+    pos: verb
+    oromo: hollachuu
+    alternates:
+      - kerkersuu
+      - ollachuu
+      - roqomuu
+      - hollachiisuu
+    ipa: /ˈhɔlːɐt͡ʃúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: to shiver
+    verified: false
+  - english: sweat
+    pos: verb
+    oromo: dafquu
+    alternates:
+      - dafqa
+      - dafqisiisuu
+    ipa: /ˈdɐfkʼúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9e/Om-dafquu.ogg/Om-dafquu.ogg.mp3
+    confidence: high
+    glossSeen: to sweat
+    verified: false
+  - english: tremble
+    pos: verb
+    oromo: rom'uu
+    alternates:
+      - suuka'uu
+    ipa: /ˈrɔmʔúː/
+    audioUrl: null
+    confidence: low
+    glossSeen: to shiver or tremble
+    verified: false
+  - english: kneel
+    pos: verb
+    oromo: jilbeenfachisuu
+    alternates:
+      - jilbeeffachiisuu
+    ipa: /ˈd͡ʒɪlbeːnfɐt͡ʃɪsúː/
+    audioUrl: null
+    confidence: low
+    glossSeen: cause to kneel down
+    verified: false
+  - english: bend
+    pos: verb
+    oromo: dabsuu
+    alternates:
+      - gonboobuu
+      - dhommoysuu
+      - duufuu
+      - hookkessuu
+    ipa: /ˈdɐbsúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d0/Om-dabsuu.ogg/Om-dabsuu.ogg.mp3
+    confidence: medium
+    glossSeen: bend
+    verified: false
+  - english: stretch
+    pos: verb
+    oromo: dhifachuu
+    alternates:
+      - dhisuu
+      - diriirfachiisuu
+      - diriirfachuu
+      - diriirsuu
+    ipa: /ˈᶑɪfɐt͡ʃúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e4/Om-dhifachuu.ogg/Om-dhifachuu.ogg.mp3
+    confidence: low
+    glossSeen: stretch pleat or skin of animals
+    verified: false
+  - english: swell
+    pos: verb
+    oromo: orbobbeechuu
+    alternates:
+      - xiillawuu
+      - dhiitessuu
+      - digaluu
+      - furfuuruu
+    ipa: /ɔrbɔbːeːt͡ʃúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: to swell
+    verified: false
+  - english: bleed
+    pos: verb
+    oromo: dhiiguu
+    alternates:
+      - dhiigsuu
+      - funuunsuu
+      - funuunuu
+      - funuuna
+    ipa: /ˈᶑiːɡúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b7/Om-dhiiguu.ogg/Om-dhiiguu.ogg.mp3
+    confidence: high
+    glossSeen: to bleed
+    verified: false
+  - english: faint
+    pos: verb
+    oromo: gaggabuu
+    alternates:
+      - gageabdoo
+      - gaggaba
+      - gaggabsuu
+      - yeela'uu
+    ipa: /ˈɡɐɡːɐbúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: tingle, faint
+    verified: false

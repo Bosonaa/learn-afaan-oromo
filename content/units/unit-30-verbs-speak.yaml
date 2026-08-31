@@ -1,0 +1,315 @@
+id: unit-30-verbs-speak
+order: 30
+title: "Verbs: speaking & thinking"
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: say
+    pos: verb
+    oromo: jechuu
+    alternates:
+      - jedhuu
+      - baanuu
+      - ja'uu
+      - farrisiisuu
+    ipa: /ˈd͡ʒɛt͡ʃúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: say
+    verified: false
+  - english: tell
+    pos: verb
+    oromo: itti himuu
+    alternates:
+      - himmitee
+      - himsiifachuu
+      - maallimuu
+      - mammaakamuu
+    ipa: /ɪtːɪ hɪmúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: tell
+    verified: false
+  - english: ask
+    pos: verb
+    oromo: gaafachuu
+    alternates:
+      - iyyaafachuu
+      - qorqoruu
+      - iyyachuu
+      - hawwachuu
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: to ask, inquire
+    verified: false
+  - english: call
+    pos: verb
+    oromo: waammachuu
+    alternates:
+      - waamsifachuu
+      - waamsisuu
+      - yaammachuu
+      - awwaachuu
+    ipa: /ˈwɑːmːɐt͡ʃúː/
+    audioUrl: null
+    confidence: low
+    glossSeen: to call for oneself
+    verified: false
+  - english: shout
+    pos: verb
+    oromo: oo'uu
+    alternates:
+      - iyyuu
+      - gadooduu
+      - caraansiisuu
+      - dutuu
+    ipa: /oːʔúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: shout
+    verified: false
+  - english: whisper
+    pos: verb
+    oromo: hasaasuu
+    alternates:
+      - asaasuu
+      - asaasa
+      - hasaasa
+      - husuu
+    ipa: /ˈhɐsɑːsúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: to whisper
+    verified: false
+  - english: sing
+    pos: verb
+    oromo: alalaasuu
+    alternates:
+      - geeraruu
+      - mikkiruu
+      - weeddisuu
+      - wallisuu
+    ipa: /ɐlɐlɑːsúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f1/Om-alalaasuu.ogg/Om-alalaasuu.ogg.mp3
+    confidence: medium
+    glossSeen: to sing
+    verified: false
+  - english: think
+    pos: verb
+    oromo: yaaduu
+    alternates:
+      - abbaluu
+      - abbala
+      - abuurrachuu
+      - ajjamsisuu
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: to think
+    verified: false
+  - english: know
+    pos: verb
+    oromo: beekuu
+    alternates:
+      - qorqoruu
+      - walbeekuu
+      - wallaalchiisuu
+      - wallaaluu
+    ipa: /ˈbeːkúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/21/Om-beekuu.ogg/Om-beekuu.ogg.mp3
+    confidence: high
+    glossSeen: to know
+    verified: false
+  - english: understand
+    pos: verb
+    oromo: hubachuu
+    alternates:
+      - dhamdhamsiisuu
+      - hubatamuu
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: to understand
+    verified: false
+  - english: remember
+    pos: verb
+    oromo: yaadachuu
+    alternates:
+      - yaaddachiisuu
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: to remember
+    verified: false
+  - english: forget
+    pos: verb
+    oromo: dagachuu
+    alternates:
+      - irraanfachuu
+      - daguu
+      - irraanfachiisuu
+      - ofdagachuu
+    ipa: /ˈdɐɡɐt͡ʃúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/53/Om-dagachuu.ogg/Om-dagachuu.ogg.mp3
+    confidence: medium
+    glossSeen: to forget
+    verified: false
+  - english: learn
+    pos: verb
+    oromo: baruu
+    alternates:
+      - barachuu
+    ipa: /ˈbɐrúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b7/Om-baruu.ogg/Om-baruu.ogg.mp3
+    confidence: medium
+    glossSeen: to learn
+    verified: false
+  - english: teach
+    pos: verb
+    oromo: qaraasisuu
+    alternates:
+      - barsiifachuu
+    ipa: /ˈkʼɐrɑːsɪsúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: to teach
+    verified: false
+  - english: believe
+    pos: verb
+    oromo: amanuu
+    alternates: []
+    ipa: /ɐmɐnúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/16/Om-amanuu.ogg/Om-amanuu.ogg.mp3
+    confidence: high
+    glossSeen: to believe
+    verified: false
+  - english: want
+    pos: verb
+    oromo: fedhuu
+    alternates:
+      - soroobuu
+      - soqachuu
+    ipa: /ˈfɛᶑúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/27/Om-fedhuu.ogg/Om-fedhuu.ogg.mp3
+    confidence: medium
+    glossSeen: to want, desire, wish
+    verified: false
+  - english: hope
+    pos: verb
+    oromo: abdii
+    alternates:
+      - herreegachuu
+      - abdachiisuu
+      - abdataa
+      - irraa bawuu
+    ipa: /ɐbdíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/53/Om-abdii.ogg/Om-abdii.ogg.mp3
+    confidence: medium
+    glossSeen: hope
+    verified: false
+  - english: fear
+    pos: verb
+    oromo: sodaa
+    alternates:
+      - onnee dhabuu
+      - bir'achuu
+      - sodaachisuu
+      - sodaachuu
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: fear
+    verified: false
+  - english: love
+    pos: verb
+    oromo: jaalachuu
+    alternates:
+      - jaalala
+      - marartoo
+      - jaalachiisuu
+      - jaalatamuu
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: to love, like
+    verified: false
+  - english: hate
+    pos: verb
+    oromo: falquu
+    alternates:
+      - balfachuu
+      - jibba
+      - waljibbuu
+    ipa: /ˈfɐlkʼúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/19/Om-falquu.ogg/Om-falquu.ogg.mp3
+    confidence: medium
+    glossSeen: to hate
+    verified: false
+  - english: decide
+    pos: verb
+    oromo: murteessuu
+    alternates:
+      - mursisuu
+      - murtoomfachuu
+      - murachuu
+      - murteessisuu
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: to decide
+    verified: false
+  - english: promise
+    pos: verb
+    oromo: abdachiisuu
+    alternates:
+      - hirbuu
+      - waadaa
+      - wareega
+      - ahadii
+    ipa: /ɐbdɐt͡ʃiːsúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e3/Om-abdachiisuu.ogg/Om-abdachiisuu.ogg.mp3
+    confidence: medium
+    glossSeen: to give hope, promise
+    verified: false
+  - english: greet
+    pos: verb
+    oromo: dubbisuu
+    alternates:
+      - simuu
+      - waldubbisuu
+    ipa: /ˈdʊbːɪsúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e3/Om-dubbisuu.ogg/Om-dubbisuu.ogg.mp3
+    confidence: high
+    glossSeen: to greet
+    verified: false
+  - english: thank
+    pos: verb
+    oromo: galateeffachuu
+    alternates:
+      - galateeffachiisuu
+      - nibaruu
+    ipa: /ˈɡɐlɐteːfːɐt͡ʃúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: to thank
+    verified: false
+  - english: pray
+    pos: verb
+    oromo: hoqobuu
+    alternates:
+      - kadhachuu
+      - sagaduu
+      - salaata
+      - irreefachiisuu
+    ipa: /ˈhɔkʼɔbúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: to pray
+    verified: false

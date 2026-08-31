@@ -1,0 +1,318 @@
+id: unit-36-directions
+order: 36
+title: Places & directions
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: place
+    pos: noun
+    oromo: bakka
+    alternates:
+      - cibra
+      - ramaduu
+      - hiddoo
+      - kaa'uu
+    ipa: /ˈbɐkːɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/71/Om-bakka.ogg/Om-bakka.ogg.mp3
+    confidence: medium
+    glossSeen: place, site, location
+    verified: false
+  - english: side
+    pos: noun
+    oromo: cinaacha
+    alternates:
+      - baabsuu
+      - garuu
+      - errii
+      - gammidhaa
+    ipa: /ˈt͡ʃʼɪnɑːt͡ʃɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/70/Om-cinaacha.ogg/Om-cinaacha.ogg.mp3
+    confidence: medium
+    glossSeen: ribs
+    verified: false
+  - english: front
+    pos: noun
+    oromo: duula
+    alternates:
+      - hulaa
+      - geesaa
+      - qarmammee
+      - qarmammeettii
+    ipa: /ˈduːlɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c3/Om-duula.ogg/Om-duula.ogg.mp3
+    confidence: high
+    glossSeen: front (area of conflict)
+    verified: false
+  - english: top
+    pos: noun
+    oromo: guttiyyee
+    alternates:
+      - gubbee
+      - qucee
+      - ungulaalamuu
+      - ungulaaluu
+    ipa: /ˈɡʊtːɪjːéː/
+    audioUrl: null
+    confidence: low
+    glossSeen: hen with a bunch of feather on the top of its head.
+    verified: false
+  - english: bottom
+    pos: noun
+    oromo: hudduu
+    alternates:
+      - semmoo
+      - dugugguruu
+      - gadiitoo
+      - taa' umsa
+    ipa: /ˈhʊdːúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: bottom, buttocks, seat
+    verified: false
+  - english: middle
+    pos: noun
+    oromo: sontoo
+    alternates:
+      - arrabsaa
+      - barjidoo
+      - jeddujiressa
+      - tirsoo
+    ipa: /ˈsɔntóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: middle, half way
+    verified: false
+  - english: end
+    pos: noun
+    oromo: dhuma
+    alternates:
+      - muummessa
+      - saabachuu
+      - xumuruu
+      - hankaassee
+    ipa: /ˈᶑʊmɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3b/Om-dhuma.ogg/Om-dhuma.ogg.mp3
+    confidence: medium
+    glossSeen: end
+    verified: false
+  - english: edge
+    pos: noun
+    oromo: afaan
+    alternates:
+      - timjii
+      - andaara
+      - handaara
+      - moggaa
+    ipa: /ɐfɑːn/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/41/Om-afaan.ogg/Om-afaan.ogg.mp3
+    confidence: medium
+    glossSeen: mouth
+    verified: false
+  - english: corner
+    pos: noun
+    oromo: hogolee
+    alternates: []
+    ipa: /ˈhɔɡɔléː/
+    audioUrl: null
+    confidence: low
+    glossSeen: corner or at rear, hidden yard
+    verified: false
+  - english: inside
+    pos: noun
+    oromo: gebexii
+    alternates:
+      - itti cabuu
+    ipa: /ˈɡɛbɛtʼíː/
+    audioUrl: null
+    confidence: low
+    glossSeen: roost i.e. plat form built inside a house where fowls perch at night
+    verified: false
+  - english: outside
+    pos: noun
+    oromo: immisii
+    alternates:
+      - baargama
+      - ala bulchuu
+      - ala buluu
+      - unkutuu
+    ipa: /ɪmːɪsíː/
+    audioUrl: null
+    confidence: low
+    glossSeen: grain put outside to get dried
+    verified: false
+  - english: north
+    pos: noun
+    oromo: mandiidaa
+    alternates:
+      - zoodiyaak
+      - kaaba bahaa
+      - kaaba kibba
+      - kaaba lixaa
+    ipa: /ˈmɐndiːdɑ́ː/
+    audioUrl: null
+    confidence: low
+    glossSeen: grown big, wide, large
+    verified: false
+  - english: south
+    pos: noun
+    oromo: kibba
+    alternates:
+      - zoodiyaak
+      - kaaba kibba
+      - kibba bahaa
+      - kibba dhihaa
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: south
+    verified: false
+  - english: east
+    pos: noun
+    oromo: baha
+    alternates:
+      - bushooftuu
+      - maqii
+      - kaaba bahaa
+      - kibba bahaa
+    ipa: /ˈbɐhɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3d/Om-baha.ogg/Om-baha.ogg.mp3
+    confidence: high
+    glossSeen: east
+    verified: false
+  - english: west
+    pos: noun
+    oromo: lixa
+    alternates:
+      - sanqallee
+      - gafarsa
+      - shoboka
+      - kaaba lixaa
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: west
+    verified: false
+  - english: right
+    pos: noun
+    oromo: tabaroo
+    alternates:
+      - kofajoo
+      - seega
+      - abbaa mirgaa
+      - maksuu
+    ipa: /ˈtɐbɐróː/
+    audioUrl: null
+    confidence: high
+    glossSeen: right
+    verified: false
+  - english: left
+    pos: noun
+    oromo: filaa
+    alternates:
+      - bulaa
+      - gadhiisaa
+      - gadhiisii
+      - gubaalessa
+    ipa: /ˈfɪlɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/75/Om-filaa.ogg/Om-filaa.ogg.mp3
+    confidence: low
+    glossSeen: comb
+    verified: false
+  - english: way
+    pos: noun
+    oromo: akkumsa
+    alternates:
+      - moocii
+      - dubbannaa
+      - duudhaa
+      - gambaallee
+    ipa: /ɐkːʊmsɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d0/Om-akkumsa.ogg/Om-akkumsa.ogg.mp3
+    confidence: medium
+    glossSeen: way, system, factor
+    verified: false
+  - english: border
+    pos: noun
+    oromo: andaara
+    alternates:
+      - daarii
+      - handaara
+      - moggaa
+      - gafarsa
+    ipa: /ɐndɑːrɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/27/Om-andaara.ogg/Om-andaara.ogg.mp3
+    confidence: medium
+    glossSeen: border, fringe, hem, edge
+    verified: false
+  - english: centre
+    pos: noun
+    oromo: handhuura magaalaa
+    alternates: []
+    ipa: /ˈhɐnᶑuːrɐ mɐɡɑːlɑ́ː/
+    audioUrl: null
+    confidence: low
+    glossSeen: city centre
+    verified: false
+  - english: entrance
+    pos: noun
+    oromo: afaan
+    alternates:
+      - qarmammii
+      - hulaa
+      - habiisee seensaa
+    ipa: /ɐfɑːn/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/41/Om-afaan.ogg/Om-afaan.ogg.mp3
+    confidence: medium
+    glossSeen: mouth
+    verified: false
+  - english: above
+    pos: noun
+    oromo: fudiddiso
+    alternates:
+      - irra dhaaba
+    ipa: /ˈfʊdɪdːɪsɔ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/66/Om-fudiddiso.ogg/Om-fudiddiso.ogg.mp3
+    confidence: low
+    glossSeen: suspended from above usually for children to sit on and swing
+    verified: false
+  - english: below
+    pos: noun
+    oromo: gambaallee
+    alternates:
+      - jallaba
+    ipa: /ˈɡɐmbɑːlːéː/
+    audioUrl: null
+    confidence: low
+    glossSeen: piece of cloth worn on a leg below knee or leather worn in the same way
+    verified: false
+  - english: near
+    pos: noun
+    oromo: cillaaddoo
+    alternates:
+      - aaneffachuu
+      - kalawaa
+      - itti dhiyaachuu
+    ipa: /ˈt͡ʃʼɪlːɑːdːóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0d/Om-cillaaddoo.ogg/Om-cillaaddoo.ogg.mp3
+    confidence: low
+    glossSeen: grass near swampy
+    verified: false
+  - english: far
+    pos: noun
+    oromo: fantaalee
+    alternates:
+      - furuursa
+      - fageessuu
+      - fagaachuu
+      - halkaneessuu
+    ipa: /ˈfɐntɑːléː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/72/Om-fantaalee.ogg/Om-fantaalee.ogg.mp3
+    confidence: low
+    glossSeen: something big and can be seen easily from far away
+    verified: false

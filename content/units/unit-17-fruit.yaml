@@ -1,0 +1,213 @@
+id: unit-17-fruit
+order: 17
+title: Fruit & vegetables
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: lemon
+    pos: noun
+    oromo: dhugoo
+    alternates:
+      - xuuxxoo
+      - loomii
+      - masaraftaa
+    ipa: /ˈᶑʊɡóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ab/Om-dhugoo.ogg/Om-dhugoo.ogg.mp3
+    confidence: medium
+    glossSeen: lemon
+    verified: false
+  - english: mango
+    pos: noun
+    oromo: maangoo
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: mango
+    verified: false
+  - english: apple
+    pos: noun
+    oromo: poomii
+    alternates:
+      - ilippa
+      - ooddoo
+      - qomaaxee
+    ipa: /ˈpoːmíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/19/Om-poomii.ogg/Om-poomii.ogg.mp3
+    confidence: medium
+    glossSeen: apple
+    verified: false
+  - english: papaya
+    pos: noun
+    oromo: paappaayaa
+    alternates: []
+    ipa: /ˈpɑːpːɑːjɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5f/Om-paappaayaa.ogg/Om-paappaayaa.ogg.mp3
+    confidence: high
+    glossSeen: papaya
+    verified: false
+  - english: pineapple
+    pos: noun
+    oromo: anaanaasii
+    alternates: []
+    ipa: /ɐnɑːnɑːsíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/db/Om-anaanaasii.ogg/Om-anaanaasii.ogg.mp3
+    confidence: high
+    glossSeen: pineapple
+    verified: false
+  - english: tomato
+    pos: noun
+    oromo: ajaagaarii
+    alternates:
+      - timaatimii
+      - timaatima
+    ipa: /ɐd͡ʒɑːɡɑːríː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/39/Om-ajaagaarii.ogg/Om-ajaagaarii.ogg.mp3
+    confidence: medium
+    glossSeen: tomato
+    verified: false
+  - english: garlic
+    pos: noun
+    oromo: qurfoo
+    alternates:
+      - qullubbii
+    ipa: /ˈkʼʊrfóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: garlic
+    verified: false
+  - english: cabbage
+    pos: noun
+    oromo: kaaboolii
+    alternates:
+      - yumoo
+      - shaanaa
+      - raatuu
+      - raafuu
+    ipa: /ˈkɑːboːlíː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: cabbage
+    verified: false
+  - english: carrot
+    pos: noun
+    oromo: kaarotii
+    alternates:
+      - kaarooti
+    ipa: /ˈkɑːrɔtíː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: carrot
+    verified: false
+  - english: pumpkin
+    pos: noun
+    oromo: dabaaqula
+    alternates:
+      - curaa
+      - kululuu
+      - quuxaa
+    ipa: /ˈdɐbɑːkʼʊlɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ea/Om-dabaaqula.ogg/Om-dabaaqula.ogg.mp3
+    confidence: high
+    glossSeen: pumpkin
+    verified: false
+  - english: bean
+    pos: noun
+    oromo: baaqelaa
+    alternates:
+      - dafee
+      - hardooma
+      - hephoo
+      - kotoree
+    ipa: /ˈbɑːkʼɛlɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/20/Om-baaqelaa.ogg/Om-baaqelaa.ogg.mp3
+    confidence: medium
+    glossSeen: bean
+    verified: false
+  - english: pea
+    pos: noun
+    oromo: atara
+    alternates:
+      - aatoo
+      - haatoo
+      - kajii
+      - ququmsuu
+    ipa: /ɐtɐrɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f1/Om-atara.ogg/Om-atara.ogg.mp3
+    confidence: medium
+    glossSeen: pea
+    verified: false
+  - english: corn
+    pos: noun
+    oromo: boqqolloo
+    alternates:
+      - deeddee
+      - kijjoo
+      - moshee
+      - oromee
+    ipa: /ˈbɔkʼːɔlːóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0a/Om-boqqolloo.ogg/Om-boqqolloo.ogg.mp3
+    confidence: medium
+    glossSeen: corn, maize
+    verified: false
+  - english: wheat
+    pos: noun
+    oromo: qamadii
+    alternates:
+      - dargaa dargaayyee
+      - wandaroo
+      - qaxxee
+      - unkutoo
+    ipa: /ˈkʼɐmɐdíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: wheat
+    verified: false
+  - english: sorghum
+    pos: noun
+    oromo: bulchee
+    alternates:
+      - coomee
+      - duphoo
+      - facee
+      - ficaa
+    ipa: /ˈbʊlt͡ʃéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/40/Om-bulchee.ogg/Om-bulchee.ogg.mp3
+    confidence: low
+    glossSeen: a kind of sorghum
+    verified: false
+  - english: rice
+    pos: noun
+    oromo: ruuzii
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: rice
+    verified: false
+  - english: spinach
+    pos: noun
+    oromo: qoosxaa
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: spinach
+    verified: false
+  - english: melon
+    pos: noun
+    oromo: ugoo
+    alternates:
+      - buqqee
+      - habaha
+    ipa: /ʊɡóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: melon
+    verified: false

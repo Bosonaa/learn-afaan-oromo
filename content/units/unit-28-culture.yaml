@@ -1,0 +1,248 @@
+id: unit-28-culture
+order: 28
+title: Music, story & celebration
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: music
+    pos: noun
+    oromo: muuziqaa
+    alternates:
+      - hawwisoo
+      - kiraar
+    ipa: /ˈmuːzɪkʼɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: music
+    verified: false
+  - english: drum
+    pos: noun
+    oromo: dibbee
+    alternates:
+      - dhibbisaa
+      - didibbisa
+      - goonoo
+      - nagaarita
+    ipa: /ˈdɪbːéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/24/Om-dibbee.ogg/Om-dibbee.ogg.mp3
+    confidence: high
+    glossSeen: drum
+    verified: false
+  - english: flute
+    pos: noun
+    oromo: ululloo
+    alternates:
+      - uluullee
+      - raambaa
+    ipa: /ʊlʊlːóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: flute
+    verified: false
+  - english: dance
+    pos: noun
+    oromo: daalala
+    alternates:
+      - dallala
+      - hurruuba
+      - shubbisa
+      - dhiichisa
+    ipa: /ˈdɑːlɐlɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8b/Om-daalala.ogg/Om-daalala.ogg.mp3
+    confidence: medium
+    glossSeen: dance
+    verified: false
+  - english: riddle
+    pos: noun
+    oromo: hibboo
+    alternates:
+      - hiibboo
+    ipa: /ˈhɪbːóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: riddle
+    verified: false
+  - english: proverb
+    pos: noun
+    oromo: mammaaksa
+    alternates:
+      - mammaakuu
+    ipa: /mɐmˈmɑ́ːksɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: adage, proverb, saying
+    verified: false
+  - english: poem
+    pos: noun
+    oromo: mirriigsa
+    alternates:
+      - walaloo
+      - mirriiqsuu
+      - rumaanii
+      - walaleessuu
+    ipa: /ˈmɪrːiːɡsɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: poem
+    verified: false
+  - english: wedding
+    pos: noun
+    oromo: cidha
+    alternates:
+      - hacamooyyaa
+      - waa'ela
+      - gurguboo
+      - aayyo aabbo
+    ipa: /ˈt͡ʃʼɪᶑɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/88/Om-cidha.ogg/Om-cidha.ogg.mp3
+    confidence: high
+    glossSeen: wedding
+    verified: false
+  - english: funeral
+    pos: noun
+    oromo: du'a ga'ii
+    alternates:
+      - sirna awwaalaa
+      - sirna awaalaa
+      - adeemsa awwaalaa
+      - sirna awwaalchaa
+    ipa: /ˈdʊʔɐ ɡɐʔíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/74/Om-du%27a_ga%27ii.ogg/Om-du%27a_ga%27ii.ogg.mp3
+    confidence: medium
+    glossSeen: funeral
+    verified: false
+  - english: ceremony
+    pos: noun
+    oromo: aadee
+    alternates:
+      - daaccii
+      - fooqa
+      - barcaa
+      - irreecha
+    ipa: /ɑːdéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/50/Om-aadee.ogg/Om-aadee.ogg.mp3
+    confidence: low
+    glossSeen: tree used during a ritual ceremony called 'Ateetee'
+    verified: false
+  - english: blessing
+    pos: noun
+    oromo: eebba
+    alternates:
+      - ammachiisa
+      - nagaroo
+      - mijuu
+      - saayyee
+    ipa: /eːbːɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b7/Om-eebba.ogg/Om-eebba.ogg.mp3
+    confidence: medium
+    glossSeen: blessing
+    verified: false
+  - english: prayer
+    pos: noun
+    oromo: sagada
+    alternates:
+      - kadhata
+      - xu'aara
+      - masqaleeffachuu
+    ipa: /ˈsɐɡɐdɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: prayer
+    verified: false
+  - english: god
+    pos: noun
+    oromo: aseelloo
+    alternates:
+      - Waaqayyo
+      - waaqa
+      - Waaqa
+      - awuliyaa
+    ipa: /ɐseːlːóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cc/Om-aseelloo.ogg/Om-aseelloo.ogg.mp3
+    confidence: medium
+    glossSeen: god
+    verified: false
+  - english: spirit
+    pos: noun
+    oromo: ayyaana
+    alternates:
+      - afuura
+      - hafuuroo
+      - karaamaa
+      - awaayii
+    ipa: /ɐjːɑːnɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/28/Om-ayyaana.ogg/Om-ayyaana.ogg.mp3
+    confidence: medium
+    glossSeen: spirit
+    verified: false
+  - english: custom
+    pos: noun
+    oromo: barsiifata
+    alternates:
+      - aadaa
+      - dambii
+      - duudhaa
+      - akka qabaachuu
+    ipa: /ˈbɐrsiːfɐtɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5f/Om-barsiifata.ogg/Om-barsiifata.ogg.mp3
+    confidence: medium
+    glossSeen: custom
+    verified: false
+  - english: tradition
+    pos: noun
+    oromo: barmoota
+    alternates:
+      - jifuu
+      - duudhaa
+      - furii
+      - muka abbaa
+    ipa: /ˈbɐrmoːtɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9c/Om-barmoota.ogg/Om-barmoota.ogg.mp3
+    confidence: medium
+    glossSeen: see 'barmoota'
+    verified: false
+  - english: clan
+    pos: noun
+    oromo: birkii
+    alternates:
+      - habeebee
+      - guduruu
+      - jaawwii
+      - hariiroo qomoo
+    ipa: /ˈbɪrkíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/04/Om-birkii.ogg/Om-birkii.ogg.mp3
+    confidence: high
+    glossSeen: coercion, force
+    verified: false
+  - english: elder
+    pos: noun
+    oromo: jaarsa
+    alternates:
+      - abbabbaa
+      - cirintii
+      - aayyaa
+      - hangafummaa
+    ipa: /ˈd͡ʒɑːrsɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: elderly, elder
+    verified: false
+  - english: holiday
+    pos: noun
+    oromo: ayyaana waggaa
+    alternates:
+      - guyyaa ayyaanaa
+      - jaaloo
+      - giixoo
+      - ayyaaneffachuu
+    ipa: /ɐjːɑːnɐ wɐɡːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c8/Om-ayyaana_waggaa.ogg/Om-ayyaana_waggaa.ogg.mp3
+    confidence: medium
+    glossSeen: holiday
+    verified: false

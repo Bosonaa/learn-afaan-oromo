@@ -1,0 +1,271 @@
+id: unit-38-abstract
+order: 38
+title: Ideas & feelings
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: anger
+    pos: noun
+    oromo: aarii
+    alternates:
+      - oriisaa
+      - dallansuu
+      - caraana
+      - caraansiisuu
+    ipa: /ɑːríː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/01/Om-aarii.ogg/Om-aarii.ogg.mp3
+    confidence: medium
+    glossSeen: anger
+    verified: false
+  - english: joy
+    pos: noun
+    oromo: gammachuu
+    alternates:
+      - fuula ifuu
+      - ililii
+      - ishoo!
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: joy
+    verified: false
+  - english: peace
+    pos: noun
+    oromo: fayyaa
+    alternates:
+      - nagaya
+      - qabbana
+      - nagaa
+      - araara
+    ipa: /ˈfɐjːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7e/Om-fayyaa.ogg/Om-fayyaa.ogg.mp3
+    confidence: medium
+    glossSeen: health
+    verified: false
+  - english: war
+    pos: noun
+    oromo: waraana
+    alternates:
+      - duulli
+      - geesaa
+      - goshuu
+      - hiyyaalola
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: war
+    verified: false
+  - english: truth
+    pos: noun
+    oromo: dhugaa
+    alternates:
+      - aaga
+      - mirkana
+      - amantee
+      - amantii
+    ipa: /ˈᶑʊɡɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c8/Om-dhugaa.ogg/Om-dhugaa.ogg.mp3
+    confidence: medium
+    glossSeen: truth
+    verified: false
+  - english: shame
+    pos: noun
+    oromo: qaanii
+    alternates:
+      - saalfi
+      - yeelloo
+      - gachawuu
+      - salphisuu
+    ipa: /ˈkʼɑːníː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: shame, embrrassment
+    verified: false
+  - english: pride
+    pos: noun
+    oromo: boona
+    alternates:
+      - koora
+      - caaqa
+      - galdaasa
+      - boonsuu
+    ipa: /ˈboːnɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6b/Om-boona.ogg/Om-boona.ogg.mp3
+    confidence: medium
+    glossSeen: pride
+    verified: false
+  - english: patience
+    pos: noun
+    oromo: obsa
+    alternates:
+      - bal'ifachuu
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: patience
+    verified: false
+  - english: courage
+    pos: noun
+    oromo: onnumma
+    alternates:
+      - gootummaa
+      - faacha
+      - faancha
+      - gootomuu
+    ipa: /ɔnːʊmːɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: courage
+    verified: false
+  - english: kindness
+    pos: noun
+    oromo: hammaachuu
+    alternates: []
+    ipa: /ˈhɐmːɑːt͡ʃúː/
+    audioUrl: null
+    confidence: low
+    glossSeen: be mean, i.e., lack kindness and good will
+    verified: false
+  - english: respect
+    pos: noun
+    oromo: kabaja
+    alternates:
+      - kabajuu
+      - kabaja kennuu
+      - ofulfeessuu
+      - safeeffachiisuu
+    ipa: /ˈkɐbɐd͡ʒɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: respect, honor
+    verified: false
+  - english: trouble
+    pos: noun
+    oromo: dhibdee
+    alternates:
+      - fitnaa
+      - damacaa
+      - falafiduu
+      - giitii
+    ipa: /ˈᶑɪbdéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/68/Om-dhibdee.ogg/Om-dhibdee.ogg.mp3
+    confidence: medium
+    glossSeen: trouble, disturbance, difficulty misery, problem
+    verified: false
+  - english: problem
+    pos: noun
+    oromo: danboo
+    alternates:
+      - gaafura
+      - rakkoo
+      - darara
+      - dhibdee
+    ipa: /ˈdɐnbóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/20/Om-danboo.ogg/Om-danboo.ogg.mp3
+    confidence: medium
+    glossSeen: problem
+    verified: false
+  - english: luck
+    pos: noun
+    oromo: carraa
+    alternates:
+      - faroo
+      - milkii
+      - falfala
+      - aaga
+    ipa: /ˈt͡ʃʼɐrːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/17/Om-carraa.ogg/Om-carraa.ogg.mp3
+    confidence: medium
+    glossSeen: fortune, luck
+    verified: false
+  - english: fortune
+    pos: noun
+    oromo: keerii
+    alternates:
+      - carraa
+      - faroo
+      - tafaa'ula
+      - saaphaloo
+    ipa: /ˈkeːríː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: fortune
+    verified: false
+  - english: wisdom
+    pos: noun
+    oromo: adaadee
+    alternates:
+      - daadee
+      - qarooma
+      - qaroomuu
+    ipa: /ɐdɑːdéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/72/Om-adaadee.ogg/Om-adaadee.ogg.mp3
+    confidence: low
+    glossSeen: wisdom teeth
+    verified: false
+  - english: power
+    pos: noun
+    oromo: aaboo
+    alternates:
+      - baallii
+      - anniisaa
+      - humna
+      - humnaa
+    ipa: /ɑːbóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/03/Om-aaboo.ogg/Om-aaboo.ogg.mp3
+    confidence: medium
+    glossSeen: power, authority
+    verified: false
+  - english: freedom
+    pos: noun
+    oromo: bilisummaa
+    alternates:
+      - walabummaa
+      - birmadummaa amantii
+    ipa: /ˈbɪlɪsʊmːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ad/Om-bilisummaa.ogg/Om-bilisummaa.ogg.mp3
+    confidence: medium
+    glossSeen: freedom, liberty
+    verified: false
+  - english: justice
+    pos: noun
+    oromo: haqa
+    alternates:
+      - qajeelummaa
+    ipa: /ˈhɐkʼɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: "true"
+    verified: false
+  - english: law
+    pos: noun
+    oromo: seera
+    alternates:
+      - danbii
+      - abbayyee
+      - abbiyyii
+      - abbiyyuu
+    ipa: /ˈseːrɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: law
+    verified: false
+  - english: duty
+    pos: noun
+    oromo: aajaa
+    alternates:
+      - haajaa
+      - hujii
+      - qadhaaba
+      - lafa oolchuu
+    ipa: /ɑːd͡ʒɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/78/Om-aajaa.ogg/Om-aajaa.ogg.mp3
+    confidence: medium
+    glossSeen: affair, duty, task, issue
+    verified: false

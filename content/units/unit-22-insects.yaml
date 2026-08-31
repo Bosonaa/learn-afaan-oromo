@@ -1,0 +1,244 @@
+id: unit-22-insects
+order: 22
+title: Insects & small creatures
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: insect
+    pos: noun
+    oromo: damma daamuu
+    alternates: []
+    ipa: /ˈdɐmːɐ dɑːmúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ab/Om-damma_daamuu.ogg/Om-damma_daamuu.ogg.mp3
+    confidence: low
+    glossSeen: underground honey been like insects honey, honey produced by insect
+      like a bee
+    verified: false
+  - english: mosquito
+    pos: noun
+    oromo: biimbii
+    alternates:
+      - bookee busaa
+      - hagoobara binbee
+    ipa: /ˈbiːmbíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/55/Om-biimbii.ogg/Om-biimbii.ogg.mp3
+    confidence: high
+    glossSeen: mosquito
+    verified: false
+  - english: wasp
+    pos: noun
+    oromo: soonsa
+    alternates: []
+    ipa: /ˈsoːnsɐ/
+    audioUrl: null
+    confidence: low
+    glossSeen: wasp hornet
+    verified: false
+  - english: ant
+    pos: noun
+    oromo: adeemaa
+    alternates:
+      - goondaa
+      - mixii
+      - tuchee
+      - tussee
+    ipa: /ɐdeːmɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/88/Om-adeemaa.ogg/Om-adeemaa.ogg.mp3
+    confidence: medium
+    glossSeen: ant (euphemistic name)
+    verified: false
+  - english: termite
+    pos: noun
+    oromo: rimma
+    alternates:
+      - kuyyisa
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: termite
+    verified: false
+  - english: spider
+    pos: noun
+    oromo: aaroo
+    alternates:
+      - sarariitii
+      - sharariitii
+      - daara baaftuu
+      - saaphaphuu
+    ipa: /ɑːróː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/aa/Om-aaroo.ogg/Om-aaroo.ogg.mp3
+    confidence: medium
+    glossSeen: spider
+    verified: false
+  - english: web
+    pos: noun
+    oromo: saphaphuu
+    alternates:
+      - dirii
+      - dirbadiri
+      - maxansasaphaphuu
+      - saam'ee
+    ipa: /ˈsɐpʼɐpʼúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: algae or greenish water plant, moss
+    verified: false
+  - english: scorpion
+    pos: noun
+    oromo: torbaan qabaa
+    alternates: []
+    ipa: /ˈtɔrbɑːn kʼɐbɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: scorpion
+    verified: false
+  - english: butterfly
+    pos: noun
+    oromo: biillaacha
+    alternates:
+      - billaacha
+      - gurdummii
+    ipa: /ˈbiːlːɑːt͡ʃɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5b/Om-biillaacha.ogg/Om-biillaacha.ogg.mp3
+    confidence: medium
+    glossSeen: butterfly
+    verified: false
+  - english: locust
+    pos: noun
+    oromo: awwaannisa
+    alternates: []
+    ipa: /ɐwːɑːnːɪsɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/33/Om-awwaannisa.ogg/Om-awwaannisa.ogg.mp3
+    confidence: high
+    glossSeen: locust
+    verified: false
+  - english: grasshopper
+    pos: noun
+    oromo: qorophisa
+    alternates:
+      - kuruphisaa
+      - korophiissa
+      - kuruphisa
+    ipa: /ˈkʼɔrɔpʼɪsɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: grasshopper
+    verified: false
+  - english: beetle
+    pos: noun
+    oromo: boombii budaa
+    alternates:
+      - boombii bishaanii
+      - boombii dammaa
+      - boombii sa'aa
+    ipa: /ˈboːmbiː bʊdɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c1/Om-boombii_budaa.ogg/Om-boombii_budaa.ogg.mp3
+    confidence: high
+    glossSeen: beetle (insect with dark wing covers that live wood.)
+    verified: false
+  - english: worm
+    pos: noun
+    oromo: raammoo
+    alternates:
+      - munyuuqaa
+      - butuchuu
+      - arraabbii
+      - bilii
+    ipa: /ˈrɑːmːóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: Worm, insects
+    verified: false
+  - english: snail
+    pos: noun
+    oromo: gaafoo
+    alternates:
+      - hilqaa
+      - haadha gulgilii
+      - caaccuu
+    ipa: /ˈɡɑːfóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: snail
+    verified: false
+  - english: flea
+    pos: noun
+    oromo: tafkii
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: flea
+    verified: false
+  - english: louse
+    pos: noun
+    oromo: hijiree
+    alternates:
+      - sasa'oo
+      - cinii
+      - hinjojjii
+      - injijjii
+    ipa: /ˈhɪd͡ʒɪréː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: louse
+    verified: false
+  - english: tick
+    pos: noun
+    oromo: shilmii
+    alternates:
+      - silmii
+      - abshiloo
+      - kaaboo
+    ipa: /ˈʃɪlmíː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: tick
+    verified: false
+  - english: caterpillar
+    pos: noun
+    oromo: munyuuqaa
+    alternates:
+      - sugee
+    ipa: /ˈmʊɲuːkʼɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: crawling, cripple, wriggle
+    verified: false
+  - english: cricket
+    pos: noun
+    oromo: kuruphisa
+    alternates: []
+    ipa: /ˈkʊrʊpʼɪsɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: grasshopper, cricket,
+    verified: false
+  - english: sting
+    pos: noun
+    oromo: idduu
+    alternates:
+      - hidduu
+      - hiddisiisuu
+      - sonii
+      - waabee
+    ipa: /ɪdːúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: to sting
+    verified: false
+  - english: larva
+    pos: noun
+    oromo: jiisaa
+    alternates: []
+    ipa: /ˈd͡ʒiːsɑ́ː/
+    audioUrl: null
+    confidence: low
+    glossSeen: larva of honey bee
+    verified: false

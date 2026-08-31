@@ -1,0 +1,289 @@
+id: unit-16-plants
+order: 16
+title: Trees & plants
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: tree
+    pos: noun
+    oromo: muka
+    alternates:
+      - aadee
+      - abbabbeessa
+      - abbayyoo
+      - abdaarii
+    ipa: /ˈmʊ́kɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: tree
+    verified: false
+  - english: leaf
+    pos: noun
+    oromo: baala
+    alternates:
+      - obeensa
+      - gurra
+      - aduffaa
+      - ashanquxaa
+    ipa: /ˈbɑːlɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cf/Om-baala.ogg/Om-baala.ogg.mp3
+    confidence: medium
+    glossSeen: leaf
+    verified: false
+  - english: branch
+    pos: noun
+    oromo: baarkoo
+    alternates:
+      - birkii
+      - handaaraa
+      - corgoggee
+      - damee
+    ipa: /ˈbɑːrkóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9d/Om-baarkoo.ogg/Om-baarkoo.ogg.mp3
+    confidence: medium
+    glossSeen: branch
+    verified: false
+  - english: root
+    pos: noun
+    oromo: hidda
+    alternates:
+      - hundee
+      - ammichoo
+      - ansoosillaa
+      - burii
+    ipa: /ˈhɪdːɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: root
+    verified: false
+  - english: flower
+    pos: noun
+    oromo: abaaboo
+    alternates:
+      - hadaa
+      - baallamii
+      - daraaraa
+      - adaa
+    ipa: /ɐbɑːbóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/ca/Om-abaaboo.ogg/Om-abaaboo.ogg.mp3
+    confidence: high
+    glossSeen: flower
+    verified: false
+  - english: seed
+    pos: noun
+    oromo: sanyii
+    alternates:
+      - ijoo
+      - facaafataa
+      - saliixii
+      - safii
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: seed
+    verified: false
+  - english: bush
+    pos: noun
+    oromo: gussii
+    alternates:
+      - huuxii
+      - saaxoo
+      - attaa
+      - gussoo
+    ipa: /ˈɡʊsːíː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: bush
+    verified: false
+  - english: thorn
+    pos: noun
+    oromo: qoraattii
+    alternates:
+      - xaroo
+      - xiixaa
+      - arraba dubartii
+      - arraba qoraattii
+    ipa: /ˈkʼɔrɑːtːíː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: thorn
+    verified: false
+  - english: bark
+    pos: noun
+    oromo: dutuu
+    alternates:
+      - qaana'a
+      - solloqqee
+      - bukumsa
+      - dhoqonuu
+    ipa: /ˈdʊtúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b2/Om-dutuu.ogg/Om-dutuu.ogg.mp3
+    confidence: medium
+    glossSeen: bark
+    verified: false
+  - english: wood
+    pos: noun
+    oromo: ciraaroo
+    alternates:
+      - dhaanquu
+      - dongora
+      - falaxaa
+      - foroorsaa
+    ipa: /ˈt͡ʃʼɪrɑːróː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ed/Om-ciraaroo.ogg/Om-ciraaroo.ogg.mp3
+    confidence: low
+    glossSeen: brush wood or dry twinges used as fire wood
+    verified: false
+  - english: trunk
+    pos: noun
+    oromo: humbaawoo
+    alternates:
+      - huumbii
+      - gudeelcha
+      - kunbii
+    ipa: /ˈhʊmbɑːwóː/
+    audioUrl: null
+    confidence: low
+    glossSeen: trunk of elephant
+    verified: false
+  - english: plant
+    pos: noun
+    oromo: hadaa
+    alternates:
+      - aadigaa
+      - aanannoo
+      - abariree
+      - acarabaa
+    ipa: /ˈhɐdɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/21/Om-adaa.ogg/Om-adaa.ogg.mp3
+    confidence: low
+    glossSeen: daisy plant or its flower
+    verified: false
+  - english: crop
+    pos: noun
+    oromo: bonee
+    alternates:
+      - gordii
+      - hoboloo
+      - qaarmii
+      - guboo
+    ipa: /ˈbɔnéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f8/Om-bonee.ogg/Om-bonee.ogg.mp3
+    confidence: low
+    glossSeen: summer crop or vegetable produced by irrigation
+    verified: false
+  - english: weed
+    pos: noun
+    oromo: aramaa
+    alternates:
+      - haramaa
+      - korkodaa
+      - huura
+      - aramuu
+    ipa: /ɐrɐmɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/92/Om-aramaa.ogg/Om-aramaa.ogg.mp3
+    confidence: medium
+    glossSeen: weed
+    verified: false
+  - english: stem
+    pos: noun
+    oromo: somaa
+    alternates:
+      - gubaalessa
+      - homborokkee
+      - futtiqii
+      - futtiquu
+    ipa: /ˈsɔmɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: stalk, stem
+    verified: false
+  - english: shoot
+    pos: noun
+    oromo: xaaxessuu
+    alternates:
+      - biiluu
+      - huuxoo
+      - muuroo
+      - quuxaa
+    ipa: /ˈtʼɑːtʼɛsːúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: shoot
+    verified: false
+  - english: vine
+    pos: noun
+    oromo: haraga
+    alternates:
+      - hidda
+      - baggee
+      - hancootee
+      - hoomichoo
+    ipa: /ˈhɐrɐɡɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: vine
+    verified: false
+  - english: bamboo
+    pos: noun
+    oromo: leemmana
+    alternates:
+      - sooyyama
+      - faaggaa
+      - kachoo
+      - saxaraa
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: bamboo
+    verified: false
+  - english: palm
+    pos: noun
+    oromo: harruu
+    alternates:
+      - shanacha
+      - ansoosillaa
+      - daatuu
+      - ducee
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: palm (of the hand)
+    verified: false
+  - english: cactus
+    pos: noun
+    oromo: amoshaqaa
+    alternates:
+      - hadaamaa
+      - adaamii
+      - ciiree
+      - ashooka
+    ipa: /ɐmɔʃɐkʼɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ab/Om-amoshaqaa.ogg/Om-amoshaqaa.ogg.mp3
+    confidence: medium
+    glossSeen: cactus
+    verified: false
+  - english: moss
+    pos: noun
+    oromo: saphaphuu
+    alternates: []
+    ipa: /ˈsɐpʼɐpʼúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: algae or greenish water plant, moss
+    verified: false
+  - english: pollen
+    pos: noun
+    oromo: habaree
+    alternates: []
+    ipa: /ˈhɐbɐréː/
+    audioUrl: null
+    confidence: high
+    glossSeen: pollen
+    verified: false

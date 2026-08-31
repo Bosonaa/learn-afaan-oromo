@@ -1,0 +1,258 @@
+id: unit-26-work
+order: 26
+title: Work & jobs
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: farmer
+    pos: noun
+    oromo: qottuu
+    alternates:
+      - haraashi
+      - qotataa
+      - qonnaan jiraata
+      - kaannisa horsiistuu
+    ipa: /ˈkʼɔtːúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: farmer
+    verified: false
+  - english: soldier
+    pos: noun
+    oromo: loltuu
+    alternates:
+      - koromtoo
+      - duultuu
+    ipa: /ˈlɔltúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: soldier, fighter
+    verified: false
+  - english: police
+    pos: noun
+    oromo: poolisii
+    alternates:
+      - ceebiraa
+      - rugtorobbee
+      - mana torobbee
+    ipa: /ˈpoːlɪsíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b9/Om-poolisii.ogg/Om-poolisii.ogg.mp3
+    confidence: high
+    glossSeen: police
+    verified: false
+  - english: judge
+    pos: noun
+    oromo: abboommii
+    alternates:
+      - abbaa seeraa
+    ipa: /ɐbːoːmːíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/70/Om-abboommii.ogg/Om-abboommii.ogg.mp3
+    confidence: high
+    glossSeen: order, command, judge
+    verified: false
+  - english: king
+    pos: noun
+    oromo: mootii
+    alternates:
+      - kuyyisa
+      - moosisuu
+      - mootomuu
+    ipa: /ˈmoːtíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: king, leader king
+    verified: false
+  - english: queen
+    pos: noun
+    oromo: mootittii
+    alternates:
+      - saakayyoo
+      - haadha manaa mootii
+    ipa: /ˈmoːtɪtːíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: queen
+    verified: false
+  - english: chief
+    pos: noun
+    oromo: durayyeessa
+    alternates:
+      - hogganaa
+      - luboo
+      - abbagaar
+      - abbaa gandaa
+    ipa: /ˈdʊrɐjːeːsːɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/60/Om-durayyeessa.ogg/Om-durayyeessa.ogg.mp3
+    confidence: medium
+    glossSeen: chief, head
+    verified: false
+  - english: servant
+    pos: noun
+    oromo: faanshoo
+    alternates:
+      - tajaajilaa
+      - hojetaa
+      - waaqoo
+      - ayyaantuu
+    ipa: /ˈfɑːnʃóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/25/Om-faanshoo.ogg/Om-faanshoo.ogg.mp3
+    confidence: high
+    glossSeen: servant
+    verified: false
+  - english: guard
+    pos: noun
+    oromo: eeggannaa
+    alternates:
+      - tiksaa
+      - eeguu
+      - baadhee
+      - diroo
+    ipa: /eːɡːɐnːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2b/Om-eeggannaa.ogg/Om-eeggannaa.ogg.mp3
+    confidence: medium
+    glossSeen: guard, care
+    verified: false
+  - english: fisherman
+    pos: noun
+    oromo: kiilobaa
+    alternates: []
+    ipa: /ˈkiːlɔbɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: fisherman
+    verified: false
+  - english: blacksmith
+    pos: noun
+    oromo: tumtuu
+    alternates:
+      - tumaa
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: blacksmith
+    verified: false
+  - english: carpenter
+    pos: noun
+    oromo: anaaxii
+    alternates:
+      - fugaa
+      - ogeessa mukaa
+    ipa: /ɐnɑːtʼíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6e/Om-anaaxii.ogg/Om-anaaxii.ogg.mp3
+    confidence: medium
+    glossSeen: carpenter
+    verified: false
+  - english: tailor
+    pos: noun
+    oromo: hodhituu wayaa
+    alternates: []
+    ipa: /ˈhɔᶑɪtuː wɐjɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: tailor
+    verified: false
+  - english: weaver
+    pos: noun
+    oromo: hayaaktuu
+    alternates: []
+    ipa: /ˈhɐjɑːktúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: weaver, loom
+    verified: false
+  - english: potter
+    pos: noun
+    oromo: aaddoo
+    alternates:
+      - suphee dhooftuu
+      - fugaa
+    ipa: /ɑːdːóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/dc/Om-aaddoo.ogg/Om-aaddoo.ogg.mp3
+    confidence: high
+    glossSeen: potter
+    verified: false
+  - english: singer
+    pos: noun
+    oromo: weeddiftuu
+    alternates:
+      - weeddisaa
+      - sirbituu
+    ipa: /ˈweːdːɪftúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: singer (fem)
+    verified: false
+  - english: priest
+    pos: noun
+    oromo: qeesii
+    alternates:
+      - luboo
+      - daaqonii
+      - luboomsuu
+    ipa: /ˈkʼeːsíː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: priest
+    verified: false
+  - english: leader
+    pos: noun
+    oromo: geggeessaa
+    alternates:
+      - hogganaa
+      - booyira
+      - dabbeela
+      - dhayinoo
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: leader
+    verified: false
+  - english: helper
+    pos: noun
+    oromo: gargaaraa
+    alternates:
+      - abbaa iyyeessaa
+      - haadha hiyyeessa
+    ipa: /ˈɡɐrɡɑːrɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: index finger
+    verified: false
+  - english: worker
+    pos: noun
+    oromo: dalagduu
+    alternates:
+      - ojjetaa
+    ipa: /ˈdɐlɐɡdúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/38/Om-dalagduu.ogg/Om-dalagduu.ogg.mp3
+    confidence: medium
+    glossSeen: worker (female)
+    verified: false
+  - english: cook
+    pos: noun
+    oromo: affeeluu
+    alternates:
+      - bilcheessisuu
+      - affeelchisuu
+      - bilcheeffachuu
+      - bilcheessuu
+    ipa: /ɐfːeːlúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9d/Om-affeeluu.ogg/Om-affeeluu.ogg.mp3
+    confidence: medium
+    glossSeen: to cook
+    verified: false
+  - english: baker
+    pos: noun
+    oromo: tolchituu
+    alternates: []
+    ipa: /ˈtɔlt͡ʃɪtúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: baker, maker
+    verified: false

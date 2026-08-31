@@ -1,0 +1,326 @@
+id: unit-33-verbs-daily
+order: 33
+title: "Verbs: everyday life"
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: help
+    pos: verb
+    oromo: deeggersiisuu
+    alternates:
+      - deeggeruu
+      - faduu
+      - hirbuu
+      - hirphuu
+    ipa: /ˈdeːɡːɛrsiːsúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/10/Om-deeggersiisuu.ogg/Om-deeggersiisuu.ogg.mp3
+    confidence: medium
+    glossSeen: cause to support/help
+    verified: false
+  - english: buy
+    pos: verb
+    oromo: bituu
+    alternates:
+      - bitachuu
+      - bichiisuu
+      - daara bawuu
+      - gati baasuu
+    ipa: /ˈbɪtúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/ca/Om-bituu.ogg/Om-bituu.ogg.mp3
+    confidence: high
+    glossSeen: to buy
+    verified: false
+  - english: sell
+    pos: verb
+    oromo: gurgurachuu
+    alternates:
+      - gurguruu
+      - makarachuu
+      - nadiyyuu
+      - qexuu
+    ipa: /ˈɡʊrɡʊrɐt͡ʃúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: sell
+    verified: false
+  - english: pay
+    pos: verb
+    oromo: kaffaluu
+    alternates:
+      - gabbaruu
+      - kaffaltii
+      - kafalachuu
+      - kaffalsiisuu
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: to pay
+    verified: false
+  - english: borrow
+    pos: verb
+    oromo: ergifachuu
+    alternates:
+      - liqeeffachiisuu
+    ipa: /ɛrɡɪfɐt͡ʃúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/07/Om-ergifachuu.ogg/Om-ergifachuu.ogg.mp3
+    confidence: high
+    glossSeen: to borrow (for oneself)
+    verified: false
+  - english: lend
+    pos: verb
+    oromo: ergisuu
+    alternates:
+      - ergisiisuu
+    ipa: /ɛrɡɪsúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0a/Om-ergisuu.ogg/Om-ergisuu.ogg.mp3
+    confidence: high
+    glossSeen: to lend (not money)
+    verified: false
+  - english: keep
+    pos: verb
+    oromo: hambisuu
+    alternates:
+      - danquu
+      - icciteessuu
+      - adabachuu
+      - dibaa
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: to save, keep
+    verified: false
+  - english: find
+    pos: verb
+    oromo: argachuu
+    alternates:
+      - ijibbachuu
+      - dhabuu
+    ipa: /ɐrɡɐt͡ʃúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8b/Om-argachuu.ogg/Om-argachuu.ogg.mp3
+    confidence: high
+    glossSeen: to find
+    verified: false
+  - english: lose
+    pos: verb
+    oromo: gatuu
+    alternates:
+      - mo amuu
+      - gawwaa'uu
+      - lajooja'uu
+      - teemma'uu
+    ipa: /ˈɡɐtúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: throw away, lose
+    verified: false
+  - english: search
+    pos: verb
+    oromo: findiguu
+    alternates:
+      - qocachuu
+      - sakatta'a
+      - soqa
+      - barbaachifachuu
+    ipa: /ˈfɪndɪɡúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a4/Om-findiguu.ogg/Om-findiguu.ogg.mp3
+    confidence: medium
+    glossSeen: to search, to cultivate
+    verified: false
+  - english: choose
+    pos: verb
+    oromo: filuu
+    alternates:
+      - filachuu
+    ipa: /ˈfɪlúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/70/Om-filuu.ogg/Om-filuu.ogg.mp3
+    confidence: medium
+    glossSeen: to choose
+    verified: false
+  - english: share
+    pos: verb
+    oromo: addaanfudhachuu
+    alternates:
+      - hiruu
+      - qooddamuu
+      - qooduu
+      - qooda
+    ipa: /ɐdːɑːnfʊᶑɐt͡ʃúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/53/Om-addaanfudhachuu.ogg/Om-addaanfudhachuu.ogg.mp3
+    confidence: medium
+    glossSeen: share, take one share
+    verified: false
+  - english: divide
+    pos: verb
+    oromo: maddarruu
+    alternates:
+      - hiruu
+      - qooduu
+      - walqooduu
+      - hirmaannaa
+    ipa: /ˈmɐdːɐrːúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: divide
+    verified: false
+  - english: add
+    pos: verb
+    oromo: dabaluu
+    alternates:
+      - ida'uu
+      - itti dabaluu
+      - dabalchiisuu
+      - dabalachuu
+    ipa: /ˈdɐbɐlúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e8/Om-dabaluu.ogg/Om-dabaluu.ogg.mp3
+    confidence: high
+    glossSeen: to include
+    verified: false
+  - english: begin
+    pos: verb
+    oromo: eegaluu
+    alternates:
+      - calqabuu
+      - jalqabuu
+      - damma'uu
+      - gadhafuu
+    ipa: /eːɡɐlúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1c/Om-eegaluu.ogg/Om-eegaluu.ogg.mp3
+    confidence: medium
+    glossSeen: to start, begin
+    verified: false
+  - english: finish
+    pos: verb
+    oromo: fixuu
+    alternates:
+      - fixaanbaafachuu
+      - cophsuu
+      - raawwachuu
+      - qadaaduu
+    ipa: /ˈfɪtʼúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/69/Om-fixuu.ogg/Om-fixuu.ogg.mp3
+    confidence: medium
+    glossSeen: to finish
+    verified: false
+  - english: try
+    pos: verb
+    oromo: carraaquu
+    alternates:
+      - badaduu
+      - yaaluu
+      - carraaqsisuu
+      - safarachuu
+    ipa: /ˈt͡ʃʼɐrːɑːkʼúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/82/Om-carraaquu.ogg/Om-carraaquu.ogg.mp3
+    confidence: medium
+    glossSeen: strive/work hard
+    verified: false
+  - english: use
+    pos: verb
+    oromo: fayyadamuu
+    alternates:
+      - dantaa
+      - faayidaa
+      - duguuguu
+      - ciqilfachuu
+    ipa: /ˈfɐjːɐdɐmúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b2/Om-fayyadamuu.ogg/Om-fayyadamuu.ogg.mp3
+    confidence: high
+    glossSeen: to use
+    verified: false
+  - english: need
+    pos: verb
+    oromo: barbaaduu
+    alternates:
+      - feesisuu
+      - walfechuu
+      - ergaramuu
+      - hawwisiisuu
+    ipa: /ˈbɐrbɑːdúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c3/Om-barbaaduu.ogg/Om-barbaaduu.ogg.mp3
+    confidence: high
+    glossSeen: to need
+    verified: false
+  - english: show
+    pos: verb
+    oromo: agarsiisuu
+    alternates:
+      - doo'ii
+      - dura qabuu
+      - ilaalchisuu
+      - agarsiisa
+    ipa: /ɐɡɐrsiːsúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ee/Om-agarsiisuu.ogg/Om-agarsiisuu.ogg.mp3
+    confidence: medium
+    glossSeen: to show, indicate
+    verified: false
+  - english: hide
+    pos: verb
+    oromo: dhoksuu
+    alternates:
+      - aguuguu
+      - awwaaluu
+      - dhokfachuu
+      - okachuu
+    ipa: /ˈᶑɔksúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/04/Om-dhoksuu.ogg/Om-dhoksuu.ogg.mp3
+    confidence: medium
+    glossSeen: hide
+    verified: false
+  - english: meet
+    pos: verb
+    oromo: walqunnamuu
+    alternates:
+      - sabsbamuu
+      - foondirraa
+      - qoollifachuu
+      - itti ba'uu
+    ipa: /ˈwɐlkʼʊnːɐmúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: come to see each other, meet
+    verified: false
+  - english: visit
+    pos: verb
+    oromo: daaw'achuu
+    alternates:
+      - doowwachuu
+      - doo'ii
+      - doowwannaa
+      - walgaafachuu
+    ipa: /ˈdɑːwʔɐt͡ʃúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e0/Om-daaw%27achuu.ogg/Om-daaw%27achuu.ogg.mp3
+    confidence: medium
+    glossSeen: to visit
+    verified: false
+  - english: live
+    pos: verb
+    oromo: jiraachuu
+    alternates:
+      - le'uu
+      - itti jiraachuu
+      - ababuu
+      - walitti deebi'uu
+    ipa: /ˈd͡ʒɪrɑːt͡ʃúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: to live
+    verified: false
+  - english: stay
+    pos: verb
+    oromo: turuu
+    alternates:
+      - hafuu
+      - bushuu
+      - dhiisifachuu
+      - dibamuu
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: to stay
+    verified: false

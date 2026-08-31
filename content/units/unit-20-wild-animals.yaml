@@ -1,0 +1,238 @@
+id: unit-20-wild-animals
+order: 20
+title: Wild animals
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: giraffe
+    pos: noun
+    oromo: saattawwaa
+    alternates:
+      - sattawwaa
+    ipa: /ˈsɑːtːɐwːɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: giraffe
+    verified: false
+  - english: zebra
+    pos: noun
+    oromo: harre diidoo
+    alternates:
+      - harree diidaa
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: zebra
+    verified: false
+  - english: baboon
+    pos: noun
+    oromo: jaldeessa
+    alternates:
+      - jaldoo
+      - jaldeesii
+      - bukumsa
+      - hoomaa jaldeessaa
+    ipa: /ˈd͡ʒɐldeːsːɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: baboon (Papio anubis)
+    verified: false
+  - english: antelope
+    pos: noun
+    oromo: arroolee
+    alternates:
+      - qellejjee
+      - biichee
+      - gadamsa
+      - warabboo
+    ipa: /ɐrːoːléː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e5/Om-arroolee.ogg/Om-arroolee.ogg.mp3
+    confidence: medium
+    glossSeen: antelope
+    verified: false
+  - english: gazelle
+    pos: noun
+    oromo: re'ee diidaa
+    alternates:
+      - tirgii
+    ipa: /ˈrɛʔeː diːdɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: gazelle
+    verified: false
+  - english: rhinoceros
+    pos: noun
+    oromo: orseesa
+    alternates:
+      - karkaarro
+      - cittaa
+    ipa: /ɔrseːsɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: rhinoceros
+    verified: false
+  - english: hippopotamus
+    pos: noun
+    oromo: roophii
+    alternates:
+      - roobii
+      - jaawwii
+      - cirrii arbaa
+    ipa: /ˈroːpʼíː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: hippopotamus
+    verified: false
+  - english: crocodile
+    pos: noun
+    oromo: naacha
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: crocodile
+    verified: false
+  - english: lizard
+    pos: noun
+    oromo: horonguda
+    alternates:
+      - lootuu
+      - qarcoo
+      - qorcoo
+      - qarcabboo
+    ipa: /ˈhɔrɔnɡʊdɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: lizard
+    verified: false
+  - english: frog
+    pos: noun
+    oromo: fattee
+    alternates:
+      - raacha
+    ipa: /ˈfɐtːéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c8/Om-fattee.ogg/Om-fattee.ogg.mp3
+    confidence: medium
+    glossSeen: frog
+    verified: false
+  - english: fox
+    pos: noun
+    oromo: sardiida
+    alternates:
+      - jeedala
+      - jeedala diimtuu
+      - ilmoo sardiida
+      - jeedala fardaa
+    ipa: /ˈsɐrdiːdɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: fox
+    verified: false
+  - english: jackal
+    pos: noun
+    oromo: wangoo
+    alternates:
+      - jeedala
+      - jeedala fardaa
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: jackal
+    verified: false
+  - english: wolf
+    pos: noun
+    oromo: yeeyyii
+    alternates:
+      - jeedala
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: wolf
+    verified: false
+  - english: bear
+    pos: noun
+    oromo: qarabullee
+    alternates:
+      - qarambullee
+      - obsuu
+      - amaaqexa
+      - gadhafuu
+    ipa: /ˈkʼɐrɐbʊlːéː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: bear
+    verified: false
+  - english: deer
+    pos: noun
+    oromo: gaaftorboo
+    alternates:
+      - biichee
+      - gaafa torbo
+      - gadamsa
+      - kal'ee
+    ipa: /ˈɡɑːftɔrbóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: deer
+    verified: false
+  - english: porcupine
+    pos: noun
+    oromo: addee
+    alternates:
+      - dhaddee
+    ipa: /ɐdːéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2f/Om-addee.ogg/Om-addee.ogg.mp3
+    confidence: medium
+    glossSeen: porcupine
+    verified: false
+  - english: squirrel
+    pos: noun
+    oromo: osolee
+    alternates:
+      - curree
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: squirrel
+    verified: false
+  - english: bat
+    pos: noun
+    oromo: lilliga
+    alternates:
+      - lillixa
+      - liccee
+      - simbira halkanii
+      - arfii raajeffannoo
+    ipa: /ˈlɪlːɪɡɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: bat
+    verified: false
+  - english: rat
+    pos: noun
+    oromo: antuuta
+    alternates:
+      - haantuta
+      - moorree
+      - qaajibbuu
+      - fuliyoo
+    ipa: /ɐntuːtɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: rat
+    verified: false
+  - english: mole
+    pos: noun
+    oromo: xuqaa
+    alternates: []
+    ipa: /ˈtʼʊkʼɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: mole
+    verified: false

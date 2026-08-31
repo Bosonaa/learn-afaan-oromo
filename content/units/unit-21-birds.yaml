@@ -1,0 +1,273 @@
+id: unit-21-birds
+order: 21
+title: Birds
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: duck
+    pos: noun
+    oromo: dakiiyyee
+    alternates:
+      - daakkiyyee
+      - daakiyyee
+      - dhotii
+      - abroolee
+    ipa: /ˈdɐkiːjːéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b3/Om-dakiiyyee.ogg/Om-dakiiyyee.ogg.mp3
+    confidence: medium
+    glossSeen: duck
+    verified: false
+  - english: goose
+    pos: noun
+    oromo: daakkiyyee
+    alternates:
+      - daakiyyee
+    ipa: /ˈdɑːkːɪjːéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a4/Om-daakkiyyee.ogg/Om-daakkiyyee.ogg.mp3
+    confidence: medium
+    glossSeen: duck
+    verified: false
+  - english: dove
+    pos: noun
+    oromo: himimii
+    alternates:
+      - saballiisa
+      - waanee
+      - hamaraa
+    ipa: /ˈhɪmɪmíː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: dove
+    verified: false
+  - english: pigeon
+    pos: noun
+    oromo: adarii
+    alternates:
+      - kurkuduu
+      - handarii
+      - saphallissa
+    ipa: /ɐdɐríː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/73/Om-adarii.ogg/Om-adarii.ogg.mp3
+    confidence: medium
+    glossSeen: pigeon/turtledove
+    verified: false
+  - english: crow
+    pos: noun
+    oromo: araakoo
+    alternates:
+      - quraa
+      - arraagessa
+      - harraageessa
+      - iyyuu
+    ipa: /ɐrɑːkóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d0/Om-araakoo.ogg/Om-araakoo.ogg.mp3
+    confidence: medium
+    glossSeen: crow
+    verified: false
+  - english: eagle
+    pos: noun
+    oromo: corofee
+    alternates:
+      - risaa
+      - dhagabuusa
+      - haadha gaattoo
+    ipa: /ˈt͡ʃʼɔrɔféː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/60/Om-corofee.ogg/Om-corofee.ogg.mp3
+    confidence: medium
+    glossSeen: eagle
+    verified: false
+  - english: hawk
+    pos: noun
+    oromo: culullee
+    alternates: []
+    ipa: /ˈt͡ʃʼʊlʊlːéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e1/Om-culullee.ogg/Om-culullee.ogg.mp3
+    confidence: high
+    glossSeen: hawk
+    verified: false
+  - english: vulture
+    pos: noun
+    oromo: foggii
+    alternates:
+      - ruumicha
+      - dhotii
+      - ondoolessa
+    ipa: /ˈfɔɡːíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e1/Om-foggii.ogg/Om-foggii.ogg.mp3
+    confidence: medium
+    glossSeen: vulture
+    verified: false
+  - english: owl
+    pos: noun
+    oromo: aadduu
+    alternates:
+      - jajjuu
+      - urunguu
+      - uruungguu
+      - hadha onaa
+    ipa: /ɑːdːúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/54/Om-aadduu.ogg/Om-aadduu.ogg.mp3
+    confidence: medium
+    glossSeen: owl
+    verified: false
+  - english: ostrich
+    pos: noun
+    oromo: guchii
+    alternates:
+      - guuchii
+      - rubboo
+    ipa: /ˈɡʊt͡ʃíː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: ostrich
+    verified: false
+  - english: stork
+    pos: noun
+    oromo: haadha qufoo
+    alternates: []
+    ipa: /ˈhɑːᶑɐ kʼʊfóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: cormorant, stork
+    verified: false
+  - english: parrot
+    pos: noun
+    oromo: torraa
+    alternates: []
+    ipa: /ˈtɔrːɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: parrot
+    verified: false
+  - english: sparrow
+    pos: noun
+    oromo: daalotee
+    alternates: []
+    ipa: /ˈdɑːlɔtéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2b/Om-daalotee.ogg/Om-daalotee.ogg.mp3
+    confidence: high
+    glossSeen: sparrow
+    verified: false
+  - english: swallow
+    pos: noun
+    oromo: dhudha'uu
+    alternates:
+      - liqimsu
+      - unaa
+      - unachuu
+      - dhudhaasisuu
+    ipa: /ˈᶑʊᶑɐʔúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/ca/Om-dhudha%27uu.ogg/Om-dhudha%27uu.ogg.mp3
+    confidence: medium
+    glossSeen: to gulp
+    verified: false
+  - english: nest
+    pos: noun
+    oromo: man'ee
+    alternates:
+      - mandhee
+      - mana simbiraa
+      - godoo simbirroo
+    ipa: /ˈmɐnʔéː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: nest
+    verified: false
+  - english: wing
+    pos: noun
+    oromo: goblaa
+    alternates:
+      - gofla
+      - qoochoo
+      - labooba
+      - koochoo
+    ipa: /ˈɡɔblɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: wing
+    verified: false
+  - english: feather
+    pos: noun
+    oromo: baallee
+    alternates:
+      - qoochoo
+      - labooba
+      - guttiyyee
+      - tuuttoo
+    ipa: /ˈbɑːlːéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/39/Om-baallee.ogg/Om-baallee.ogg.mp3
+    confidence: high
+    glossSeen: feather
+    verified: false
+  - english: beak
+    pos: noun
+    oromo: afaan
+    alternates:
+      - aflaaka
+      - uuruu
+      - otongora
+    ipa: /ɐfɑːn/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/41/Om-afaan.ogg/Om-afaan.ogg.mp3
+    confidence: medium
+    glossSeen: mouth
+    verified: false
+  - english: claw
+    pos: noun
+    oromo: cifa
+    alternates:
+      - anqooquu
+      - anqooqsisuu
+      - boccoquu
+    ipa: /ˈt͡ʃʼɪfɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6a/Om-cifa.ogg/Om-cifa.ogg.mp3
+    confidence: high
+    glossSeen: claw (of lion)
+    verified: false
+  - english: tail
+    pos: noun
+    oromo: eegee
+    alternates:
+      - aliiwaayaa
+      - diboo
+      - kicuu
+      - luuxuu
+    ipa: /eːɡéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a8/Om-eegee.ogg/Om-eegee.ogg.mp3
+    confidence: high
+    glossSeen: tail
+    verified: false
+  - english: flight
+    pos: noun
+    oromo: barartii
+    alternates: []
+    ipa: /ˈbɐrɐrtíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3c/Om-barartii.ogg/Om-barartii.ogg.mp3
+    confidence: high
+    glossSeen: flight
+    verified: false
+  - english: heron
+    pos: noun
+    oromo: haadha waaqoo
+    alternates: []
+    ipa: /ˈhɑːᶑɐ wɑːkʼóː/
+    audioUrl: null
+    confidence: low
+    glossSeen: pelican or heron
+    verified: false
+  - english: falcon
+    pos: noun
+    oromo: simbirbuta
+    alternates:
+      - hamaraa
+      - buttuu
+    ipa: /ˈsɪmbɪrbʊtɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: falcon
+    verified: false
