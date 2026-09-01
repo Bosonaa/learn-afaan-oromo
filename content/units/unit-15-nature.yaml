@@ -1,0 +1,330 @@
+id: unit-15-nature
+order: 15
+title: Land & water
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: land
+    pos: noun
+    oromo: dachee
+    alternates:
+      - lafa
+      - bajjii
+      - beedholamaa
+      - bonayyoo
+    ipa: /ˈdɐt͡ʃéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/30/Om-dachee.ogg/Om-dachee.ogg.mp3
+    confidence: medium
+    glossSeen: earth, land, ground
+    verified: false
+  - english: mountain
+    pos: noun
+    oromo: tulluu
+    alternates:
+      - kaakkaa
+      - roggee
+      - hongoolo
+      - kaaba hallu
+    ipa: /tʊlːuː/
+    audioUrl: null
+    confidence: high
+    glossSeen: mountain
+    verified: false
+  - english: hill
+    pos: noun
+    oromo: daabbaa
+    alternates:
+      - gaara
+      - garoo
+      - tabba
+      - koobii
+    ipa: /ˈdɑːbːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a8/Om-daabbaa.ogg/Om-daabbaa.ogg.mp3
+    confidence: medium
+    glossSeen: hill
+    verified: false
+  - english: valley
+    pos: noun
+    oromo: golba
+    alternates:
+      - sulula
+      - gololee
+      - suluula
+      - daadduu
+    ipa: /ˈɡɔlbɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: valley
+    verified: false
+  - english: river
+    pos: noun
+    oromo: laga
+    alternates:
+      - burrisa
+      - daarii
+      - galaana
+      - jogii
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: river
+    verified: false
+  - english: stream
+    pos: noun
+    oromo: dolool'oo
+    alternates:
+      - madduu
+      - xururuu
+    ipa: /ˈdɔloːlʔóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d6/Om-dolool%27oo.ogg/Om-dolool%27oo.ogg.mp3
+    confidence: low
+    glossSeen: brook/smll stream
+    verified: false
+  - english: lake
+    pos: noun
+    oromo: hara
+    alternates:
+      - haroo
+      - garba
+      - garba lixxaa
+      - haroo Walaabuu
+    ipa: /hɐrɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: lake
+    verified: false
+  - english: sea
+    pos: noun
+    oromo: garba
+    alternates:
+      - aboyyii
+      - afooga
+      - galaana
+      - olguura
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: ocean, sea, lake
+    verified: false
+  - english: well
+    pos: noun
+    oromo: gaarumsa
+    alternates:
+      - seega
+      - beedholamaa
+      - birii
+      - callaa
+    ipa: /ˈɡɑːrʊmsɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: being good, well
+    verified: false
+  - english: stone
+    pos: noun
+    oromo: dhagaa
+    alternates:
+      - dhakaa
+      - baraasa
+      - bardhagitee
+      - biilaluu
+    ipa: /ˈᶑɐɡɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/94/Om-dhagaa.ogg/Om-dhagaa.ogg.mp3
+    confidence: medium
+    glossSeen: stone
+    verified: false
+  - english: rock
+    pos: noun
+    oromo: dhakaacha
+    alternates:
+      - saaphaphuu
+      - kattaa baalcii
+      - kattaa burkaanaa
+      - soogidda amoolee
+    ipa: /ˈᶑɐkɑːt͡ʃɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/07/Om-dhakaacha.ogg/Om-dhakaacha.ogg.mp3
+    confidence: high
+    glossSeen: tortoiseshell
+    verified: false
+  - english: sand
+    pos: noun
+    oromo: cir'achaa
+    alternates:
+      - cirracha
+      - maansaa
+      - mansaa
+      - lomoxuu
+    ipa: /ˈt͡ʃʼɪrʔɐt͡ʃɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/05/Om-cir%27achaa.ogg/Om-cir%27achaa.ogg.mp3
+    confidence: medium
+    glossSeen: sand
+    verified: false
+  - english: soil
+    pos: noun
+    oromo: biyyoo
+    alternates:
+      - boolee
+      - callabiyyoo
+      - eegumsabiyyee
+      - boojjii
+    ipa: /ˈbɪjːóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d2/Om-biyyoo.ogg/Om-biyyoo.ogg.mp3
+    confidence: high
+    glossSeen: soil
+    verified: false
+  - english: forest
+    pos: noun
+    oromo: raasaa
+    alternates:
+      - bosona
+      - buttoo
+      - riibaa
+      - haxxee
+    ipa: /ˈrɑːsɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: open place
+    verified: false
+  - english: field
+    pos: noun
+    oromo: dirree
+    alternates:
+      - abaxallaloo
+      - aloola
+      - babbaqa
+      - ashuffee
+    ipa: /ˈdɪrːéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/15/Om-dirree.ogg/Om-dirree.ogg.mp3
+    confidence: medium
+    glossSeen: field
+    verified: false
+  - english: farm
+    pos: noun
+    oromo: qotiisa
+    alternates:
+      - ooyru
+      - qonna
+      - qotuu
+      - beedholamaa
+    ipa: /ˈkʼɔtiːsɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: farm
+    verified: false
+  - english: road
+    pos: noun
+    oromo: karaa
+    alternates:
+      - moocii
+      - maqa
+      - looshaa
+      - hadiida baaburaa
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: road
+    verified: false
+  - english: path
+    pos: noun
+    oromo: xurree
+    alternates:
+      - moocii
+      - hoticha
+      - daandii
+      - fulee
+    ipa: /ˈtʼʊrːéː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: sound of passing air
+    verified: false
+  - english: bridge
+    pos: noun
+    oromo: dilbuu
+    alternates:
+      - riqicha
+      - ceesiftuu
+      - ceesisuu
+    ipa: /ˈdɪlbúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/66/Om-dilbuu.ogg/Om-dilbuu.ogg.mp3
+    confidence: medium
+    glossSeen: bridge
+    verified: false
+  - english: cave
+    pos: noun
+    oromo: boongoo
+    alternates:
+      - olqa
+      - holqa
+      - qaalaa
+      - bowwaa
+    ipa: /ˈboːnɡóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/23/Om-boongoo.ogg/Om-boongoo.ogg.mp3
+    confidence: medium
+    glossSeen: cave
+    verified: false
+  - english: island
+    pos: noun
+    oromo: baqqanaa
+    alternates:
+      - baqqaana
+      - cittuu
+      - oddoola
+      - odoola
+    ipa: /ˈbɐkʼːɐnɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f1/Om-baqqanaa.ogg/Om-baqqanaa.ogg.mp3
+    confidence: medium
+    glossSeen: island
+    verified: false
+  - english: shore
+    pos: noun
+    oromo: deegga'uu
+    alternates: []
+    ipa: /ˈdeːɡːɐʔúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/df/Om-deegga%27uu.ogg/Om-deegga%27uu.ogg.mp3
+    confidence: low
+    glossSeen: prop something up usually stone mill shore up or support
+    verified: false
+  - english: desert
+    pos: noun
+    oromo: adaala
+    alternates:
+      - balballaa
+      - langaanoo
+      - alloo
+      - corree
+    ipa: /ɐdɑːlɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8f/Om-adaala.ogg/Om-adaala.ogg.mp3
+    confidence: medium
+    glossSeen: desert
+    verified: false
+  - english: grass
+    pos: noun
+    oromo: marga
+    alternates:
+      - kaloo
+      - aduffaa
+      - afalaamaa
+      - afannee
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: grass
+    verified: false
+  - english: hole
+    pos: noun
+    oromo: boroqaa
+    alternates:
+      - qiliilee
+      - qawoo
+      - qaawwa
+      - boolla'uu
+    ipa: /ˈbɔrɔkʼɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/69/Om-boroqaa.ogg/Om-boroqaa.ogg.mp3
+    confidence: high
+    glossSeen: hole
+    verified: false

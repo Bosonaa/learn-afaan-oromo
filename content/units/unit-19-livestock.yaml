@@ -1,0 +1,297 @@
+id: unit-19-livestock
+order: 19
+title: Farm animals
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: bull
+    pos: noun
+    oromo: dibicha
+    alternates:
+      - jiblaa
+      - mirgoo
+      - juujuu
+      - abbaa kormaa
+    ipa: /ˈdɪbɪt͡ʃɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4f/Om-dibicha.ogg/Om-dibicha.ogg.mp3
+    confidence: medium
+    glossSeen: bull
+    verified: false
+  - english: lamb
+    pos: noun
+    oromo: sookkee
+    alternates:
+      - xabbootii
+      - xobbaallaa
+      - waga'uu
+    ipa: /ˈsoːkːéː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: lamb
+    verified: false
+  - english: mule
+    pos: noun
+    oromo: yaabbachiisuu
+    alternates:
+      - korkodaa
+      - saggaarsisuu
+      - ganyaa
+      - leenjisuu
+    ipa: /ˈjɑːbːɐt͡ʃiːsúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: make somebody or something get on a vehicle or horse/ mule
+    verified: false
+  - english: rooster
+    pos: noun
+    oromo: kormaa
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: rooster
+    verified: false
+  - english: chick
+    pos: noun
+    oromo: cuucii
+    alternates: []
+    ipa: /ˈt͡ʃʼuːt͡ʃʼíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/66/Om-cuucii.ogg/Om-cuucii.ogg.mp3
+    confidence: high
+    glossSeen: chick, i.e., young chicken.
+    verified: false
+  - english: pig
+    pos: noun
+    oromo: booyyee
+    alternates:
+      - karkarroo
+      - kalaadaa
+      - booyyee gaaraa
+    ipa: /ˈboːjːéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/69/Om-booyyee.ogg/Om-booyyee.ogg.mp3
+    confidence: medium
+    glossSeen: hog, pig, swine
+    verified: false
+  - english: rabbit
+    pos: noun
+    oromo: hilleensa
+    alternates:
+      - illeensa
+      - illeettii
+      - kodhollee
+    ipa: /ˈhɪlːeːnsɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: rabbit, hare
+    verified: false
+  - english: herd
+    pos: noun
+    oromo: tikee
+    alternates:
+      - oofsisuu
+      - burrisa
+      - obaa
+      - dachaafamuu
+    ipa: /ˈtɪkéː/
+    audioUrl: null
+    confidence: high
+    glossSeen: herd
+    verified: false
+  - english: cattle
+    pos: noun
+    oromo: loowwan
+    alternates:
+      - loon
+      - horii
+      - burrisa
+      - buubaa
+    ipa: /ˈloːwːɐn/
+    audioUrl: null
+    confidence: medium
+    glossSeen: cattle
+    verified: false
+  - english: horn
+    pos: noun
+    oromo: gaafa
+    alternates:
+      - foollee
+      - moolaa
+      - koblaa
+    ipa: /ˈɡɑːfɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: horn
+    verified: false
+  - english: hoof
+    pos: noun
+    oromo: diqdiqii
+    alternates:
+      - kottee
+      - many ee
+    ipa: /ˈdɪkʼdɪkʼíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/56/Om-diqdiqii.ogg/Om-diqdiqii.ogg.mp3
+    confidence: low
+    glossSeen: voice of horses hoof
+    verified: false
+  - english: shepherd
+    pos: noun
+    oromo: tiksee
+    alternates:
+      - tiksuu
+    ipa: /ˈtɪkséː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: herdsman, shepherd,
+    verified: false
+  - english: barn
+    pos: noun
+    oromo: dallaa loonii
+    alternates:
+      - loosaa
+    ipa: /ˈdɐlːɑː loːníː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0b/Om-dallaa_loonii.ogg/Om-dallaa_loonii.ogg.mp3
+    confidence: high
+    glossSeen: barn
+    verified: false
+  - english: pasture
+    pos: noun
+    oromo: kaloo
+    alternates:
+      - tikfachuu
+      - tiksuu
+      - kalachuu
+      - kaloo reeroo
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: grazing area, pasture, grass
+    verified: false
+  - english: manure
+    pos: noun
+    oromo: dikee
+    alternates:
+      - faltii
+      - caancoo
+      - dikee obeensaa
+    ipa: /ˈdɪkéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/11/Om-dikee.ogg/Om-dikee.ogg.mp3
+    confidence: medium
+    glossSeen: fertilizer/manure
+    verified: false
+  - english: fodder
+    pos: noun
+    oromo: soora fardaa
+    alternates:
+      - soorata beelladaa
+    ipa: /ˈsoːrɐ fɐrdɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: fodder (for horse)
+    verified: false
+  - english: graze
+    pos: noun
+    oromo: dheeduu
+    alternates:
+      - qorqachuu
+      - qorquu
+      - gadhiisaa
+      - qorqisiisuu
+    ipa: /ˈᶑeːdúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c1/Om-dheeduu.ogg/Om-dheeduu.ogg.mp3
+    confidence: high
+    glossSeen: to graze
+    verified: false
+  - english: kid
+    pos: noun
+    oromo: mucayyoo
+    alternates:
+      - gowwoomsuu
+      - daradii
+      - karsoo
+    ipa: /ˈmʊt͡ʃʼɐjːóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: the child, kid (fem)
+    verified: false
+  - english: ewe
+    pos: noun
+    oromo: goromtii
+    alternates:
+      - haadha hoolaa
+      - hoolaa dhaltuu
+    ipa: /ˈɡɔrɔmtíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: ewe
+    verified: false
+  - english: ram
+    pos: noun
+    oromo: korbeessa
+    alternates:
+      - hoolaa korbeessa
+      - tumaalessa
+      - dallaa dawoo
+      - udumuu
+    ipa: /ˈkɔrbeːsːɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: ram, billy goat
+    verified: false
+  - english: stallion
+    pos: noun
+    oromo: sangaa fardaa
+    alternates: []
+    ipa: /ˈsɐnɡɑː fɐrdɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: stallion
+    verified: false
+  - english: mare
+    pos: noun
+    oromo: qalaamaa
+    alternates:
+      - qaayya'uu
+    ipa: /ˈkʼɐlɑːmɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: mare
+    verified: false
+  - english: flock
+    pos: noun
+    oromo: hoomaa jaldeessaa
+    alternates:
+      - hoomaa waraanaa
+    ipa: /ˈhoːmɑː d͡ʒɐldeːsːɑ́ː/
+    audioUrl: null
+    confidence: low
+    glossSeen: flock of baboon
+    verified: false
+  - english: cage
+    pos: noun
+    oromo: godoo simbirroo
+    alternates:
+      - moggifachuu
+    ipa: /ˈɡɔdoː sɪmbɪrːóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: nest, cage
+    verified: false
+  - english: saddle
+    pos: noun
+    oromo: kooraa'
+    alternates:
+      - kooraa
+      - fe'achuu
+      - fe'uu
+      - fe'umsa
+    ipa: /ˈkoːrɑːʔ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: saddle (n)
+    verified: false

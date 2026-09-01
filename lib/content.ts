@@ -1,6 +1,7 @@
 import { readFile, readdir } from "node:fs/promises";
 import { resolve } from "node:path";
 import { parse } from "yaml";
+import { mirroredClips, slugify } from "./audio";
 import { loadRecordings } from "./recordings";
 
 export interface Word {
@@ -44,30 +45,7 @@ interface RawUnit {
   words: RawWord[];
 }
 
-interface Credit {
-  file: string;
-}
-
 const CONTENT_ROOT = resolve(process.cwd(), "content", "units");
-const CREDITS_PATH = resolve(process.cwd(), "public", "audio", "credits.json");
-
-/** Mirrors scripts/mirror-audio.ts so a word resolves to its clip without a lookup table. */
-function slugify(oromo: string): string {
-  return oromo
-    .toLowerCase()
-    .replace(/['’]/g, "-")
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-|-$/g, "");
-}
-
-async function mirroredClips(): Promise<Set<string>> {
-  try {
-    const credits = JSON.parse(await readFile(CREDITS_PATH, "utf8")) as Credit[];
-    return new Set(credits.map((credit) => credit.file));
-  } catch {
-    return new Set();
-  }
-}
 
 export async function loadUnits(): Promise<Unit[]> {
   const clips = await mirroredClips();

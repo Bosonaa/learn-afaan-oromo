@@ -1,0 +1,285 @@
+id: unit-35-people
+order: 35
+title: People & community
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: person
+    pos: noun
+    oromo: geerartuu
+    alternates:
+      - abbaltuu
+      - areedoo
+      - arrabdoteessa
+      - bocaa
+    ipa: /ˈɡeːrɐrtúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: a person, usually a man who is very good at sing a war song
+    verified: false
+  - english: youth
+    pos: noun
+    oromo: dargoo
+    alternates:
+      - dargaggumma
+    ipa: /ˈdɐrɡóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/dc/Om-dargoo.ogg/Om-dargoo.ogg.mp3
+    confidence: high
+    glossSeen: youth (single)
+    verified: false
+  - english: stranger
+    pos: noun
+    oromo: halagoomuu
+    alternates: []
+    ipa: /ˈhɐlɐɡoːmúː/
+    audioUrl: null
+    confidence: low
+    glossSeen: being stranger, not kin
+    verified: false
+  - english: neighbour
+    pos: noun
+    oromo: ollaa
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: neighbour
+    verified: false
+  - english: enemy
+    pos: noun
+    oromo: diina
+    alternates:
+      - adawwii
+      - gaaddilee
+      - dhibantaa
+      - amajaajii
+    ipa: /ˈdiːnɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a4/Om-diina.ogg/Om-diina.ogg.mp3
+    confidence: medium
+    glossSeen: enemy
+    verified: false
+  - english: tribe
+    pos: noun
+    oromo: gosa
+    alternates:
+      - qomoo
+      - lammii
+      - gosoomsuu
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: type, kind
+    verified: false
+  - english: nation
+    pos: noun
+    oromo: biyya
+    alternates: []
+    ipa: /ˈbɪjːɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a6/Om-biyya.ogg/Om-biyya.ogg.mp3
+    confidence: high
+    glossSeen: country, nation
+    verified: false
+  - english: relative
+    pos: noun
+    oromo: horee
+    alternates:
+      - garuumsa
+      - hangaa sadhaatawaa
+      - firaantee
+      - firadhiigaa
+    ipa: /ˈhɔréː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: relative
+    verified: false
+  - english: orphan
+    pos: noun
+    oromo: gasharee
+    alternates:
+      - ilma du'aa
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: orphan
+    verified: false
+  - english: widow
+    pos: noun
+    oromo: bosortii
+    alternates:
+      - afooloo
+    ipa: /ˈbɔsɔrtíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7c/Om-bosortii.ogg/Om-bosortii.ogg.mp3
+    confidence: medium
+    glossSeen: widow
+    verified: false
+  - english: bride
+    pos: noun
+    oromo: ashilee
+    alternates:
+      - idaayyaa
+      - amaamota
+      - addooyyee
+      - gonnobbee
+    ipa: /ɐʃɪléː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5c/Om-ashilee.ogg/Om-ashilee.ogg.mp3
+    confidence: medium
+    glossSeen: bride
+    verified: false
+  - english: groom
+    pos: noun
+    oromo: ooge
+    alternates:
+      - rakoo qaluu
+    ipa: /oːɡɛ/
+    audioUrl: null
+    confidence: low
+    glossSeen: present given by a bride groom
+    verified: false
+  - english: twin
+    pos: noun
+    oromo: lakkuu
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: twin
+    verified: false
+  - english: group
+    pos: noun
+    oromo: tuuta
+    alternates:
+      - qoqqooduu
+      - tuutessuu
+      - booyira
+      - duroo
+    ipa: /ˈtuːtɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: team, group
+    verified: false
+  - english: citizen
+    pos: noun
+    oromo: biyyoomaa
+    alternates:
+      - laammii
+      - lammii
+      - abbaa biyyaa
+    ipa: /ˈbɪjːoːmɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7d/Om-biyyoomaa.ogg/Om-biyyoomaa.ogg.mp3
+    confidence: medium
+    glossSeen: citizen
+    verified: false
+  - english: ancestor
+    pos: noun
+    oromo: abuduroo
+    alternates: []
+    ipa: /ɐbʊdʊróː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/09/Om-abuduroo.ogg/Om-abuduroo.ogg.mp3
+    confidence: high
+    glossSeen: ancestor
+    verified: false
+  - english: descendant
+    pos: noun
+    oromo: hortee
+    alternates:
+      - darbii dabarsoo
+    ipa: /ˈhɔrtéː/
+    audioUrl: null
+    confidence: high
+    glossSeen: descendant, family
+    verified: false
+  - english: generation
+    pos: noun
+    oromo: dhaloota
+    alternates:
+      - labata afaanii
+    ipa: /ˈᶑɐloːtɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0f/Om-dhaloota.ogg/Om-dhaloota.ogg.mp3
+    confidence: high
+    glossSeen: generation
+    verified: false
+  - english: age
+    pos: noun
+    oromo: umrii
+    alternates:
+      - dulloomuu
+      - bardhagitee
+      - dullum
+      - gomboba
+    ipa: /ʊmríː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: age/life
+    verified: false
+  - english: couple
+    pos: noun
+    oromo: mirreessuu
+    alternates:
+      - deebii
+    ipa: /ˈmɪrːeːsːúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: to combine, couple
+    verified: false
+  - english: company
+    pos: noun
+    oromo: daggaa
+    alternates:
+      - kaampaanii
+    ipa: /ˈdɐɡːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f4/Om-daggaa.ogg/Om-daggaa.ogg.mp3
+    confidence: medium
+    glossSeen: company
+    verified: false
+  - english: assembly
+    pos: noun
+    oromo: mana walgayii
+    alternates: []
+    ipa: /ˈmɐnɐ wɐlɡɐjíː/
+    audioUrl: null
+    confidence: low
+    glossSeen: assembly hall
+    verified: false
+  - english: meeting
+    pos: noun
+    oromo: walga'ii
+    alternates:
+      - walqunnamtii
+      - walga'uu
+    ipa: /ˈwɐlɡɐʔíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: meeting
+    verified: false
+  - english: quarrel
+    pos: noun
+    oromo: qoccolloo
+    alternates:
+      - walloluu
+      - baabsaa
+      - coomphoo
+      - dubbii
+    ipa: /ˈkʼɔt͡ʃʼːɔlːóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: quarrel, argument dispute
+    verified: false
+  - english: agreement
+    pos: noun
+    oromo: dilaala
+    alternates:
+      - waligaltee
+      - walta'iinsa
+      - wulii
+      - walta'insa
+    ipa: /ˈdɪlɑːlɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/de/Om-dilaala.ogg/Om-dilaala.ogg.mp3
+    confidence: medium
+    glossSeen: agreement
+    verified: false

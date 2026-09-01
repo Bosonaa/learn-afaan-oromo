@@ -1,0 +1,294 @@
+id: unit-12-school
+order: 12
+title: School & learning
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: school
+    pos: noun
+    oromo: mana barumsaa
+    alternates:
+      - darasaa
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: school
+    verified: false
+  - english: teacher
+    pos: noun
+    oromo: qaraasisaa
+    alternates:
+      - barsiiftuu
+      - barsiisaa
+    ipa: /ˈkʼɐrɑːsɪsɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: teacher
+    verified: false
+  - english: student
+    pos: noun
+    oromo: darasaa
+    alternates: []
+    ipa: /ˈdɐrɐsɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e0/Om-darasaa.ogg/Om-darasaa.ogg.mp3
+    confidence: low
+    glossSeen: student of Quranic school
+    verified: false
+  - english: book
+    pos: noun
+    oromo: kitaaba
+    alternates:
+      - dabtara
+      - haragoo
+      - qur'aana
+      - dabalii
+    ipa: /ˈkɪtɑːbɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: book
+    verified: false
+  - english: page
+    pos: noun
+    oromo: fuula saphaphuu
+    alternates: []
+    ipa: /ˈfuːlɐ sɐpʼɐpʼúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/55/Om-fuula_saphaphuu.ogg/Om-fuula_saphaphuu.ogg.mp3
+    confidence: low
+    glossSeen: web page
+    verified: false
+  - english: pen
+    pos: noun
+    oromo: kobbee
+    alternates:
+      - barreessaa
+      - bitimaa
+      - mooraa
+      - shaxee
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: pen
+    verified: false
+  - english: pencil
+    pos: noun
+    oromo: qubeessaa
+    alternates:
+      - barreessaa
+      - kobbii
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: pencil
+    verified: false
+  - english: paper
+    pos: noun
+    oromo: waraqaa
+    alternates:
+      - arrigoo
+      - bariisaa
+      - sooftii
+      - gamshaa
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: paper
+    verified: false
+  - english: letter
+    pos: noun
+    oromo: xalayaa
+    alternates:
+      - a
+      - A
+    ipa: /ˈtʼɐlɐjɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: letter
+    verified: false
+  - english: word
+    pos: noun
+    oromo: jecha
+    alternates:
+      - aabbo
+      - dabarsoo
+      - otola
+      - qartii
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: word
+    verified: false
+  - english: question
+    pos: noun
+    oromo: gaaffii
+    alternates:
+      - iyyaafannaa
+      - mallattoo gaffi
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: question
+    verified: false
+  - english: answer
+    pos: noun
+    oromo: deebinsa
+    alternates:
+      - deebii
+      - deebisa
+    ipa: /ˈdeːbɪnsɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1e/Om-deebinsa.ogg/Om-deebinsa.ogg.mp3
+    confidence: medium
+    glossSeen: answer
+    verified: false
+  - english: lesson
+    pos: noun
+    oromo: barumsa
+    alternates:
+      - laalessuu
+    ipa: /ˈbɐrʊmsɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/81/Om-barumsa.ogg/Om-barumsa.ogg.mp3
+    confidence: high
+    glossSeen: lesson
+    verified: false
+  - english: story
+    pos: noun
+    oromo: darbii
+    alternates:
+      - durdurii
+      - fooqii
+      - asooga
+    ipa: /ˈdɐrbíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/86/Om-darbii.ogg/Om-darbii.ogg.mp3
+    confidence: medium
+    glossSeen: story
+    verified: false
+  - english: song
+    pos: noun
+    oromo: absaala
+    alternates:
+      - faarfannaa
+      - sirba
+      - weedduu
+      - dannaboo
+    ipa: /ɐbsɑːlɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/03/Om-absaala.ogg/Om-absaala.ogg.mp3
+    confidence: medium
+    glossSeen: song
+    verified: false
+  - english: language
+    pos: noun
+    oromo: afaan
+    alternates:
+      - afkeeka
+      - afmadda
+      - geeddarafa
+      - afaan garlamee
+    ipa: /ɐfɑːn/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/41/Om-afaan.ogg/Om-afaan.ogg.mp3
+    confidence: high
+    glossSeen: mouth
+    verified: false
+  - english: chalk
+    pos: noun
+    oromo: boronqii
+    alternates: []
+    ipa: /ˈbɔrɔnkʼíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d6/Om-boronqii.ogg/Om-boronqii.ogg.mp3
+    confidence: high
+    glossSeen: chalk
+    verified: false
+  - english: class
+    pos: noun
+    oromo: daree
+    alternates:
+      - olaantiyyaa
+      - saabbaa
+      - fugaa
+      - gita bittuu
+    ipa: /ˈdɐréː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c5/Om-daree.ogg/Om-daree.ogg.mp3
+    confidence: low
+    glossSeen: a kind of low land tree
+    verified: false
+  - english: library
+    pos: noun
+    oromo: mana kitaaba
+    alternates: []
+    ipa: /ˈmɐnɐ kɪtɑːbɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: library
+    verified: false
+  - english: pupil
+    pos: noun
+    oromo: gumaa ijaa
+    alternates:
+      - agartuu
+      - qaroo
+    ipa: /ˈɡʊmɑː ɪd͡ʒɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: pupil
+    verified: false
+  - english: knowledge
+    pos: noun
+    oromo: beekumsa
+    alternates:
+      - barannoo
+      - beekkachuu
+      - gonfachuu
+    ipa: /ˈbeːkʊmsɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/44/Om-beekumsa.ogg/Om-beekumsa.ogg.mp3
+    confidence: medium
+    glossSeen: knowledge
+    verified: false
+  - english: writing
+    pos: noun
+    oromo: barreeffama
+    alternates:
+      - hololeessuu
+    ipa: /ˈbɐrːeːfːɐmɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/60/Om-barreeffama.ogg/Om-barreeffama.ogg.mp3
+    confidence: high
+    glossSeen: writing; written text; piece of writing
+    verified: false
+  - english: reading
+    pos: noun
+    oromo: dubbisa
+    alternates: []
+    ipa: /ˈdʊbːɪsɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3d/Om-dubbisa.ogg/Om-dubbisa.ogg.mp3
+    confidence: low
+    glossSeen: talk to somebody
+    verified: false
+  - english: game
+    pos: noun
+    oromo: tapha
+    alternates:
+      - baqqoo
+      - gabbaa
+      - gombisa
+      - gugsii
+    ipa: /ˈtɐpʼɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: game, jock,
+    verified: false
+  - english: rule
+    pos: noun
+    oromo: bittaa
+    alternates:
+      - dambii
+      - sassararuu
+      - mohuu
+      - mootomuu
+    ipa: /ˈbɪtːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/dc/Om-bittaa.ogg/Om-bittaa.ogg.mp3
+    confidence: medium
+    glossSeen: purchase
+    verified: false

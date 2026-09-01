@@ -1,0 +1,312 @@
+id: unit-29-verbs-move
+order: 29
+title: "Verbs: moving"
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: jump
+    pos: verb
+    oromo: korophisuu
+    alternates:
+      - qorophisuu
+      - xarrisuu
+      - utaaluu
+      - finqiluu
+    ipa: /ˈkɔrɔpʼɪsúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: to jump
+    verified: false
+  - english: climb
+    pos: verb
+    oromo: yaabuu
+    alternates:
+      - irra koruu
+      - ol ba'uu
+      - irra ba'uu
+      - yaabbe huu
+    ipa: /ˈjɑːbúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: climb, be on something.
+    verified: false
+  - english: fall
+    pos: verb
+    oromo: bubuusuu
+    alternates:
+      - lixuu
+      - jiguu
+      - mittiquu
+      - birraa
+    ipa: /ˈbʊbuːsúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/88/Om-bubuusuu.ogg/Om-bubuusuu.ogg.mp3
+    confidence: medium
+    glossSeen: drop, fall, get off
+    verified: false
+  - english: lie
+    pos: verb
+    oromo: hofonfoluu
+    alternates:
+      - sobuu
+      - kijibuu
+      - soba
+      - kijiba
+    ipa: /ˈhɔfɔnfɔlúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: to lie
+    verified: false
+  - english: enter
+    pos: verb
+    oromo: galuu
+    alternates:
+      - duuduu
+      - lixuu
+      - seenuu
+      - seensisiifachuu
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: to enter
+    verified: false
+  - english: leave
+    pos: verb
+    oromo: baatuu
+    alternates:
+      - gachisuu
+      - dhiisuu
+      - hambisiisuu
+      - oochisuu
+    ipa: /ˈbɑːtúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/90/Om-baatuu.ogg/Om-baatuu.ogg.mp3
+    confidence: high
+    glossSeen: to leave
+    verified: false
+  - english: return
+    pos: verb
+    oromo: deebi'uu
+    alternates:
+      - deebisuu
+      - itti deebi'uu
+      - barakatii
+      - dugda baafachuu
+    ipa: /ˈdeːbɪʔúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4d/Om-deebi%27uu.ogg/Om-deebi%27uu.ogg.mp3
+    confidence: medium
+    glossSeen: to come back, return
+    verified: false
+  - english: arrive
+    pos: verb
+    oromo: gahuu
+    alternates:
+      - qaqqabachiisuu
+      - qaqqabachuu
+      - qaxxisa
+    ipa: /ˈɡɐhúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: reach, arrive
+    verified: false
+  - english: follow
+    pos: verb
+    oromo: jaladeemuu
+    alternates:
+      - hordofuu
+      - aansuu
+      - faanadhahuu
+      - faana bu'uu
+    ipa: /ˈd͡ʒɐlɐdeːmúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: follow
+    verified: false
+  - english: flee
+    pos: verb
+    oromo: baqachuu
+    alternates:
+      - baqachiisuu
+    ipa: /ˈbɐkʼɐt͡ʃúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/90/Om-baqachuu.ogg/Om-baqachuu.ogg.mp3
+    confidence: high
+    glossSeen: to flee, run away
+    verified: false
+  - english: carry
+    pos: verb
+    oromo: baacuu
+    alternates:
+      - baachuu
+      - baachifachuu
+      - baachisiisuu
+      - baattachuu
+    ipa: /ˈbɑːt͡ʃʼúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/de/Om-baacuu.ogg/Om-baacuu.ogg.mp3
+    confidence: medium
+    glossSeen: to carry
+    verified: false
+  - english: bring
+    pos: verb
+    oromo: fiduu
+    alternates:
+      - deebifachuu
+      - fichisisuu
+      - dachaasuu
+      - dhiyeeffachuu
+    ipa: /ˈfɪdúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e2/Om-fiduu.ogg/Om-fiduu.ogg.mp3
+    confidence: high
+    glossSeen: to bring
+    verified: false
+  - english: send
+    pos: verb
+    oromo: erguu
+    alternates:
+      - dhaammachuu
+      - dhamsachuu
+      - ergachuu
+      - futta'uu
+    ipa: /ɛrɡúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3c/Om-erguu.ogg/Om-erguu.ogg.mp3
+    confidence: high
+    glossSeen: to send
+    verified: false
+  - english: push
+    pos: verb
+    oromo: dhiibuu
+    alternates:
+      - jifachuu
+      - ha'iisa
+      - dhiibbachuu
+      - qooqqifachuu
+    ipa: /ˈᶑiːbúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/90/Om-dhiibuu.ogg/Om-dhiibuu.ogg.mp3
+    confidence: high
+    glossSeen: to push
+    verified: false
+  - english: pull
+    pos: verb
+    oromo: harkifachuu
+    alternates:
+      - harkisuu
+      - arkisiisuu
+      - baaragguu
+      - harkisiisuu
+    ipa: /ˈhɐrkɪfɐt͡ʃúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: draw/pull (for one's self)
+    verified: false
+  - english: turn
+    pos: verb
+    oromo: dabaree
+    alternates:
+      - hinkoo
+      - darabee
+      - inkoo
+      - deebisisuu
+    ipa: /ˈdɐbɐréː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1d/Om-dabaree.ogg/Om-dabaree.ogg.mp3
+    confidence: medium
+    glossSeen: turn
+    verified: false
+  - english: cross
+    pos: verb
+    oromo: cehuu
+    alternates:
+      - dallansisuu
+      - ceesifamuu
+      - ceesiftuu
+      - ceesisuu
+    ipa: /ˈt͡ʃʼɛhúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/05/Om-cehuu.ogg/Om-cehuu.ogg.mp3
+    confidence: medium
+    glossSeen: to cross, go across some thing
+    verified: false
+  - english: swim
+    pos: verb
+    oromo: dakuu
+    alternates:
+      - daakuu
+      - haphaluu
+      - killa lixuu
+    ipa: /ˈdɐkúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2d/Om-dakuu.ogg/Om-dakuu.ogg.mp3
+    confidence: medium
+    glossSeen: to swim
+    verified: false
+  - english: ride
+    pos: verb
+    oromo: gulufuu
+    alternates:
+      - uddeellataa
+    ipa: /ˈɡʊlʊfúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: ride
+    verified: false
+  - english: pass
+    pos: verb
+    oromo: dabruu
+    alternates:
+      - darbuu
+      - ce'achuu
+      - ceesifamuu
+      - dawwaruu
+    ipa: /ˈdɐbrúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d1/Om-dabruu.ogg/Om-dabruu.ogg.mp3
+    confidence: medium
+    glossSeen: to pass
+    verified: false
+  - english: wait
+    pos: verb
+    oromo: afachuu
+    alternates:
+      - dukkaneefachuu
+      - eeggachuu
+      - dhiisifachuu
+      - ganameeffachuu
+    ipa: /ɐfɐt͡ʃúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3e/Om-afachuu.ogg/Om-afachuu.ogg.mp3
+    confidence: high
+    glossSeen: to wait
+    verified: false
+  - english: hurry
+    pos: verb
+    oromo: ariifachuu
+    alternates:
+      - dafuu
+      - nafa'uu
+      - jarjarsuu
+      - sardamuu
+    ipa: /ɐriːfɐt͡ʃúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/94/Om-ariifachuu.ogg/Om-ariifachuu.ogg.mp3
+    confidence: medium
+    glossSeen: to hurry
+    verified: false
+  - english: travel
+    pos: verb
+    oromo: imaltuu
+    alternates: []
+    ipa: /ɪmɐltúː/
+    audioUrl: null
+    confidence: low
+    glossSeen: tourist
+    verified: false
+  - english: crawl
+    pos: verb
+    oromo: daaddisuu
+    alternates:
+      - loohuu
+      - loowuu
+      - munyuuquu
+      - daa' imuu
+    ipa: /ˈdɑːdːɪsúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/45/Om-daaddisuu.ogg/Om-daaddisuu.ogg.mp3
+    confidence: medium
+    glossSeen: to toddle, to crawl
+    verified: false

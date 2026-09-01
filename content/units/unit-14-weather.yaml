@@ -1,0 +1,243 @@
+id: unit-14-weather
+order: 14
+title: Weather & sky
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: wind
+    pos: noun
+    oromo: bubbee
+    alternates:
+      - daawwaramuu
+      - bubbisa
+      - bubbisiisuu
+      - buxii
+    ipa: /ˈbʊbːéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3c/Om-bubbee.ogg/Om-bubbee.ogg.mp3
+    confidence: medium
+    glossSeen: hurricane, storm, wind
+    verified: false
+  - english: cloud
+    pos: noun
+    oromo: duumessa
+    alternates:
+      - baaldoo
+      - duumessaa'uu
+    ipa: /ˈduːmɛsːɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2d/Om-duumessa.ogg/Om-duumessa.ogg.mp3
+    confidence: high
+    glossSeen: cloud
+    verified: false
+  - english: storm
+    pos: noun
+    oromo: suulaa
+    alternates:
+      - bubbee
+      - hobonboleessa
+      - rooba hangaasuu
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: storm
+    verified: false
+  - english: thunder
+    pos: noun
+    oromo: bakakkaa
+    alternates:
+      - billiqqee
+      - qaqawwii
+      - mandichuu
+      - mandihuu
+    ipa: /ˈbɐkɐkːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b7/Om-bakakkaa.ogg/Om-bakakkaa.ogg.mp3
+    confidence: medium
+    glossSeen: thunder
+    verified: false
+  - english: lightning
+    pos: noun
+    oromo: balaqqeessa
+    alternates:
+      - angaasuu
+      - billiqqee
+    ipa: /ˈbɐlɐkʼːeːsːɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/12/Om-balaqqeessa.ogg/Om-balaqqeessa.ogg.mp3
+    confidence: medium
+    glossSeen: lightning
+    verified: false
+  - english: heat
+    pos: noun
+    oromo: o'a
+    alternates:
+      - ho'a
+      - karkarsuu
+      - o'isuu
+      - xanxara
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: heat
+    verified: false
+  - english: ice
+    pos: noun
+    oromo: cabbii
+    alternates:
+      - jalaatii
+    ipa: /ˈt͡ʃʼɐbːíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ad/Om-cabbii.ogg/Om-cabbii.ogg.mp3
+    confidence: high
+    glossSeen: ice
+    verified: false
+  - english: fog
+    pos: noun
+    oromo: qayyoota
+    alternates:
+      - hurrii
+    ipa: /ˈkʼɐjːoːtɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: fog
+    verified: false
+  - english: dew
+    pos: noun
+    oromo: fixeensa
+    alternates: []
+    ipa: /ˈfɪtʼeːnsɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/ce/Om-fixeensa.ogg/Om-fixeensa.ogg.mp3
+    confidence: high
+    glossSeen: dew
+    verified: false
+  - english: rainbow
+    pos: noun
+    oromo: sabbata waaqayyoo
+    alternates: []
+    ipa: /ˈsɐbːɐtɐ wɑːkʼɐjːóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: rainbow
+    verified: false
+  - english: shade
+    pos: noun
+    oromo: caayaa
+    alternates:
+      - qabbana
+      - ciibsaa
+    ipa: /ˈt͡ʃʼɑːjɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/91/Om-caayaa.ogg/Om-caayaa.ogg.mp3
+    confidence: medium
+    glossSeen: shade, shadow
+    verified: false
+  - english: drought
+    pos: noun
+    oromo: hongee
+    alternates:
+      - ongee
+    ipa: /ˈhɔnɡéː/
+    audioUrl: null
+    confidence: low
+    glossSeen: drought or dry
+    verified: false
+  - english: flood
+    pos: noun
+    oromo: laabaa
+    alternates:
+      - galoo
+      - lolaa
+      - loosaa
+      - towuu
+    ipa: /ˈlɑːbɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: flood
+    verified: false
+  - english: mud
+    pos: noun
+    oromo: dhoqqee
+    alternates:
+      - laaqii
+      - dhidhimuu
+      - dhooba
+      - duppoo
+    ipa: /ˈᶑɔkʼːéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5b/Om-dhoqqee.ogg/Om-dhoqqee.ogg.mp3
+    confidence: medium
+    glossSeen: mud
+    verified: false
+  - english: dust
+    pos: noun
+    oromo: awwaara
+    alternates:
+      - buukanii
+      - dhukkee
+      - awaara
+      - bunnisuu
+    ipa: /ɐwːɑːrɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: dust
+    verified: false
+  - english: smoke
+    pos: noun
+    oromo: haara
+    alternates:
+      - aarsuu
+      - xuuxuu
+      - aaruu
+      - aarfamuu
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: smoke (of fire)
+    verified: false
+  - english: air
+    pos: noun
+    oromo: qilleensa
+    alternates:
+      - dhalatto
+      - faalamaqilleensaa
+      - xurree
+      - haatuu balali'aa
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: air
+    verified: false
+  - english: darkness
+    pos: noun
+    oromo: dukkana
+    alternates: []
+    ipa: /ˈdʊkːɐnɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2a/Om-dukkana.ogg/Om-dukkana.ogg.mp3
+    confidence: high
+    glossSeen: darkness
+    verified: false
+  - english: frost
+    pos: noun
+    oromo: boojjii
+    alternates:
+      - muqqur
+      - muqura
+      - waagii
+    ipa: /ˈboːd͡ʒːíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/92/Om-boojjii.ogg/Om-boojjii.ogg.mp3
+    confidence: medium
+    glossSeen: salty soil usually eaten by cattle
+    verified: false
+  - english: weather
+    pos: noun
+    oromo: amaleensa
+    alternates:
+      - caamessa
+      - bulluqa
+      - qorraa
+      - maallimuu
+    ipa: /ɐmɐleːnsɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f2/Om-amaleensa.ogg/Om-amaleensa.ogg.mp3
+    confidence: low
+    glossSeen: weather condition
+    verified: false

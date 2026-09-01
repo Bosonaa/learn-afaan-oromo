@@ -1,0 +1,306 @@
+id: unit-13-time
+order: 13
+title: Time, days & seasons
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: time
+    pos: noun
+    oromo: wayita
+    alternates:
+      - yeroo
+      - mosina
+      - ittaansuu
+      - ammii
+    ipa: /ˈwɐjɪtɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: time
+    verified: false
+  - english: day
+    pos: noun
+    oromo: bultii
+    alternates:
+      - gaafa
+      - guyyaa
+      - awandaroo
+      - boromtii
+    ipa: /ˈbʊltíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/61/Om-bultii.ogg/Om-bultii.ogg.mp3
+    confidence: high
+    glossSeen: standard of living
+    verified: false
+  - english: night
+    pos: noun
+    oromo: halkan
+    alternates:
+      - halkan har'aa
+      - algadda
+      - dibaa
+      - gebexii
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: night
+    verified: false
+  - english: morning
+    pos: noun
+    oromo: barraaqa
+    alternates:
+      - orraa
+      - ganama
+      - abboroo
+      - bakkalcha
+    ipa: /ˈbɐrːɑːkʼɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c0/Om-barraaqa.ogg/Om-barraaqa.ogg.mp3
+    confidence: medium
+    glossSeen: morning
+    verified: false
+  - english: evening
+    pos: noun
+    oromo: dhi'a
+    alternates:
+      - dhiya
+      - galgala
+      - aboorada
+      - hacamooyyaa
+    ipa: /ˈᶑɪʔɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0d/Om-dhi%27a.ogg/Om-dhi%27a.ogg.mp3
+    confidence: medium
+    glossSeen: evening
+    verified: false
+  - english: afternoon
+    pos: noun
+    oromo: waaree booda
+    alternates: []
+    ipa: /ˈwɑːreː boːdɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: afternoon
+    verified: false
+  - english: week
+    pos: noun
+    oromo: torban
+    alternates:
+      - torbee
+      - torbandarbe
+      - torbandhufu
+      - harka dhawaa
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: week
+    verified: false
+  - english: month
+    pos: noun
+    oromo: baatii
+    alternates:
+      - aboorada
+      - aldarba
+      - gardaaduma
+      - innika
+    ipa: /ˈbɑːtíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/12/Om-baatii.ogg/Om-baatii.ogg.mp3
+    confidence: high
+    glossSeen: month
+    verified: false
+  - english: year
+    pos: noun
+    oromo: waggaa
+    alternates:
+      - jijjiirraa baraa
+      - haddaar
+      - kurmaana
+      - bara duraa
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: year
+    verified: false
+  - english: today
+    pos: noun
+    oromo: guyyaa har'aa
+    alternates: []
+    ipa: /ˈɡʊjːɑː hɐrʔɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: today
+    verified: false
+  - english: tomorrow
+    pos: noun
+    oromo: borumtaa
+    alternates: []
+    ipa: /ˈbɔrʊmtɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/ff/Om-borumtaa.ogg/Om-borumtaa.ogg.mp3
+    confidence: low
+    glossSeen: next day, after tomorrow
+    verified: false
+  - english: hour
+    pos: noun
+    oromo: saatii
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: hour
+    verified: false
+  - english: minute
+    pos: noun
+    oromo: buquqaa
+    alternates: []
+    ipa: /ˈbʊkʼʊkʼɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bb/Om-buquqaa.ogg/Om-buquqaa.ogg.mp3
+    confidence: low
+    glossSeen: garbage, refuse
+    verified: false
+  - english: season
+    pos: noun
+    oromo: tibba
+    alternates:
+      - waqtii
+      - mosina
+      - darabii
+      - birroolee
+    ipa: /ˈtɪbːɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: season
+    verified: false
+  - english: summer
+    pos: noun
+    oromo: ganna
+    alternates:
+      - bonee
+      - gordii
+      - hobonbola
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: summer
+    verified: false
+  - english: winter
+    pos: noun
+    oromo: bona
+    alternates:
+      - bonaawuu
+      - ganna bawuu
+    ipa: /ˈbɔnɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/30/Om-bona.ogg/Om-bona.ogg.mp3
+    confidence: high
+    glossSeen: winter
+    verified: false
+  - english: spring
+    pos: noun
+    oromo: arfaasaa
+    alternates:
+      - burqaa
+      - furga'aa
+      - calcalii
+      - birroolee
+    ipa: /ɐrfɑːsɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/23/Om-arfaasaa.ogg/Om-arfaasaa.ogg.mp3
+    confidence: medium
+    glossSeen: spring, springtime
+    verified: false
+  - english: autumn
+    pos: noun
+    oromo: birraa
+    alternates:
+      - arfaasee
+    ipa: /ˈbɪrːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/55/Om-birraa.ogg/Om-birraa.ogg.mp3
+    confidence: high
+    glossSeen: autumn, fall
+    verified: false
+  - english: rain
+    pos: noun
+    oromo: bokkaa
+    alternates:
+      - rooba
+      - roobuu
+      - baaldoo
+      - baaxiyyaa
+    ipa: /ˈbɔkːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3f/Om-bokkaa.ogg/Om-bokkaa.ogg.mp3
+    confidence: high
+    glossSeen: rain
+    verified: false
+  - english: sun
+    pos: noun
+    oromo: biiftuu
+    alternates:
+      - biifuu
+      - aduu
+      - haduu
+      - adulee
+    ipa: /ˈbiːftúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7a/Om-biiftuu.ogg/Om-biiftuu.ogg.mp3
+    confidence: medium
+    glossSeen: sun
+    verified: false
+  - english: moon
+    pos: noun
+    oromo: addeessa
+    alternates:
+      - ji'a
+      - zoodiyaak
+      - elellee
+      - fasasee
+    ipa: /ɐdːeːsːɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/ca/Om-addeessa.ogg/Om-addeessa.ogg.mp3
+    confidence: medium
+    glossSeen: moon
+    verified: false
+  - english: star
+    pos: noun
+    oromo: hurjii
+    alternates:
+      - urgi
+      - urjii
+      - bakkalcha
+      - qorsa
+    ipa: /ˈhʊrd͡ʒíː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: star
+    verified: false
+  - english: sky
+    pos: noun
+    oromo: samii
+    alternates:
+      - waaqa
+      - olfagoo
+      - gimmisuu
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: sky
+    verified: false
+  - english: dawn
+    pos: noun
+    oromo: obboroo
+    alternates:
+      - boruu
+      - bariifachuu
+      - bariitu
+      - bari'uu
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: dawn
+    verified: false
+  - english: dusk
+    pos: noun
+    oromo: dimimmisa
+    alternates: []
+    ipa: /ˈdɪmɪmːɪsɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/45/Om-dimimmisa.ogg/Om-dimimmisa.ogg.mp3
+    confidence: high
+    glossSeen: dusk/twilight
+    verified: false

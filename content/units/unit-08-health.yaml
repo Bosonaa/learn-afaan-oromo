@@ -1,0 +1,311 @@
+id: unit-08-health
+order: 8
+title: Health & feeling unwell
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: illness
+    pos: noun
+    oromo: dhukkuba
+    alternates:
+      - libalibii
+      - wayyaa'uu
+    ipa: /ˈᶑʊkːʊbɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/53/Om-dhukkuba.ogg/Om-dhukkuba.ogg.mp3
+    confidence: medium
+    glossSeen: disease, illness
+    verified: false
+  - english: pain
+    pos: noun
+    oromo: aʼa
+    alternates:
+      - ibrikuu
+      - laalata
+      - xaaxaatee
+      - aada
+    ipa: /ɐʼɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/40/Om-a%CA%BCa.ogg/Om-a%CA%BCa.ogg.mp3
+    confidence: low
+    glossSeen: painful voice of sharp pain.
+    verified: false
+  - english: fever
+    pos: noun
+    oromo: laydaa
+    alternates:
+      - qandhoo
+      - lagdaa
+      - gubaa
+      - ho'a
+    ipa: /ˈlɐjdɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: fever
+    verified: false
+  - english: cough
+    pos: noun
+    oromo: ukaa
+    alternates:
+      - qufaa
+      - qusa'uu
+      - ukamuu
+      - qufa'uu
+    ipa: /ʊkɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: cough
+    verified: false
+  - english: wound
+    pos: noun
+    oromo: madaa
+    alternates:
+      - qonyonyaa
+      - roojii
+      - kulkula
+      - taaffee
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: wound, injury
+    verified: false
+  - english: medicine
+    pos: noun
+    oromo: daawwaa
+    alternates:
+      - qoricha
+      - aanquu
+      - alteeta
+      - arraddoo
+    ipa: /ˈdɑːwːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4a/Om-daawwaa.ogg/Om-daawwaa.ogg.mp3
+    confidence: high
+    glossSeen: medicine
+    verified: false
+  - english: doctor
+    pos: noun
+    oromo: ogeessa fayyaa
+    alternates:
+      - abbaa qorichaa
+      - haakimii
+      - hakimii
+      - hakiimii
+    ipa: /ɔɡeːsːɐ fɐjːɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: doctor
+    verified: false
+  - english: hospital
+    pos: noun
+    oromo: hospítaala
+    alternates:
+      - mana yaalaa
+    ipa: /ˈhɔspítɑːlɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: hospital
+    verified: false
+  - english: nurse
+    pos: noun
+    oromo: dhukkubsachiisuu
+    alternates:
+      - sooruu
+      - yaaluu
+    ipa: /ˈᶑʊkːʊbsɐt͡ʃiːsúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2d/Om-dhukkubsachiisuu.ogg/Om-dhukkubsachiisuu.ogg.mp3
+    confidence: high
+    glossSeen: nurse
+    verified: false
+  - english: blood
+    pos: noun
+    oromo: dhiiga
+    alternates:
+      - aammoo
+      - aantii
+      - alagaa
+      - dhalataa
+    ipa: /ˈᶑiːɡɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/30/Om-dhiiga.ogg/Om-dhiiga.ogg.mp3
+    confidence: high
+    glossSeen: blood
+    verified: false
+  - english: health
+    pos: noun
+    oromo: fayyaa
+    alternates:
+      - dhoramuu
+    ipa: /ˈfɐjːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7e/Om-fayyaa.ogg/Om-fayyaa.ogg.mp3
+    confidence: high
+    glossSeen: health
+    verified: false
+  - english: sneeze
+    pos: noun
+    oromo: axxissoo
+    alternates:
+      - axiffachuu
+      - haxxiffachuu
+      - axxififachiisuu
+      - haxxiffachiisuu
+    ipa: /ɐtʼːɪsːóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/de/Om-axxissoo.ogg/Om-axxissoo.ogg.mp3
+    confidence: high
+    glossSeen: sneeze
+    verified: false
+  - english: headache
+    pos: noun
+    oromo: mataa bowwuu
+    alternates:
+      - bowwaafachuu
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: headache
+    verified: false
+  - english: thirst
+    pos: noun
+    oromo: dheebuu
+    alternates: []
+    ipa: /ˈᶑeːbúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f8/Om-dheebuu.ogg/Om-dheebuu.ogg.mp3
+    confidence: high
+    glossSeen: thirst
+    verified: false
+  - english: hunger
+    pos: noun
+    oromo: doromii
+    alternates:
+      - duullii
+      - beela
+    ipa: /ˈdɔrɔmíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9e/Om-doromii.ogg/Om-doromii.ogg.mp3
+    confidence: medium
+    glossSeen: hunger
+    verified: false
+  - english: dream
+    pos: noun
+    oromo: abjuu
+    alternates:
+      - abjoochuu
+      - manaamuu
+      - abjuu laaluu
+      - abjuu gaarii
+    ipa: /ɐbd͡ʒúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: dream
+    verified: false
+  - english: scar
+    pos: noun
+    oromo: lamagii
+    alternates:
+      - birii
+    ipa: /ˈlɐmɐɡíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: scar
+    verified: false
+  - english: sickness
+    pos: noun
+    oromo: dandaa
+    alternates:
+      - olguura
+      - maansaa
+      - lollojji
+    ipa: /ˈdɐndɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3d/Om-dandaa.ogg/Om-dandaa.ogg.mp3
+    confidence: low
+    glossSeen: sleeping sickness
+    verified: false
+  - english: cure
+    pos: noun
+    oromo: fayyisuu
+    alternates:
+      - dhunsuu
+      - faduu
+      - deeffachiisuu
+      - dhunsiisuu
+    ipa: /ˈfɐjːɪsúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/13/Om-fayyisuu.ogg/Om-fayyisuu.ogg.mp3
+    confidence: medium
+    glossSeen: to cure
+    verified: false
+  - english: vomit
+    pos: noun
+    oromo: diddiga
+    alternates:
+      - hoqqisa
+      - balaqqama
+      - hooqqisuu
+      - hooqqisiisuu
+    ipa: /ˈdɪdːɪɡɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7d/Om-diddiga.ogg/Om-diddiga.ogg.mp3
+    confidence: medium
+    glossSeen: vomit
+    verified: false
+  - english: injury
+    pos: noun
+    oromo: madaa
+    alternates:
+      - saffaatoo
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: wound, injury
+    verified: false
+  - english: swelling
+    pos: noun
+    oromo: dhiitoo
+    alternates:
+      - mashaa
+      - dhiita
+      - orbobbaa'uu
+      - wassee
+    ipa: /ˈᶑiːtóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/33/Om-dhiitoo.ogg/Om-dhiitoo.ogg.mp3
+    confidence: medium
+    glossSeen: swelling
+    verified: false
+  - english: itch
+    pos: noun
+    oromo: cittoo
+    alternates:
+      - ctoruu
+      - biichee
+      - hooqaa
+      - cittaawuu
+    ipa: /ˈt͡ʃʼɪtːóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0c/Om-cittoo.ogg/Om-cittoo.ogg.mp3
+    confidence: high
+    glossSeen: itch
+    verified: false
+  - english: death
+    pos: noun
+    oromo: du'a
+    alternates:
+      - cirifannoo
+      - hobbaafannaa
+      - oolchuu
+      - ajala
+    ipa: /ˈdʊʔɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c9/Om-du%27a.ogg/Om-du%27a.ogg.mp3
+    confidence: medium
+    glossSeen: death
+    verified: false
+  - english: life
+    pos: noun
+    oromo: dhakkee
+    alternates:
+      - jiruu
+      - umrii
+      - ruhii
+      - warra
+    ipa: /ˈᶑɐkːéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7e/Om-dhakkee.ogg/Om-dhakkee.ogg.mp3
+    confidence: medium
+    glossSeen: life
+    verified: false

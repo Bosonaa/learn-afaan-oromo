@@ -40,6 +40,11 @@ export default async function AboutPage() {
           Treat a surprising answer as a bug in the data, not as Afaan Oromo.
         </p>
         <p className="text-slate-700">
+          The Dictionary tab searches the whole lexicon rather than the lessons, so it is even
+          rougher: it shows every sense Wiktionary records, including regional and rare ones. Use it
+          to look something up, not to decide what a word means.
+        </p>
+        <p className="text-slate-700">
           Nothing you do here is uploaded. Progress is stored only in this browser and there is
           no account and no analytics. Profiles are names on this device, kept apart so children
           sharing it do not share a streak.

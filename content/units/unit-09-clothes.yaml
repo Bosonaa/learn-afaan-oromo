@@ -1,0 +1,315 @@
+id: unit-09-clothes
+order: 9
+title: Clothes
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: clothes
+    pos: noun
+    oromo: uffannaa
+    alternates:
+      - uffata
+      - daara
+      - azaaya
+      - balasee
+    ipa: /ʊfːɐnːɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: clothes
+    verified: false
+  - english: shirt
+    pos: noun
+    oromo: ubaara
+    alternates:
+      - kittaa
+      - shamizii
+      - biddiqqoo
+      - dibbiqqoo
+    ipa: /ʊbɑːrɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: shirt
+    verified: false
+  - english: trousers
+    pos: noun
+    oromo: surree
+    alternates:
+      - bolaalee
+      - kofoo
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: pants, trousers
+    verified: false
+  - english: dress
+    pos: noun
+    oromo: lamii
+    alternates:
+      - arrabiiyyee
+      - dirbadiri
+      - dungusee
+      - fittaalee
+    ipa: /ˈlɐmíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: dress
+    verified: false
+  - english: skirt
+    pos: noun
+    oromo: bongoo
+    alternates:
+      - kurtaa
+      - qexxaa
+      - hamfala
+      - gembisoo
+    ipa: /ˈbɔnɡóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fd/Om-bongoo.ogg/Om-bongoo.ogg.mp3
+    confidence: medium
+    glossSeen: skirt
+    verified: false
+  - english: shoe
+    pos: noun
+    oromo: kophee
+    alternates:
+      - koongoo
+      - liistiroo
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: shoe
+    verified: false
+  - english: hat
+    pos: noun
+    oromo: gonfoo
+    alternates:
+      - baarmexaa
+      - qoobii
+      - amaamaa
+      - kalawaa
+    ipa: /ˈɡɔnfóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: hat
+    verified: false
+  - english: cap
+    pos: noun
+    oromo: gooffee
+    alternates:
+      - kuffiyyaa
+      - mafee
+      - mallayyoo
+      - qoobii
+    ipa: /ˈɡoːfːéː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: cap
+    verified: false
+  - english: belt
+    pos: noun
+    oromo: dhukoo
+    alternates:
+      - qabattoo
+      - saqqii
+      - waraansillee
+      - gurda
+    ipa: /ˈᶑʊkóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b1/Om-dhukoo.ogg/Om-dhukoo.ogg.mp3
+    confidence: medium
+    glossSeen: belt
+    verified: false
+  - english: coat
+    pos: noun
+    oromo: kootii
+    alternates:
+      - baaxiyyaa
+      - ducee
+      - duuchee
+      - kaabbortaa
+    ipa: /ˈkoːtíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: coat
+    verified: false
+  - english: blanket
+    pos: noun
+    oromo: banjaa
+    alternates:
+      - awusaa
+      - baanaa
+      - jifaara
+    ipa: /ˈbɐnd͡ʒɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ab/Om-banjaa.ogg/Om-banjaa.ogg.mp3
+    confidence: medium
+    glossSeen: blanket
+    verified: false
+  - english: cloth
+    pos: noun
+    oromo: fittaala
+    alternates:
+      - uwwisa
+      - wuccuu
+      - ruufa
+      - baladii
+    ipa: /ˈfɪtːɑːlɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1e/Om-fittaala.ogg/Om-fittaala.ogg.mp3
+    confidence: medium
+    glossSeen: cloth (cultural)
+    verified: false
+  - english: cotton
+    pos: noun
+    oromo: jirbii
+    alternates:
+      - dirmoo
+      - damacaa
+      - dabalaa
+      - boffee
+    ipa: /ˈd͡ʒɪrbíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: cotton
+    verified: false
+  - english: wool
+    pos: noun
+    oromo: suufii
+    alternates: []
+    ipa: /ˈsuːfíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: sunflower plant or seed
+    verified: false
+  - english: button
+    pos: noun
+    oromo: biinkoo
+    alternates:
+      - kolbee
+      - qawwisaa
+      - qabdoo
+      - kolbaa
+    ipa: /ˈbiːnkóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c9/Om-biinkoo.ogg/Om-biinkoo.ogg.mp3
+    confidence: medium
+    glossSeen: button
+    verified: false
+  - english: pocket
+    pos: noun
+    oromo: kiisi
+    alternates:
+      - kiisii
+      - baakkoo
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: pocket
+    verified: false
+  - english: ring
+    pos: noun
+    oromo: hogee
+    alternates:
+      - qillica
+      - quboo
+      - qubeelaa
+      - amartii
+    ipa: /ˈhɔɡéː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: ring
+    verified: false
+  - english: necklace
+    pos: noun
+    oromo: amartii
+    alternates:
+      - hamarti mormaa
+      - masqalii
+      - caaccuu
+    ipa: /ɐmɐrtíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3a/Om-amartii.ogg/Om-amartii.ogg.mp3
+    confidence: high
+    glossSeen: ring/necklace
+    verified: false
+  - english: bracelet
+    pos: noun
+    oromo: aalboo
+    alternates:
+      - saldaaqa
+      - laakkaa
+      - maaldaa
+      - gumee
+    ipa: /ɑːlbóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bc/Om-aalboo.ogg/Om-aalboo.ogg.mp3
+    confidence: medium
+    glossSeen: bracelet
+    verified: false
+  - english: earring
+    pos: noun
+    oromo: gutichaa
+    alternates:
+      - lootii
+      - dhugoo
+    ipa: /ˈɡʊtɪt͡ʃɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: earring
+    verified: false
+  - english: needle
+    pos: noun
+    oromo: lilmoo
+    alternates:
+      - lilimmoo
+      - mooxi
+      - waranxoo
+      - waantoo
+    ipa: /ˈlɪlmóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: needle
+    verified: false
+  - english: thread
+    pos: noun
+    oromo: fowaa
+    alternates:
+      - dirmoo
+      - boffee
+      - kirrii
+      - luqqisaa
+    ipa: /ˈfɔwɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d7/Om-fowaa.ogg/Om-fowaa.ogg.mp3
+    confidence: high
+    glossSeen: thread
+    verified: false
+  - english: scarf
+    pos: noun
+    oromo: darbata
+    alternates:
+      - uffarmaa
+    ipa: /ˈdɐrbɐtɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/42/Om-darbata.ogg/Om-darbata.ogg.mp3
+    confidence: medium
+    glossSeen: throwing
+    verified: false
+  - english: towel
+    pos: noun
+    oromo: fooxaa
+    alternates: []
+    ipa: /ˈfoːtʼɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/36/Om-fooxaa.ogg/Om-fooxaa.ogg.mp3
+    confidence: high
+    glossSeen: towel
+    verified: false
+  - english: bead
+    pos: noun
+    oromo: helellaa
+    alternates:
+      - saddeeqa
+      - haffe
+      - jamaree
+    ipa: /ˈhɛlɛlːɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: white glass, bead
+    verified: false

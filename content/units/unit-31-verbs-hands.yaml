@@ -1,0 +1,335 @@
+id: unit-31-verbs-hands
+order: 31
+title: "Verbs: hands & making"
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: take
+    pos: verb
+    oromo: fuuchuu
+    alternates:
+      - fuudhuu
+      - baafachiisuu
+      - bu'achuu
+      - fudhachiisuu
+    ipa: /ˈfuːt͡ʃúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/36/Om-fuuchuu.ogg/Om-fuuchuu.ogg.mp3
+    confidence: medium
+    glossSeen: take
+    verified: false
+  - english: give
+    pos: verb
+    oromo: kennuu
+    alternates:
+      - arjoomuu
+      - da'uu
+      - badhaasisuu
+      - dahuu
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: to give
+    verified: false
+  - english: hold
+    pos: verb
+    oromo: danda'uu
+    alternates:
+      - cichuu
+      - olqabuu
+      - aalachuu
+      - qabachuu
+    ipa: /ˈdɐndɐʔúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7c/Om-danda%27uu.ogg/Om-danda%27uu.ogg.mp3
+    confidence: high
+    glossSeen: be able to do something can.
+    verified: false
+  - english: put
+    pos: verb
+    oromo: keeyyachuu
+    alternates:
+      - kaa'uu
+      - ol kaa'uu
+      - aaneffachuu
+      - aanfachuu
+    ipa: /ˈkeːjːɐt͡ʃúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: put, save
+    verified: false
+  - english: open
+    pos: verb
+    oromo: banuu
+    alternates:
+      - saaquu
+      - waltajjii
+      - saaqsisuu
+      - tatarsaasuu
+    ipa: /ˈbɐ́nuː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d2/Om-banuu.ogg/Om-banuu.ogg.mp3
+    confidence: medium
+    glossSeen: to open
+    verified: false
+  - english: close
+    pos: verb
+    oromo: cufuu
+    alternates:
+      - cufachuu
+      - duuchachuu
+      - aanfachuu
+      - cufsisuu
+    ipa: /ˈt͡ʃʼʊfúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/37/Om-cufuu.ogg/Om-cufuu.ogg.mp3
+    confidence: medium
+    glossSeen: to close, shut
+    verified: false
+  - english: tie
+    pos: verb
+    oromo: guduumfachuu
+    alternates:
+      - hidhachuu
+      - hidhuu
+      - itti hidhuu
+      - agaaduu
+    ipa: /ˈɡʊduːmfɐt͡ʃúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: to tie, laster
+    verified: false
+  - english: cut
+    pos: verb
+    oromo: cirachuu
+    alternates:
+      - ciruu
+      - seerrachuu
+      - muruu
+      - baqaqsuu
+    ipa: /ˈt͡ʃʼɪrɐt͡ʃúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/aa/Om-cirachuu.ogg/Om-cirachuu.ogg.mp3
+    confidence: medium
+    glossSeen: to cut
+    verified: false
+  - english: break
+    pos: verb
+    oromo: leenjisiisuu
+    alternates:
+      - qurxuu
+      - boqachuu
+      - caaccabsuu
+      - caccabsuu
+    ipa: /ˈleːnd͡ʒɪsiːsúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: cause to rain, to break
+    verified: false
+  - english: build
+    pos: verb
+    oromo: jaaruu
+    alternates:
+      - ijaaruu
+      - kaabuu
+      - araaressuu
+      - calaansa
+    ipa: /ˈd͡ʒɑːrúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: become old
+    verified: false
+  - english: make
+    pos: verb
+    oromo: aramsisuu
+    alternates:
+      - dhangaggeessuu
+      - dhoqqeessuu
+      - fashaleessuu
+      - fuunfachiisuu
+    ipa: /ɐrɐmsɪsúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ae/Om-aramsisuu.ogg/Om-aramsisuu.ogg.mp3
+    confidence: medium
+    glossSeen: make/cause to weed
+    verified: false
+  - english: dig
+    pos: verb
+    oromo: qofforuu
+    alternates:
+      - soquu
+      - akaaffii
+      - akaafachuu
+      - akaafuu
+    ipa: /ˈkʼɔfːɔrúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: dig
+    verified: false
+  - english: sow
+    pos: verb
+    oromo: facaasisuu
+    alternates:
+      - facaasuu
+      - facaafachuu
+      - facaafataa
+    ipa: /ˈfɐt͡ʃʼɑːsɪsúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/05/Om-facaasisuu.ogg/Om-facaasisuu.ogg.mp3
+    confidence: low
+    glossSeen: to make somebody sow
+    verified: false
+  - english: harvest
+    pos: verb
+    oromo: kassabuu
+    alternates:
+      - haammachuu
+      - haamuu
+      - makara
+      - makarachuu
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: to harvest
+    verified: false
+  - english: grind
+    pos: verb
+    oromo: gogordamuu
+    alternates:
+      - bulleeffamuu
+      - daakkachuu
+      - daaksisuu
+      - bulleesisuu
+    ipa: /ˈɡɔɡɔrdɐmúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: to chew, grind
+    verified: false
+  - english: pound
+    pos: verb
+    oromo: dallaquu
+    alternates:
+      - fiddigsiisuu
+      - fiddiguu
+      - tumachuu
+      - cafaquu
+    ipa: /ˈdɐlːɐkʼúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0a/Om-dallaquu.ogg/Om-dallaquu.ogg.mp3
+    confidence: low
+    glossSeen: pound or beat to a powder
+    verified: false
+  - english: sew
+    pos: verb
+    oromo: hodhuu
+    alternates:
+      - hodhisiifachuu
+      - hodhachuu
+      - hodhisiifata
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: to sew
+    verified: false
+  - english: weave
+    pos: verb
+    oromo: dhahuu
+    alternates:
+      - dhawuu
+      - dhoofsisuu
+      - dhayuu
+      - dha'achuu
+    ipa: /ˈᶑɐhúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/90/Om-dhahuu.ogg/Om-dhahuu.ogg.mp3
+    confidence: medium
+    glossSeen: beat, kick
+    verified: false
+  - english: wash
+    pos: verb
+    oromo: cafaccafuu
+    alternates:
+      - dhiqam biyyee
+      - dhiquu
+      - lamboobuu
+      - miiccachuu
+    ipa: /ˈt͡ʃʼɐfɐt͡ʃʼːɐfúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f9/Om-cafaccafuu.ogg/Om-cafaccafuu.ogg.mp3
+    confidence: high
+    glossSeen: to wash
+    verified: false
+  - english: sweep
+    pos: verb
+    oromo: haxaawuu
+    alternates:
+      - ungulaallii
+      - qulqulleessuu
+      - harsifachuu
+      - harsisuu
+    ipa: /ˈhɐtʼɑːwúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: sweep, clean
+    verified: false
+  - english: bake
+    pos: verb
+    oromo: tolchuu
+    alternates:
+      - tolfachuu
+      - bixxilachiisuu
+      - maxinachuu
+      - maxinsifachuu
+    ipa: /ˈtɔlt͡ʃúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: to make, prepare
+    verified: false
+  - english: boil
+    pos: verb
+    oromo: affeellachuu
+    alternates:
+      - danfuu
+      - bilcheeffachuu
+      - bilcheessuu
+      - daffifamuu
+    ipa: /ɐfːeːlːɐt͡ʃúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e7/Om-affeellachuu.ogg/Om-affeellachuu.ogg.mp3
+    confidence: medium
+    glossSeen: to boil (for one self)
+    verified: false
+  - english: fill
+    pos: verb
+    oromo: guutuu
+    alternates:
+      - duuchifamuu
+      - duuchisiisuu
+      - guuchisiifachuu
+      - guuchisiisuu
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: to fill
+    verified: false
+  - english: pour
+    pos: verb
+    oromo: dhangala'uu
+    alternates:
+      - qicachuu
+      - qicuu
+      - buufachuu
+      - naqachuu
+    ipa: /ˈᶑɐnɡɐlɐʔúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/69/Om-dhangala%27uu.ogg/Om-dhangala%27uu.ogg.mp3
+    confidence: medium
+    glossSeen: to pour
+    verified: false
+  - english: throw
+    pos: verb
+    oromo: darbachuu
+    alternates:
+      - a'uu
+      - darbachiisuu
+      - furrisuu
+      - daddarbuu
+    ipa: /ˈdɐrbɐt͡ʃúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/da/Om-darbachuu.ogg/Om-darbachuu.ogg.mp3
+    confidence: medium
+    glossSeen: to throw
+    verified: false
