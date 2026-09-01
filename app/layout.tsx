@@ -34,6 +34,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               Barsiisaa
             </Link>
             <nav className="flex gap-4 text-sm text-slate-500">
+              <Link href="/dictionary" className="hover:text-slate-800">
+                Dictionary
+              </Link>
               {process.env.NODE_ENV === "production" ? null : (
                 <Link href="/record" className="hover:text-slate-800">
                   Record
