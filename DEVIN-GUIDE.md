@@ -18,3 +18,6 @@ or reinterpret the user's wording, and never add rules of my own to this list.
 10. If you find better resources to use to create this lesson, let me know. It must have adequate words. It can’t be a sample.
 11. There will be a dictionary feature in the future, but that will leverage existing materials. Currently it should be considered future phase.
 12. PR should always be against develop branch. not main.
+13. Instead of one big list of lessons/units, it should be about 10 lessons grouped logically and called levels. Each level will have 10 units.
+14. Use the open lexicon as the app's word source (the English-Oromo PDF is a copy of an in-print book, so it is a human reference only). Lessons must be comprehensive, not a sample.
+15. Testing is done locally on my computer. So, when ready, just ask me to build and test locally. I will not be testing it via devin until further notice.

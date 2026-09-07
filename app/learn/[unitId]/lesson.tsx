@@ -15,10 +15,12 @@ type Verdict = { correct: boolean; expected: string } | null;
 export function Lesson({
   unitId,
   title,
+  levelLabel,
   words,
 }: {
   unitId: string;
   title: string;
+  levelLabel: string;
   words: Word[];
 }) {
   const [exercises, setExercises] = useState<Exercise[] | null>(null);
@@ -64,7 +66,7 @@ export function Lesson({
   if (exercises === null) {
     return (
       <div className="space-y-4">
-        <BackToUnits />
+        <BackToLevels />
         <p className="text-slate-500">Loading lesson…</p>
       </div>
     );
@@ -79,7 +81,7 @@ export function Lesson({
         </p>
         <div className="flex justify-center gap-3">
           <Link href="/" className="rounded-lg bg-slate-100 px-4 py-2 font-semibold">
-            Back to units
+            Back to levels
           </Link>
           <button
             type="button"
@@ -107,9 +109,9 @@ export function Lesson({
     <div className="space-y-5">
       <div>
         <div className="flex items-baseline justify-between gap-3 text-sm text-slate-500">
-          <BackToUnits />
+          <BackToLevels />
           <span className="truncate">
-            {title}
+            {levelLabel} · {title}
             {learner === null ? "" : ` · ${learner.name}`}
           </span>
           <span className="whitespace-nowrap">
@@ -177,10 +179,10 @@ export function Lesson({
   );
 }
 
-function BackToUnits() {
+function BackToLevels() {
   return (
     <Link href="/" className="text-sm font-medium text-teal-700 hover:underline">
-      ← Units
+      ← Levels
     </Link>
   );
 }

@@ -1,17 +1,21 @@
-import { loadUnits } from "@/lib/content";
-import { UnitList } from "./unit-list";
+import { loadLevels } from "@/lib/content";
+import { LevelList } from "./level-list";
 
 export default async function HomePage() {
-  const units = await loadUnits();
+  const levels = await loadLevels();
   return (
-    <UnitList
-      units={units.map((unit) => ({
-        id: unit.id,
-        title: unit.title,
-        order: unit.order,
-        reviewed: unit.reviewed,
-        words: unit.words.map((word) => word.oromo),
-        verified: unit.words.filter((word) => word.verified).length,
+    <LevelList
+      levels={levels.map((level) => ({
+        order: level.order,
+        title: level.title,
+        units: level.units.map((unit, index) => ({
+          id: unit.id,
+          title: unit.title,
+          position: index + 1,
+          reviewed: unit.reviewed,
+          words: unit.words.map((word) => word.oromo),
+          verified: unit.words.filter((word) => word.verified).length,
+        })),
       }))}
     />
   );

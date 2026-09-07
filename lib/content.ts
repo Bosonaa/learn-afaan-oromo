@@ -1,6 +1,7 @@
 import { readFile, readdir } from "node:fs/promises";
 import { resolve } from "node:path";
 import { parse } from "yaml";
+import { levelOf, levelTitle } from "./levels";
 import { mirroredClips, slugify } from "./audio";
 import { loadRecordings } from "./recordings";
 
@@ -25,6 +26,12 @@ export interface Unit {
   title: string;
   reviewed: boolean;
   words: Word[];
+}
+
+export interface Level {
+  order: number;
+  title: string;
+  units: Unit[];
 }
 
 interface RawWord {
@@ -94,4 +101,18 @@ export async function loadUnits(): Promise<Unit[]> {
 export async function loadUnit(unitId: string): Promise<Unit | null> {
   const units = await loadUnits();
   return units.find((unit) => unit.id === unitId) ?? null;
+}
+
+export async function loadLevels(): Promise<Level[]> {
+  const byLevel = new Map<number, Unit[]>();
+  for (const unit of await loadUnits()) {
+    const level = levelOf(unit.order);
+    const existing = byLevel.get(level);
+    if (existing === undefined) byLevel.set(level, [unit]);
+    else existing.push(unit);
+  }
+
+  return [...byLevel.entries()]
+    .sort(([a], [b]) => a - b)
+    .map(([order, units]) => ({ order, title: levelTitle(order), units }));
 }
