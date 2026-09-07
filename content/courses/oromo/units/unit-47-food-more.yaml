@@ -1,0 +1,242 @@
+id: unit-47-food-more
+order: 47
+title: Food & flavours
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: yogurt
+    pos: noun
+    oromo: itittuu
+    alternates:
+      - hitittuu
+      - aannan itittuu
+      - itichuu
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: yogurt
+    verified: false
+  - english: pasta
+    pos: noun
+    oromo: paastaa
+    alternates: []
+    ipa: /ˈpɑːstɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/71/Om-paastaa.ogg/Om-paastaa.ogg.mp3
+    confidence: high
+    glossSeen: pasta
+    verified: false
+  - english: salad
+    pos: noun
+    oromo: salaaxaa
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: salad
+    verified: false
+  - english: sandwich
+    pos: noun
+    oromo: ambatiitoo
+    alternates: []
+    ipa: /ɐmbɐtiːtóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5a/Om-ambatiitoo.ogg/Om-ambatiitoo.ogg.mp3
+    confidence: high
+    glossSeen: sandwich
+    verified: false
+  - english: pancake
+    pos: noun
+    oromo: maxinoo
+    alternates:
+      - naccii
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: pancake
+    verified: false
+  - english: popcorn
+    pos: noun
+    oromo: hungaa
+    alternates:
+      - xaaxee
+    ipa: /ˈhʊnɡɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: see 'akaayii'
+    verified: false
+  - english: oats
+    pos: noun
+    oromo: hayisaa
+    alternates:
+      - matajaboo
+    ipa: /ˈhɐjɪsɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: oats
+    verified: false
+  - english: vinegar
+    pos: noun
+    oromo: angaggee
+    alternates: []
+    ipa: /ɐnɡɐɡːéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/69/Om-angaggee.ogg/Om-angaggee.ogg.mp3
+    confidence: high
+    glossSeen: vinegar
+    verified: false
+  - english: mustard
+    pos: noun
+    oromo: sinaabii
+    alternates: []
+    ipa: /ˈsɪnɑːbíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: mustard, sauce, seed or plant
+    verified: false
+  - english: ingredient
+    pos: noun
+    oromo: heemara
+    alternates:
+      - bulbuluu
+    ipa: /ˈheːmɐrɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: ingredient
+    verified: false
+  - english: bacon
+    pos: noun
+    oromo: foonjajii
+    alternates: []
+    ipa: /ˈfoːnd͡ʒɐd͡ʒíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1c/Om-foonjajii.ogg/Om-foonjajii.ogg.mp3
+    confidence: high
+    glossSeen: bacon
+    verified: false
+  - english: cinnamon
+    pos: noun
+    oromo: qarafaa
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: cinnamon
+    verified: false
+  - english: cumin
+    pos: noun
+    oromo: abasuuda
+    alternates:
+      - absuuda
+      - habasuuda
+      - abasuuda adii
+      - abasuuda gurraacha
+    ipa: /ɐbɐsuːdɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8a/Om-abasuuda.ogg/Om-abasuuda.ogg.mp3
+    confidence: medium
+    glossSeen: cumin
+    verified: false
+  - english: syrup
+    pos: noun
+    oromo: damma nadhii
+    alternates: []
+    ipa: /ˈdɐmːɐ nɐᶑíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/ce/Om-damma_nadhii.ogg/Om-damma_nadhii.ogg.mp3
+    confidence: high
+    glossSeen: syrup
+    verified: false
+  - english: mushroom
+    pos: noun
+    oromo: amboshillaa
+    alternates:
+      - ingudaayee
+      - shashara
+      - harraagoo
+      - horroqoo
+    ipa: /ɐmbɔʃɪlːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5d/Om-amboshillaa.ogg/Om-amboshillaa.ogg.mp3
+    confidence: medium
+    glossSeen: mushroom
+    verified: false
+  - english: malt
+    pos: noun
+    oromo: biqila
+    alternates:
+      - biqilfachuu
+    ipa: /ˈbɪkʼɪlɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f6/Om-biqila.ogg/Om-biqila.ogg.mp3
+    confidence: high
+    glossSeen: malt, fresh green shoots, sprouting grain
+    verified: false
+  - english: flavor
+    pos: noun
+    oromo: dhandhama
+    alternates:
+      - dhandhamuu
+      - lajooja'uu
+    ipa: /ˈᶑɐnᶑɐmɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2d/Om-dhandhama.ogg/Om-dhandhama.ogg.mp3
+    confidence: high
+    glossSeen: taste, flavor
+    verified: false
+  - english: relish
+    pos: noun
+    oromo: dapha
+    alternates:
+      - ittoo
+      - qettoo
+    ipa: /ˈdɐpʼɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/27/Om-dapha.ogg/Om-dapha.ogg.mp3
+    confidence: high
+    glossSeen: relish
+    verified: false
+  - english: edible
+    pos: noun
+    oromo: nyaatamaa
+    alternates:
+      - ashooka
+      - baddeessa
+      - biiqaa
+      - zayituunaa
+    ipa: /ˈɲɑːtɐmɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: eat, edible
+    verified: false
+  - english: boiled
+    pos: noun
+    oromo: affeellaa
+    alternates:
+      - aboolii
+      - ashuuqqii
+      - baqqana
+      - foonaffeellii
+    ipa: /ɐfːeːlːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/86/Om-affeellaa.ogg/Om-affeellaa.ogg.mp3
+    confidence: high
+    glossSeen: boiled (especially meat)
+    verified: false
+  - english: toasted
+    pos: noun
+    oromo: agaalabbii
+    alternates: []
+    ipa: /ɐɡɑːlɐbːíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/81/Om-agaalabbii.ogg/Om-agaalabbii.ogg.mp3
+    confidence: high
+    glossSeen: toasted (of grain, flour)
+    verified: false
+  - english: mouthful
+    pos: noun
+    oromo: luqumi
+    alternates:
+      - qaphii
+      - ciffachisuu
+      - ciffachuu
+      - qaphaa'uu
+    ipa: /ˈlʊkʼʊmɪ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: mouthful
+    verified: false

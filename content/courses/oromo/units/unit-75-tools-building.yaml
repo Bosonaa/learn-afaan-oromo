@@ -1,0 +1,275 @@
+id: unit-75-tools-building
+order: 75
+title: Tools & building
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: blade
+    pos: noun
+    oromo: feellaa
+    alternates:
+      - milaacii
+      - qarabaa
+      - chiggiree
+      - ceekuu
+    ipa: /ˈfeːlːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7e/Om-feellaa.ogg/Om-feellaa.ogg.mp3
+    confidence: medium
+    glossSeen: blade
+    verified: false
+  - english: drill
+    pos: noun
+    oromo: maaburiqi
+    alternates:
+      - marbugqii
+      - maburuqii
+    ipa: /ˈmɑːbʊrɪkʼɪ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0e/Om-maaburiqi.ogg/Om-maaburiqi.ogg.mp3
+    confidence: medium
+    glossSeen: drill
+    verified: false
+  - english: bolt
+    pos: noun
+    oromo: aguraa
+    alternates:
+      - danqaraa
+      - ugguraa
+      - balaqqeettii
+      - kakawwee
+    ipa: /ɐɡʊrɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/34/Om-aguraa.ogg/Om-aguraa.ogg.mp3
+    confidence: medium
+    glossSeen: appellant
+    verified: false
+  - english: wrench
+    pos: noun
+    oromo: kiyyabbee
+    alternates: []
+    ipa: /ˈkɪjːɐbːéː/
+    audioUrl: null
+    confidence: high
+    glossSeen: wrench
+    verified: false
+  - english: shovel
+    pos: noun
+    oromo: akaafaa
+    alternates:
+      - hakaafaa
+      - gunjulluu
+      - akaafuu
+    ipa: /ɐkɑːfɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4f/Om-akaafaa.ogg/Om-akaafaa.ogg.mp3
+    confidence: medium
+    glossSeen: shovel
+    verified: false
+  - english: rake
+    pos: noun
+    oromo: haatee
+    alternates:
+      - mashaawara
+    ipa: /ˈhɑːtéː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: rake
+    verified: false
+  - english: ladder
+    pos: noun
+    oromo: kortoo
+    alternates:
+      - riqaa
+      - xafxafoo
+      - yaabbannoo
+    ipa: /ˈkɔrtóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: ladder
+    verified: false
+  - english: chain
+    pos: noun
+    oromo: foncaa
+    alternates:
+      - funcaa
+      - fuuncaa
+      - qoranyaa
+      - walaaddii
+    ipa: /ˈfɔnt͡ʃʼɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f1/Om-foncaa.ogg/Om-foncaa.ogg.mp3
+    confidence: medium
+    glossSeen: chain
+    verified: false
+  - english: paint
+    pos: noun
+    oromo: hallaama
+    alternates:
+      - halluu
+      - dibuu
+      - halluu dibuu
+    ipa: /ˈhɐlːɑːmɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: paint
+    verified: false
+  - english: plank
+    pos: noun
+    oromo: suuqaa
+    alternates:
+      - deresuma
+    ipa: /ˈsuːkʼɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: rafter, plank
+    verified: false
+  - english: screwdriver
+    pos: noun
+    oromo: miccirtuu
+    alternates: []
+    ipa: /ˈmɪt͡ʃʼːɪrtúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: Serew, screwdriver
+    verified: false
+  - english: machete
+    pos: noun
+    oromo: gajaraa
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: machete
+    verified: false
+  - english: clippers
+    pos: noun
+    oromo: murtuu
+    alternates: []
+    ipa: /ˈmʊrtúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: clippers, cutter
+    verified: false
+  - english: cutter
+    pos: noun
+    oromo: taloo
+    alternates:
+      - murtuu
+    ipa: /ˈtɐlóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: cutter (of hair)
+    verified: false
+  - english: mortar
+    pos: noun
+    oromo: mooyyee
+    alternates:
+      - mansaa
+      - tomaa
+      - tumaa
+    ipa: /ˈmoːjːéː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: mortar
+    verified: false
+  - english: wedge
+    pos: noun
+    oromo: hushaala
+    alternates:
+      - wushaala
+      - hushaalsisuu
+    ipa: /ˈhʊʃɑːlɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: wedge
+    verified: false
+  - english: spindle
+    pos: noun
+    oromo: calii
+    alternates:
+      - dirmoo
+      - foohuu
+    ipa: /ˈt͡ʃʼɐlíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ef/Om-calii.ogg/Om-calii.ogg.mp3
+    confidence: high
+    glossSeen: spindle
+    verified: false
+  - english: anchor
+    pos: noun
+    oromo: gadiitoo
+    alternates: []
+    ipa: /ˈɡɐdiːtóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: anchor, a tool used to moor a vessel to the bottom of a sea or river
+      to resist movement.
+    verified: false
+  - english: barrel
+    pos: noun
+    oromo: barmeelii
+    alternates:
+      - dogoogoo
+      - naqqii
+      - barmeela sibiilaa
+      - funyaan qawwee
+    ipa: /ˈbɐrmeːlíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0a/Om-barmeelii.ogg/Om-barmeelii.ogg.mp3
+    confidence: high
+    glossSeen: barrel/ a big metal container
+    verified: false
+  - english: plug
+    pos: noun
+    oromo: suuqqata
+    alternates:
+      - saaguu
+    ipa: /ˈsuːkʼːɐtɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: plug, selecting of female
+    verified: false
+  - english: glue
+    pos: noun
+    oromo: haphee
+    alternates:
+      - hapheessuu
+      - itti maxxanuu
+      - dhoqoneessuu
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: glue
+    verified: false
+  - english: cork
+    pos: noun
+    oromo: buushii
+    alternates:
+      - cuqqaaluu
+      - cuqqaalsisuu
+    ipa: /ˈbuːʃíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/83/Om-buushii.ogg/Om-buushii.ogg.mp3
+    confidence: high
+    glossSeen: cork
+    verified: false
+  - english: mould
+    pos: noun
+    oromo: bobbocuu
+    alternates:
+      - samsiisuu
+      - harrii biddeenaa
+      - samsuu
+    ipa: /ˈbɔbːɔt͡ʃʼúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1b/Om-bobbocuu.ogg/Om-bobbocuu.ogg.mp3
+    confidence: medium
+    glossSeen: shape, mould
+    verified: false
+  - english: apparatus
+    pos: noun
+    oromo: miqindaa
+    alternates: []
+    ipa: /ˈmɪkʼɪndɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: apparatus
+    verified: false

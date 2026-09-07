@@ -6,7 +6,7 @@
  * leaves the browser.
  *
  * The first profile deliberately keeps the original storage key, so a device
- * that was used before profiles existed carries its XP and streak over without
+ * that was used before profiles existed carries its points and streak over without
  * a migration step.
  */
 

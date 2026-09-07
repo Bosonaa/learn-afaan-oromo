@@ -1,0 +1,278 @@
+id: unit-50-celebrations
+order: 50
+title: Birthdays & celebrations
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: birthday
+    pos: noun
+    oromo: ashaabala
+    alternates:
+      - gubbee buufata
+    ipa: /ɐʃɑːbɐlɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/60/Om-ashaabala.ogg/Om-ashaabala.ogg.mp3
+    confidence: high
+    glossSeen: birthday
+    verified: false
+  - english: celebration
+    pos: noun
+    oromo: ayyaaneffannaa
+    alternates:
+      - mareewoo
+      - facaafachuu
+    ipa: /ɐjːɑːnɛfːɐnːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1c/Om-ayyaaneffannaa.ogg/Om-ayyaaneffannaa.ogg.mp3
+    confidence: high
+    glossSeen: celebration
+    verified: false
+  - english: festival
+    pos: noun
+    oromo: dhangaa
+    alternates:
+      - jila
+      - mareewoo
+      - ukee
+      - cabaloo
+    ipa: /ˈᶑɐnɡɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3d/Om-dhangaa.ogg/Om-dhangaa.ogg.mp3
+    confidence: medium
+    glossSeen: festival
+    verified: false
+  - english: marriage
+    pos: noun
+    oromo: fuudha
+    alternates:
+      - fuudhaafiheeruma
+      - bultii
+      - heeruma
+      - abaabbaltii
+    ipa: /ˈfuːᶑɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a5/Om-fuudha.ogg/Om-fuudha.ogg.mp3
+    confidence: medium
+    glossSeen: marriage (male)
+    verified: false
+  - english: party
+    pos: noun
+    oromo: paartii
+    alternates:
+      - gogeessa
+      - jaarmiyaa
+      - dhaaba
+      - deebii
+    ipa: /ˈpɑːrtíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0d/Om-paartii.ogg/Om-paartii.ogg.mp3
+    confidence: medium
+    glossSeen: party
+    verified: false
+  - english: guests
+    pos: noun
+    oromo: keessummoota
+    alternates:
+      - gaggeefachuu
+    ipa: /ˈkeːsːʊmːoːtɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: guests
+    verified: false
+  - english: present
+    pos: noun
+    oromo: argaa
+    alternates:
+      - ammii
+      - ooge
+      - si'ana
+      - geega'oo
+    ipa: /ɐrɡɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/74/Om-argaa.ogg/Om-argaa.ogg.mp3
+    confidence: high
+    glossSeen: gift, present
+    verified: false
+  - english: christmas
+    pos: noun
+    oromo: gannaa
+    alternates: []
+    ipa: /ˈɡɐnːɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: christmas
+    verified: false
+  - english: valentine
+    pos: noun
+    oromo: vaalantaayin
+    alternates: []
+    ipa: /ˈvɑːlɐntɑːjɪn/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/63/Om-vaalantaayin.ogg/Om-vaalantaayin.ogg.mp3
+    confidence: high
+    glossSeen: valentine
+    verified: false
+  - english: anniversary
+    pos: noun
+    oromo: kistaana
+    alternates: []
+    ipa: /ˈkɪstɑːnɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: monument, statue
+    verified: false
+  - english: invitation
+    pos: noun
+    oromo: afeerraa
+    alternates:
+      - waamicha
+    ipa: /ɐfeːrːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/51/Om-afeerraa.ogg/Om-afeerraa.ogg.mp3
+    confidence: medium
+    glossSeen: invitation
+    verified: false
+  - english: greeting
+    pos: noun
+    oromo: yooyyaa
+    alternates:
+      - harka fuudhuu
+      - nagaa gaafachuu
+      - uggumuu
+    ipa: /ˈjoːjːɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: greeting, salutation
+    verified: false
+  - english: crown
+    pos: noun
+    oromo: gomfoo
+    alternates:
+      - gonfoo
+      - moottessuu
+      - gonfuu
+    ipa: /ˈɡɔmfóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: crown
+    verified: false
+  - english: photograph
+    pos: noun
+    oromo: suura
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: photograph
+    verified: false
+  - english: picture
+    pos: noun
+    oromo: fakkii
+    alternates:
+      - suuraa
+      - ogfakkii
+    ipa: /ˈfɐkːíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3f/Om-fakkii.ogg/Om-fakkii.ogg.mp3
+    confidence: medium
+    glossSeen: picture
+    verified: false
+  - english: memory
+    pos: noun
+    oromo: kuufannoo
+    alternates:
+      - qaxabii
+    ipa: /ˈkuːfɐnːóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: memory
+    verified: false
+  - english: coronation
+    pos: noun
+    oromo: mooteffannoo
+    alternates: []
+    ipa: /ˈmoːtɛfːɐnːóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: coronation
+    verified: false
+  - english: commemoration
+    pos: noun
+    oromo: yaadannoo
+    alternates:
+      - daaccii
+      - kistaana
+    ipa: /ˈjɑːdɐnːóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: commemoration
+    verified: false
+  - english: decoration
+    pos: noun
+    oromo: faaya
+    alternates:
+      - gonnobbee
+    ipa: /ˈfɑːjɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f2/Om-faaya.ogg/Om-faaya.ogg.mp3
+    confidence: high
+    glossSeen: decoration, omament.
+    verified: false
+  - english: lullaby
+    pos: noun
+    oromo: hururuu
+    alternates:
+      - hurursiisuu
+      - urursiisuu
+    ipa: /ˈhʊrʊrúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: lullaby
+    verified: false
+  - english: chanting
+    pos: noun
+    oromo: yeekkartii
+    alternates: []
+    ipa: /ˈjeːkːɐrtíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: chanting
+    verified: false
+  - english: celebrating
+    pos: noun
+    oromo: ayyaaneffannoo
+    alternates:
+      - masqala
+    ipa: /ɐjːɑːnɛfːɐnːóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2f/Om-ayyaaneffannoo.ogg/Om-ayyaaneffannoo.ogg.mp3
+    confidence: high
+    glossSeen: celebrating
+    verified: false
+  - english: enjoyment
+    pos: noun
+    oromo: boohartii
+    alternates: []
+    ipa: /ˈboːhɐrtíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/13/Om-boohartii.ogg/Om-boohartii.ogg.mp3
+    confidence: high
+    glossSeen: enjoyment, satisfaction
+    verified: false
+  - english: entertainment
+    pos: noun
+    oromo: bohaartii
+    alternates:
+      - mukuu ba'uu
+    ipa: /ˈbɔhɑːrtíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6d/Om-bohaartii.ogg/Om-bohaartii.ogg.mp3
+    confidence: high
+    glossSeen: entertainment
+    verified: false
+  - english: ornament
+    pos: noun
+    oromo: foroora
+    alternates:
+      - dirii
+      - saakura
+      - abeenta
+      - gonnobbee
+    ipa: /ˈfɔroːrɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d6/Om-foroora.ogg/Om-foroora.ogg.mp3
+    confidence: medium
+    glossSeen: ornament
+    verified: false

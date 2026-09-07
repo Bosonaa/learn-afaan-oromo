@@ -1,0 +1,217 @@
+id: unit-65-plants-more
+order: 65
+title: Trees, flowers & grass
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: bough
+    pos: noun
+    oromo: dankuu
+    alternates:
+      - handaaraa
+    ipa: /ˈdɐnkúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ac/Om-dankuu.ogg/Om-dankuu.ogg.mp3
+    confidence: high
+    glossSeen: bough
+    verified: false
+  - english: petal
+    pos: noun
+    oromo: baaldaraa
+    alternates:
+      - baaldanee
+    ipa: /ˈbɑːldɐrɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d7/Om-baaldaraa.ogg/Om-baaldaraa.ogg.mp3
+    confidence: high
+    glossSeen: petal
+    verified: false
+  - english: seeds
+    pos: noun
+    oromo: abuura
+    alternates:
+      - ungaayee
+      - beessalaa
+      - damacuu
+      - facaasuu
+    ipa: /ɐbuːrɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/11/Om-abuura.ogg/Om-abuura.ogg.mp3
+    confidence: high
+    glossSeen: proposal
+    verified: false
+  - english: shrub
+    pos: noun
+    oromo: karabaa
+    alternates:
+      - geeshee
+    ipa: /ˈkɐrɐbɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: shrub
+    verified: false
+  - english: timber
+    pos: noun
+    oromo: saanqaa
+    alternates:
+      - jiima-gordannaa
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: timber
+    verified: false
+  - english: fern
+    pos: noun
+    oromo: kaarroo
+    alternates: []
+    ipa: /ˈkɑːrːóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: fern
+    verified: false
+  - english: lily
+    pos: noun
+    oromo: jorroo
+    alternates: []
+    ipa: /ˈd͡ʒɔrːóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: lily
+    verified: false
+  - english: clover
+    pos: noun
+    oromo: siddisa
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: clover
+    verified: false
+  - english: acacia
+    pos: noun
+    oromo: gololee
+    alternates:
+      - doddota
+      - doddotii
+      - garbii
+      - laaftoo
+    ipa: /ˈɡɔlɔléː/
+    audioUrl: null
+    confidence: high
+    glossSeen: valley
+    verified: false
+  - english: eucalyptus
+    pos: noun
+    oromo: baargamoo
+    alternates: []
+    ipa: /ˈbɑːrɡɐmóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bc/Om-baargamoo.ogg/Om-baargamoo.ogg.mp3
+    confidence: high
+    glossSeen: eucalyptus
+    verified: false
+  - english: juniper
+    pos: noun
+    oromo: mi'eessaa
+    alternates:
+      - gaattiraa
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: juniper
+    verified: false
+  - english: algae
+    pos: noun
+    oromo: saaphuyyee
+    alternates:
+      - waabara
+      - saphaphuu
+    ipa: /ˈsɑːpʼʊjːéː/
+    audioUrl: null
+    confidence: high
+    glossSeen: algae
+    verified: false
+  - english: twig
+    pos: noun
+    oromo: felleencoo
+    alternates:
+      - cafaqaa
+      - ulumaayaa
+      - heennaa
+    ipa: /ˈfɛlːeːnt͡ʃʼóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/65/Om-felleencoo.ogg/Om-felleencoo.ogg.mp3
+    confidence: high
+    glossSeen: twig
+    verified: false
+  - english: reed
+    pos: noun
+    oromo: shambaqqoo
+    alternates:
+      - gobeensa
+      - migira
+    ipa: /ˈʃɐmbɐkʼːóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/84/Om-shambaqqoo.ogg/Om-shambaqqoo.ogg.mp3
+    confidence: high
+    glossSeen: reed
+    verified: false
+  - english: flax
+    pos: noun
+    oromo: qonxar
+    alternates: []
+    ipa: /ˈkʼɔntʼɐr/
+    audioUrl: null
+    confidence: high
+    glossSeen: flax
+    verified: false
+  - english: botany
+    pos: noun
+    oromo: barnooqila
+    alternates: []
+    ipa: /ˈbɐrnoːkʼɪlɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2b/Om-barnooqila.ogg/Om-barnooqila.ogg.mp3
+    confidence: high
+    glossSeen: botany
+    verified: false
+  - english: vegetation
+    pos: noun
+    oromo: magaroo
+    alternates:
+      - barbadoo
+    ipa: /ˈmɐɡɐróː/
+    audioUrl: null
+    confidence: high
+    glossSeen: vegetation
+    verified: false
+  - english: ebony
+    pos: noun
+    oromo: harsammeesa
+    alternates: []
+    ipa: /ˈhɐrsɐmːeːsɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: ebony
+    verified: false
+  - english: cane
+    pos: noun
+    oromo: agadaa
+    alternates:
+      - hagadaa
+      - qawwisa
+      - abraasaa
+      - alaanfatoo
+    ipa: /ɐɡɐdɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/20/Om-agadaa.ogg/Om-agadaa.ogg.mp3
+    confidence: high
+    glossSeen: cane
+    verified: false
+  - english: resin
+    pos: noun
+    oromo: haancaa
+    alternates: []
+    ipa: /ˈhɑːnt͡ʃʼɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: gum, resin (of sycamore)
+    verified: false

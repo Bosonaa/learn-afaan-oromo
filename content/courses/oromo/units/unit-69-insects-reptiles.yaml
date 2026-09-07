@@ -1,0 +1,146 @@
+id: unit-69-insects-reptiles
+order: 69
+title: Insects & reptiles
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: cockroach
+    pos: noun
+    oromo: balballaa
+    alternates:
+      - bararii
+    ipa: /ˈbɐlbɐlːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/32/Om-balballaa.ogg/Om-balballaa.ogg.mp3
+    confidence: medium
+    glossSeen: cockroach
+    verified: false
+  - english: lice
+    pos: noun
+    oromo: injiraan
+    alternates:
+      - nyaattuu
+      - beeccoo
+      - injiraa'uu
+      - injireessuu
+    ipa: /ɪnd͡ʒɪrɑːn/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/67/Om-injiraan.ogg/Om-injiraan.ogg.mp3
+    confidence: high
+    glossSeen: lice
+    verified: false
+  - english: cobra
+    pos: noun
+    oromo: xaraa
+    alternates:
+      - oo'aa
+      - mar'ataa
+      - mardhataa
+    ipa: /ˈtʼɐrɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: cobra
+    verified: false
+  - english: python
+    pos: noun
+    oromo: jawwee
+    alternates: []
+    ipa: /ˈd͡ʒɐwːéː/
+    audioUrl: null
+    confidence: high
+    glossSeen: python, dragon
+    verified: false
+  - english: chameleon
+    pos: noun
+    oromo: gaararraa
+    alternates: []
+    ipa: /ˈɡɑːrɐrːɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: chameleon
+    verified: false
+  - english: dragonfly
+    pos: noun
+    oromo: awwaatiisa
+    alternates:
+      - sonsa bishaanii
+    ipa: /ɐwːɑːtiːsɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e9/Om-awwaatiisa.ogg/Om-awwaatiisa.ogg.mp3
+    confidence: high
+    glossSeen: dragonfly
+    verified: false
+  - english: reptile
+    pos: noun
+    oromo: kalafarra lootu
+    alternates: []
+    ipa: /ˈkɐlɐfɐrːɐ loːtʊ/
+    audioUrl: null
+    confidence: high
+    glossSeen: reptile
+    verified: false
+  - english: mite
+    pos: noun
+    oromo: sasa'oo
+    alternates: []
+    ipa: /ˈsɐsɐʔóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: louse/nit of chickens/mite
+    verified: false
+  - english: nit
+    pos: noun
+    oromo: hinjojjii
+    alternates:
+      - injijjii
+      - cinaa'uu
+      - sasa'oo
+    ipa: /ˈhɪnd͡ʒɔd͡ʒːíː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: nit, louse eggs
+    verified: false
+  - english: leech
+    pos: noun
+    oromo: dhulaandhula
+    alternates:
+      - ulaandhula
+    ipa: /ˈᶑʊlɑːnᶑʊlɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d7/Om-dhulaandhula.ogg/Om-dhulaandhula.ogg.mp3
+    confidence: medium
+    glossSeen: leech
+    verified: false
+  - english: parasite
+    pos: noun
+    oromo: akankarreettii
+    alternates:
+      - weennoo
+      - dhortuu
+      - digaloo
+      - eertoo
+    ipa: /ɐkɐnkɐrːeːtːíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/90/Om-akankarreettii.ogg/Om-akankarreettii.ogg.mp3
+    confidence: high
+    glossSeen: parasite
+    verified: false
+  - english: pests
+    pos: noun
+    oromo: nyaataa
+    alternates: []
+    ipa: /ˈɲɑːtɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: verin, pests
+    verified: false
+  - english: swarm
+    pos: noun
+    oromo: cibraa
+    alternates: []
+    ipa: /ˈt͡ʃʼɪbrɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ac/Om-cibraa.ogg/Om-cibraa.ogg.mp3
+    confidence: high
+    glossSeen: regiment, swarm
+    verified: false

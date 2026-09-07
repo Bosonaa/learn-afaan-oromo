@@ -21,3 +21,5 @@ or reinterpret the user's wording, and never add rules of my own to this list.
 13. Instead of one big list of lessons/units, it should be about 10 lessons grouped logically and called levels. Each level will have 10 units.
 14. Use the open lexicon as the app's word source (the English-Oromo PDF is a copy of an in-print book, so it is a human reference only). Lessons must be comprehensive, not a sample.
 15. Testing is done locally on my computer. So, when ready, just ask me to build and test locally. I will not be testing it via devin until further notice.
+16. There could be more languages added in the future: the main page always shows the language grid, and the main page title/logo stays Barsiisaa until I come up with something different.
+17. XP should be called Points instead, to be applied in the next stage of the app.

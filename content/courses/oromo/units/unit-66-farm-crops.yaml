@@ -1,0 +1,204 @@
+id: unit-66-farm-crops
+order: 66
+title: Farm & crops
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: plow
+    pos: noun
+    oromo: maarashaa
+    alternates:
+      - hagaayuu
+      - bu'ii
+      - qotaa
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: plow
+    verified: false
+  - english: teff
+    pos: noun
+    oromo: xaafii
+    alternates:
+      - algaasee
+      - daabii
+      - durbucoo
+      - dummunyii
+    ipa: /ˈtʼɑːfíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: teff, Ethiopian staple food (also in Oromia)
+    verified: false
+  - english: sugarcane
+    pos: noun
+    oromo: meejoo
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: sugarcane
+    verified: false
+  - english: fertilizer
+    pos: noun
+    oromo: xaa'oo
+    alternates:
+      - dikee
+      - dikee ammyyaa
+      - gaayii
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: fertilizer
+    verified: false
+  - english: dung
+    pos: noun
+    oromo: faandoo
+    alternates:
+      - caancoo
+      - kaboota
+      - koboota
+      - qurba
+    ipa: /ˈfɑːndóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a7/Om-faandoo.ogg/Om-faandoo.ogg.mp3
+    confidence: high
+    glossSeen: excrement (of mule, horse..), dung
+    verified: false
+  - english: plantation
+    pos: noun
+    oromo: danfisuu
+    alternates:
+      - jalasoqa
+    ipa: /ˈdɐnfɪsúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/09/Om-danfisuu.ogg/Om-danfisuu.ogg.mp3
+    confidence: high
+    glossSeen: plantation
+    verified: false
+  - english: farmland
+    pos: noun
+    oromo: ooyru
+    alternates: []
+    ipa: /oːjrʊ/
+    audioUrl: null
+    confidence: high
+    glossSeen: farm, farmland
+    verified: false
+  - english: granary
+    pos: noun
+    oromo: gingoo
+    alternates:
+      - riiqa
+      - gombisaa
+      - dagoogoo
+      - darabaa
+    ipa: /ˈɡɪnɡóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: granary
+    verified: false
+  - english: agriculture
+    pos: noun
+    oromo: qonnaa
+    alternates:
+      - qonna
+      - qochisiisaa
+      - makiinaa qonnaa
+      - meeshaa qonnaa
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: agriculture
+    verified: false
+  - english: fertility
+    pos: noun
+    oromo: qaljummaa
+    alternates:
+      - cabaloo
+      - Ateetee
+      - gawwaa'uu
+    ipa: /ˈkʼɐld͡ʒʊmːɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: fertility
+    verified: false
+  - english: deforestation
+    pos: noun
+    oromo: cirgeeda
+    alternates: []
+    ipa: /ˈt͡ʃʼɪrɡeːdɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cf/Om-cirgeeda.ogg/Om-cirgeeda.ogg.mp3
+    confidence: high
+    glossSeen: deforestation
+    verified: false
+  - english: milking
+    pos: noun
+    oromo: elemaa
+    alternates:
+      - dhaltii
+      - dhaltoolee
+      - eleffannaa
+      - elmannaa
+    ipa: /ɛlɛmɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/55/Om-elemaa.ogg/Om-elemaa.ogg.mp3
+    confidence: high
+    glossSeen: milking
+    verified: false
+  - english: grazing
+    pos: noun
+    oromo: qoqoruu
+    alternates:
+      - darabaa
+      - hiddookaluu
+      - qorqaa
+      - yuusaa
+    ipa: /ˈkʼɔkʼɔrúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: pick a bone, grazing
+    verified: false
+  - english: rations
+    pos: noun
+    oromo: cafaqoo
+    alternates:
+      - galaa
+    ipa: /ˈt͡ʃʼɐfɐkʼóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7d/Om-cafaqoo.ogg/Om-cafaqoo.ogg.mp3
+    confidence: medium
+    glossSeen: rations/ food that one carries along on journey.
+    verified: false
+  - english: sickle
+    pos: noun
+    oromo: haamtuu
+    alternates:
+      - hamtuufi burrisa
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: sickle
+    verified: false
+  - english: hectare
+    pos: noun
+    oromo: hektaara
+    alternates: []
+    ipa: /ˈhɛktɑːrɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: hectare
+    verified: false
+  - english: harness
+    pos: noun
+    oromo: mi'a fardaa
+    alternates:
+      - luugamuu
+      - garjalee
+      - qomoo
+    ipa: /ˈmɪʔɐ fɐrdɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: harness
+    verified: false

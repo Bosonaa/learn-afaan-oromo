@@ -1,0 +1,234 @@
+id: unit-53-organs
+order: 53
+title: Body inside
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: lung
+    pos: noun
+    oromo: somba
+    alternates:
+      - sombee
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: lung
+    verified: false
+  - english: liver
+    pos: noun
+    oromo: tiruu
+    alternates:
+      - kochee
+      - hakimii tiruu
+    ipa: /ˈtɪrúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: liver
+    verified: false
+  - english: kidney
+    pos: noun
+    oromo: kalee
+    alternates:
+      - hephoo
+      - odongoree
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: kidney
+    verified: false
+  - english: intestine
+    pos: noun
+    oromo: mar'imaan
+    alternates:
+      - xeerii
+      - mar'ummaan
+      - macuree
+      - mushii
+    ipa: /ˈmɐrʔɪmɑːn/
+    audioUrl: null
+    confidence: medium
+    glossSeen: intestine,
+    verified: false
+  - english: bladder
+    pos: noun
+    oromo: afuuffee
+    alternates:
+      - hafuuffee
+    ipa: /ɐfuːfːéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/07/Om-afuuffee.ogg/Om-afuuffee.ogg.mp3
+    confidence: medium
+    glossSeen: bladder
+    verified: false
+  - english: womb
+    pos: noun
+    oromo: gadameessa
+    alternates:
+      - ulfa seexanaa
+    ipa: /ˈɡɐdɐmeːsːɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: uterus, womb
+    verified: false
+  - english: artery
+    pos: noun
+    oromo: go'aa
+    alternates:
+      - hidda
+    ipa: /ˈɡɔʔɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: artery
+    verified: false
+  - english: breath
+    pos: noun
+    oromo: afuura
+    alternates:
+      - hafuura
+      - afuursuu
+      - ruhii
+      - silliksuu
+    ipa: /ɐfuːrɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/65/Om-afuura.ogg/Om-afuura.ogg.mp3
+    confidence: medium
+    glossSeen: breath.
+    verified: false
+  - english: gland
+    pos: noun
+    oromo: xandhacha
+    alternates:
+      - liqqamii
+      - miciree xannachaa
+      - ulfa seexanaa
+    ipa: /ˈtʼɐnᶑɐt͡ʃɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: gland
+    verified: false
+  - english: hormone
+    pos: noun
+    oromo: hoormoonii
+    alternates: []
+    ipa: /ˈhoːrmoːníː/
+    audioUrl: null
+    confidence: high
+    glossSeen: hormone
+    verified: false
+  - english: cell
+    pos: noun
+    oromo: lubbiyyoo
+    alternates:
+      - miciree
+      - dhagaa baatrii
+      - hirmaata seelii
+      - marsiyyaa miciree
+    ipa: /ˈlʊbːɪjːóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: germ, cell
+    verified: false
+  - english: saliva
+    pos: noun
+    oromo: logoga
+    alternates:
+      - xiiqqi
+    ipa: /ˈlɔɡɔɡɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: saliva
+    verified: false
+  - english: urine
+    pos: noun
+    oromo: fincaan
+    alternates:
+      - caancoo
+      - uusoo
+    ipa: /ˈfɪnt͡ʃʼɑːn/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/08/Om-fincaan.ogg/Om-fincaan.ogg.mp3
+    confidence: high
+    glossSeen: urine
+    verified: false
+  - english: marrow
+    pos: noun
+    oromo: macharii
+    alternates:
+      - dhuka
+    ipa: /ˈmɐt͡ʃɐríː/
+    audioUrl: null
+    confidence: high
+    glossSeen: marrow
+    verified: false
+  - english: bowels
+    pos: noun
+    oromo: focoo
+    alternates:
+      - machoo
+      - deeqqa'uu
+    ipa: /ˈfɔt͡ʃʼóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8e/Om-focoo.ogg/Om-focoo.ogg.mp3
+    confidence: medium
+    glossSeen: bowels, entrails, insides
+    verified: false
+  - english: embryo
+    pos: noun
+    oromo: curraa
+    alternates: []
+    ipa: /ˈt͡ʃʼʊrːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f6/Om-curraa.ogg/Om-curraa.ogg.mp3
+    confidence: high
+    glossSeen: embryo
+    verified: false
+  - english: mucus
+    pos: noun
+    oromo: furrii
+    alternates: []
+    ipa: /ˈfʊrːíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/77/Om-furrii.ogg/Om-furrii.ogg.mp3
+    confidence: high
+    glossSeen: mucus/ nasal discharge
+    verified: false
+  - english: diaphragm
+    pos: noun
+    oromo: afuddaa
+    alternates: []
+    ipa: /ɐfʊdːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/dd/Om-afuddaa.ogg/Om-afuddaa.ogg.mp3
+    confidence: high
+    glossSeen: diaphragm
+    verified: false
+  - english: oxygen
+    pos: noun
+    oromo: hadhituu
+    alternates: []
+    ipa: /ˈhɐᶑɪtúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: oxygen
+    verified: false
+  - english: vessel
+    pos: noun
+    oromo: karfoo
+    alternates:
+      - aammoo
+      - elemtuu
+      - gongaa
+      - hokolee
+    ipa: /ˈkɐrfóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: vessel (for milking)
+    verified: false
+  - english: lobe
+    pos: noun
+    oromo: nyabbaa
+    alternates: []
+    ipa: /ˈɲɐbːɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: lobe
+    verified: false

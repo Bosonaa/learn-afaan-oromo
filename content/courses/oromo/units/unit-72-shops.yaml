@@ -1,0 +1,192 @@
+id: unit-72-shops
+order: 72
+title: Shops & market
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: merchant
+    pos: noun
+    oromo: naggaadee
+    alternates: []
+    ipa: /ˈnɐɡːɑːdéː/
+    audioUrl: null
+    confidence: high
+    glossSeen: merchant
+    verified: false
+  - english: client
+    pos: noun
+    oromo: beedee
+    alternates: []
+    ipa: /ˈbeːdéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/df/Om-beedee.ogg/Om-beedee.ogg.mp3
+    confidence: high
+    glossSeen: client, customer
+    verified: false
+  - english: cashier
+    pos: noun
+    oromo: maslaqxuu
+    alternates: []
+    ipa: /ˈmɐslɐkʼtʼúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: cashier
+    verified: false
+  - english: butcher
+    pos: noun
+    oromo: suguyyaa
+    alternates:
+      - qaluu
+    ipa: /ˈsʊɡʊjːɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: butcher, abattoir
+    verified: false
+  - english: grocery
+    pos: noun
+    oromo: girooserii
+    alternates: []
+    ipa: /ˈɡɪroːsɛríː/
+    audioUrl: null
+    confidence: high
+    glossSeen: grocery
+    verified: false
+  - english: discount
+    pos: noun
+    oromo: hir'isa
+    alternates: []
+    ipa: /ˈhɪrʔɪsɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: discount
+    verified: false
+  - english: receipt
+    pos: noun
+    oromo: naga'ee
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: receipt
+    verified: false
+  - english: sale
+    pos: noun
+    oromo: gurgura
+    alternates:
+      - gurgursiisuu
+    ipa: /ˈɡʊrɡʊrɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: sale
+    verified: false
+  - english: queue
+    pos: noun
+    oromo: tarree
+    alternates: []
+    ipa: /ˈtɐrːéː/
+    audioUrl: null
+    confidence: high
+    glossSeen: line, row/ queue
+    verified: false
+  - english: merchandise
+    pos: noun
+    oromo: mi'a daldalaa
+    alternates:
+      - meeshaa daldalaa
+    ipa: /ˈmɪʔɐ dɐldɐlɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: merchandise
+    verified: false
+  - english: retailer
+    pos: noun
+    oromo: charcharii
+    alternates:
+      - qexxuu
+      - abbaa dhaabaa
+    ipa: /ˈt͡ʃɐrt͡ʃɐríː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2a/Om-charcharii.ogg/Om-charcharii.ogg.mp3
+    confidence: high
+    glossSeen: retailer
+    verified: false
+  - english: supplies
+    pos: noun
+    oromo: mi'a hojii
+    alternates: []
+    ipa: /ˈmɪʔɐ hɔd͡ʒíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: supplies
+    verified: false
+  - english: auction
+    pos: noun
+    oromo: araajii
+    alternates:
+      - nadiyaa
+      - caalbasii
+      - nadiyyuu
+    ipa: /ɐrɑːd͡ʒíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a1/Om-araajii.ogg/Om-araajii.ogg.mp3
+    confidence: medium
+    glossSeen: auction
+    verified: false
+  - english: bid
+    pos: noun
+    oromo: caalbasii
+    alternates:
+      - koree caal baasii
+    ipa: /ˈt͡ʃʼɑːlbɐsíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/be/Om-caalbasii.ogg/Om-caalbasii.ogg.mp3
+    confidence: high
+    glossSeen: auction, tender, bid
+    verified: false
+  - english: customs
+    pos: noun
+    oromo: ashuura
+    alternates:
+      - muka abbaa
+    ipa: /ɐʃuːrɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c0/Om-ashuura.ogg/Om-ashuura.ogg.mp3
+    confidence: high
+    glossSeen: tax, customs
+    verified: false
+  - english: commodity
+    pos: noun
+    oromo: shaqaxa
+    alternates: []
+    ipa: /ˈʃɐkʼɐtʼɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: commodity
+    verified: false
+  - english: stock
+    pos: noun
+    oromo: sadafii qawwee
+    alternates:
+      - dilbii
+      - kaabii
+      - horii coomaa
+      - meeshaa daldalaa
+    ipa: /ˈsɐdɐfiː kʼɐwːéː/
+    audioUrl: null
+    confidence: high
+    glossSeen: stock
+    verified: false
+  - english: store
+    pos: noun
+    oromo: mankuusa
+    alternates:
+      - suuqii
+      - kaa'uu
+      - coruu
+      - mana kuusaa
+    ipa: /ˈmɐnkuːsɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: store, ware house
+    verified: false

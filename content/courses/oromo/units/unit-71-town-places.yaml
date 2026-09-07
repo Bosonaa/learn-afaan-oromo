@@ -1,0 +1,190 @@
+id: unit-71-town-places
+order: 71
+title: Town & places
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: hamlet
+    pos: noun
+    oromo: golobee
+    alternates: []
+    ipa: /ˈɡɔlɔbéː/
+    audioUrl: null
+    confidence: high
+    glossSeen: hamlet, locality
+    verified: false
+  - english: suburb
+    pos: noun
+    oromo: magalimoggoo
+    alternates: []
+    ipa: /ˈmɐɡɐlɪmɔɡːóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: suburb
+    verified: false
+  - english: park
+    pos: noun
+    oromo: paarkii
+    alternates:
+      - caayaa
+    ipa: /ˈpɑːrkíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a0/Om-paarkii.ogg/Om-paarkii.ogg.mp3
+    confidence: high
+    glossSeen: park
+    verified: false
+  - english: restaurant
+    pos: noun
+    oromo: mansoora
+    alternates:
+      - mana nyaataa
+    ipa: /ˈmɐnsoːrɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: restaurant
+    verified: false
+  - english: hostel
+    pos: noun
+    oromo: hosteela
+    alternates: []
+    ipa: /ˈhɔsteːlɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: hostel
+    verified: false
+  - english: temple
+    pos: noun
+    oromo: daasoo
+    alternates:
+      - dasoo
+      - mana amantii
+    ipa: /ˈdɑːsóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/19/Om-daasoo.ogg/Om-daasoo.ogg.mp3
+    confidence: medium
+    glossSeen: temple
+    verified: false
+  - english: museum
+    pos: noun
+    oromo: godambaa
+    alternates: []
+    ipa: /ˈɡɔdɐmbɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: museum
+    verified: false
+  - english: castle
+    pos: noun
+    oromo: masar durii
+    alternates: []
+    ipa: /ˈmɐsɐr dʊríː/
+    audioUrl: null
+    confidence: high
+    glossSeen: castle
+    verified: false
+  - english: cemetery
+    pos: noun
+    oromo: hujubaa
+    alternates:
+      - dallaa awwaalaa
+    ipa: /ˈhʊd͡ʒʊbɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: cemetery
+    verified: false
+  - english: shrine
+    pos: noun
+    oromo: eddoo amantii
+    alternates:
+      - qoolloo
+    ipa: /ɛdːoː ɐmɐntíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/79/Om-eddoo_amantii.ogg/Om-eddoo_amantii.ogg.mp3
+    confidence: medium
+    glossSeen: shrine
+    verified: false
+  - english: stadium
+    pos: noun
+    oromo: dirree kubbaa
+    alternates: []
+    ipa: /ˈdɪrːeː kʊbːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/da/Om-dirree_kubbaa.ogg/Om-dirree_kubbaa.ogg.mp3
+    confidence: high
+    glossSeen: stadium
+    verified: false
+  - english: arena
+    pos: noun
+    oromo: aggaadoo
+    alternates: []
+    ipa: /ɐɡːɑːdóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ae/Om-aggaadoo.ogg/Om-aggaadoo.ogg.mp3
+    confidence: high
+    glossSeen: arena
+    verified: false
+  - english: booth
+    pos: noun
+    oromo: daasa
+    alternates:
+      - mana bilbiloo
+    ipa: /ˈdɑːsɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f0/Om-daasa.ogg/Om-daasa.ogg.mp3
+    confidence: high
+    glossSeen: tent, hut, booth
+    verified: false
+  - english: salon
+    pos: noun
+    oromo: hagicha
+    alternates:
+      - ilfinyi
+      - gorduuba
+      - mana dabbasaa
+      - mana cibiraa
+    ipa: /ˈhɐɡɪt͡ʃɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: salon
+    verified: false
+  - english: monument
+    pos: noun
+    oromo: siidaa
+    alternates:
+      - kistaana
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: monument
+    verified: false
+  - english: settlement
+    pos: noun
+    oromo: qubannoo
+    alternates:
+      - qubata
+      - qubsuma
+      - herreega buusuu
+    ipa: /ˈkʼʊbɐnːóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: settlement
+    verified: false
+  - english: colony
+    pos: noun
+    oromo: dagabaasa
+    alternates: []
+    ipa: /ˈdɐɡɐbɑːsɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6e/Om-dagabaasa.ogg/Om-dagabaasa.ogg.mp3
+    confidence: high
+    glossSeen: colony
+    verified: false
+  - english: fort
+    pos: noun
+    oromo: daannoo
+    alternates:
+      - daattoo
+    ipa: /ˈdɑːnːóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/93/Om-daannoo.ogg/Om-daannoo.ogg.mp3
+    confidence: medium
+    glossSeen: fort
+    verified: false

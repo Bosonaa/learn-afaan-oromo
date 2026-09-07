@@ -1,0 +1,217 @@
+id: unit-97-measuring
+order: 97
+title: Measuring & science words
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: metre
+    pos: noun
+    oromo: meetirii
+    alternates: []
+    ipa: /ˈmeːtɪríː/
+    audioUrl: null
+    confidence: high
+    glossSeen: metre
+    verified: false
+  - english: liter
+    pos: noun
+    oromo: liitiroo
+    alternates: []
+    ipa: /ˈliːtɪróː/
+    audioUrl: null
+    confidence: high
+    glossSeen: liter
+    verified: false
+  - english: ton
+    pos: noun
+    oromo: toonii
+    alternates:
+      - fotoqsiisuu
+    ipa: /ˈtoːníː/
+    audioUrl: null
+    confidence: high
+    glossSeen: ton
+    verified: false
+  - english: inch
+    pos: noun
+    oromo: inchii
+    alternates: []
+    ipa: /ɪnt͡ʃíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: inch
+    verified: false
+  - english: pressure
+    pos: noun
+    oromo: dhiibbaa
+    alternates:
+      - dhawwaqsituu
+      - dayya'uu
+    ipa: /ˈᶑiːbːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/df/Om-dhiibbaa.ogg/Om-dhiibbaa.ogg.mp3
+    confidence: high
+    glossSeen: pressure, treated pressure
+    verified: false
+  - english: volume
+    pos: noun
+    oromo: jildii
+    alternates:
+      - hammamtaa sagalee
+      - boffee
+      - shaa jechuu
+    ipa: /ˈd͡ʒɪldíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: volume (of publication)
+    verified: false
+  - english: velocity
+    pos: noun
+    oromo: ardoo
+    alternates: []
+    ipa: /ɐrdóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ab/Om-ardoo.ogg/Om-ardoo.ogg.mp3
+    confidence: high
+    glossSeen: velocity
+    verified: false
+  - english: density
+    pos: noun
+    oromo: rukina
+    alternates:
+      - rukkina
+    ipa: /ˈrʊkɪnɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: density
+    verified: false
+  - english: quality
+    pos: noun
+    oromo: waandansaa
+    alternates:
+      - cibra
+      - saabbaa
+      - immiruu
+      - qarreessuu
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: quality
+    verified: false
+  - english: average
+    pos: noun
+    oromo: walakkeessa
+    alternates: []
+    ipa: /ˈwɐlɐkːeːsːɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: average, mean
+    verified: false
+  - english: sample
+    pos: noun
+    oromo: eddattoo
+    alternates:
+      - iddattoo
+    ipa: /ɛdːɐtːóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/46/Om-eddattoo.ogg/Om-eddattoo.ogg.mp3
+    confidence: medium
+    glossSeen: sample
+    verified: false
+  - english: balance
+    pos: noun
+    oromo: deebisa
+    alternates:
+      - orco'ii
+      - madaallii
+      - madaala
+      - madaalachuu
+    ipa: /ˈdeːbɪsɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5d/Om-deebisa.ogg/Om-deebisa.ogg.mp3
+    confidence: medium
+    glossSeen: response/ answer/ replay
+    verified: false
+  - english: kilo
+    pos: noun
+    oromo: kiiloo
+    alternates: []
+    ipa: /ˈkiːlóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: kilo
+    verified: false
+  - english: proportion
+    pos: noun
+    oromo: qixxaantaa
+    alternates: []
+    ipa: /ˈkʼɪtʼːɑːntɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: proportion
+    verified: false
+  - english: barometer
+    pos: noun
+    oromo: madaalqilleensaa
+    alternates: []
+    ipa: /ˈmɐdɑːlkʼɪlːeːnsɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: barometer
+    verified: false
+  - english: pendulum
+    pos: noun
+    oromo: roodita
+    alternates: []
+    ipa: /ˈroːdɪtɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: pendulum
+    verified: false
+  - english: calculation
+    pos: noun
+    oromo: shallaggi
+    alternates: []
+    ipa: /ˈʃɐlːɐɡːɪ/
+    audioUrl: null
+    confidence: high
+    glossSeen: calculation
+    verified: false
+  - english: accuracy
+    pos: noun
+    oromo: sirrummaa
+    alternates: []
+    ipa: /ˈsɪrːʊmːɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: accuracy, correctness, fairness
+    verified: false
+  - english: magnitude
+    pos: noun
+    oromo: hagammee
+    alternates: []
+    ipa: /ˈhɐɡɐmːéː/
+    audioUrl: null
+    confidence: high
+    glossSeen: magnitude
+    verified: false
+  - english: frequency
+    pos: noun
+    oromo: deddeebitii
+    alternates: []
+    ipa: /ˈdɛdːeːbɪtíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f9/Om-deddeebitii.ogg/Om-deddeebitii.ogg.mp3
+    confidence: high
+    glossSeen: frequency
+    verified: false
+  - english: voltage
+    pos: noun
+    oromo: voolteejii
+    alternates: []
+    ipa: /ˈvoːlteːd͡ʒíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/25/Om-voolteejii.ogg/Om-voolteejii.ogg.mp3
+    confidence: high
+    glossSeen: voltage
+    verified: false

@@ -1,0 +1,260 @@
+id: unit-86-verbs-giving
+order: 86
+title: "Verbs: giving & taking"
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: receive
+    pos: verb
+    oromo: qeebaluu
+    alternates:
+      - ufittifudhachuu
+      - fudhachuu
+      - haakkamsiisuu
+      - simachuu
+    ipa: /ˈkʼeːbɐlúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: receive
+    verified: false
+  - english: accept
+    pos: verb
+    oromo: taraduu
+    alternates:
+      - fudhachuu
+    ipa: /ˈtɐrɐdúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: accept, be resigned to
+    verified: false
+  - english: refuse
+    pos: verb
+    oromo: diduu
+    alternates:
+      - buquqaa
+      - huuba
+      - gataa
+      - dhoowwachuu
+    ipa: /ˈdɪ́duː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/50/Om-diduu.ogg/Om-diduu.ogg.mp3
+    confidence: high
+    glossSeen: to decline, refuse
+    verified: false
+  - english: owe
+    pos: verb
+    oromo: hunjooma
+    alternates: []
+    ipa: /ˈhʊnd͡ʒoːmɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: owe
+    verified: false
+  - english: collect
+    pos: verb
+    oromo: cimmisuu
+    alternates:
+      - funaannachuu
+      - sassaabuu
+      - walitti qabuu
+      - asxeessuu
+    ipa: /ˈt͡ʃʼɪmːɪsúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/84/Om-cimmisuu.ogg/Om-cimmisuu.ogg.mp3
+    confidence: medium
+    glossSeen: accumulate/collect/gather
+    verified: false
+  - english: gather
+    pos: verb
+    oromo: buyuu
+    alternates:
+      - buwuu
+      - cimmisuu
+      - coccoruu
+      - dacha'uu
+    ipa: /ˈbʊjúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/49/Om-buyuu.ogg/Om-buyuu.ogg.mp3
+    confidence: medium
+    glossSeen: pick, pick up, reap
+    verified: false
+  - english: drop
+    pos: verb
+    oromo: arcaasuu
+    alternates:
+      - bubuusuu
+      - cobuu
+      - xufxufa
+      - taaffee
+    ipa: /ɐrt͡ʃʼɑːsúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/06/Om-arcaasuu.ogg/Om-arcaasuu.ogg.mp3
+    confidence: medium
+    glossSeen: to drop
+    verified: false
+  - english: exchange
+    pos: verb
+    oromo: geeddaruu
+    alternates:
+      - sharafuu
+      - geeddara
+      - geeddarsa
+      - waljijjiirsisuu
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: to exchange
+    verified: false
+  - english: donate
+    pos: verb
+    oromo: baalchuu
+    alternates:
+      - utubachuu
+      - raamatuu
+      - raamachuu
+    ipa: /ˈbɑːlt͡ʃúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/94/Om-baalchuu.ogg/Om-baalchuu.ogg.mp3
+    confidence: high
+    glossSeen: to donate
+    verified: false
+  - english: deliver
+    pos: verb
+    oromo: dhaluu
+    alternates: []
+    ipa: /ˈᶑɐlúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b3/Om-dhaluu.ogg/Om-dhaluu.ogg.mp3
+    confidence: high
+    glossSeen: give birth to, deliver
+    verified: false
+  - english: supply
+    pos: verb
+    oromo: dhidhiyeessuu
+    alternates:
+      - dhiheessuu
+      - daara baasuu
+    ipa: /ˈᶑɪᶑɪjeːsːúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/16/Om-dhidhiyeessuu.ogg/Om-dhidhiyeessuu.ogg.mp3
+    confidence: medium
+    glossSeen: to supply
+    verified: false
+  - english: provide
+    pos: verb
+    oromo: dhiheessuu
+    alternates:
+      - dhaleessuu
+      - bohaarsuu
+      - kaleessuu
+      - kaajoo baasuu
+    ipa: /ˈᶑɪheːsːúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ad/Om-dhiheessuu.ogg/Om-dhiheessuu.ogg.mp3
+    confidence: medium
+    glossSeen: to supply
+    verified: false
+  - english: purchase
+    pos: verb
+    oromo: bichiisuu
+    alternates:
+      - bittaa
+    ipa: /ˈbɪt͡ʃiːsúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/ba/Om-bichiisuu.ogg/Om-bichiisuu.ogg.mp3
+    confidence: medium
+    glossSeen: cause to buy/ purchase
+    verified: false
+  - english: acquire
+    pos: verb
+    oromo: heluu
+    alternates:
+      - horachuu
+    ipa: /ˈhɛlúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: to acquire
+    verified: false
+  - english: inherit
+    pos: verb
+    oromo: dhaaluu
+    alternates: []
+    ipa: /ˈᶑɑːlúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2f/Om-dhaaluu.ogg/Om-dhaaluu.ogg.mp3
+    confidence: high
+    glossSeen: to inherit
+    verified: false
+  - english: forfeit
+    pos: verb
+    oromo: sarbamuu
+    alternates: []
+    ipa: /ˈsɐrbɐmúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: forfeit
+    verified: false
+  - english: surrender
+    pos: verb
+    oromo: jilbeeffachuu
+    alternates:
+      - jilbeenfachisuu
+    ipa: /ˈd͡ʒɪlbeːfːɐt͡ʃúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: 1 .kneel (down) submit
+    verified: false
+  - english: reserve
+    pos: verb
+    oromo: of qusachuu
+    alternates:
+      - horeessuu
+      - samsuu
+      - ol kaa'uu
+    ipa: /ɔf kʼʊsɐt͡ʃúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: reserve
+    verified: false
+  - english: spare
+    pos: verb
+    oromo: baraaruu
+    alternates:
+      - qaamajii
+      - jijjiirraa meeshaa
+    ipa: /ˈbɐrɑːrúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6a/Om-baraaruu.ogg/Om-baraaruu.ogg.mp3
+    confidence: high
+    glossSeen: have mercy up on (by God)
+    verified: false
+  - english: fetch
+    pos: verb
+    oromo: waraabuu
+    alternates:
+      - waraabachuu
+      - waraabsisuu
+      - waraabsifachuu
+    ipa: /ˈwɐrɑːbúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: to fetch, to take blood for examination
+    verified: false
+  - english: haul
+    pos: verb
+    oromo: tohuu
+    alternates:
+      - darbuu
+    ipa: /ˈtɔhúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: haul, draw water from river
+    verified: false
+  - english: transfer
+    pos: verb
+    oromo: dabarsisiisuu
+    alternates:
+      - jijjiiramuu
+      - jijjiirraa
+      - garagalchisuu
+      - garagalfachuu
+    ipa: /ˈdɐbɐrsɪsiːsúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2e/Om-dabarsisiisuu.ogg/Om-dabarsisiisuu.ogg.mp3
+    confidence: medium
+    glossSeen: make cause to pass/transfer
+    verified: false

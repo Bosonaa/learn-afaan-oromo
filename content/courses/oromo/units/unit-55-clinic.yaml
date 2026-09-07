@@ -1,0 +1,272 @@
+id: unit-55-clinic
+order: 55
+title: Doctor, clinic & safety
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: midwife
+    pos: noun
+    oromo: ogeettii
+    alternates: []
+    ipa: /ɔɡeːtːíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: midwife, skilled (of fem)
+    verified: false
+  - english: physician
+    pos: noun
+    oromo: cireessa
+    alternates:
+      - haakimii
+      - hakimii
+      - hakiimii
+      - haadha qorichaa
+    ipa: /ˈt͡ʃʼɪreːsːɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/71/Om-cireessa.ogg/Om-cireessa.ogg.mp3
+    confidence: high
+    glossSeen: physician
+    verified: false
+  - english: patient
+    pos: noun
+    oromo: waldhaanamaa
+    alternates:
+      - dhibamtuu
+      - dabarfachuu
+      - danda'uu
+      - yaalchisuu
+    ipa: /ˈwɐlᶑɑːnɐmɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: patient
+    verified: false
+  - english: clinic
+    pos: noun
+    oromo: kilinika
+    alternates:
+      - mana hakiimii
+    ipa: /ˈkɪlɪnɪkɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: clinic
+    verified: false
+  - english: pharmacy
+    pos: noun
+    oromo: mangorichaa
+    alternates:
+      - mana qorichaa
+    ipa: /ˈmɐnɡɔrɪt͡ʃɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: pharmacy
+    verified: false
+  - english: laboratory
+    pos: noun
+    oromo: laaboraatorii
+    alternates: []
+    ipa: /ˈlɑːbɔrɑːtɔríː/
+    audioUrl: null
+    confidence: high
+    glossSeen: laboratory
+    verified: false
+  - english: accident
+    pos: noun
+    oromo: balaa
+    alternates: []
+    ipa: /ˈbɐlɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/30/Om-balaa.ogg/Om-balaa.ogg.mp3
+    confidence: high
+    glossSeen: accident
+    verified: false
+  - english: safety
+    pos: noun
+    oromo: nageenya
+    alternates:
+      - nageenyabiyyoolessaa
+      - ooguu
+    ipa: /ˈnɐɡeːɲɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: safety, well being
+    verified: false
+  - english: helmet
+    pos: noun
+    oromo: mateela
+    alternates: []
+    ipa: /ˈmɐteːlɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: helmet
+    verified: false
+  - english: warning
+    pos: noun
+    oromo: akeekkachiisa
+    alternates:
+      - dinnina
+      - dinninuu
+      - beekkachiisa
+      - beekkachiisuu
+    ipa: /ɐkeːkːɐt͡ʃiːsɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9b/Om-akeekkachiisa.ogg/Om-akeekkachiisa.ogg.mp3
+    confidence: medium
+    glossSeen: warning
+    verified: false
+  - english: inspection
+    pos: noun
+    oromo: soqiisa
+    alternates: []
+    ipa: /ˈsɔkʼiːsɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: searching, inspection
+    verified: false
+  - english: diet
+    pos: noun
+    oromo: soorata
+    alternates:
+      - soorata madaalamaa
+      - bilaanbiloo
+    ipa: /ˈsoːrɐtɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: diet, food, nourishment
+    verified: false
+  - english: care
+    pos: noun
+    oromo: miideessa
+    alternates:
+      - eeggannaa
+      - mararfacha
+      - miideessuu
+      - wal'aansa
+    ipa: /ˈmiːdeːsːɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: care
+    verified: false
+  - english: advice
+    pos: noun
+    oromo: gorsa
+    alternates:
+      - mari'annaa
+    ipa: /ˈɡɔrsɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: advice, suggestion
+    verified: false
+  - english: appointment
+    pos: noun
+    oromo: baallama
+    alternates:
+      - beellama
+      - dhaaba
+      - dhaabbii
+      - beellamaa
+    ipa: /ˈbɑːlːɐmɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3c/Om-baallama.ogg/Om-baallama.ogg.mp3
+    confidence: medium
+    glossSeen: appointment
+    verified: false
+  - english: dentist
+    pos: noun
+    oromo: hakiimii ilkaanii
+    alternates:
+      - hakimii ilkaanii
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: dentist
+    verified: false
+  - english: examiner
+    pos: noun
+    oromo: qorataa
+    alternates:
+      - malaguu
+    ipa: /ˈkʼɔrɐtɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: researcher, examiner, tester
+    verified: false
+  - english: inspector
+    pos: noun
+    oromo: to'attuu
+    alternates: []
+    ipa: /ˈtɔʔɐtːúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: inspector (fem)
+    verified: false
+  - english: rehabilitation
+    pos: noun
+    oromo: qaroomsa
+    alternates: []
+    ipa: /ˈkʼɐroːmsɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: rehabilitation
+    verified: false
+  - english: prevention
+    pos: noun
+    oromo: dalamsa
+    alternates: []
+    ipa: /ˈdɐlɐmsɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/22/Om-dalamsa.ogg/Om-dalamsa.ogg.mp3
+    confidence: high
+    glossSeen: hindrance, prevention
+    verified: false
+  - english: precaution
+    pos: noun
+    oromo: ofeeguu
+    alternates: []
+    ipa: /ɔfeːɡúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: precaution, self defense
+    verified: false
+  - english: readiness
+    pos: noun
+    oromo: qophaayina
+    alternates: []
+    ipa: /ˈkʼɔpʼɑːjɪnɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: readiness
+    verified: false
+  - english: assistance
+    pos: noun
+    oromo: gargaarasa
+    alternates:
+      - gargaarsa
+      - daaqonii
+    ipa: /ˈɡɐrɡɑːrɐsɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: assistance
+    verified: false
+  - english: guidance
+    pos: noun
+    oromo: qajeelfama
+    alternates: []
+    ipa: /ˈkʼɐd͡ʒeːlfɐmɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: guidance, directives
+    verified: false
+  - english: shelter
+    pos: noun
+    oromo: da'oo
+    alternates:
+      - dahachoo
+      - dacheessuu
+      - daheesuu
+      - mana bulmaataa
+    ipa: /ˈdɐʔóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/34/Om-da%27oo.ogg/Om-da%27oo.ogg.mp3
+    confidence: medium
+    glossSeen: shelter
+    verified: false

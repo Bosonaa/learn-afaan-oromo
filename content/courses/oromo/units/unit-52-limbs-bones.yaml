@@ -1,0 +1,264 @@
+id: unit-52-limbs-bones
+order: 52
+title: "Body: arms, legs & bones"
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: elbow
+    pos: noun
+    oromo: ciqilee
+    alternates:
+      - ciqilchuu
+    ipa: /ˈt͡ʃʼɪkʼɪléː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/40/Om-ciqilee.ogg/Om-ciqilee.ogg.mp3
+    confidence: high
+    glossSeen: elbow
+    verified: false
+  - english: thumb
+    pos: noun
+    oromo: abbuudduu
+    alternates:
+      - abbudduu
+      - abgudduu
+      - abhudduu
+      - abudduu
+    ipa: /ɐbːuːdːúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/81/Om-abbuudduu.ogg/Om-abbuudduu.ogg.mp3
+    confidence: medium
+    glossSeen: thumb
+    verified: false
+  - english: knuckle
+    pos: noun
+    oromo: buusaa
+    alternates:
+      - kurkumuu
+    ipa: /ˈbuːsɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f1/Om-buusaa.ogg/Om-buusaa.ogg.mp3
+    confidence: high
+    glossSeen: knuckle
+    verified: false
+  - english: hip
+    pos: noun
+    oromo: huffaa
+    alternates:
+      - luqqeettuu
+      - mataa tafaa
+    ipa: /ˈhʊfːɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: hip
+    verified: false
+  - english: thigh
+    pos: noun
+    oromo: gudeeda
+    alternates:
+      - mataa tafaa
+      - gudeeda dhiigsuu
+    ipa: /ˈɡʊdeːdɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: thigh, lap
+    verified: false
+  - english: ankle
+    pos: noun
+    oromo: kibirii
+    alternates:
+      - korony'oo
+      - koomee
+      - faanga'uu
+    ipa: /ˈkɪbɪríː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: ankle
+    verified: false
+  - english: heel
+    pos: noun
+    oromo: shonoo
+    alternates:
+      - taakkoo
+      - hirba
+      - shonee
+    ipa: /ˈʃɔnóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: heel
+    verified: false
+  - english: bone
+    pos: noun
+    oromo: lafee
+    alternates:
+      - boqota
+      - buqqa'a
+      - daankaa
+      - dhuka
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: bone
+    verified: false
+  - english: spine
+    pos: noun
+    oromo: miqiqqirii
+    alternates:
+      - gadamsa
+      - marsisuu
+      - dafqisiisuu
+      - foosisuu
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: spine, backbone
+    verified: false
+  - english: joint
+    pos: noun
+    oromo: haangii
+    alternates:
+      - lilimma
+      - dachaafattuu
+      - hududduu
+      - uka
+    ipa: /ˈhɑːnɡíː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: joint
+    verified: false
+  - english: muscle
+    pos: noun
+    oromo: antuutee
+    alternates:
+      - hantuuttee
+      - maashaa
+      - maashaalee
+      - irree
+    ipa: /ɐntuːtéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d1/Om-antuutee.ogg/Om-antuutee.ogg.mp3
+    confidence: medium
+    glossSeen: muscle
+    verified: false
+  - english: tendon
+    pos: noun
+    oromo: morgaa
+    alternates:
+      - mogolee
+      - ribuu
+      - mogoluu
+    ipa: /ˈmɔrɡɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: tendon, nerve
+    verified: false
+  - english: ligament
+    pos: noun
+    oromo: ribuu
+    alternates: []
+    ipa: /ˈrɪbúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: ligament
+    verified: false
+  - english: waist
+    pos: noun
+    oromo: mudhii
+    alternates:
+      - awwadachuu
+    ipa: /ˈmʊᶑíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: waist, line
+    verified: false
+  - english: armpit
+    pos: noun
+    oromo: bobaa
+    alternates:
+      - komoo
+      - uka
+      - rifeensa bobaa
+    ipa: /ˈbɔbɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/68/Om-bobaa.ogg/Om-bobaa.ogg.mp3
+    confidence: medium
+    glossSeen: armpit
+    verified: false
+  - english: buttocks
+    pos: noun
+    oromo: fagaara
+    alternates:
+      - hudduu
+      - kofoo
+    ipa: /ˈfɐɡɑːrɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8d/Om-fagaara.ogg/Om-fagaara.ogg.mp3
+    confidence: high
+    glossSeen: buttocks
+    verified: false
+  - english: pelvis
+    pos: noun
+    oromo: qinxii
+    alternates: []
+    ipa: /ˈkʼɪntʼíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: flank, loins, pelvis
+    verified: false
+  - english: calves
+    pos: noun
+    oromo: jabbilee
+    alternates:
+      - jabboota
+      - busaayee
+      - hambawoo
+      - tugga'uu
+    ipa: /ˈd͡ʒɐbːɪléː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: plural of calf, calves
+    verified: false
+  - english: fist
+    pos: noun
+    oromo: aboottuu
+    alternates:
+      - dabanaasa
+      - aboottee
+      - haboottaa
+      - haboottifachuu
+    ipa: /ɐboːtːúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2e/Om-aboottuu.ogg/Om-aboottuu.ogg.mp3
+    confidence: medium
+    glossSeen: fist
+    verified: false
+  - english: abdomen
+    pos: noun
+    oromo: macoo
+    alternates:
+      - garaa
+    ipa: /ˈmɐt͡ʃʼóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: abdomen, belly
+    verified: false
+  - english: posture
+    pos: noun
+    oromo: naqa
+    alternates:
+      - sansaankaa
+      - dhaabbata
+      - ijjata
+    ipa: /ˈnɐkʼɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: posture
+    verified: false
+  - english: stride
+    pos: noun
+    oromo: tarkaanfii
+    alternates:
+      - tarkaanfachuu
+    ipa: /ˈtɐrkɑːnfíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: a stride/ step
+    verified: false

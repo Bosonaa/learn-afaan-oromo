@@ -3,7 +3,7 @@
 /**
  * Progress lives entirely in the browser: no accounts, no analytics, nothing
  * about a child leaves the device. Each profile gets its own localStorage key
- * per course, so siblings sharing a tablet keep separate XP, streaks and review
+ * per course, so siblings sharing a tablet keep separate points, streaks and review
  * schedules, and one child's languages do not share a streak either.
  */
 
@@ -20,6 +20,7 @@ export interface WordProgress {
 
 export interface Progress {
   version: 1;
+  /** Shown to children as "Points"; the key stays `xp` so saved progress reads back. */
   xp: number;
   streakDays: number;
   lastPracticedDay: string | null;

@@ -1,0 +1,244 @@
+id: unit-95-right-wrong
+order: 95
+title: Rules, right & wrong
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: injustice
+    pos: noun
+    oromo: xuurii
+    alternates: []
+    ipa: /ˈtʼuːríː/
+    audioUrl: null
+    confidence: high
+    glossSeen: unfair, unjust, sin, injustice
+    verified: false
+  - english: crime
+    pos: noun
+    oromo: wanjala
+    alternates:
+      - yakka
+      - adamsaa yakkaa
+      - wanjalchiisuu
+      - yakkamuu
+    ipa: /ˈwɐnd͡ʒɐlɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: crime
+    verified: false
+  - english: robber
+    pos: noun
+    oromo: gaadduu
+    alternates: []
+    ipa: /ˈɡɑːdːúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: spy
+    verified: false
+  - english: trial
+    pos: noun
+    oromo: yaalii
+    alternates: []
+    ipa: /ˈjɑːlíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: trial, attempt
+    verified: false
+  - english: witness
+    pos: noun
+    oromo: himmaanyii
+    alternates:
+      - immanyii
+      - abaayii
+      - dhugaa baasuu
+      - ragaa
+    ipa: /ˈhɪmːɑːɲíː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: witness
+    verified: false
+  - english: evidence
+    pos: noun
+    oromo: ragaa
+    alternates:
+      - ragaa barruu
+    ipa: /ˈrɐɡɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: evidence, proof witness
+    verified: false
+  - english: permission
+    pos: noun
+    oromo: eeyyama
+    alternates:
+      - eeyyamtummaa
+      - hayyama
+      - hayyamsifachuu
+      - hayyamsiisuu
+    ipa: /eːjːɐmɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b5/Om-eeyyama.ogg/Om-eeyyama.ogg.mp3
+    confidence: medium
+    glossSeen: permission
+    verified: false
+  - english: responsibility
+    pos: noun
+    oromo: ba'aa
+    alternates:
+      - ittigaafatamummaa
+    ipa: /ˈbɐʔɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7c/Om-ba%27aa.ogg/Om-ba%27aa.ogg.mp3
+    confidence: high
+    glossSeen: load
+    verified: false
+  - english: fairness
+    pos: noun
+    oromo: hoosummaa
+    alternates:
+      - sirrummaa
+    ipa: /ˈhoːsʊmːɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: meanness, fairness
+    verified: false
+  - english: verdict
+    pos: noun
+    oromo: murtii kennaa
+    alternates: []
+    ipa: /ˈmʊrtiː kɛnːɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: last judgment/verdict
+    verified: false
+  - english: tribunal
+    pos: noun
+    oromo: mana murtii
+    alternates: []
+    ipa: /ˈmɐnɐ mʊrtíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: tribunal
+    verified: false
+  - english: custody
+    pos: noun
+    oromo: mana adabaa
+    alternates: []
+    ipa: /ˈmɐnɐ ɐdɐbɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: jail, custody
+    verified: false
+  - english: pardon
+    pos: noun
+    oromo: onfii
+    alternates:
+      - maaruu
+      - tufsiifachuu
+      - dhiisuu
+    ipa: /ɔnfíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: excuse, pardon
+    verified: false
+  - english: parole
+    pos: noun
+    oromo: sharxii
+    alternates: []
+    ipa: /ˈʃɐrtʼíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: precondition
+    verified: false
+  - english: defendant
+    pos: noun
+    oromo: himatamaa
+    alternates: []
+    ipa: /ˈhɪmɐtɐmɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: defendant
+    verified: false
+  - english: prosecutor
+    pos: noun
+    oromo: abbaalangee
+    alternates: []
+    ipa: /ɐbːɑːlɐnɡéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/81/Om-abbaalangee.ogg/Om-abbaalangee.ogg.mp3
+    confidence: high
+    glossSeen: prosecutor
+    verified: false
+  - english: jury
+    pos: noun
+    oromo: salganee
+    alternates:
+      - shanacha
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: jury
+    verified: false
+  - english: oath
+    pos: noun
+    oromo: kakaa
+    alternates:
+      - tumata
+      - magantaa
+      - magaanteftachuu
+      - du'i!
+    ipa: /ˈkɐkɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: oath
+    verified: false
+  - english: testimony
+    pos: noun
+    oromo: dhaga-baatii
+    alternates: []
+    ipa: /ˈᶑɐɡɐ-bɑːtíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/30/Om-dhaga-baatii.ogg/Om-dhaga-baatii.ogg.mp3
+    confidence: high
+    glossSeen: testimony
+    verified: false
+  - english: robbery
+    pos: noun
+    oromo: saamicha
+    alternates: []
+    ipa: /ˈsɑːmɪt͡ʃɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: robbery
+    verified: false
+  - english: slander
+    pos: noun
+    oromo: arrabbii
+    alternates:
+      - hamii
+      - hamachuu
+    ipa: /ɐrːɐbːíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9b/Om-arrabbii.ogg/Om-arrabbii.ogg.mp3
+    confidence: medium
+    glossSeen: insult, slander
+    verified: false
+  - english: conviction
+    pos: noun
+    oromo: murtii seeraa
+    alternates: []
+    ipa: /ˈmʊrtiː seːrɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: conviction, verdcit
+    verified: false
+  - english: imprisonment
+    pos: noun
+    oromo: hidhaa
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: imprisonment
+    verified: false

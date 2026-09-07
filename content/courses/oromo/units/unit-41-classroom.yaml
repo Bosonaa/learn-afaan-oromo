@@ -1,0 +1,276 @@
+id: unit-41-classroom
+order: 41
+title: Classroom & study
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: notebook
+    pos: noun
+    oromo: yaadanno
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: notebook
+    verified: false
+  - english: dictionary
+    pos: noun
+    oromo: dikshinarii
+    alternates:
+      - kuusjecha
+      - galmee jechootaa
+      - aseentoo
+    ipa: /ˈdɪkʃɪnɐríː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/65/Om-dikshinarii.ogg/Om-dikshinarii.ogg.mp3
+    confidence: medium
+    glossSeen: dictionary
+    verified: false
+  - english: exercise
+    pos: noun
+    oromo: gilgaala
+    alternates:
+      - ayyaana olkaa
+      - shaakala
+      - dabtara
+    ipa: /ˈɡɪlɡɑːlɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: exercise
+    verified: false
+  - english: example
+    pos: noun
+    oromo: fakkeenya
+    alternates:
+      - diruu
+      - danda'uu
+      - duroo
+      - dadii
+    ipa: /ˈfɐkːeːɲɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bd/Om-fakkeenya.ogg/Om-fakkeenya.ogg.mp3
+    confidence: high
+    glossSeen: example
+    verified: false
+  - english: quiz
+    pos: noun
+    oromo: battalee
+    alternates: []
+    ipa: /ˈbɐtːɐléː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/62/Om-battalee.ogg/Om-battalee.ogg.mp3
+    confidence: high
+    glossSeen: small test/ quiz
+    verified: false
+  - english: mathematics
+    pos: noun
+    oromo: herreega
+    alternates: []
+    ipa: /ˈhɛrːeːɡɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: mathematics
+    verified: false
+  - english: subject
+    pos: noun
+    oromo: lammii
+    alternates:
+      - matima
+      - dirqam beenyaa
+      - isheen
+      - isin
+    ipa: /ˈlɐmːíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: kin, relative tribe
+    verified: false
+  - english: grade
+    pos: noun
+    oromo: gulantaa
+    alternates:
+      - doorani
+    ipa: /ˈɡʊlɐntɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: grade,step, scale
+    verified: false
+  - english: certificate
+    pos: noun
+    oromo: iqaama
+    alternates:
+      - dippiloma
+      - ragaa dhalootaa
+      - ragaa gaayilaa
+    ipa: /ɪkʼɑːmɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: certificate
+    verified: false
+  - english: education
+    pos: noun
+    oromo: barnoota
+    alternates: []
+    ipa: /ˈbɐrnoːtɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e0/Om-barnoota.ogg/Om-barnoota.ogg.mp3
+    confidence: high
+    glossSeen: education
+    verified: false
+  - english: instruction
+    pos: noun
+    oromo: eemara
+    alternates: []
+    ipa: /eːmɐrɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/be/Om-eemara.ogg/Om-eemara.ogg.mp3
+    confidence: high
+    glossSeen: instruction,order
+    verified: false
+  - english: instructor
+    pos: noun
+    oromo: barsiiftuu
+    alternates:
+      - barsiisaa
+    ipa: /ˈbɐrsiːftúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/13/Om-barsiiftuu.ogg/Om-barsiiftuu.ogg.mp3
+    confidence: medium
+    glossSeen: teacher/coach/instructor/trainer, educator (female)
+    verified: false
+  - english: chart
+    pos: noun
+    oromo: caatoo
+    alternates:
+      - taattoo
+    ipa: /ˈt͡ʃʼɑːtóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bb/Om-caatoo.ogg/Om-caatoo.ogg.mp3
+    confidence: medium
+    glossSeen: chart
+    verified: false
+  - english: diagram
+    pos: noun
+    oromo: caasoo
+    alternates: []
+    ipa: /ˈt͡ʃʼɑːsóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c6/Om-caasoo.ogg/Om-caasoo.ogg.mp3
+    confidence: high
+    glossSeen: diagram
+    verified: false
+  - english: alphabet
+    pos: noun
+    oromo: arfii
+    alternates:
+      - harfii
+      - qubee
+      - a
+      - A
+    ipa: /ɐrfíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/46/Om-arfii.ogg/Om-arfii.ogg.mp3
+    confidence: medium
+    glossSeen: alphabet
+    verified: false
+  - english: folder
+    pos: noun
+    oromo: ukaankaa
+    alternates:
+      - ukaankaa haadhoo
+    ipa: /ʊkɑːnkɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: folder
+    verified: false
+  - english: marker
+    pos: noun
+    oromo: addabaasoo
+    alternates:
+      - -uu
+    ipa: /ɐdːɐbɑːsóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c0/Om-addabaasoo.ogg/Om-addabaasoo.ogg.mp3
+    confidence: high
+    glossSeen: marker
+    verified: false
+  - english: note
+    pos: noun
+    oromo: nootaa
+    alternates:
+      - yaadachiisa
+      - qalbeeffachuu
+    ipa: /ˈnoːtɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: note (music)
+    verified: false
+  - english: examination
+    pos: noun
+    oromo: qormaata
+    alternates:
+      - qoqqorachuu
+      - dalaafii
+      - qorqorti
+      - darbuu
+    ipa: /ˈkʼɔrmɑːtɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: examination
+    verified: false
+  - english: discipline
+    pos: noun
+    oromo: namuusa
+    alternates:
+      - qummuuchisuu
+      - qummuudachuu
+      - naamusahojii
+      - adabachuu
+    ipa: /ˈnɐmuːsɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: discipline
+    verified: false
+  - english: schedule
+    pos: noun
+    oromo: sagantee
+    alternates:
+      - sagantaa hojii
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: schedule
+    verified: false
+  - english: curriculum
+    pos: noun
+    oromo: sirna barumsaa
+    alternates: []
+    ipa: /ˈsɪrnɐ bɐrʊmsɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: curriculum
+    verified: false
+  - english: register
+    pos: noun
+    oromo: galmee
+    alternates:
+      - galmeessuu
+      - galmeessisuu
+    ipa: /ˈɡɐlméː/
+    audioUrl: null
+    confidence: high
+    glossSeen: register, archive
+    verified: false
+  - english: dormitory
+    pos: noun
+    oromo: mana cisichaa
+    alternates: []
+    ipa: /ˈmɐnɐ t͡ʃʼɪsɪt͡ʃɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: pension, dormitory
+    verified: false
+  - english: campus
+    pos: noun
+    oromo: adaalloo
+    alternates: []
+    ipa: /ɐdɑːlːóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bd/Om-adaalloo.ogg/Om-adaalloo.ogg.mp3
+    confidence: high
+    glossSeen: campus
+    verified: false

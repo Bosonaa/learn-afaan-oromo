@@ -1,0 +1,292 @@
+id: unit-88-verbs-cooking
+order: 88
+title: "Verbs: cooking & cleaning"
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: roast
+    pos: verb
+    oromo: agaalabuu
+    alternates:
+      - akaawuu
+      - kalaankaluu
+      - waxaluu
+      - kolla'uu
+    ipa: /ɐɡɑːlɐbúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/13/Om-agaalabuu.ogg/Om-agaalabuu.ogg.mp3
+    confidence: medium
+    glossSeen: to roast
+    verified: false
+  - english: stir
+    pos: verb
+    oromo: bulbuluu
+    alternates:
+      - chochoosuu
+      - erbuu
+      - irbachuu
+      - irbisiisuu
+    ipa: /ˈbʊlbʊlúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6d/Om-bulbuluu.ogg/Om-bulbuluu.ogg.mp3
+    confidence: medium
+    glossSeen: make mead by mixing honey with water and other ingredient
+    verified: false
+  - english: mix
+    pos: verb
+    oromo: makachuu
+    alternates:
+      - arraabsisuu
+      - bulbulachuu
+      - bulbulchiisuu
+      - bulbuluu
+    ipa: /ˈmɐkɐt͡ʃúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: to mix
+    verified: false
+  - english: knead
+    pos: verb
+    oromo: laaqii
+    alternates:
+      - bukeeffachuu
+    ipa: /ˈlɑːkʼíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: knead
+    verified: false
+  - english: serve
+    pos: verb
+    oromo: tajaajiluu
+    alternates:
+      - dhiyeeffachuu
+      - kaaddamuu
+      - keessummeessuu
+      - ari'amuu
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: to serve
+    verified: false
+  - english: scrub
+    pos: verb
+    oromo: shukkuumuu
+    alternates: []
+    ipa: /ˈʃʊkːuːmúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: scrub, to rub
+    verified: false
+  - english: wipe
+    pos: verb
+    oromo: haxaa'uu
+    alternates:
+      - haqsiisuu
+      - mashaquu
+      - haqachuu
+      - haquu
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: to wipe, rub clean
+    verified: false
+  - english: rinse
+    pos: verb
+    oromo: lola'uu
+    alternates: []
+    ipa: /ˈlɔlɐʔúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: rinse
+    verified: false
+  - english: dry
+    pos: verb
+    oromo: qoshoruu
+    alternates:
+      - daalachaa'uu
+      - hongessuu
+      - qooruu
+      - gogeessa
+    ipa: /ˈkʼɔʃɔrúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: dry
+    verified: false
+  - english: brew
+    pos: verb
+    oromo: naquu
+    alternates:
+      - farsoo naquu
+      - unkuramuu
+      - unkursiisuu
+      - ashaaroo
+    ipa: /ˈnɐkʼúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: brew
+    verified: false
+  - english: churn
+    pos: verb
+    oromo: raafachuu
+    alternates:
+      - raasuu
+      - orfoo
+      - cukaasuu
+      - cuqaafachuu
+    ipa: /ˈrɑːfɐt͡ʃúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: churn (for oneself)
+    verified: false
+  - english: mince
+    pos: verb
+    oromo: kochisuu
+    alternates: []
+    ipa: /ˈkɔt͡ʃɪsúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: to mince, chop usually meat
+    verified: false
+  - english: sift
+    pos: verb
+    oromo: dhimbiibuu
+    alternates:
+      - meemessuu
+      - gingilchuu
+      - soramuu
+      - qulleessuu
+    ipa: /ˈᶑɪmbiːbúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/66/Om-dhimbiibuu.ogg/Om-dhimbiibuu.ogg.mp3
+    confidence: medium
+    glossSeen: strain, purify, filter
+    verified: false
+  - english: soak
+    pos: verb
+    oromo: laaffisuu
+    alternates:
+      - dhuubachuu
+      - dhuubamuu
+      - dhuubsisuu
+    ipa: /ˈlɑːfːɪsúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: cause to be wet
+    verified: false
+  - english: sprinkle
+    pos: verb
+    oromo: tooyuu
+    alternates:
+      - firfirsuu
+    ipa: /ˈtoːjúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: to sprinkle/ drain away
+    verified: false
+  - english: squeeze
+    pos: verb
+    oromo: cimmiiguu
+    alternates:
+      - cunfuu
+      - futuruquu
+      - cuunfuu
+      - kokotteessuu
+    ipa: /ˈt͡ʃʼɪmːiːɡúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5b/Om-cimmiiguu.ogg/Om-cimmiiguu.ogg.mp3
+    confidence: medium
+    glossSeen: to squeeze
+    verified: false
+  - english: spill
+    pos: verb
+    oromo: dhangalaasuu
+    alternates:
+      - itti jiksamuu
+      - jiksuu
+      - gadinaqsisuu
+      - jiksiisuu
+    ipa: /ˈᶑɐnɡɐlɑːsúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/86/Om-dhangalaasuu.ogg/Om-dhangalaasuu.ogg.mp3
+    confidence: high
+    glossSeen: spill (liquid, grain ...)
+    verified: false
+  - english: melt
+    pos: verb
+    oromo: baquu
+    alternates:
+      - baksuu
+      - babbaquu
+      - baqfachuu
+      - baqsiisuu
+    ipa: /ˈbɐkʼúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/87/Om-baquu.ogg/Om-baquu.ogg.mp3
+    confidence: medium
+    glossSeen: melt
+    verified: false
+  - english: freeze
+    pos: verb
+    oromo: cabbeessuu
+    alternates: []
+    ipa: /ˈt͡ʃʼɐbːeːsːúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3c/Om-cabbeessuu.ogg/Om-cabbeessuu.ogg.mp3
+    confidence: high
+    glossSeen: to freeze, to cool
+    verified: false
+  - english: burn
+    pos: verb
+    oromo: gubuu
+    alternates:
+      - gugguhuu
+      - balalachuu
+      - daara'uu
+      - ciincessuu
+    ipa: /ˈɡʊbúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: burn
+    verified: false
+  - english: dilute
+    pos: verb
+    oromo: callaabbessuu
+    alternates:
+      - areerrachuu
+    ipa: /ˈt͡ʃʼɐlːɑːbːɛsːúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e7/Om-callaabbessuu.ogg/Om-callaabbessuu.ogg.mp3
+    confidence: high
+    glossSeen: to dilute
+    verified: false
+  - english: munch
+    pos: verb
+    oromo: qarxamsuu
+    alternates: []
+    ipa: /ˈkʼɐrtʼɐmsúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: munch
+    verified: false
+  - english: suck
+    pos: verb
+    oromo: roocuu
+    alternates:
+      - luuguu
+      - bakkisuu
+      - xuuxuu
+      - hootuu
+    ipa: /ˈroːt͡ʃʼúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: suck
+    verified: false
+  - english: stuff
+    pos: verb
+    oromo: bujugsuu
+    alternates:
+      - bujuu
+      - uggursiisuu
+    ipa: /ˈbʊd͡ʒʊɡsúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/44/Om-bujugsuu.ogg/Om-bujugsuu.ogg.mp3
+    confidence: high
+    glossSeen: to stuff
+    verified: false

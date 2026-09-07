@@ -1,0 +1,269 @@
+id: unit-58-character
+order: 58
+title: Character & manners
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: generosity
+    pos: noun
+    oromo: arjummaa
+    alternates:
+      - arjooma
+      - raamata
+    ipa: /ɐrd͡ʒʊmːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/ca/Om-arjummaa.ogg/Om-arjummaa.ogg.mp3
+    confidence: medium
+    glossSeen: generosity
+    verified: false
+  - english: gentleness
+    pos: noun
+    oromo: aannanummaa
+    alternates:
+      - dansuma
+    ipa: /ɑːnːɐnʊmːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/40/Om-aannanummaa.ogg/Om-aannanummaa.ogg.mp3
+    confidence: medium
+    glossSeen: milky
+    verified: false
+  - english: politeness
+    pos: noun
+    oromo: tuujubamaa
+    alternates: []
+    ipa: /ˈtuːd͡ʒʊbɐmɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: politeness
+    verified: false
+  - english: obedience
+    pos: noun
+    oromo: abboomama
+    alternates: []
+    ipa: /ɐbːoːmɐmɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/73/Om-abboomama.ogg/Om-abboomama.ogg.mp3
+    confidence: high
+    glossSeen: obedience
+    verified: false
+  - english: cleverness
+    pos: noun
+    oromo: abshaalummaa
+    alternates:
+      - qaruuxummaa
+      - qaanqurooma
+    ipa: /ɐbʃɑːlʊmːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d5/Om-abshaalummaa.ogg/Om-abshaalummaa.ogg.mp3
+    confidence: medium
+    glossSeen: cleverness
+    verified: false
+  - english: laziness
+    pos: noun
+    oromo: dhibaa'ummaa
+    alternates: []
+    ipa: /ˈᶑɪbɑːʔʊmːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/81/Om-dhibaa%27ummaa.ogg/Om-dhibaa%27ummaa.ogg.mp3
+    confidence: high
+    glossSeen: laziness
+    verified: false
+  - english: arrogance
+    pos: noun
+    oromo: oftuulummaa
+    alternates: []
+    ipa: /ɔftuːlʊmːɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: arrogance, proudy chauvinisme, false pride,
+    verified: false
+  - english: selfishness
+    pos: noun
+    oromo: doqnumma
+    alternates:
+      - doqnoomuu
+    ipa: /ˈdɔkʼnʊmːɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4b/Om-doqnumma.ogg/Om-doqnumma.ogg.mp3
+    confidence: high
+    glossSeen: meanness, selfishness
+    verified: false
+  - english: cruelty
+    pos: noun
+    oromo: hammeenya
+    alternates:
+      - hammina
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: cruelty
+    verified: false
+  - english: coward
+    pos: noun
+    oromo: nadheen
+    alternates:
+      - nadhoo
+    ipa: /ˈnɐᶑeːn/
+    audioUrl: null
+    confidence: medium
+    glossSeen: woman
+    verified: false
+  - english: liar
+    pos: noun
+    oromo: buuftuu
+    alternates:
+      - uffee
+      - haadha sobaa
+    ipa: /ˈbuːftúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d3/Om-buuftuu.ogg/Om-buuftuu.ogg.mp3
+    confidence: high
+    glossSeen: a woman who fans fire with a pair of bellows
+    verified: false
+  - english: thief
+    pos: noun
+    oromo: hattuu
+    alternates:
+      - afarsaataa
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: thief
+    verified: false
+  - english: fool
+    pos: noun
+    oromo: jiraaroo
+    alternates:
+      - gowwoomsuu
+      - faajjeessuu
+      - gowwoomuu
+      - faajawuu
+    ipa: /ˈd͡ʒɪrɑːróː/
+    audioUrl: null
+    confidence: high
+    glossSeen: fool
+    verified: false
+  - english: idiot
+    pos: noun
+    oromo: gadareessa
+    alternates:
+      - gowwaa
+      - fujujuu
+      - yaraa
+    ipa: /ˈɡɐdɐreːsːɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: idiot
+    verified: false
+  - english: bully
+    pos: noun
+    oromo: sossodaachisuu
+    alternates: []
+    ipa: /ˈsɔsːɔdɑːt͡ʃɪsúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: black maily, bully, threaten
+    verified: false
+  - english: manner
+    pos: noun
+    oromo: akkii
+    alternates:
+      - cufaatii
+      - kottonfannaa
+      - baalagoomuu
+      - xeebuu
+    ipa: /ɐkːíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/15/Om-akkii.ogg/Om-akkii.ogg.mp3
+    confidence: high
+    glossSeen: situation, manner, condition
+    verified: false
+  - english: habit
+    pos: noun
+    oromo: bartee
+    alternates:
+      - haraaraa
+    ipa: /ˈbɐrtéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/71/Om-bartee.ogg/Om-bartee.ogg.mp3
+    confidence: high
+    glossSeen: habit
+    verified: false
+  - english: cunning
+    pos: noun
+    oromo: qarummaa
+    alternates: []
+    ipa: /ˈkʼɐrʊmːɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: intellectual
+    verified: false
+  - english: dignity
+    pos: noun
+    oromo: manyaaqa
+    alternates:
+      - marabbaa
+      - surraa
+      - manyaaquu
+      - maanyaaquu
+    ipa: /ˈmɐɲɑːkʼɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: dignity
+    verified: false
+  - english: generous
+    pos: noun
+    oromo: toltuu
+    alternates:
+      - toluu
+      - arjoomuu
+    ipa: /ˈtɔltúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: generous. (of fem)
+    verified: false
+  - english: foolishness
+    pos: noun
+    oromo: gowwummaa
+    alternates: []
+    ipa: /ˈɡɔwːʊmːɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: foolishness, stupidity
+    verified: false
+  - english: stupidity
+    pos: noun
+    oromo: dheegalumma
+    alternates:
+      - gowwummaa
+      - raatummaa
+      - wallaala
+    ipa: /ˈᶑeːɡɐlʊmːɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f7/Om-dheegalumma.ogg/Om-dheegalumma.ogg.mp3
+    confidence: medium
+    glossSeen: stupidity, ignorance
+    verified: false
+  - english: timid
+    pos: noun
+    oromo: dhalfa
+    alternates: []
+    ipa: /ˈᶑɐlfɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c7/Om-dhalfa.ogg/Om-dhalfa.ogg.mp3
+    confidence: high
+    glossSeen: reproductive organ of a cow
+    verified: false
+  - english: careless
+    pos: noun
+    oromo: garaagatuu
+    alternates: []
+    ipa: /ˈɡɐrɑːɡɐtúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: over confident, careless
+    verified: false
+  - english: sincerity
+    pos: noun
+    oromo: dugaadhaan
+    alternates: []
+    ipa: /ˈdʊɡɑːᶑɑːn/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/46/Om-dugaadhaan.ogg/Om-dugaadhaan.ogg.mp3
+    confidence: high
+    glossSeen: sincerity
+    verified: false

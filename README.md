@@ -31,7 +31,7 @@ npm run dev        # http://localhost:3000
 
 Unit YAML and mirrored audio are committed, so the app runs without regenerating content.
 [DEPLOY.md](DEPLOY.md) walks through building it, putting it on a phone and deploying.
-Progress (XP, streak, spaced-repetition schedule) is stored in `localStorage` only: no
+Progress (points, streak, spaced-repetition schedule) is stored in `localStorage` only: no
 accounts, no server, no analytics, nothing about a child leaves the device.
 
 ## Courses, levels, units
@@ -41,7 +41,7 @@ The app teaches **courses**, of which Afaan Oromo is the first: `/` is the langu
 `lib/courses.ts` (name, level titles) plus content in `content/courses/<id>/`, and it owns its
 own progress — a child's streak in one language is not spent practising another. The first
 course deliberately keeps the storage keys that predate courses, so devices already learning
-Afaan Oromo keep their XP and streaks.
+Afaan Oromo keep their points and streaks.
 
 Within a course, units are grouped ten at a time into **levels** (`lib/levels.ts`), so a course
 opens on a short list of levels rather than one long list of units. Grouping follows unit order,

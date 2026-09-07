@@ -1,0 +1,250 @@
+id: unit-85-verbs-moving
+order: 85
+title: "Verbs: moving & travelling"
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: drive
+    pos: verb
+    oromo: hoofachuu
+    alternates:
+      - konkolaachisuu
+      - oofuu
+      - hoofsisuu
+      - hoofuu
+    ipa: /ˈhoːfɐt͡ʃúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: drive (for one self)
+    verified: false
+  - english: depart
+    pos: verb
+    oromo: addaan baduu
+    alternates: []
+    ipa: /ɐdːɑːn bɐdúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a3/Om-addaan_baduu.ogg/Om-addaan_baduu.ogg.mp3
+    confidence: high
+    glossSeen: depart
+    verified: false
+  - english: approach
+    pos: verb
+    oromo: dhihaachuu
+    alternates: []
+    ipa: /ˈᶑɪhɑːt͡ʃúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8c/Om-dhihaachuu.ogg/Om-dhihaachuu.ogg.mp3
+    confidence: high
+    glossSeen: approach, come close
+    verified: false
+  - english: chase
+    pos: verb
+    oromo: ari'uu
+    alternates:
+      - ari'achuu
+      - ooffachuu
+      - gugsuu
+      - luullessuu
+    ipa: /ɐrɪʔúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/01/Om-ari%27uu.ogg/Om-ari%27uu.ogg.mp3
+    confidence: medium
+    glossSeen: chase
+    verified: false
+  - english: escape
+    pos: verb
+    oromo: miliquu
+    alternates:
+      - dheessisuu
+      - miliqsuu
+      - sokkuu
+      - dheeffuu
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: to escape
+    verified: false
+  - english: roam
+    pos: verb
+    oromo: jooruu
+    alternates:
+      - joorsuu
+      - xallisuu
+    ipa: /ˈd͡ʒoːrúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: wander, exhaustively, roam
+    verified: false
+  - english: wander
+    pos: verb
+    oromo: fandalaluu
+    alternates:
+      - joorsuu
+      - jooruu
+      - xallisuu
+      - xallisa
+    ipa: /ˈfɐndɐlɐlúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/53/Om-fandalaluu.ogg/Om-fandalaluu.ogg.mp3
+    confidence: medium
+    glossSeen: to wander, to tramp
+    verified: false
+  - english: creep
+    pos: verb
+    oromo: loowuu
+    alternates:
+      - loosuu
+      - daa' imuu
+    ipa: /ˈloːwúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: to crawl/ creep
+    verified: false
+  - english: sneak
+    pos: verb
+    oromo: qassisuu
+    alternates:
+      - luuxuu
+    ipa: /ˈkʼɐsːɪsúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: to sneak
+    verified: false
+  - english: leap
+    pos: verb
+    oromo: olutaaluu
+    alternates: []
+    ipa: /ɔlʊtɑːlúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: to jump, leap
+    verified: false
+  - english: sprint
+    pos: verb
+    oromo: magarsuu
+    alternates: []
+    ipa: /ˈmɐɡɐrsúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: sprint
+    verified: false
+  - english: march
+    pos: verb
+    oromo: Bitootessa
+    alternates:
+      - hiriiruu
+      - hiriirsuu
+    ipa: /ˈbɪtoːtɛsːɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ab/Om-bitootessa.ogg/Om-bitootessa.ogg.mp3
+    confidence: medium
+    glossSeen: March
+    verified: false
+  - english: descend
+    pos: verb
+    oromo: gaddeemuu
+    alternates:
+      - irra qubachuu
+      - buufamuu
+      - irraa buusuu
+    ipa: /ˈɡɐdːeːmúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: to shrink down, to descend
+    verified: false
+  - english: rise
+    pos: verb
+    oromo: ka'uu
+    alternates:
+      - ba'a aduu
+      - baha aduu
+    ipa: /ˈkɐ́ʔuː/
+    audioUrl: null
+    confidence: high
+    glossSeen: to get up, rise
+    verified: false
+  - english: drift
+    pos: verb
+    oromo: haffalaawuu
+    alternates: []
+    ipa: /ˈhɐfːɐlɑːwúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: drift
+    verified: false
+  - english: float
+    pos: verb
+    oromo: bololiyuu
+    alternates: []
+    ipa: /ˈbɔlɔlɪjúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/01/Om-bololiyuu.ogg/Om-bololiyuu.ogg.mp3
+    confidence: high
+    glossSeen: float
+    verified: false
+  - english: soar
+    pos: verb
+    oromo: murxuxaa'uu
+    alternates: []
+    ipa: /ˈmʊrtʼʊtʼɑːʔúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: to be thrown
+    verified: false
+  - english: hover
+    pos: verb
+    oromo: golboobuu
+    alternates:
+      - arraabkosii
+    ipa: /ˈɡɔlboːbúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: shield, hover
+    verified: false
+  - english: plunge
+    pos: verb
+    oromo: cuubuu
+    alternates:
+      - cuubsisuu
+    ipa: /ˈt͡ʃʼuːbúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/ca/Om-cuubuu.ogg/Om-cuubuu.ogg.mp3
+    confidence: medium
+    glossSeen: dip/ sop/ plunge
+    verified: false
+  - english: stumble
+    pos: verb
+    oromo: heewasuu
+    alternates:
+      - gufachuu
+      - gufachisuu
+    ipa: /ˈheːwɐsúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: stumble
+    verified: false
+  - english: slide
+    pos: verb
+    oromo: foqoquu
+    alternates:
+      - sigigaachuu
+      - mucuca
+      - foqoqsiisuu
+      - loosisuu
+    ipa: /ˈfɔkʼɔkʼúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/89/Om-foqoquu.ogg/Om-foqoquu.ogg.mp3
+    confidence: medium
+    glossSeen: slide, to move from place to place on buttock
+    verified: false
+  - english: slip
+    pos: verb
+    oromo: salolaasuu
+    alternates:
+      - sigiggeessuu
+      - mucucaachuu
+      - salolaachuu
+      - sigigaachuu
+    ipa: /ˈsɐlɔlɑːsúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: slip
+    verified: false

@@ -1,0 +1,267 @@
+id: unit-51-face-head
+order: 51
+title: "Body: face & head"
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: face
+    pos: noun
+    oromo: fuula
+    alternates:
+      - kipha
+      - wassee
+      - goggoolboo
+      - figgimsuu
+    ipa: /ˈfuːlɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/db/Om-fuula.ogg/Om-fuula.ogg.mp3
+    confidence: high
+    glossSeen: face
+    verified: false
+  - english: forehead
+    pos: noun
+    oromo: adda
+    alternates:
+      - bulloo
+      - illee
+      - booqaa
+      - kiphuu
+    ipa: /ɐdːɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/aa/Om-adda.ogg/Om-adda.ogg.mp3
+    confidence: high
+    glossSeen: forehead
+    verified: false
+  - english: cheek
+    pos: noun
+    oromo: maddii
+    alternates:
+      - boqota
+      - daankaa
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: cheek
+    verified: false
+  - english: chin
+    pos: noun
+    oromo: maloolee
+    alternates:
+      - shangoobata
+    ipa: /ˈmɐloːléː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: chin
+    verified: false
+  - english: jaw
+    pos: noun
+    oromo: a'ama
+    alternates:
+      - boqota
+      - manjalloo
+      - mangagaa gubbaa
+      - mangagaa jalaa
+    ipa: /ɐʔɐmɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9f/Jecha_Afaan_Oromoo_A%27AMA-.wav/Jecha_Afaan_Oromoo_A%27AMA-.wav.mp3
+    confidence: high
+    glossSeen: jaw
+    verified: false
+  - english: eyelash
+    pos: noun
+    oromo: nyaara
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: eyelash
+    verified: false
+  - english: nostril
+    pos: noun
+    oromo: qaatee funyaanii
+    alternates: []
+    ipa: /ˈkʼɑːteː fʊɲɑːníː/
+    audioUrl: null
+    confidence: high
+    glossSeen: nostril
+    verified: false
+  - english: gum
+    pos: noun
+    oromo: ididdii
+    alternates:
+      - haancaa
+      - alaanfattoo
+      - alanfattoo
+      - alteeta
+    ipa: /ɪdɪdːíː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: gum
+    verified: false
+  - english: throat
+    pos: noun
+    oromo: qoonqoo
+    alternates:
+      - kokkee
+      - dodo'oo
+      - aakkifachuu
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: throat
+    verified: false
+  - english: beard
+    pos: noun
+    oromo: areeda
+    alternates:
+      - rifeensa areedaa
+      - areeda baasuu
+    ipa: /ɐreːdɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: beard
+    verified: false
+  - english: moustache
+    pos: noun
+    oromo: hephe
+    alternates:
+      - rifeensa afarsoo
+    ipa: /ˈhɛpʼɛ/
+    audioUrl: null
+    confidence: high
+    glossSeen: moustache
+    verified: false
+  - english: mustache
+    pos: noun
+    oromo: afkarroo
+    alternates:
+      - areeda
+    ipa: /ɐfkɐrːóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a6/Om-afkarroo.ogg/Om-afkarroo.ogg.mp3
+    confidence: medium
+    glossSeen: mustache
+    verified: false
+  - english: skull
+    pos: noun
+    oromo: buqqee mataa
+    alternates: []
+    ipa: /ˈbʊkʼːeː mɐtɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c1/Om-buqqee_mataa.ogg/Om-buqqee_mataa.ogg.mp3
+    confidence: high
+    glossSeen: skull
+    verified: false
+  - english: brain
+    pos: noun
+    oromo: hanqulla
+    alternates:
+      - surrii
+      - hoji sammuu
+    ipa: /ˈhɐnkʼʊlːɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: brain (medulla)
+    verified: false
+  - english: wrinkle
+    pos: noun
+    oromo: suntuuruu
+    alternates:
+      - shuntuuruu
+      - minyaa
+      - qoncoorsuu
+      - suntuursuu
+    ipa: /ˈsʊntuːrúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: wrinkle
+    verified: false
+  - english: smile
+    pos: noun
+    oromo: qummaadduu
+    alternates:
+      - seeqqachuu
+      - qummaaduu
+      - seequu
+      - kofla
+    ipa: /ˈkʼʊmːɑːdːúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: sharp grass
+    verified: false
+  - english: tear
+    pos: noun
+    oromo: imimmaan
+    alternates:
+      - immimamaan
+      - biinxuu
+      - ciruu
+      - seexa'uu
+    ipa: /ɪmɪmːɑːn/
+    audioUrl: null
+    confidence: medium
+    glossSeen: tear
+    verified: false
+  - english: eyeball
+    pos: noun
+    oromo: boolla ijaa
+    alternates: []
+    ipa: /ˈboːlːɐ ɪd͡ʒɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e0/Om-boolla_ijaa.ogg/Om-boolla_ijaa.ogg.mp3
+    confidence: high
+    glossSeen: eyeball
+    verified: false
+  - english: eyelashes
+    pos: noun
+    oromo: labooba
+    alternates: []
+    ipa: /ˈlɐboːbɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: flame
+    verified: false
+  - english: palate
+    pos: noun
+    oromo: laagaa
+    alternates: []
+    ipa: /ˈlɑːɡɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: palate
+    verified: false
+  - english: curl
+    pos: noun
+    oromo: martuu
+    alternates:
+      - luuccaa
+    ipa: /ˈmɐrtúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: curl (type ot hair)
+    verified: false
+  - english: tattoo
+    pos: noun
+    oromo: niqisii
+    alternates:
+      - tumaa
+      - tumuu
+      - guraamalee
+      - tumachuu
+    ipa: /ˈnɪkʼɪsíː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: tattoo
+    verified: false
+  - english: scent
+    pos: noun
+    oromo: foolii
+    alternates:
+      - fooliifuuchuu
+      - fuunfachuu
+      - suufuu
+    ipa: /ˈfoːlíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/de/Om-foolii.ogg/Om-foolii.ogg.mp3
+    confidence: medium
+    glossSeen: smell, scent, odor
+    verified: false

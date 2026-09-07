@@ -1,0 +1,233 @@
+id: unit-63-water
+order: 63
+title: Rivers, lakes & sea
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: pond
+    pos: noun
+    oromo: eela
+    alternates: []
+    ipa: /eːlɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/32/Om-eela.ogg/Om-eela.ogg.mp3
+    confidence: high
+    glossSeen: pond
+    verified: false
+  - english: puddle
+    pos: noun
+    oromo: malbii
+    alternates:
+      - raaree
+      - corroqa
+      - bocoluu
+      - bocorroquu
+    ipa: /ˈmɐlbíː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: puddle
+    verified: false
+  - english: ocean
+    pos: noun
+    oromo: maanya
+    alternates:
+      - garba
+    ipa: /ˈmɑːɲɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: ocean
+    verified: false
+  - english: bay
+    pos: noun
+    oromo: sarxii
+    alternates:
+      - haroo galaanaa
+      - boora qamadii
+    ipa: /ˈsɐrtʼíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: bay
+    verified: false
+  - english: beach
+    pos: noun
+    oromo: caffoo
+    alternates: []
+    ipa: /ˈt͡ʃʼɐfːóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cd/Om-caffoo.ogg/Om-caffoo.ogg.mp3
+    confidence: high
+    glossSeen: beach
+    verified: false
+  - english: wave
+    pos: noun
+    oromo: danbalii
+    alternates:
+      - dambalii
+      - ungulaala
+      - lalachuu
+    ipa: /ˈdɐnbɐlíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/06/Om-danbalii.ogg/Om-danbalii.ogg.mp3
+    confidence: medium
+    glossSeen: wave
+    verified: false
+  - english: waterfall
+    pos: noun
+    oromo: fincaa'aa
+    alternates:
+      - huursuu
+    ipa: /ˈfɪnt͡ʃʼɑːʔɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0c/Om-fincaa%27aa.ogg/Om-fincaa%27aa.ogg.mp3
+    confidence: high
+    glossSeen: waterfall
+    verified: false
+  - english: dam
+    pos: noun
+    oromo: hidha
+    alternates: []
+    ipa: /ˈhɪᶑɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: dam
+    verified: false
+  - english: canal
+    pos: noun
+    oromo: yaa'a
+    alternates:
+      - bo'eessuu
+    ipa: /ˈjɑːʔɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: flow
+    verified: false
+  - english: swamp
+    pos: noun
+    oromo: dhaqdhaqii
+    alternates:
+      - raaree
+      - caffee
+    ipa: /ˈᶑɐkʼᶑɐkʼíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/73/Om-dhaqdhaqii.ogg/Om-dhaqdhaqii.ogg.mp3
+    confidence: medium
+    glossSeen: swamp
+    verified: false
+  - english: marsh
+    pos: noun
+    oromo: dhadhaqii
+    alternates:
+      - caffee
+      - leepho
+      - dhidhimuu
+    ipa: /ˈᶑɐᶑɐkʼíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/72/Om-dhadhaqii.ogg/Om-dhadhaqii.ogg.mp3
+    confidence: medium
+    glossSeen: marsh
+    verified: false
+  - english: harbor
+    pos: noun
+    oromo: malkee
+    alternates: []
+    ipa: /ˈmɐlkéː/
+    audioUrl: null
+    confidence: high
+    glossSeen: harbor, port
+    verified: false
+  - english: tributary
+    pos: noun
+    oromo: jalliyaan
+    alternates: []
+    ipa: /ˈd͡ʒɐlːɪjɑːn/
+    audioUrl: null
+    confidence: high
+    glossSeen: tributary
+    verified: false
+  - english: catchment
+    pos: noun
+    oromo: kiliwwee
+    alternates: []
+    ipa: /ˈkɪlɪwːéː/
+    audioUrl: null
+    confidence: high
+    glossSeen: catchment (area)
+    verified: false
+  - english: delta
+    pos: noun
+    oromo: dalaliyyaa
+    alternates: []
+    ipa: /ˈdɐlɐlɪjːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/06/Om-dalaliyyaa.ogg/Om-dalaliyyaa.ogg.mp3
+    confidence: high
+    glossSeen: delta
+    verified: false
+  - english: gully
+    pos: noun
+    oromo: boroborii
+    alternates:
+      - dolool'oo
+    ipa: /ˈbɔrɔbɔríː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2b/Om-boroborii.ogg/Om-boroborii.ogg.mp3
+    confidence: medium
+    glossSeen: gully
+    verified: false
+  - english: ditch
+    pos: noun
+    oromo: bo'oo
+    alternates:
+      - murraa
+    ipa: /ˈbɔʔóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/85/Om-bo%27oo.ogg/Om-bo%27oo.ogg.mp3
+    confidence: high
+    glossSeen: ditch
+    verified: false
+  - english: oasis
+    pos: noun
+    oromo: adaalqaljii
+    alternates: []
+    ipa: /ɐdɑːlkʼɐld͡ʒíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9f/Om-adaalqaljii.ogg/Om-adaalqaljii.ogg.mp3
+    confidence: high
+    glossSeen: oasis
+    verified: false
+  - english: glacier
+    pos: noun
+    oromo: kuusaa cabbii
+    alternates: []
+    ipa: /ˈkuːsɑː t͡ʃʼɐbːíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: glacier
+    verified: false
+  - english: leakage
+    pos: noun
+    oromo: dhimmuu
+    alternates:
+      - dhimphuu
+    ipa: /ˈᶑɪmːúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6e/Om-dhimmuu.ogg/Om-dhimmuu.ogg.mp3
+    confidence: high
+    glossSeen: leakage, usually rain
+    verified: false
+  - english: pipe
+    pos: noun
+    oromo: ujummoo
+    alternates:
+      - aloolloo
+      - hujummoo bishaanii
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: pipe, tube
+    verified: false
+  - english: dive
+    pos: noun
+    oromo: culluxxee
+    alternates:
+      - lilimuu
+    ipa: /ˈt͡ʃʼʊlːʊtʼːéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/91/Om-culluxxee.ogg/Om-culluxxee.ogg.mp3
+    confidence: high
+    glossSeen: dive
+    verified: false

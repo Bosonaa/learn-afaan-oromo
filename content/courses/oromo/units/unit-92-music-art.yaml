@@ -1,0 +1,211 @@
+id: unit-92-music-art
+order: 92
+title: Music, art & dance
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: singing
+    pos: noun
+    oromo: wallee
+    alternates:
+      - gamaama
+    ipa: /ˈwɐlːéː/
+    audioUrl: null
+    confidence: high
+    glossSeen: singing, song
+    verified: false
+  - english: dancing
+    pos: noun
+    oromo: soolana
+    alternates:
+      - dhiichisa
+      - jeekkara
+      - ajoo
+      - yeekkaruu
+    ipa: /ˈsoːlɐnɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: dancing
+    verified: false
+  - english: guitar
+    pos: noun
+    oromo: gitaara
+    alternates:
+      - guungumaa
+    ipa: /ˈɡɪtɑːrɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: guitar
+    verified: false
+  - english: harp
+    pos: noun
+    oromo: baganaa
+    alternates: []
+    ipa: /ˈbɐɡɐnɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/55/Om-baganaa.ogg/Om-baganaa.ogg.mp3
+    confidence: high
+    glossSeen: harp
+    verified: false
+  - english: trumpet
+    pos: noun
+    oromo: fiingee
+    alternates:
+      - tultullaa
+      - xurumbaa
+      - faaggaa
+    ipa: /ˈfiːnɡéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f5/Om-fiingee.ogg/Om-fiingee.ogg.mp3
+    confidence: medium
+    glossSeen: trumpet
+    verified: false
+  - english: piano
+    pos: noun
+    oromo: piyaanoo
+    alternates: []
+    ipa: /ˈpɪjɑːnóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: piano
+    verified: false
+  - english: rhythm
+    pos: noun
+    oromo: dhawwisoo
+    alternates:
+      - yeedalloo
+    ipa: /ˈᶑɐwːɪsóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2a/Om-dhawwisoo.ogg/Om-dhawwisoo.ogg.mp3
+    confidence: medium
+    glossSeen: rhythm
+    verified: false
+  - english: chorus
+    pos: noun
+    oromo: bustotaa
+    alternates: []
+    ipa: /ˈbʊstɔtɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f6/Om-bustotaa.ogg/Om-bustotaa.ogg.mp3
+    confidence: high
+    glossSeen: chorus
+    verified: false
+  - english: stage
+    pos: noun
+    oromo: sadarkaa
+    alternates:
+      - dabballee
+      - foollee
+      - jambalii
+      - raaba
+    ipa: /ˈsɐdɐrkɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: stage ,step
+    verified: false
+  - english: theatre
+    pos: noun
+    oromo: tiyaatira
+    alternates: []
+    ipa: /ˈtɪjɑːtɪrɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: theatre/ show
+    verified: false
+  - english: actor
+    pos: noun
+    oromo: taatoo
+    alternates:
+      - tiyaatiraa
+      - tiyaatirtuu
+    ipa: /ˈtɑːtóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: actor
+    verified: false
+  - english: gallery
+    pos: noun
+    oromo: kuusfaaya
+    alternates: []
+    ipa: /ˈkuːsfɑːjɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: gallery
+    verified: false
+  - english: accordion
+    pos: noun
+    oromo: lommooxoo
+    alternates: []
+    ipa: /ˈlɔmːoːtʼóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: accordion
+    verified: false
+  - english: carving
+    pos: noun
+    oromo: soqa
+    alternates:
+      - soqaa
+      - gojomii
+    ipa: /ˈsɔkʼɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: search, quest, digging, carving
+    verified: false
+  - english: poster
+    pos: noun
+    oromo: poostarii
+    alternates: []
+    ipa: /ˈpoːstɐríː/
+    audioUrl: null
+    confidence: high
+    glossSeen: poster
+    verified: false
+  - english: animation
+    pos: noun
+    oromo: sochii fakkinaa
+    alternates: []
+    ipa: /ˈsɔt͡ʃiː fɐkːɪnɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: animation
+    verified: false
+  - english: drama
+    pos: noun
+    oromo: waacila
+    alternates: []
+    ipa: /ˈwɑːt͡ʃʼɪlɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: drama.
+    verified: false
+  - english: spectacle
+    pos: noun
+    oromo: argalamee
+    alternates:
+      - fulaa ijaa
+    ipa: /ɐrɡɐlɐméː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0b/Om-argalamee.ogg/Om-argalamee.ogg.mp3
+    confidence: high
+    glossSeen: eyeglass, spectacle
+    verified: false
+  - english: studio
+    pos: noun
+    oromo: istuudiyoo
+    alternates: []
+    ipa: /ɪstuːdɪjóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: studio
+    verified: false
+  - english: octave
+    pos: noun
+    oromo: irsaga
+    alternates: []
+    ipa: /ɪrsɐɡɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: octave
+    verified: false

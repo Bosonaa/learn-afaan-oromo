@@ -1,0 +1,241 @@
+id: unit-96-science
+order: 96
+title: School subjects & science
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: history
+    pos: noun
+    oromo: maraara
+    alternates:
+      - seenaa
+      - seendurii
+      - seenofii
+      - seenessuu
+    ipa: /ˈmɐrɑːrɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: history
+    verified: false
+  - english: research
+    pos: noun
+    oromo: qu'annoo
+    alternates:
+      - qormaata
+      - qorannoo
+      - qo'annoo
+      - qorannaa
+    ipa: /ˈkʼʊʔɐnːóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: research
+    verified: false
+  - english: hypothesis
+    pos: noun
+    oromo: aadbuura
+    alternates:
+      - maldhawinsa
+      - mala dhawuu
+    ipa: /ɑːdbuːrɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7b/Om-aadbuura.ogg/Om-aadbuura.ogg.mp3
+    confidence: medium
+    glossSeen: hypothesis
+    verified: false
+  - english: observation
+    pos: noun
+    oromo: do'acha
+    alternates:
+      - hubacha
+      - qalbiifannaa
+      - ilaallachuu
+      - irra deeb'uu
+    ipa: /ˈdɔʔɐt͡ʃɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/14/Om-do%27acha.ogg/Om-do%27acha.ogg.mp3
+    confidence: medium
+    glossSeen: observation
+    verified: false
+  - english: discovery
+    pos: noun
+    oromo: argannoo
+    alternates: []
+    ipa: /ɐrɡɐnːóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e4/Om-argannoo.ogg/Om-argannoo.ogg.mp3
+    confidence: high
+    glossSeen: innovation, discovery, finding
+    verified: false
+  - english: invention
+    pos: noun
+    oromo: kalaqa
+    alternates: []
+    ipa: /ˈkɐlɐkʼɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: invention
+    verified: false
+  - english: matter
+    pos: noun
+    oromo: wanta
+    alternates:
+      - miciree
+      - millamilcha
+      - nafadii
+      - horooma
+    ipa: /ˈwɐntɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0e/Om-wanta.ogg/Om-wanta.ogg.mp3
+    confidence: high
+    glossSeen: somethin, matter, substance
+    verified: false
+  - english: gravity
+    pos: noun
+    oromo: harkisa
+    alternates: []
+    ipa: /ˈhɐrkɪsɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: gravity
+    verified: false
+  - english: magnet
+    pos: noun
+    oromo: maagneeta
+    alternates: []
+    ipa: /ˈmɑːɡneːtɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: magnet
+    verified: false
+  - english: electricity
+    pos: noun
+    oromo: korreentii
+    alternates: []
+    ipa: /ˈkɔrːeːntíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: electricity
+    verified: false
+  - english: equation
+    pos: noun
+    oromo: gitoo
+    alternates: []
+    ipa: /ˈɡɪtóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: equation
+    verified: false
+  - english: denominator
+    pos: noun
+    oromo: wajjoo
+    alternates:
+      - jalaantoo see
+    ipa: /ˈwɐd͡ʒːóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: denominator
+    verified: false
+  - english: diameter
+    pos: noun
+    oromo: diyaameetira
+    alternates: []
+    ipa: /ˈdɪjɑːmeːtɪrɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/19/Om-diyaameetira.ogg/Om-diyaameetira.ogg.mp3
+    confidence: high
+    glossSeen: diameter
+    verified: false
+  - english: polygon
+    pos: noun
+    oromo: dallama
+    alternates:
+      - rog danee
+    ipa: /ˈdɐlːɐmɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cc/Om-dallama.ogg/Om-dallama.ogg.mp3
+    confidence: high
+    glossSeen: polygon
+    verified: false
+  - english: proton
+    pos: noun
+    oromo: pirotoonii
+    alternates: []
+    ipa: /ˈpɪrɔtoːníː/
+    audioUrl: null
+    confidence: high
+    glossSeen: proton
+    verified: false
+  - english: magnetism
+    pos: noun
+    oromo: maagneetummaa
+    alternates: []
+    ipa: /ˈmɑːɡneːtʊmːɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: magnetism
+    verified: false
+  - english: friction
+    pos: noun
+    oromo: rigdoo
+    alternates:
+      - ichima buusuu
+    ipa: /ˈrɪɡdóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: friction
+    verified: false
+  - english: equilibrium
+    pos: noun
+    oromo: gitatoo
+    alternates: []
+    ipa: /ˈɡɪtɐtóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: equilibrium
+    verified: false
+  - english: evolution
+    pos: noun
+    oromo: tirannoo
+    alternates:
+      - xiinjecha
+    ipa: /ˈtɪrɐnːóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: evolution
+    verified: false
+  - english: ecosystem
+    pos: noun
+    oromo: sirnakkoo
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: ecosystem
+    verified: false
+  - english: anatomy
+    pos: noun
+    oromo: dhaaqama
+    alternates: []
+    ipa: /ˈᶑɑːkʼɐmɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/86/Om-dhaaqama.ogg/Om-dhaaqama.ogg.mp3
+    confidence: high
+    glossSeen: anatomy
+    verified: false
+  - english: diffusion
+    pos: noun
+    oromo: tamsa'ii
+    alternates: []
+    ipa: /ˈtɐmsɐʔíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: diffusion
+    verified: false
+  - english: compression
+    pos: noun
+    oromo: summuuga
+    alternates: []
+    ipa: /ˈsʊmːuːɡɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: compression
+    verified: false

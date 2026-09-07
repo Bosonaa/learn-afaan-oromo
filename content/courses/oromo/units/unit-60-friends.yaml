@@ -1,0 +1,262 @@
+id: unit-60-friends
+order: 60
+title: Friends & getting along
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: team
+    pos: noun
+    oromo: gartuu
+    alternates:
+      - tuuta
+      - garoo
+      - qaroo
+      - hojii garee
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: team
+    verified: false
+  - english: visitor
+    pos: noun
+    oromo: daaw'ataa
+    alternates: []
+    ipa: /ˈdɑːwʔɐtɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/eb/Om-daaw%27ataa.ogg/Om-daaw%27ataa.ogg.mp3
+    confidence: high
+    glossSeen: visitor
+    verified: false
+  - english: conversation
+    pos: noun
+    oromo: diddiirama
+    alternates:
+      - haasaa
+      - qaaqa
+      - haasaa bilbilaa
+    ipa: /ˈdɪdːiːrɐmɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/42/Om-diddiirama.ogg/Om-diddiirama.ogg.mp3
+    confidence: medium
+    glossSeen: conversation
+    verified: false
+  - english: talk
+    pos: noun
+    oromo: qaaqa
+    alternates:
+      - odeessuu
+      - qaaquu
+      - aasa'uu
+      - oduu
+    ipa: /ˈkʼɑːkʼɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: talk, conversation
+    verified: false
+  - english: secret
+    pos: noun
+    oromo: iccitii
+    alternates:
+      - dhoksaa
+      - baalkosaa
+      - maltummaa
+      - danquu
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: secret
+    verified: false
+  - english: trust
+    pos: noun
+    oromo: amaanaa
+    alternates:
+      - abdachuu
+      - amanachuu
+      - kennata
+      - yabeessa
+    ipa: /ɐmɑːnɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f8/Om-amaanaa.ogg/Om-amaanaa.ogg.mp3
+    confidence: high
+    glossSeen: trust
+    verified: false
+  - english: argument
+    pos: noun
+    oromo: falmii
+    alternates:
+      - atakaroo
+      - dubbii
+      - qoccolloo
+    ipa: /ˈfɐlmíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c8/Om-falmii.ogg/Om-falmii.ogg.mp3
+    confidence: medium
+    glossSeen: argument
+    verified: false
+  - english: apology
+    pos: noun
+    oromo: dhiifama
+    alternates:
+      - magaanteftachuu
+    ipa: /ˈᶑiːfɐmɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/ca/Om-dhiifama.ogg/Om-dhiifama.ogg.mp3
+    confidence: medium
+    glossSeen: absolution, pardonable
+    verified: false
+  - english: forgiveness
+    pos: noun
+    oromo: faanchoo
+    alternates:
+      - araarii
+      - aagii
+      - maaruu
+    ipa: /ˈfɑːnt͡ʃóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c3/Om-faanchoo.ogg/Om-faanchoo.ogg.mp3
+    confidence: medium
+    glossSeen: forgiveness
+    verified: false
+  - english: comrade
+    pos: noun
+    oromo: jaallee
+    alternates: []
+    ipa: /ˈd͡ʒɑːlːéː/
+    audioUrl: null
+    confidence: high
+    glossSeen: comrade
+    verified: false
+  - english: follower
+    pos: noun
+    oromo: faana dhahaa
+    alternates: []
+    ipa: /ˈfɑːnɐ ᶑɐhɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d6/Om-faana_dhahaa.ogg/Om-faana_dhahaa.ogg.mp3
+    confidence: high
+    glossSeen: follower, tracer
+    verified: false
+  - english: guardian
+    pos: noun
+    oromo: gudee
+    alternates:
+      - eegduu
+      - hadraa
+      - jaarii
+    ipa: /ˈɡʊdéː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: a term used to address ones mother
+    verified: false
+  - english: keeper
+    pos: noun
+    oromo: eegduu
+    alternates:
+      - haragoo
+      - karrooyyee
+    ipa: /eːɡdúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/41/Om-eegduu.ogg/Om-eegduu.ogg.mp3
+    confidence: high
+    glossSeen: keeper, guardian, attendant (female)
+    verified: false
+  - english: hostess
+    pos: noun
+    oromo: keessummessituu
+    alternates:
+      - haadha keessummaa
+    ipa: /ˈkeːsːʊmːɛsːɪtúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: hostess
+    verified: false
+  - english: welcoming
+    pos: noun
+    oromo: simannaa
+    alternates: []
+    ipa: /ˈsɪmɐnːɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: reception, welcoming
+    verified: false
+  - english: gossip
+    pos: noun
+    oromo: baaltii
+    alternates:
+      - ususuu
+      - maqaa dhawuu
+    ipa: /ˈbɑːltíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/12/Om-baaltii.ogg/Om-baaltii.ogg.mp3
+    confidence: medium
+    glossSeen: gossip, hearsay, jokes
+    verified: false
+  - english: reconciliation
+    pos: noun
+    oromo: atoomsa
+    alternates:
+      - araara
+    ipa: /ɐtoːmsɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6f/Om-atoomsa.ogg/Om-atoomsa.ogg.mp3
+    confidence: medium
+    glossSeen: arbitration /reconciliation
+    verified: false
+  - english: disagreement
+    pos: noun
+    oromo: walbadiinsa
+    alternates:
+      - waldiddaa
+      - ciqilfamuu
+      - ciqilfachuu
+      - waldiduu
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: disagreement
+    verified: false
+  - english: betrayal
+    pos: noun
+    oromo: waakkii
+    alternates: []
+    ipa: /ˈwɑːkːíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: frugality or parsimony
+    verified: false
+  - english: collaborator
+    pos: noun
+    oromo: keettoo
+    alternates: []
+    ipa: /ˈkeːtːóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: spy one who follow-up an affair
+    verified: false
+  - english: participant
+    pos: noun
+    oromo: qooddataa
+    alternates: []
+    ipa: /ˈkʼoːdːɐtɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: participant, character
+    verified: false
+  - english: member
+    pos: noun
+    oromo: miseensa
+    alternates:
+      - gogeessa
+      - dhalataa
+      - Oromoo
+      - dhalata fardaa
+    ipa: /ˈmɪseːnsɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: member
+    verified: false
+  - english: membership
+    pos: noun
+    oromo: miseensummaa
+    alternates: []
+    ipa: /ˈmɪseːnsʊmːɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: membership
+    verified: false

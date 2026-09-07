@@ -1,0 +1,265 @@
+id: unit-70-rocks-metals
+order: 70
+title: Earth, rocks & metals
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: gravel
+    pos: noun
+    oromo: cirracha
+    alternates:
+      - korata
+    ipa: /ˈt͡ʃʼɪrːɐt͡ʃɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/00/Om-cirracha.ogg/Om-cirracha.ogg.mp3
+    confidence: medium
+    glossSeen: sand
+    verified: false
+  - english: copper
+    pos: noun
+    oromo: girjaa
+    alternates:
+      - beesaa
+      - kallachoo
+    ipa: /ˈɡɪrd͡ʒɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: copper
+    verified: false
+  - english: brass
+    pos: noun
+    oromo: habbisa
+    alternates: []
+    ipa: /ˈhɐbːɪsɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: brass
+    verified: false
+  - english: tin
+    pos: noun
+    oromo: qorqorroo
+    alternates:
+      - qorqoorroo
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: tin
+    verified: false
+  - english: lead
+    pos: noun
+    oromo: dilaalii
+    alternates:
+      - hogganuu
+      - geggeessuu
+      - masakuu
+      - qabee
+    ipa: /ˈdɪlɑːlíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0e/Om-dilaalii.ogg/Om-dilaalii.ogg.mp3
+    confidence: high
+    glossSeen: lead
+    verified: false
+  - english: charcoal
+    pos: noun
+    oromo: dhamala
+    alternates:
+      - cilee
+      - kasala
+      - cileeffachuu
+      - cilaa'uu
+    ipa: /ˈᶑɐmɐlɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/91/Om-dhamala.ogg/Om-dhamala.ogg.mp3
+    confidence: medium
+    glossSeen: charcoal
+    verified: false
+  - english: coal
+    pos: noun
+    oromo: dhagaa cilee
+    alternates:
+      - arroojjii
+      - cilaalluu
+      - cilgaasii
+    ipa: /ˈᶑɐɡɑː t͡ʃʼɪléː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5b/Om-dhagaa_cilee.ogg/Om-dhagaa_cilee.ogg.mp3
+    confidence: high
+    glossSeen: coal
+    verified: false
+  - english: petroleum
+    pos: noun
+    oromo: peetirooliyeemii
+    alternates: []
+    ipa: /ˈpeːtɪroːlɪjeːmíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/98/Om-peetirooliyeemii.ogg/Om-peetirooliyeemii.ogg.mp3
+    confidence: high
+    glossSeen: petroleum
+    verified: false
+  - english: diamond
+    pos: noun
+    oromo: digaa
+    alternates:
+      - durrii
+      - moogaa
+    ipa: /ˈdɪɡɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d7/Om-digaa.ogg/Om-digaa.ogg.mp3
+    confidence: medium
+    glossSeen: diamond
+    verified: false
+  - english: crystal
+    pos: noun
+    oromo: booralloo
+    alternates:
+      - boorawuu
+      - baalcii
+    ipa: /ˈboːrɐlːóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/04/Om-booralloo.ogg/Om-booralloo.ogg.mp3
+    confidence: high
+    glossSeen: crystal
+    verified: false
+  - english: marble
+    pos: noun
+    oromo: waashee
+    alternates: []
+    ipa: /ˈwɑːʃéː/
+    audioUrl: null
+    confidence: high
+    glossSeen: marble
+    verified: false
+  - english: cement
+    pos: noun
+    oromo: mansaa
+    alternates: []
+    ipa: /ˈmɐnsɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: sand
+    verified: false
+  - english: brick
+    pos: noun
+    oromo: xuubii
+    alternates:
+      - daankaya
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: brick
+    verified: false
+  - english: rubber
+    pos: noun
+    oromo: barabaasoo
+    alternates:
+      - laastikii
+    ipa: /ˈbɐrɐbɑːsóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0b/Om-barabaasoo.ogg/Om-barabaasoo.ogg.mp3
+    confidence: high
+    glossSeen: rubber (usually of sandals)
+    verified: false
+  - english: wire
+    pos: noun
+    oromo: habbee
+    alternates:
+      - shiboo
+      - xaaxaatee
+      - xaaxeffachuu
+    ipa: /ˈhɐbːéː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: wire
+    verified: false
+  - english: emerald
+    pos: noun
+    oromo: hahaabaa magariisaa
+    alternates: []
+    ipa: /ˈhɐhɑːbɑː mɐɡɐriːsɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: emerald
+    verified: false
+  - english: ruby
+    pos: noun
+    oromo: baalcii
+    alternates: []
+    ipa: /ˈbɑːlt͡ʃʼíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/11/Om-baalcii.ogg/Om-baalcii.ogg.mp3
+    confidence: high
+    glossSeen: flint obsidian crystal
+    verified: false
+  - english: ore
+    pos: noun
+    oromo: gordana
+    alternates:
+      - wayyuu
+    ipa: /ˈɡɔrdɐnɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: ore
+    verified: false
+  - english: shale
+    pos: noun
+    oromo: hambaa qaamaa
+    alternates: []
+    ipa: /ˈhɐmbɑː kʼɑːmɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: shale
+    verified: false
+  - english: magma
+    pos: noun
+    oromo: kaalloo
+    alternates: []
+    ipa: /ˈkɑːlːóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: magma
+    verified: false
+  - english: pigment
+    pos: noun
+    oromo: bilfee
+    alternates: []
+    ipa: /ˈbɪlféː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ab/Om-bilfee.ogg/Om-bilfee.ogg.mp3
+    confidence: high
+    glossSeen: pigment
+    verified: false
+  - english: varnish
+    pos: noun
+    oromo: vaarnishii
+    alternates: []
+    ipa: /ˈvɑːrnɪʃíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ad/Om-vaarnishii.ogg/Om-vaarnishii.ogg.mp3
+    confidence: high
+    glossSeen: varnish
+    verified: false
+  - english: chlorine
+    pos: noun
+    oromo: kiloorinii
+    alternates: []
+    ipa: /ˈkɪloːrɪníː/
+    audioUrl: null
+    confidence: high
+    glossSeen: chlorine
+    verified: false
+  - english: nitrate
+    pos: noun
+    oromo: dikaa
+    alternates: []
+    ipa: /ˈdɪkɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/08/Om-dikaa.ogg/Om-dikaa.ogg.mp3
+    confidence: high
+    glossSeen: beating/striking
+    verified: false
+  - english: mineral
+    pos: noun
+    oromo: albuuda
+    alternates:
+      - finfinnee
+      - kuusa albuudaa
+      - soogidda albuudaa
+    ipa: /ɐlbuːdɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0b/Om-albuuda.ogg/Om-albuuda.ogg.mp3
+    confidence: high
+    glossSeen: mineral
+    verified: false

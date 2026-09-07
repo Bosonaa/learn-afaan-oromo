@@ -1,0 +1,276 @@
+id: unit-44-furniture
+order: 44
+title: Furniture & household things
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: mattress
+    pos: noun
+    oromo: firaashii
+    alternates:
+      - afattoo
+    ipa: /ˈfɪrɑːʃíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d9/Om-firaashii.ogg/Om-firaashii.ogg.mp3
+    confidence: medium
+    glossSeen: mattress
+    verified: false
+  - english: pillow
+    pos: noun
+    oromo: boraatii
+    alternates:
+      - makaddaa
+      - boraafatamuu
+      - borfachuu
+    ipa: /ˈbɔrɑːtíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1f/Om-boraatii.ogg/Om-boraatii.ogg.mp3
+    confidence: medium
+    glossSeen: pillow
+    verified: false
+  - english: drawer
+    pos: noun
+    oromo: kaanaa
+    alternates:
+      - harkoo
+    ipa: /ˈkɑːnɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: drawer
+    verified: false
+  - english: sofa
+    pos: noun
+    oromo: soofaa
+    alternates: []
+    ipa: /ˈsoːfɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: sofa
+    verified: false
+  - english: stool
+    pos: noun
+    oromo: qurxaa
+    alternates:
+      - barcuma
+      - irrateessoo
+      - teessuma
+      - taa' umsa
+    ipa: /ˈkʼʊrtʼɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: 2nd round tilling of the land
+    verified: false
+  - english: carpet
+    pos: noun
+    oromo: afata
+    alternates:
+      - sigaajjaa
+      - afaa
+      - jibbaa
+      - raroo
+    ipa: /ɐfɐtɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c6/Om-afata.ogg/Om-afata.ogg.mp3
+    confidence: medium
+    glossSeen: grass for spreading out on a floor
+    verified: false
+  - english: rug
+    pos: noun
+    oromo: afaa
+    alternates: []
+    ipa: /ɐfɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/ca/Om-afaa.ogg/Om-afaa.ogg.mp3
+    confidence: high
+    glossSeen: carpet, rug
+    verified: false
+  - english: mirror
+    pos: noun
+    oromo: agarsiiftuu
+    alternates:
+      - daaw'itii
+      - ofilaalee
+    ipa: /ɐɡɐrsiːftúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/99/Om-agarsiiftuu.ogg/Om-agarsiiftuu.ogg.mp3
+    confidence: medium
+    glossSeen: mirror
+    verified: false
+  - english: candle
+    pos: noun
+    oromo: shaamaa
+    alternates:
+      - dungoo
+      - ifa duungoo
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: candle
+    verified: false
+  - english: bucket
+    pos: noun
+    oromo: baaldii
+    alternates:
+      - shenkelloo
+      - ta'ee
+    ipa: /ˈbɑːldíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/93/Om-baaldii.ogg/Om-baaldii.ogg.mp3
+    confidence: medium
+    glossSeen: bucket
+    verified: false
+  - english: lock
+    pos: noun
+    oromo: qulfii
+    alternates:
+      - qollofuu
+      - loosaa
+      - mashakaa
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: lock (mechanism to hold shut)
+    verified: false
+  - english: ceiling
+    pos: noun
+    oromo: demdemoo
+    alternates:
+      - baaxii
+    ipa: /ˈdɛmdɛmóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fa/Om-demdemoo.ogg/Om-demdemoo.ogg.mp3
+    confidence: medium
+    glossSeen: ceiling
+    verified: false
+  - english: hearth
+    pos: noun
+    oromo: badii ibidda
+    alternates: []
+    ipa: /ˈbɐdiː ɪbɪdːɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fa/Om-badii_ibidda.ogg/Om-badii_ibidda.ogg.mp3
+    confidence: high
+    glossSeen: hearth.
+    verified: false
+  - english: fireplace
+    pos: noun
+    oromo: geemmoo
+    alternates: []
+    ipa: /ˈɡeːmːóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: see 'sumsuma'
+    verified: false
+  - english: pillar
+    pos: noun
+    oromo: hiroo
+    alternates:
+      - turboo
+      - utubaa
+      - geerrii
+    ipa: /ˈhɪróː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: pillar
+    verified: false
+  - english: porch
+    pos: noun
+    oromo: galbii
+    alternates: []
+    ipa: /ˈɡɐlbíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: porch, under the eaves house
+    verified: false
+  - english: courtyard
+    pos: noun
+    oromo: mooraa
+    alternates: []
+    ipa: /ˈmoːrɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: courtyard
+    verified: false
+  - english: wallpaper
+    pos: noun
+    oromo: bifgarduubee fooddaa
+    alternates: []
+    ipa: /ˈbɪfɡɐrduːbeː foːdːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/76/Om-bifgarduubee_fooddaa.ogg/Om-bifgarduubee_fooddaa.ogg.mp3
+    confidence: high
+    glossSeen: wallpaper
+    verified: false
+  - english: hook
+    pos: noun
+    oromo: hookkaa
+    alternates:
+      - ookkoo
+      - fannoo
+      - hokkoo
+      - waantoo
+    ipa: /ˈhoːkːɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: hook, usually wooden
+    verified: false
+  - english: peg
+    pos: noun
+    oromo: shikaala
+    alternates:
+      - xiribbaa
+    ipa: /ˈʃɪkɑːlɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: peg
+    verified: false
+  - english: mop
+    pos: noun
+    oromo: foksoo
+    alternates: []
+    ipa: /ˈfɔksóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/43/Om-foksoo.ogg/Om-foksoo.ogg.mp3
+    confidence: high
+    glossSeen: mop
+    verified: false
+  - english: bin
+    pos: noun
+    oromo: togogoo
+    alternates:
+      - baattoo gatoo
+    ipa: /ˈtɔɡɔɡóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: storage, bin
+    verified: false
+  - english: tray
+    pos: noun
+    oromo: karaboo
+    alternates:
+      - tirii
+      - baataa
+    ipa: /ˈkɐrɐbóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: tray
+    verified: false
+  - english: container
+    pos: noun
+    oromo: qabaataa
+    alternates:
+      - qaboo
+      - abuubbii
+      - adoolaa
+      - doola
+    ipa: /ˈkʼɐbɑːtɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: rich person
+    verified: false
+  - english: cottage
+    pos: noun
+    oromo: godoo
+    alternates:
+      - mana citaa
+    ipa: /ˈɡɔdóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: cottage, hut
+    verified: false

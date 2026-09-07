@@ -1,0 +1,261 @@
+id: unit-54-illness
+order: 54
+title: Illness & medicine
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: bruise
+    pos: noun
+    oromo: harriiqqaa
+    alternates:
+      - godaannisa
+      - haxiixxaa
+    ipa: /ˈhɐrːiːkʼːɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: bruise
+    verified: false
+  - english: blister
+    pos: noun
+    oromo: dhubba
+    alternates: []
+    ipa: /ˈᶑʊbːɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b5/Om-dhubba.ogg/Om-dhubba.ogg.mp3
+    confidence: high
+    glossSeen: blister
+    verified: false
+  - english: allergy
+    pos: noun
+    oromo: adanyoo
+    alternates: []
+    ipa: /ɐdɐɲóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/66/Om-adanyoo.ogg/Om-adanyoo.ogg.mp3
+    confidence: high
+    glossSeen: allergy
+    verified: false
+  - english: infection
+    pos: noun
+    oromo: bacawwii
+    alternates:
+      - mimm'oo
+    ipa: /ˈbɐt͡ʃʼɐwːíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/37/Om-bacawwii.ogg/Om-bacawwii.ogg.mp3
+    confidence: high
+    glossSeen: infection
+    verified: false
+  - english: disease
+    pos: noun
+    oromo: hilbiisa
+    alternates:
+      - dhukkuba
+      - dhibee
+      - addeessaa
+      - awwaaroo
+    ipa: /ˈhɪlbiːsɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: good for nothing
+    verified: false
+  - english: malaria
+    pos: noun
+    oromo: urguftuu
+    alternates:
+      - owaangayuu
+    ipa: /ʊrɡʊftúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: malaria
+    verified: false
+  - english: measles
+    pos: noun
+    oromo: yagudufii
+    alternates:
+      - gifira
+    ipa: /ˈjɐɡʊdʊfíː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: measles
+    verified: false
+  - english: diarrhea
+    pos: noun
+    oromo: albaasa
+    alternates:
+      - albaatii
+      - xeensa
+      - kaasaa
+      - albaasuu
+    ipa: /ɐlbɑːsɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1c/Om-albaasa.ogg/Om-albaasa.ogg.mp3
+    confidence: medium
+    glossSeen: diarrhea
+    verified: false
+  - english: nausea
+    pos: noun
+    oromo: locaa
+    alternates:
+      - lollojji
+      - loccuu
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: nausea
+    verified: false
+  - english: vomiting
+    pos: noun
+    oromo: haqqisa
+    alternates:
+      - lollojji
+    ipa: /ˈhɐkʼːɪsɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: vomiting
+    verified: false
+  - english: pill
+    pos: noun
+    oromo: kinniinii
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: pill
+    verified: false
+  - english: vaccine
+    pos: noun
+    oromo: talaala
+    alternates: []
+    ipa: /ˈtɐlɑːlɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: vaccine
+    verified: false
+  - english: syringe
+    pos: noun
+    oromo: marfee
+    alternates: []
+    ipa: /ˈmɐrféː/
+    audioUrl: null
+    confidence: high
+    glossSeen: syringe, a device used for injecting or drawing fluids through a membrane.
+    verified: false
+  - english: plaster
+    pos: noun
+    oromo: dhoobuu
+    alternates:
+      - maraga
+      - dhoobsisuu
+    ipa: /ˈᶑoːbúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1a/Om-dhoobuu.ogg/Om-dhoobuu.ogg.mp3
+    confidence: high
+    glossSeen: smear, plaster (mud)
+    verified: false
+  - english: healing
+    pos: noun
+    oromo: fayyina
+    alternates: []
+    ipa: /ˈfɐjːɪnɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/72/Om-fayyina.ogg/Om-fayyina.ogg.mp3
+    confidence: high
+    glossSeen: healing, salivation
+    verified: false
+  - english: eczema
+    pos: noun
+    oromo: suuka
+    alternates:
+      - sibiji
+    ipa: /ˈsuːkɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: eczema
+    verified: false
+  - english: epilepsy
+    pos: noun
+    oromo: afkuta
+    alternates:
+      - gageabdoo
+    ipa: /ɐfkʊtɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d1/Om-afkuta.ogg/Om-afkuta.ogg.mp3
+    confidence: high
+    glossSeen: epilepsy
+    verified: false
+  - english: migraine
+    pos: noun
+    oromo: bowwoo jaanjessaa
+    alternates: []
+    ipa: /ˈbɔwːoː d͡ʒɑːnd͡ʒɛsːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d5/Om-bowwoo_jaanjessaa.ogg/Om-bowwoo_jaanjessaa.ogg.mp3
+    confidence: high
+    glossSeen: migraine
+    verified: false
+  - english: rabies
+    pos: noun
+    oromo: nyanyee
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: rabies
+    verified: false
+  - english: leprosy
+    pos: noun
+    oromo: qurcummaa
+    alternates:
+      - qurcaawuu
+    ipa: /ˈkʼʊrt͡ʃʼʊmːɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: leprosy
+    verified: false
+  - english: diarrhoea
+    pos: noun
+    oromo: garaa kaasa
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: diarrhoea
+    verified: false
+  - english: poisoning
+    pos: noun
+    oromo: hadheessii
+    alternates:
+      - summaa'u nyaata
+    ipa: /ˈhɐᶑeːsːíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: poIsoning
+    verified: false
+  - english: antidote
+    pos: noun
+    oromo: areertii
+    alternates: []
+    ipa: /ɐreːrtíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d9/Om-areertii.ogg/Om-areertii.ogg.mp3
+    confidence: high
+    glossSeen: antidote, antivenin
+    verified: false
+  - english: vaccination
+    pos: noun
+    oromo: birkaana
+    alternates:
+      - talaallii
+    ipa: /ˈbɪrkɑːnɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e9/Om-birkaana.ogg/Om-birkaana.ogg.mp3
+    confidence: medium
+    glossSeen: vaccination
+    verified: false
+  - english: coughing
+    pos: noun
+    oromo: qufaa
+    alternates:
+      - qoqqofa'uu
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: cough, coughing
+    verified: false

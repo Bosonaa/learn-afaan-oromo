@@ -1,0 +1,149 @@
+id: unit-68-birds-fish
+order: 68
+title: Birds & fish
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: raven
+    pos: noun
+    oromo: arraagessa
+    alternates:
+      - harraageessa
+    ipa: /ɐrːɑːɡɛsːɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/54/Om-arraagessa.ogg/Om-arraagessa.ogg.mp3
+    confidence: medium
+    glossSeen: crow, raven
+    verified: false
+  - english: peacock
+    pos: noun
+    oromo: jorraa
+    alternates: []
+    ipa: /ˈd͡ʒɔrːɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: peacock
+    verified: false
+  - english: partridge
+    pos: noun
+    oromo: gogorrii
+    alternates:
+      - sooritee
+      - shaara
+    ipa: /ˈɡɔɡɔrːíː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: partridge
+    verified: false
+  - english: gill
+    pos: noun
+    oromo: asaassii
+    alternates:
+      - giilii
+    ipa: /ɐsɑːsːíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8b/Om-asaassii.ogg/Om-asaassii.ogg.mp3
+    confidence: high
+    glossSeen: gill
+    verified: false
+  - english: whale
+    pos: noun
+    oromo: qurxubajaa
+    alternates: []
+    ipa: /ˈkʼʊrtʼʊbɐd͡ʒɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: whale
+    verified: false
+  - english: turtle
+    pos: noun
+    oromo: qocaa
+    alternates:
+      - hamaraa
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: turtle
+    verified: false
+  - english: pelican
+    pos: noun
+    oromo: aallaattii
+    alternates:
+      - handoolessa
+      - haadha waaqoo
+    ipa: /ɑːlːɑːtːíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/69/Om-aallaattii.ogg/Om-aallaattii.ogg.mp3
+    confidence: high
+    glossSeen: pelican
+    verified: false
+  - english: quail
+    pos: noun
+    oromo: aburdaallaa
+    alternates:
+      - dimbiriqqee
+      - kiirolee
+      - kiilolee
+    ipa: /ɐbʊrdɑːlːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c5/Om-aburdaallaa.ogg/Om-aburdaallaa.ogg.mp3
+    confidence: medium
+    glossSeen: quail
+    verified: false
+  - english: roost
+    pos: noun
+    oromo: qooxii
+    alternates:
+      - gebexii
+    ipa: /ˈkʼoːtʼíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: plat form, roost
+    verified: false
+  - english: wings
+    pos: noun
+    oromo: qochoo
+    alternates:
+      - baabur baallee
+    ipa: /ˈkʼɔt͡ʃóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: a potato- like edible root plant
+    verified: false
+  - english: yolk
+    pos: noun
+    oromo: boorkillee
+    alternates:
+      - miciraa
+    ipa: /ˈboːrkɪlːéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1f/Om-boorkillee.ogg/Om-boorkillee.ogg.mp3
+    confidence: medium
+    glossSeen: yolk
+    verified: false
+  - english: shell
+    pos: noun
+    oromo: qashii
+    alternates:
+      - elellaan
+      - ilillaana
+      - qalahaa
+      - giixoo
+    ipa: /ˈkʼɐʃíː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: to shell
+    verified: false
+  - english: snare
+    pos: noun
+    oromo: qamaaxirii
+    alternates:
+      - kiyyeessuu
+      - shaara
+      - xiixaa
+    ipa: /ˈkʼɐmɑːtʼɪríː/
+    audioUrl: null
+    confidence: high
+    glossSeen: snare, trap
+    verified: false

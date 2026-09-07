@@ -1,0 +1,262 @@
+id: unit-42-reading-writing
+order: 42
+title: Reading & writing
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: grammar
+    pos: noun
+    oromo: caasluga
+    alternates:
+      - seerluga
+      - hirmaata dubbii
+    ipa: /ˈt͡ʃʼɑːslʊɡɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7d/Om-caasluga.ogg/Om-caasluga.ogg.mp3
+    confidence: medium
+    glossSeen: grammar
+    verified: false
+  - english: spelling
+    pos: noun
+    oromo: qubeessa
+    alternates: []
+    ipa: /ˈkʼʊbeːsːɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: spelling, or ethnography
+    verified: false
+  - english: vowel
+    pos: noun
+    oromo: dubbachiftu
+    alternates:
+      - dubbachiiftuu
+    ipa: /ˈdʊbːɐt͡ʃɪftʊ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/40/Om-dubbachiftu.ogg/Om-dubbachiftu.ogg.mp3
+    confidence: medium
+    glossSeen: vowel
+    verified: false
+  - english: syllable
+    pos: noun
+    oromo: birsaga
+    alternates: []
+    ipa: /ˈbɪrsɐɡɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/95/Om-birsaga.ogg/Om-birsaga.ogg.mp3
+    confidence: high
+    glossSeen: syllable
+    verified: false
+  - english: phrase
+    pos: noun
+    oromo: gaalee
+    alternates:
+      - jirqubee
+    ipa: /ˈɡɑːléː/
+    audioUrl: null
+    confidence: high
+    glossSeen: any climbing plant
+    verified: false
+  - english: translation
+    pos: noun
+    oromo: afnaqa
+    alternates:
+      - hiika
+    ipa: /ɐfnɐkʼɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/61/Om-afnaqa.ogg/Om-afnaqa.ogg.mp3
+    confidence: high
+    glossSeen: translation
+    verified: false
+  - english: chapter
+    pos: noun
+    oromo: boqonnaa
+    alternates:
+      - buufata
+    ipa: /ˈbɔkʼɔnːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/59/Om-boqonnaa.ogg/Om-boqonnaa.ogg.mp3
+    confidence: medium
+    glossSeen: rest
+    verified: false
+  - english: novel
+    pos: noun
+    oromo: asoosama
+    alternates:
+      - asoojaa
+    ipa: /ɐsoːsɐmɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f1/Om-asoosama.ogg/Om-asoosama.ogg.mp3
+    confidence: medium
+    glossSeen: novel (work of fiction)
+    verified: false
+  - english: poetry
+    pos: noun
+    oromo: walaloo
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: poetry
+    verified: false
+  - english: author
+    pos: noun
+    oromo: barreessaa
+    alternates:
+      - barreessituu
+    ipa: /ˈbɐrːeːsːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/54/Om-barreessaa.ogg/Om-barreessaa.ogg.mp3
+    confidence: high
+    glossSeen: author (masc.)
+    verified: false
+  - english: print
+    pos: noun
+    oromo: maxxansoo
+    alternates:
+      - maxxansuu
+      - maxxansiifachuu
+      - maxxanuu
+      - dukkaa
+    ipa: /ˈmɐtʼːɐnsóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: print
+    verified: false
+  - english: comma
+    pos: noun
+    oromo: qoodduu
+    alternates: []
+    ipa: /ˈkʼoːdːúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: distributor, comma
+    verified: false
+  - english: apostrophe
+    pos: noun
+    oromo: abaloo
+    alternates: []
+    ipa: /ɐbɐlóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/55/Om-abaloo.ogg/Om-abaloo.ogg.mp3
+    confidence: high
+    glossSeen: apostrophe
+    verified: false
+  - english: prefix
+    pos: noun
+    oromo: durarroo
+    alternates: []
+    ipa: /ˈdʊrɐrːóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/05/Om-durarroo.ogg/Om-durarroo.ogg.mp3
+    confidence: high
+    glossSeen: prefix
+    verified: false
+  - english: suffix
+    pos: noun
+    oromo: fumaayyii
+    alternates:
+      - -an
+      - -essa
+      - -siisuu
+    ipa: /ˈfʊmɑːjːíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/40/Om-fumaayyii.ogg/Om-fumaayyii.ogg.mp3
+    confidence: high
+    glossSeen: suffix
+    verified: false
+  - english: idiom
+    pos: noun
+    oromo: cigoo
+    alternates:
+      - jechama
+    ipa: /ˈt͡ʃʼɪɡóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7d/Om-cigoo.ogg/Om-cigoo.ogg.mp3
+    confidence: high
+    glossSeen: idiom
+    verified: false
+  - english: adjective
+    pos: noun
+    oromo: ibsa maqaa
+    alternates:
+      - maqeentuu
+    ipa: /ɪbsɐ mɐkʼɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: adjective
+    verified: false
+  - english: pronoun
+    pos: noun
+    oromo: maqadhaal
+    alternates:
+      - si
+      - ana
+      - sii
+      - anaa
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: pronoun
+    verified: false
+  - english: punctuation
+    pos: noun
+    oromo: sirna tuqaalee
+    alternates: []
+    ipa: /ˈsɪrnɐ tʊkʼɑːléː/
+    audioUrl: null
+    confidence: high
+    glossSeen: punctuation
+    verified: false
+  - english: synonym
+    pos: noun
+    oromo: moggoyyaa
+    alternates:
+      - moggoo
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: synonym
+    verified: false
+  - english: glossary
+    pos: noun
+    oromo: jibsoo
+    alternates: []
+    ipa: /ˈd͡ʒɪbsóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: glossary
+    verified: false
+  - english: footnote
+    pos: noun
+    oromo: miljalee
+    alternates: []
+    ipa: /ˈmɪld͡ʒɐléː/
+    audioUrl: null
+    confidence: high
+    glossSeen: footnote
+    verified: false
+  - english: stanza
+    pos: noun
+    oromo: aanguu
+    alternates:
+      - anguu
+    ipa: /ɑːnɡúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/27/Om-aanguu.ogg/Om-aanguu.ogg.mp3
+    confidence: medium
+    glossSeen: stanza
+    verified: false
+  - english: sketch
+    pos: noun
+    oromo: saxaxa
+    alternates:
+      - hacceeruu
+    ipa: /ˈsɐtʼɐtʼɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: draft, sketch, design.
+    verified: false
+  - english: manuscript
+    pos: noun
+    oromo: barruuka
+    alternates:
+      - kurii
+    ipa: /ˈbɐrːuːkɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d5/Om-barruuka.ogg/Om-barruuka.ogg.mp3
+    confidence: medium
+    glossSeen: manuscript
+    verified: false

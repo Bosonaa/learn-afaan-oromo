@@ -1,0 +1,170 @@
+id: unit-99-amounts
+order: 99
+title: Amounts & opposites
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: piece
+    pos: noun
+    oromo: aanxaa
+    alternates:
+      - callee
+      - baqqana
+      - buurana
+      - citaa
+    ipa: /ɑːntʼɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a4/Om-aanxaa.ogg/Om-aanxaa.ogg.mp3
+    confidence: high
+    glossSeen: splinter, piece
+    verified: false
+  - english: handful
+    pos: noun
+    oromo: aboottee
+    alternates:
+      - konyee
+      - hammaarrii
+      - kaballaa
+      - qabalama
+    ipa: /ɐboːtːéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/84/Om-aboottee.ogg/Om-aboottee.ogg.mp3
+    confidence: medium
+    glossSeen: fist
+    verified: false
+  - english: heap
+    pos: noun
+    oromo: gucoo
+    alternates:
+      - tuullaa
+      - tuullachuu
+      - tuulsisuu
+      - guucca'uu
+    ipa: /ˈɡʊt͡ʃʼóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: heap
+    verified: false
+  - english: bundle
+    pos: noun
+    oromo: bishii
+    alternates:
+      - hanqaaraa
+      - ruubana
+      - beendoo
+      - haqaara
+    ipa: /ˈbɪʃíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9e/Om-bishii.ogg/Om-bishii.ogg.mp3
+    confidence: medium
+    glossSeen: bundle
+    verified: false
+  - english: bunch
+    pos: noun
+    oromo: haqaara
+    alternates:
+      - cuqqaallaa
+      - guttiyyee
+      - hammata
+      - hurbuu
+    ipa: /ˈhɐkʼɑːrɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: package, bunch, bundle
+    verified: false
+  - english: majority
+    pos: noun
+    oromo: wayyaba
+    alternates: []
+    ipa: /ˈwɐjːɐbɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: majority
+    verified: false
+  - english: minority
+    pos: noun
+    oromo: maandhummaa
+    alternates:
+      - maddummaa
+    ipa: /ˈmɑːnᶑʊmːɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: minority
+    verified: false
+  - english: shortage
+    pos: noun
+    oromo: dhiba
+    alternates:
+      - duubboo
+      - dheebicha
+      - naanniga
+      - anqisiisuu
+    ipa: /ˈᶑɪbɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/79/Om-dhiba.ogg/Om-dhiba.ogg.mp3
+    confidence: high
+    glossSeen: lack
+    verified: false
+  - english: difference
+    pos: noun
+    oromo: addaddummaa
+    alternates:
+      - addummaa
+      - garaagarummaa
+    ipa: /ɐdːɐdːʊmːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/67/Om-addaddummaa.ogg/Om-addaddummaa.ogg.mp3
+    confidence: medium
+    glossSeen: difference
+    verified: false
+  - english: plurality
+    pos: noun
+    oromo: danumma
+    alternates: []
+    ipa: /ˈdɐnʊmːɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1b/Om-danumma.ogg/Om-danumma.ogg.mp3
+    confidence: high
+    glossSeen: plurality
+    verified: false
+  - english: remnant
+    pos: noun
+    oromo: arcaatuu
+    alternates:
+      - hambaa
+      - duguugsisuu
+      - duguuguu
+    ipa: /ɐrt͡ʃʼɑːtúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e6/Om-arcaatuu.ogg/Om-arcaatuu.ogg.mp3
+    confidence: high
+    glossSeen: remnant
+    verified: false
+  - english: leftover
+    pos: noun
+    oromo: hafaa
+    alternates:
+      - hambaa
+    ipa: /ˈhɐfɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: leftover/absent
+    verified: false
+  - english: cluster
+    pos: noun
+    oromo: gorboba
+    alternates:
+      - tucuu
+    ipa: /ˈɡɔrbɔbɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: cluster
+    verified: false
+  - english: multiple
+    pos: noun
+    oromo: danee
+    alternates: []
+    ipa: /ˈdɐnéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8f/Om-danee.ogg/Om-danee.ogg.mp3
+    confidence: high
+    glossSeen: multiple
+    verified: false

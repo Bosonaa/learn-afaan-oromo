@@ -1,0 +1,279 @@
+id: unit-57-feelings-fear
+order: 57
+title: "Feelings: fear, anger & calm"
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: terror
+    pos: noun
+    oromo: goolii
+    alternates:
+      - goolii diimaa
+    ipa: /ˈɡoːlíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: violence, disturbance, terror
+    verified: false
+  - english: horror
+    pos: noun
+    oromo: naasuu
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: horror
+    verified: false
+  - english: panic
+    pos: noun
+    oromo: shororkaa
+    alternates:
+      - baaraga
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: panic
+    verified: false
+  - english: worry
+    pos: noun
+    oromo: cinqaa
+    alternates:
+      - dhiphachuu
+      - yaaddoo
+      - yaadda'uu
+      - mankaraaruu
+    ipa: /ˈt͡ʃʼɪnkʼɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c2/Om-cinqaa.ogg/Om-cinqaa.ogg.mp3
+    confidence: medium
+    glossSeen: worry/tension
+    verified: false
+  - english: anxiety
+    pos: noun
+    oromo: siqiqa
+    alternates:
+      - yaaddessuu
+    ipa: /ˈsɪkʼɪkʼɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: anxiety
+    verified: false
+  - english: shock
+    pos: noun
+    oromo: tuulama
+    alternates:
+      - suukanneessuu
+      - rifachuu
+    ipa: /ˈtuːlɐmɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: shock, pile, stored
+    verified: false
+  - english: hatred
+    pos: noun
+    oromo: jibba
+    alternates:
+      - jibbina
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: hate, hatred
+    verified: false
+  - english: jealousy
+    pos: noun
+    oromo: inaaffi
+    alternates:
+      - weenna
+      - hinaaffii
+      - goomii
+    ipa: /ɪnɑːfːɪ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: jealousy
+    verified: false
+  - english: envy
+    pos: noun
+    oromo: hinaaffii
+    alternates:
+      - goomii
+      - inaafuu
+      - goomachiisuu
+      - walhinaafuu
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: envy
+    verified: false
+  - english: revenge
+    pos: noun
+    oromo: aaloo
+    alternates:
+      - ijaa
+      - booree
+      - dhiiga baasa
+      - haaloo
+    ipa: /ɑːlóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fd/Om-aaloo.ogg/Om-aaloo.ogg.mp3
+    confidence: medium
+    glossSeen: protocol
+    verified: false
+  - english: grudge
+    pos: noun
+    oromo: komannaa
+    alternates:
+      - quuqqaa
+      - komii
+      - aalachuu
+    ipa: /ˈkɔmɐnːɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: a grudge
+    verified: false
+  - english: silence
+    pos: noun
+    oromo: calleensa
+    alternates:
+      - callisa
+    ipa: /ˈt͡ʃʼɐlːeːnsɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/ca/Om-calleensa.ogg/Om-calleensa.ogg.mp3
+    confidence: medium
+    glossSeen: silence
+    verified: false
+  - english: bravery
+    pos: noun
+    oromo: dhiirummaa
+    alternates:
+      - goonummaa
+      - gootummaa
+    ipa: /ˈᶑiːrʊmːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/79/Om-dhiirummaa.ogg/Om-dhiirummaa.ogg.mp3
+    confidence: medium
+    glossSeen: being a man
+    verified: false
+  - english: surprise
+    pos: noun
+    oromo: amankaaka
+    alternates:
+      - dinqisiisuu
+      - raajii
+      - maadeeffachuu
+      - maalalchuu
+    ipa: /ɐmɐnkɑːkɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7a/Om-amankaaka.ogg/Om-amankaaka.ogg.mp3
+    confidence: high
+    glossSeen: surprise
+    verified: false
+  - english: anguish
+    pos: noun
+    oromo: darara
+    alternates:
+      - injifachiisuu
+    ipa: /ˈdɐrɐrɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d7/Om-darara.ogg/Om-darara.ogg.mp3
+    confidence: high
+    glossSeen: anguish, misery, agony, problem
+    verified: false
+  - english: despair
+    pos: noun
+    oromo: hijibbaata
+    alternates:
+      - ijibbaata
+    ipa: /ˈhɪd͡ʒɪbːɑːtɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: despair
+    verified: false
+  - english: distress
+    pos: noun
+    oromo: damacaa
+    alternates:
+      - rakkina
+      - rakkachuu
+    ipa: /ˈdɐmɐt͡ʃʼɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ed/Om-damacaa.ogg/Om-damacaa.ogg.mp3
+    confidence: medium
+    glossSeen: flat stone for crushing cotton
+    verified: false
+  - english: remorse
+    pos: noun
+    oromo: seenaa
+    alternates:
+      - gara nyaattoo
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: history
+    verified: false
+  - english: bitterness
+    pos: noun
+    oromo: hadheenya
+    alternates: []
+    ipa: /ˈhɐᶑeːɲɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: bitterness
+    verified: false
+  - english: enmity
+    pos: noun
+    oromo: farrummaa
+    alternates:
+      - nyaaphummaa
+    ipa: /ˈfɐrːʊmːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e0/Om-farrummaa.ogg/Om-farrummaa.ogg.mp3
+    confidence: medium
+    glossSeen: enmity
+    verified: false
+  - english: hostility
+    pos: noun
+    oromo: amajajummaa
+    alternates: []
+    ipa: /ɐmɐd͡ʒɐd͡ʒʊmːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bc/Om-amajajummaa.ogg/Om-amajajummaa.ogg.mp3
+    confidence: high
+    glossSeen: hostility, antagonism
+    verified: false
+  - english: humiliation
+    pos: noun
+    oromo: salphina
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: disgrace
+    verified: false
+  - english: disgust
+    pos: noun
+    oromo: nuffii
+    alternates:
+      - gofonnonuu
+      - suuka'uu
+    ipa: /ˈnʊfːíː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: disgust ,bore
+    verified: false
+  - english: suspicion
+    pos: noun
+    oromo: shakkii
+    alternates:
+      - cicannoo
+      - bir'a
+      - bir'achuu
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: doubt
+    verified: false
+  - english: hesitation
+    pos: noun
+    oromo: mamii
+    alternates: []
+    ipa: /ˈmɐmíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: hesitation
+    verified: false

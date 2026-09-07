@@ -1,0 +1,240 @@
+id: unit-61-sky
+order: 61
+title: Sky, sun & stars
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: sunrise
+    pos: noun
+    oromo: bahiisa aduu
+    alternates: []
+    ipa: /ˈbɐhiːsɐ ɐdúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1d/Om-bahiisa_aduu.ogg/Om-bahiisa_aduu.ogg.mp3
+    confidence: high
+    glossSeen: sunrise
+    verified: false
+  - english: sunset
+    pos: noun
+    oromo: seensa aduu
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: sunset
+    verified: false
+  - english: daytime
+    pos: noun
+    oromo: guyyaa
+    alternates: []
+    ipa: /ˈɡʊjːɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: day, during the day, daytime
+    verified: false
+  - english: midnight
+    pos: noun
+    oromo: waarii
+    alternates:
+      - waari'uu
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: midnight
+    verified: false
+  - english: twilight
+    pos: noun
+    oromo: basakkaa
+    alternates:
+      - dimimmisa
+    ipa: /ˈbɐsɐkːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/15/Om-basakkaa.ogg/Om-basakkaa.ogg.mp3
+    confidence: medium
+    glossSeen: twilight
+    verified: false
+  - english: shadow
+    pos: noun
+    oromo: gaaddisa
+    alternates:
+      - gaadidduu
+      - caayaa
+    ipa: /ˈɡɑːdːɪsɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: shadow
+    verified: false
+  - english: eclipse
+    pos: noun
+    oromo: addidduu
+    alternates:
+      - golga aduu
+    ipa: /ɐdːɪdːúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a8/Om-addidduu.ogg/Om-addidduu.ogg.mp3
+    confidence: high
+    glossSeen: eclipse
+    verified: false
+  - english: planet
+    pos: noun
+    oromo: bakkallee
+    alternates:
+      - fakkardi
+      - pilaaneetii
+      - bakkallooma
+    ipa: /ˈbɐkːɐlːéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/61/Om-bakkallee.ogg/Om-bakkallee.ogg.mp3
+    confidence: medium
+    glossSeen: planet
+    verified: false
+  - english: universe
+    pos: noun
+    oromo: addunyaalee
+    alternates:
+      - marlaaltoo
+      - ruuda
+    ipa: /ɐdːʊɲɑːléː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7e/Om-addunyaalee.ogg/Om-addunyaalee.ogg.mp3
+    confidence: medium
+    glossSeen: universe
+    verified: false
+  - english: galaxy
+    pos: noun
+    oromo: ruuda
+    alternates: []
+    ipa: /ˈruːdɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: galaxy
+    verified: false
+  - english: space
+    pos: noun
+    oromo: hawaa
+    alternates:
+      - ittaansamuu
+      - hiddoo
+      - qawweechaa
+      - siqfata
+    ipa: /ˈhɐwɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: space
+    verified: false
+  - english: orbit
+    pos: noun
+    oromo: dannaba
+    alternates:
+      - jeema
+      - holqa mukaa
+    ipa: /ˈdɐnːɐbɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ef/Om-dannaba.ogg/Om-dannaba.ogg.mp3
+    confidence: medium
+    glossSeen: orbit
+    verified: false
+  - english: horizon
+    pos: noun
+    oromo: dayeesa
+    alternates:
+      - giranba
+    ipa: /ˈdɐjeːsɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1d/Om-dayeesa.ogg/Om-dayeesa.ogg.mp3
+    confidence: medium
+    glossSeen: horizon
+    verified: false
+  - english: asteroid
+    pos: noun
+    oromo: akkurjii
+    alternates: []
+    ipa: /ɐkːʊrd͡ʒíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8d/Om-akkurjii.ogg/Om-akkurjii.ogg.mp3
+    confidence: high
+    glossSeen: asteroid
+    verified: false
+  - english: zenith
+    pos: noun
+    oromo: gubbee
+    alternates: []
+    ipa: /ˈɡʊbːéː/
+    audioUrl: null
+    confidence: high
+    glossSeen: top of the head
+    verified: false
+  - english: equinox
+    pos: noun
+    oromo: cinguyyaa
+    alternates: []
+    ipa: /ˈt͡ʃʼɪnɡʊjːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/52/Om-cinguyyaa.ogg/Om-cinguyyaa.ogg.mp3
+    confidence: high
+    glossSeen: equinox
+    verified: false
+  - english: hemisphere
+    pos: noun
+    oromo: gamardoo
+    alternates: []
+    ipa: /ˈɡɐmɐrdóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: hemisphere
+    verified: false
+  - english: altitude
+    pos: noun
+    oromo: ol fageenya
+    alternates: []
+    ipa: /ɔl fɐɡeːɲɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: altitude
+    verified: false
+  - english: latitude
+    pos: noun
+    oromo: dagala
+    alternates: []
+    ipa: /ˈdɐɡɐlɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/27/Om-dagala.ogg/Om-dagala.ogg.mp3
+    confidence: high
+    glossSeen: latitude
+    verified: false
+  - english: globe
+    pos: noun
+    oromo: mulullee
+    alternates: []
+    ipa: /ˈmʊlʊlːéː/
+    audioUrl: null
+    confidence: high
+    glossSeen: ophere,globe
+    verified: false
+  - english: glimmer
+    pos: noun
+    oromo: culaancullee
+    alternates: []
+    ipa: /ˈt͡ʃʼʊlɑːnt͡ʃʼʊlːéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c6/Om-culaancullee.ogg/Om-culaancullee.ogg.mp3
+    confidence: high
+    glossSeen: gleam/ glimmer/ glint
+    verified: false
+  - english: glowing
+    pos: noun
+    oromo: finiina
+    alternates:
+      - dibaa
+      - mukukkula
+      - hamilee finiinaa
+    ipa: /ˈfɪniːnɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/12/Om-finiina.ogg/Om-finiina.ogg.mp3
+    confidence: high
+    glossSeen: glowing
+    verified: false
+  - english: midday
+    pos: noun
+    oromo: guyyaa saafaa
+    alternates:
+      - waaree
+    ipa: /ˈɡʊjːɑː sɑːfɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: at noon, midday
+    verified: false

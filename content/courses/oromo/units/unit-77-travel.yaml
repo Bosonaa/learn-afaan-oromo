@@ -1,0 +1,172 @@
+id: unit-77-travel
+order: 77
+title: Travel & journeys
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: tourist
+    pos: noun
+    oromo: tuuristii
+    alternates:
+      - emaltuu
+      - imaltuu
+    ipa: /ˈtuːrɪstíː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: tourist
+    verified: false
+  - english: visa
+    pos: noun
+    oromo: habisee
+    alternates:
+      - habiisee dabartii
+      - habiisee seensaa
+    ipa: /ˈhɐbɪséː/
+    audioUrl: null
+    confidence: high
+    glossSeen: visa
+    verified: false
+  - english: suitcase
+    pos: noun
+    oromo: subbaa
+    alternates: []
+    ipa: /ˈsʊbːɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: suitcase, leather bag
+    verified: false
+  - english: guide
+    pos: noun
+    oromo: qajeelchaa
+    alternates:
+      - qajeelchituu
+      - taliigduu
+      - qajeelchuu
+      - ooggansiisuu
+    ipa: /ˈkʼɐd͡ʒeːlt͡ʃɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: one who corrects (exam papers etc.)
+    verified: false
+  - english: mile
+    pos: noun
+    oromo: maayilii
+    alternates: []
+    ipa: /ˈmɑːjɪlíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: mile
+    verified: false
+  - english: transit
+    pos: noun
+    oromo: dabroo
+    alternates:
+      - habiisee dabartii
+    ipa: /ˈdɐbróː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/af/Om-dabroo.ogg/Om-dabroo.ogg.mp3
+    confidence: high
+    glossSeen: transit
+    verified: false
+  - english: wanderer
+    pos: noun
+    oromo: labduu
+    alternates:
+      - xallisiisuu
+    ipa: /ˈlɐbdúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: wanderer (fem)
+    verified: false
+  - english: pilgrimage
+    pos: noun
+    oromo: muuda
+    alternates:
+      - hajii
+    ipa: /ˈmuːdɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: pilgrimage
+    verified: false
+  - english: migration
+    pos: noun
+    oromo: godaansa
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: migration
+    verified: false
+  - english: promenade
+    pos: noun
+    oromo: daaddisa
+    alternates: []
+    ipa: /ˈdɑːdːɪsɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8b/Om-daaddisa.ogg/Om-daaddisa.ogg.mp3
+    confidence: high
+    glossSeen: promenade
+    verified: false
+  - english: escort
+    pos: noun
+    oromo: dabaaluu
+    alternates: []
+    ipa: /ˈdɐbɑːlúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/af/Om-dabaaluu.ogg/Om-dabaaluu.ogg.mp3
+    confidence: high
+    glossSeen: to escort
+    verified: false
+  - english: navigation
+    pos: noun
+    oromo: milaayyaa
+    alternates:
+      - addeela
+    ipa: /ˈmɪlɑːjːɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: navigation
+    verified: false
+  - english: compass
+    pos: noun
+    oromo: agarsootee
+    alternates: []
+    ipa: /ɐɡɐrsoːtéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8d/Om-agarsootee.ogg/Om-agarsootee.ogg.mp3
+    confidence: high
+    glossSeen: compass
+    verified: false
+  - english: camping
+    pos: noun
+    oromo: qubachuu
+    alternates: []
+    ipa: /ˈkʼʊbɐt͡ʃúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: come down to the ground settle of birds
+    verified: false
+  - english: tent
+    pos: noun
+    oromo: duskaana
+    alternates:
+      - waaroo
+      - daasa
+      - dongora
+    ipa: /ˈdʊskɑːnɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8c/Om-duskaana.ogg/Om-duskaana.ogg.mp3
+    confidence: medium
+    glossSeen: tent
+    verified: false
+  - english: shortcut
+    pos: noun
+    oromo: qaxxaamura
+    alternates:
+      - karaa kuteessa
+    ipa: /ˈkʼɐtʼːɑːmʊrɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: shortcut
+    verified: false

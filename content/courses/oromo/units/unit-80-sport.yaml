@@ -1,0 +1,274 @@
+id: unit-80-sport
+order: 80
+title: Sport & games
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: sport
+    pos: noun
+    oromo: ispoortii
+    alternates:
+      - fooyituu
+      - korboo
+      - ispoortii aadaa
+      - ispoortii ammayyaa
+    ipa: /ɪspoːrtíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: sport
+    verified: false
+  - english: ball
+    pos: noun
+    oromo: kubbaa
+    alternates:
+      - kuphaa
+      - callee
+      - buurana
+      - bokkuu
+    ipa: /ˈkʊbːɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: ball
+    verified: false
+  - english: player
+    pos: noun
+    oromo: taphataa
+    alternates:
+      - taphattuu
+      - taphataa
+      - kashakkashtuu
+    ipa: /ˈtɐpʼɐtɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: player (male)
+    verified: false
+  - english: match
+    pos: noun
+    oromo: ichimee
+    alternates:
+      - morkii
+      - firoomsuu
+    ipa: /ɪt͡ʃɪméː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: match
+    verified: false
+  - english: runner
+    pos: noun
+    oromo: ceetuu
+    alternates:
+      - kaattuu
+      - ardaa
+    ipa: /ˈt͡ʃʼeːtúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/39/Om-ceetuu.ogg/Om-ceetuu.ogg.mp3
+    confidence: medium
+    glossSeen: runner( fem.)
+    verified: false
+  - english: running
+    pos: noun
+    oromo: fiigicha
+    alternates:
+      - kaachoo
+      - dannaba
+      - saardoo
+      - goosuu'
+    ipa: /ˈfiːɡɪt͡ʃɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/36/Om-fiigicha.ogg/Om-fiigicha.ogg.mp3
+    confidence: medium
+    glossSeen: running
+    verified: false
+  - english: jumping
+    pos: noun
+    oromo: utaalchoo
+    alternates:
+      - firixa
+      - utaala
+    ipa: /ʊtɑːlt͡ʃóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: jumping
+    verified: false
+  - english: swimming
+    pos: noun
+    oromo: daakkaa
+    alternates:
+      - gurdummii
+      - haphala
+      - koonnee
+      - haroo daakkii
+    ipa: /ˈdɑːkːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2c/Om-daakkaa.ogg/Om-daakkaa.ogg.mp3
+    confidence: high
+    glossSeen: swimming
+    verified: false
+  - english: wrestling
+    pos: noun
+    oromo: casoo
+    alternates:
+      - qabsoo
+      - cabsoo
+      - garagalfachuu
+    ipa: /ˈt͡ʃʼɐsóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/40/Om-casoo.ogg/Om-casoo.ogg.mp3
+    confidence: high
+    glossSeen: wrestling
+    verified: false
+  - english: boxing
+    pos: noun
+    oromo: bunyaa
+    alternates: []
+    ipa: /ˈbʊɲɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3b/Om-bunyaa.ogg/Om-bunyaa.ogg.mp3
+    confidence: high
+    glossSeen: boxing
+    verified: false
+  - english: tennis
+    pos: noun
+    oromo: teenisii
+    alternates: []
+    ipa: /ˈteːnɪsíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: tennis
+    verified: false
+  - english: hockey
+    pos: noun
+    oromo: qillee
+    alternates:
+      - gabbaa
+      - mukoo
+      - qeellee
+      - jirma
+    ipa: /ˈkʼɪlːéː/
+    audioUrl: null
+    confidence: high
+    glossSeen: hockey
+    verified: false
+  - english: gymnastics
+    pos: noun
+    oromo: kiriphoo
+    alternates: []
+    ipa: /ˈkɪrɪpʼóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: gymnastics
+    verified: false
+  - english: skating
+    pos: noun
+    oromo: sigigaachoo
+    alternates:
+      - sigigoo
+    ipa: /ˈsɪɡɪɡɑːt͡ʃóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: skating
+    verified: false
+  - english: whistle
+    pos: noun
+    oromo: furiyyoo
+    alternates:
+      - fooricuu
+      - siiksuu
+      - siissuu
+    ipa: /ˈfʊrɪjːóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/dd/Om-furiyyoo.ogg/Om-furiyyoo.ogg.mp3
+    confidence: high
+    glossSeen: whistle
+    verified: false
+  - english: training
+    pos: noun
+    oromo: leejjii
+    alternates:
+      - leenjii
+      - leenjisa
+    ipa: /ˈleːd͡ʒːíː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: training
+    verified: false
+  - english: winner
+    pos: noun
+    oromo: mo'aa
+    alternates:
+      - moyaa
+    ipa: /ˈmɔʔɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: winner
+    verified: false
+  - english: prize
+    pos: noun
+    oromo: badhaasa
+    alternates:
+      - badhaasuu
+      - badhaasa noobilii
+    ipa: /ˈbɐᶑɑːsɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/af/Om-badhaasa.ogg/Om-badhaasa.ogg.mp3
+    confidence: high
+    glossSeen: award / prize, reward
+    verified: false
+  - english: medal
+    pos: noun
+    oromo: lishaanii
+    alternates:
+      - madaaliyaa
+      - madaaliyaa meetii
+    ipa: /ˈlɪʃɑːníː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: medal
+    verified: false
+  - english: doll
+    pos: noun
+    oromo: hargoggee
+    alternates:
+      - horgoggee
+    ipa: /ˈhɐrɡɔɡːéː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: doll
+    verified: false
+  - english: puzzle
+    pos: noun
+    oromo: hiibboo
+    alternates:
+      - hiibbakka
+      - gidirsiisuu
+    ipa: /ˈhiːbːóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: riddle/puzzle
+    verified: false
+  - english: volleyball
+    pos: noun
+    oromo: kubbaa saaphanaa
+    alternates: []
+    ipa: /ˈkʊbːɑː sɑːpʼɐnɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: volleyball
+    verified: false
+  - english: basketball
+    pos: noun
+    oromo: kuphaa kaachoo
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: basketball
+    verified: false
+  - english: marathon
+    pos: noun
+    oromo: maaraatoona
+    alternates: []
+    ipa: /ˈmɑːrɑːtoːnɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: marathon
+    verified: false
