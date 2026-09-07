@@ -17,3 +17,4 @@ or reinterpret the user's wording, and never add rules of my own to this list.
 9. If you need clarification or additional materials, ask, do not assume.
 10. If you find better resources to use to create this lesson, let me know. It must have adequate words. It can’t be a sample.
 11. There will be a dictionary feature in the future, but that will leverage existing materials. Currently it should be considered future phase.
+12. PR should always be against develop branch. not main.
