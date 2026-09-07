@@ -12,6 +12,7 @@ import { NextResponse } from "next/server";
 import { isReportCategory, type ReportCategory } from "@/lib/reports";
 
 interface Report {
+  courseId: string;
   unitId: string;
   english: string;
   oromo: string;
@@ -23,13 +24,15 @@ const NOTE_LIMIT = 500;
 
 function parse(body: unknown): Report | null {
   if (typeof body !== "object" || body === null) return null;
-  const { unitId, english, oromo, category, note } = body as Record<string, unknown>;
+  const { courseId, unitId, english, oromo, category, note } = body as Record<string, unknown>;
+  if (typeof courseId !== "string" || courseId === "") return null;
   if (typeof unitId !== "string" || unitId === "") return null;
   if (typeof english !== "string" || english === "") return null;
   if (typeof oromo !== "string" || oromo === "") return null;
   if (!isReportCategory(category)) return null;
   if (note !== undefined && typeof note !== "string") return null;
   return {
+    courseId,
     unitId,
     english,
     oromo,
@@ -42,6 +45,7 @@ function issueBody(report: Report): string {
   return [
     `Reported from the app.`,
     "",
+    `- **Course:** \`${report.courseId}\``,
     `- **Unit:** \`${report.unitId}\``,
     `- **English prompt:** ${report.english}`,
     `- **Currently taught:** \`${report.oromo}\``,

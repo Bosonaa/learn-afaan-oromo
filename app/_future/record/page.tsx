@@ -1,11 +1,12 @@
 import { loadUnits } from "@/lib/content";
+import { FIRST_COURSE_ID } from "@/lib/courses";
 import { loadRecordings } from "@/lib/recordings";
 import { Recorder, type RecordableWord } from "./recorder";
 
 export const dynamic = "force-dynamic";
 
 export default async function RecordPage() {
-  const units = await loadUnits();
+  const units = await loadUnits(FIRST_COURSE_ID);
   const recorded = new Set((await loadRecordings()).map((rec) => rec.oromo));
 
   const words: RecordableWord[] = units.flatMap((unit) =>

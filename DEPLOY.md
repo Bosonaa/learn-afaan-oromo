@@ -134,7 +134,7 @@ route, so neither is reachable in a build. Bringing one back is a move out of th
 
 ## 8. Correcting words
 
-Never edit `content/units/*.yaml` by hand — it is regenerated. Put verdicts in
+Never edit `content/courses/*/units/*.yaml` by hand — it is regenerated. Put verdicts in
 `content/overrides.yaml`:
 
 ```yaml

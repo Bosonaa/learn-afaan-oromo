@@ -10,6 +10,8 @@
  * a migration step.
  */
 
+import { COURSES, FIRST_COURSE_ID } from "./courses";
+
 export interface Profile {
   id: string;
   name: string;
@@ -91,8 +93,8 @@ export function renameProfile(id: string, name: string): Profiles {
 }
 
 /**
- * Removes a profile and its progress. The last profile cannot be removed —
- * there would be nobody to practise as.
+ * Removes a profile and its progress in every course. The last profile cannot
+ * be removed — there would be nobody to practise as.
  */
 export function removeProfile(id: string): Profiles {
   const current = loadProfiles();
@@ -101,7 +103,9 @@ export function removeProfile(id: string): Profiles {
   const [first] = profiles;
   if (first === undefined) return current;
   if (typeof window !== "undefined") {
-    window.localStorage.removeItem(progressKey(id));
+    for (const course of COURSES) {
+      window.localStorage.removeItem(progressKey(id, course.id));
+    }
   }
   return write({
     version: 1,
@@ -110,7 +114,14 @@ export function removeProfile(id: string): Profiles {
   });
 }
 
-export function progressKey(profileId: string): string {
+/**
+ * Progress is per profile and per course, so a child's streak in one language
+ * is not spent by practising another. As with the first profile, the first
+ * course keeps the unsuffixed key that predates courses, so a device already
+ * learning Afaan Oromo carries its progress over untouched.
+ */
+export function progressKey(profileId: string, courseId: string = FIRST_COURSE_ID): string {
   const base = "learn-afaan-oromo:progress:v1";
-  return profileId === FIRST_PROFILE_ID ? base : `${base}:${profileId}`;
+  const forProfile = profileId === FIRST_PROFILE_ID ? base : `${base}:${profileId}`;
+  return courseId === FIRST_COURSE_ID ? forProfile : `${forProfile}:${courseId}`;
 }

@@ -9,13 +9,13 @@ draft — the app says so on every screen until a fluent speaker signs them off.
 ## How the content is produced
 
 ```
-kaikki.org Oromo JSONL   content/curriculum.ts
+kaikki.org Oromo JSONL   content/courses/oromo/curriculum.ts
    (open lexicon)         (authored teaching order)
           \                     /
            npm run draft:units
                     |
-        content/units/*.yaml        review/<unit-id>.csv
-        (draft, unreviewed)         (for a fluent speaker to correct)
+ content/courses/oromo/units/*.yaml   review/<unit-id>.csv
+        (draft, unreviewed)           (for a fluent speaker to correct)
 ```
 
 The lexicon supplies Oromo↔English glosses, IPA and native-speaker audio; the curriculum
@@ -34,10 +34,19 @@ Unit YAML and mirrored audio are committed, so the app runs without regenerating
 Progress (XP, streak, spaced-repetition schedule) is stored in `localStorage` only: no
 accounts, no server, no analytics, nothing about a child leaves the device.
 
-Units are grouped ten at a time into **levels** (`lib/levels.ts`), so the home screen is a
-short list of levels that opens onto the units inside one. Grouping follows unit order, which
-is the teaching order authored in `content/curriculum.ts`, so a new unit joins the level its
-order falls in and a level needs only a title.
+## Courses, levels, units
+
+The app teaches **courses**, of which Afaan Oromo is the first: `/` is the language grid,
+`/<course>` its levels, `/<course>/learn/<unit>` a lesson. A course is a registry entry in
+`lib/courses.ts` (name, level titles) plus content in `content/courses/<id>/`, and it owns its
+own progress — a child's streak in one language is not spent practising another. The first
+course deliberately keeps the storage keys that predate courses, so devices already learning
+Afaan Oromo keep their XP and streaks.
+
+Within a course, units are grouped ten at a time into **levels** (`lib/levels.ts`), so a course
+opens on a short list of levels rather than one long list of units. Grouping follows unit order,
+which is the teaching order authored in the course's `curriculum.ts`, so a new unit joins the
+level its order falls in and a level needs only a title.
 
 Lessons are 10 prompts, all multiple choice, in one of two directions — English→Oromo or
 Oromo→English. Nothing is typed and nothing is played: there are no free-form answers and no
@@ -55,7 +64,7 @@ route folders starting with `_`, so none of it loads. See `app/_future/README.md
 ```bash
 npm run fetch:lexicon   # ~92 MB download, gitignored
 npm run build:lexicon   # -> data/lexicon.json
-npm run draft:units     # -> content/units/*.yaml + review/*.csv
+npm run draft:units     # -> content/courses/oromo/units/*.yaml + review/*.csv
 npm run mirror:audio    # -> public/audio/*.mp3 + credits.json
 npm run typecheck && npm run lint
 ```
@@ -78,7 +87,7 @@ errors (e.g. English "head" can map to `abbaa manaa`, head of a household), so e
 needs a human verdict in the `verdict_ok_or_fix` column before it is used in a lesson.
 Sort by `confidence` — `low` rows first, then `medium`.
 
-Nothing in `content/units/` is teaching-ready while it is marked `status: draft-unreviewed`.
+Nothing in `content/courses/*/units/` is teaching-ready while marked `status: draft-unreviewed`.
 
 ## Sourcing rules
 

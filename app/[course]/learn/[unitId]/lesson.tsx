@@ -13,11 +13,13 @@ const LESSON_LENGTH = 10;
 type Verdict = { correct: boolean; expected: string } | null;
 
 export function Lesson({
+  courseId,
   unitId,
   title,
   levelLabel,
   words,
 }: {
+  courseId: string;
   unitId: string;
   title: string;
   levelLabel: string;
@@ -35,14 +37,14 @@ export function Lesson({
   useEffect(() => {
     const { profiles, activeId } = loadProfiles();
     setLearner(profiles.find((profile) => profile.id === activeId) ?? null);
-    const progress = loadProgress(activeId);
+    const progress = loadProgress(courseId, activeId);
     setExercises(
       buildLesson(words, `${unitId}:${progress.xp}`, {
         due: dueWords(progress),
         length: LESSON_LENGTH,
       }),
     );
-  }, [unitId, words]);
+  }, [courseId, unitId, words]);
 
   const exercise = exercises?.[index] ?? null;
 
@@ -53,7 +55,8 @@ export function Lesson({
     if (correct) setScore((current) => current + 1);
     const profileId = learner?.id;
     saveProgress(
-      recordAnswer(loadProgress(profileId), exercise.word.oromo, correct),
+      recordAnswer(loadProgress(courseId, profileId), exercise.word.oromo, correct),
+      courseId,
       profileId,
     );
   };
@@ -66,7 +69,7 @@ export function Lesson({
   if (exercises === null) {
     return (
       <div className="space-y-4">
-        <BackToLevels />
+        <BackToLevels courseId={courseId} />
         <p className="text-slate-500">Loading lesson…</p>
       </div>
     );
@@ -80,13 +83,16 @@ export function Lesson({
           {score} of {exercises.length} correct
         </p>
         <div className="flex justify-center gap-3">
-          <Link href="/" className="rounded-lg bg-slate-100 px-4 py-2 font-semibold">
+          <Link
+            href={`/${courseId}`}
+            className="rounded-lg bg-slate-100 px-4 py-2 font-semibold"
+          >
             Back to levels
           </Link>
           <button
             type="button"
             onClick={() => {
-              const progress = loadProgress(learner?.id);
+              const progress = loadProgress(courseId, learner?.id);
               setExercises(
                 buildLesson(words, `${unitId}:${progress.xp}`, {
                   due: dueWords(progress),
@@ -109,7 +115,7 @@ export function Lesson({
     <div className="space-y-5">
       <div>
         <div className="flex items-baseline justify-between gap-3 text-sm text-slate-500">
-          <BackToLevels />
+          <BackToLevels courseId={courseId} />
           <span className="truncate">
             {levelLabel} · {title}
             {learner === null ? "" : ` · ${learner.name}`}
@@ -169,6 +175,7 @@ export function Lesson({
             Continue
           </button>
           <ReportWord
+            courseId={courseId}
             unitId={unitId}
             english={exercise.word.english}
             oromo={exercise.word.oromo}
@@ -179,9 +186,9 @@ export function Lesson({
   );
 }
 
-function BackToLevels() {
+function BackToLevels({ courseId }: { courseId: string }) {
   return (
-    <Link href="/" className="text-sm font-medium text-teal-700 hover:underline">
+    <Link href={`/${courseId}`} className="text-sm font-medium text-teal-700 hover:underline">
       ← Levels
     </Link>
   );

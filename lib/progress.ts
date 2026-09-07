@@ -2,8 +2,9 @@
 
 /**
  * Progress lives entirely in the browser: no accounts, no analytics, nothing
- * about a child leaves the device. Each profile gets its own localStorage key,
- * so siblings sharing a tablet keep separate XP, streaks and review schedules.
+ * about a child leaves the device. Each profile gets its own localStorage key
+ * per course, so siblings sharing a tablet keep separate XP, streaks and review
+ * schedules, and one child's languages do not share a streak either.
  */
 
 import { activeProfileId, progressKey } from "./profiles";
@@ -37,9 +38,11 @@ export const emptyProgress = (): Progress => ({
 
 const dayKey = (at: number): string => new Date(at).toISOString().slice(0, 10);
 
-export function loadProgress(profileId?: string): Progress {
+export function loadProgress(courseId: string, profileId?: string): Progress {
   if (typeof window === "undefined") return emptyProgress();
-  const stored = window.localStorage.getItem(progressKey(profileId ?? activeProfileId()));
+  const stored = window.localStorage.getItem(
+    progressKey(profileId ?? activeProfileId(), courseId),
+  );
   if (stored === null) return emptyProgress();
   try {
     const parsed = JSON.parse(stored) as Progress;
@@ -49,10 +52,10 @@ export function loadProgress(profileId?: string): Progress {
   }
 }
 
-export function saveProgress(progress: Progress, profileId?: string): void {
+export function saveProgress(progress: Progress, courseId: string, profileId?: string): void {
   if (typeof window === "undefined") return;
   window.localStorage.setItem(
-    progressKey(profileId ?? activeProfileId()),
+    progressKey(profileId ?? activeProfileId(), courseId),
     JSON.stringify(progress),
   );
 }
