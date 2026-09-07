@@ -10,7 +10,7 @@ wiktextract extraction of the English Wiktionary.
 - Any published derivative (app, website, exported word list) must credit Wiktionary /
   kaikki.org and remain under a compatible licence.
 - The attribution block is carried inside `data/lexicon.json` and each
-  `content/units/*.yaml` so it cannot be separated from the data.
+  `content/courses/*/units/*.yaml` so it cannot be separated from the data.
 
 ## Audio
 

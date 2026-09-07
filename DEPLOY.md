@@ -39,8 +39,7 @@ npm run build       # the same build Vercel runs
 npm start           # serves the built app on http://localhost:3000
 ```
 
-If `npm run build` fails, deployment will fail the same way — fix it here first. Note that
-`/record` deliberately does nothing in a production build (see step 6).
+If `npm run build` fails, deployment will fail the same way — fix it here first.
 
 ## 4. Test on the kids' devices over your Wi-Fi (no deploy needed)
 
@@ -64,8 +63,8 @@ For real use, deploy (step 5).
 
 ## 5. Deploy so it works without your computer
 
-The app is fully static apart from the dev-only recording route, so any host works. Vercel
-is the least effort.
+The app is fully static apart from the reports route, so any host works. Vercel is the least
+effort.
 
 ### Option A — Vercel dashboard (about two minutes, no CLI)
 
@@ -121,38 +120,21 @@ a profile per child from "Who is learning" at the top of the unit list: each pro
 own XP, streak and review schedule, and switching is one tap.
 
 The installed app has a real icon and works offline: a service worker (`public/sw.js`, only
-registered in production builds) caches the shell, the built JS/CSS and every audio clip that
-has been played once, so units you have already opened keep working on a plane or in the car.
+registered in production builds) caches the shell and the built JS/CSS, so units you have
+already opened keep working on a plane or in the car.
 Something never opened while online shows the "You are offline" page instead. Icons are
 committed under `public/icons`; regenerate them with `scripts/make-icons.sh` (needs
 ImageMagick + librsvg) after editing `assets/icon.svg`.
 
-## 7. Recording missing pronunciations (local only)
+## 7. Pronunciation recording (a later phase)
 
-About half the words have no Wikimedia clip. To add your own voice:
-
-```bash
-npm run dev
-```
-
-Open http://localhost:3000/record, type who is speaking, then Record / Stop and save per
-word. Each take is written to `public/audio/recorded/<word>.mp3` with a row in
-`content/recordings.json` — both are files in the repo, so commit and push them and the
-next deploy picks them up:
-
-```bash
-git add public/audio/recorded content/recordings.json
-git commit -m "Add recordings for <words>"
-git push
-```
-
-Install `ffmpeg` first (`brew install ffmpeg`, or `apt install ffmpeg`) so takes are
-transcoded to mp3 that iOS can play. This page only works locally, and the API refuses to
-run in production, because a deployed instance has a read-only filesystem.
+Lessons are text-only today: no audio questions and nothing to type. The in-browser recorder
+and the dictionary search are finished but parked in `app/_future/`, which Next.js does not
+route, so neither is reachable in a build. Bringing one back is a move out of that folder.
 
 ## 8. Correcting words
 
-Never edit `content/units/*.yaml` by hand — it is regenerated. Put verdicts in
+Never edit `content/courses/*/units/*.yaml` by hand — it is regenerated. Put verdicts in
 `content/overrides.yaml`:
 
 ```yaml
@@ -167,7 +149,6 @@ Then:
 
 ```bash
 npm run draft:units     # applies overrides, marks those words verified
-npm run mirror:audio    # re-fetches audio for corrected spellings
 npm run typecheck && npm run lint && npm run build
 ```
 
@@ -181,6 +162,4 @@ dictionary (~92 MB download) and are not part of normal work.
 | `next: not found` | `npm install` in the repo directory |
 | Build fails on Vercel but not locally | Node version — set Node 20+ in Project → Settings → General |
 | Phone can't reach `http://192.168.…:3000` | Different Wi-Fi network, or the laptop firewall is blocking the port |
-| No audio on a word | That word has no clip yet; record it (step 7) |
 | Progress won't reset | Clear the site's local storage, or use a private window |
-| `/record` shows only "run npm run dev" | You are on a deployed build; recording is local-only by design |

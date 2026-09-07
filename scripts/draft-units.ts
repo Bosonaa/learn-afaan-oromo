@@ -10,9 +10,12 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import { parse, stringify } from "yaml";
-import { UNITS, type UnitSpec } from "../content/curriculum.js";
-import { CONTENT_DIR, LEXICON_PATH, OVERRIDES_PATH, REVIEW_DIR } from "./config.js";
+import { UNITS, type UnitSpec } from "../content/courses/oromo/curriculum.js";
+import { courseUnitsDir, LEXICON_PATH, OVERRIDES_PATH, REVIEW_DIR } from "./config.js";
 import type { Lexicon, LexiconEntry } from "./build-lexicon.js";
+
+/** The curriculum imported above is this course's; other courses get their own script run. */
+const COURSE_ID = "oromo";
 
 type Confidence = "high" | "medium" | "low" | "none";
 
@@ -184,7 +187,8 @@ function csvCell(value: string): string {
 async function main(): Promise<void> {
   const lexicon = JSON.parse(await readFile(LEXICON_PATH, "utf8")) as Lexicon;
   const overrides = await loadOverrides();
-  await mkdir(resolve(CONTENT_DIR, "units"), { recursive: true });
+  const unitsDir = courseUnitsDir(COURSE_ID);
+  await mkdir(unitsDir, { recursive: true });
   await mkdir(REVIEW_DIR, { recursive: true });
 
   const header = [
@@ -246,7 +250,7 @@ async function main(): Promise<void> {
     const unitReviewPath = resolve(REVIEW_DIR, `${unit.id}.csv`);
     await writeFile(unitReviewPath, `${rows.join("\n")}\n`, "utf8");
 
-    const path = resolve(CONTENT_DIR, "units", `${unit.id}.yaml`);
+    const path = resolve(unitsDir, `${unit.id}.yaml`);
     await writeFile(
       path,
       stringify({

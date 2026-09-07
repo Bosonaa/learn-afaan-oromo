@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import type { Word } from "@/lib/content";
 import { buildLesson, isCorrect, type Exercise } from "@/lib/exercises";
 import { loadProfiles, type Profile } from "@/lib/profiles";
@@ -13,20 +13,22 @@ const LESSON_LENGTH = 10;
 type Verdict = { correct: boolean; expected: string } | null;
 
 export function Lesson({
+  courseId,
   unitId,
   title,
+  levelLabel,
   words,
 }: {
+  courseId: string;
   unitId: string;
   title: string;
+  levelLabel: string;
   words: Word[];
 }) {
   const [exercises, setExercises] = useState<Exercise[] | null>(null);
   const [index, setIndex] = useState(0);
-  const [typed, setTyped] = useState("");
   const [verdict, setVerdict] = useState<Verdict>(null);
   const [score, setScore] = useState(0);
-  const audio = useRef<HTMLAudioElement | null>(null);
   // Pinned at mount: whoever started the lesson is credited with it, even if
   // the profile is switched in another tab.
   const [learner, setLearner] = useState<Profile | null>(null);
@@ -35,28 +37,16 @@ export function Lesson({
   useEffect(() => {
     const { profiles, activeId } = loadProfiles();
     setLearner(profiles.find((profile) => profile.id === activeId) ?? null);
-    const progress = loadProgress(activeId);
+    const progress = loadProgress(courseId, activeId);
     setExercises(
       buildLesson(words, `${unitId}:${progress.xp}`, {
         due: dueWords(progress),
         length: LESSON_LENGTH,
       }),
     );
-  }, [unitId, words]);
+  }, [courseId, unitId, words]);
 
   const exercise = exercises?.[index] ?? null;
-
-  const play = useCallback(() => {
-    if (exercise?.word.audio == null) return;
-    audio.current?.pause();
-    const player = new Audio(exercise.word.audio);
-    audio.current = player;
-    void player.play().catch(() => undefined);
-  }, [exercise]);
-
-  useEffect(() => {
-    if (exercise?.kind === "listen") play();
-  }, [exercise, play]);
 
   const submit = (response: string): void => {
     if (exercise === null || verdict !== null) return;
@@ -65,21 +55,21 @@ export function Lesson({
     if (correct) setScore((current) => current + 1);
     const profileId = learner?.id;
     saveProgress(
-      recordAnswer(loadProgress(profileId), exercise.word.oromo, correct),
+      recordAnswer(loadProgress(courseId, profileId), exercise.word.oromo, correct),
+      courseId,
       profileId,
     );
   };
 
   const next = (): void => {
     setVerdict(null);
-    setTyped("");
     setIndex((current) => current + 1);
   };
 
   if (exercises === null) {
     return (
       <div className="space-y-4">
-        <BackToUnits />
+        <BackToLevels courseId={courseId} />
         <p className="text-slate-500">Loading lesson…</p>
       </div>
     );
@@ -93,13 +83,16 @@ export function Lesson({
           {score} of {exercises.length} correct
         </p>
         <div className="flex justify-center gap-3">
-          <Link href="/" className="rounded-lg bg-slate-100 px-4 py-2 font-semibold">
-            Back to units
+          <Link
+            href={`/${courseId}`}
+            className="rounded-lg bg-slate-100 px-4 py-2 font-semibold"
+          >
+            Back to levels
           </Link>
           <button
             type="button"
             onClick={() => {
-              const progress = loadProgress(learner?.id);
+              const progress = loadProgress(courseId, learner?.id);
               setExercises(
                 buildLesson(words, `${unitId}:${progress.xp}`, {
                   due: dueWords(progress),
@@ -122,9 +115,9 @@ export function Lesson({
     <div className="space-y-5">
       <div>
         <div className="flex items-baseline justify-between gap-3 text-sm text-slate-500">
-          <BackToUnits />
+          <BackToLevels courseId={courseId} />
           <span className="truncate">
-            {title}
+            {levelLabel} · {title}
             {learner === null ? "" : ` · ${learner.name}`}
           </span>
           <span className="whitespace-nowrap">
@@ -144,67 +137,24 @@ export function Lesson({
           {promptLabel(exercise)}
         </p>
 
-        {exercise.kind === "listen" ? (
-          <button
-            type="button"
-            onClick={play}
-            aria-label="Play the word again"
-            className="mt-4 rounded-full bg-teal-600 px-6 py-4 text-2xl text-white"
-          >
-            ▶︎ Listen
-          </button>
-        ) : (
-          <p className="mt-2 text-3xl font-bold" data-testid="prompt">
-            {exercise.prompt}
-          </p>
-        )}
+        <p className="mt-2 text-3xl font-bold" data-testid="prompt">
+          {exercise.prompt}
+        </p>
 
-        {exercise.kind === "om-to-en" && exercise.word.ipa !== null ? (
-          <p className="mt-1 text-slate-500">{exercise.word.ipa}</p>
-        ) : null}
-
-        {exercise.kind === "spell" ? (
-          <form
-            className="mt-5 flex gap-2"
-            onSubmit={(event) => {
-              event.preventDefault();
-              submit(typed);
-            }}
-          >
-            <input
-              value={typed}
-              onChange={(event) => setTyped(event.target.value)}
-              disabled={verdict !== null}
-              autoFocus
-              autoComplete="off"
-              placeholder="Type it in Afaan Oromo"
-              aria-label="Your answer"
-              className="flex-1 rounded-lg border border-slate-300 px-3 py-2 text-lg"
-            />
-            <button
-              type="submit"
-              disabled={verdict !== null || typed.trim() === ""}
-              className="rounded-lg bg-teal-600 px-4 py-2 font-semibold text-white disabled:opacity-40"
-            >
-              Check
-            </button>
-          </form>
-        ) : (
-          <ul className="mt-5 grid gap-2 sm:grid-cols-2">
-            {exercise.choices.map((choice) => (
-              <li key={choice}>
-                <button
-                  type="button"
-                  onClick={() => submit(choice)}
-                  disabled={verdict !== null}
-                  className={choiceClass(choice, exercise, verdict)}
-                >
-                  {choice}
-                </button>
-              </li>
-            ))}
-          </ul>
-        )}
+        <ul className="mt-5 grid gap-2 sm:grid-cols-2">
+          {exercise.choices.map((choice) => (
+            <li key={choice}>
+              <button
+                type="button"
+                onClick={() => submit(choice)}
+                disabled={verdict !== null}
+                className={choiceClass(choice, exercise, verdict)}
+              >
+                {choice}
+              </button>
+            </li>
+          ))}
+        </ul>
       </div>
 
       {verdict !== null ? (
@@ -217,11 +167,6 @@ export function Lesson({
           <p className="font-semibold">
             {verdict.correct ? "Sirrii! (Correct)" : `Answer: ${verdict.expected}`}
           </p>
-          {exercise.word.audio !== null ? (
-            <button type="button" onClick={play} className="mt-1 text-sm underline">
-              Hear it
-            </button>
-          ) : null}
           <button
             type="button"
             onClick={next}
@@ -230,6 +175,7 @@ export function Lesson({
             Continue
           </button>
           <ReportWord
+            courseId={courseId}
             unitId={unitId}
             english={exercise.word.english}
             oromo={exercise.word.oromo}
@@ -240,10 +186,10 @@ export function Lesson({
   );
 }
 
-function BackToUnits() {
+function BackToLevels({ courseId }: { courseId: string }) {
   return (
-    <Link href="/" className="text-sm font-medium text-teal-700 hover:underline">
-      ← Units
+    <Link href={`/${courseId}`} className="text-sm font-medium text-teal-700 hover:underline">
+      ← Levels
     </Link>
   );
 }
@@ -254,10 +200,6 @@ function promptLabel(exercise: Exercise): string {
       return "Which one means…";
     case "om-to-en":
       return "What does this mean?";
-    case "listen":
-      return "Which word did you hear?";
-    case "spell":
-      return "Write this in Afaan Oromo";
   }
 }
 

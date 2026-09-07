@@ -23,10 +23,12 @@ function reported(): string[] {
  * happens. Rendered only when the deployment has reporting configured.
  */
 export function ReportWord({
+  courseId,
   unitId,
   english,
   oromo,
 }: {
+  courseId: string;
   unitId: string;
   english: string;
   oromo: string;
@@ -56,7 +58,7 @@ export function ReportWord({
 
   if (state === "hidden") return null;
 
-  if (reported().includes(`${unitId}:${english}`) || state === "sent") {
+  if (reported().includes(`${courseId}:${unitId}:${english}`) || state === "sent") {
     return <p className="mt-3 text-xs text-slate-500">Thanks — reported for review.</p>;
   }
 
@@ -88,13 +90,13 @@ export function ReportWord({
         void fetch("/api/reports", {
           method: "POST",
           headers: { "content-type": "application/json" },
-          body: JSON.stringify({ unitId, english, oromo, category, note }),
+          body: JSON.stringify({ courseId, unitId, english, oromo, category, note }),
         })
           .then((response) => {
             if (!response.ok) throw new Error("report rejected");
             window.localStorage.setItem(
               REPORTED_KEY,
-              JSON.stringify([...reported(), `${unitId}:${english}`]),
+              JSON.stringify([...reported(), `${courseId}:${unitId}:${english}`]),
             );
             setState("sent");
           })
