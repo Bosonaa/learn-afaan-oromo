@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import { loadProfiles, type Profiles } from "@/lib/profiles";
 import { dueWords, emptyProgress, loadProgress, unitMastery, type Progress } from "@/lib/progress";
-import { ProfileSwitcher } from "./profile-switcher";
+import { ProfileSwitcher } from "@/app/profile-switcher";
 
 export interface UnitSummary {
   id: string;
@@ -22,7 +22,15 @@ export interface LevelSummary {
   units: UnitSummary[];
 }
 
-export function LevelList({ levels }: { levels: LevelSummary[] }) {
+export function LevelList({
+  courseId,
+  courseName,
+  levels,
+}: {
+  courseId: string;
+  courseName: string;
+  levels: LevelSummary[];
+}) {
   // Progress is client-only, so render the server view first and fill it in after mount.
   const [progress, setProgress] = useState<Progress>(emptyProgress);
   const [profiles, setProfiles] = useState<Profiles | null>(null);
@@ -31,14 +39,14 @@ export function LevelList({ levels }: { levels: LevelSummary[] }) {
   useEffect(() => {
     const stored = loadProfiles();
     setProfiles(stored);
-    const loaded = loadProgress(stored.activeId);
+    const loaded = loadProgress(courseId, stored.activeId);
     setProgress(loaded);
     setOpenLevel(currentLevel(levels, loaded));
-  }, [levels]);
+  }, [courseId, levels]);
 
   const switchProfiles = (next: Profiles): void => {
     setProfiles(next);
-    const loaded = loadProgress(next.activeId);
+    const loaded = loadProgress(courseId, next.activeId);
     setProgress(loaded);
     setOpenLevel(currentLevel(levels, loaded));
   };
@@ -51,6 +59,13 @@ export function LevelList({ levels }: { levels: LevelSummary[] }) {
 
   return (
     <div className="space-y-6">
+      <div className="flex items-baseline justify-between gap-3">
+        <h1 className="text-2xl font-bold">{courseName}</h1>
+        <Link href="/" className="text-sm font-medium text-teal-700 hover:underline">
+          Change language
+        </Link>
+      </div>
+
       {profiles === null ? null : (
         <ProfileSwitcher profiles={profiles} onChange={switchProfiles} />
       )}
@@ -106,7 +121,7 @@ export function LevelList({ levels }: { levels: LevelSummary[] }) {
                     return (
                       <li key={unit.id}>
                         <Link
-                          href={`/learn/${unit.id}`}
+                          href={`/${courseId}/learn/${unit.id}`}
                           className="flex items-center gap-3 px-4 py-3 transition hover:bg-slate-50"
                         >
                           <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-teal-50 text-sm font-semibold text-teal-700">

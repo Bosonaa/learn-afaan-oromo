@@ -7,6 +7,10 @@ export const REPO_ROOT = resolve(scriptDir, "..");
 export const DATA_DIR = resolve(REPO_ROOT, "data");
 export const CONTENT_DIR = resolve(REPO_ROOT, "content");
 export const REVIEW_DIR = resolve(REPO_ROOT, "review");
+
+/** Each course keeps its units under `content/courses/<id>/units`. */
+export const courseUnitsDir = (courseId: string): string =>
+  resolve(CONTENT_DIR, "courses", courseId, "units");
 export const OVERRIDES_PATH = resolve(CONTENT_DIR, "overrides.yaml");
 
 export const PUBLIC_DIR = resolve(REPO_ROOT, "public");

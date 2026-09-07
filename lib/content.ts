@@ -1,6 +1,7 @@
 import { readFile, readdir } from "node:fs/promises";
 import { resolve } from "node:path";
 import { parse } from "yaml";
+import { courseById, type Course } from "./courses";
 import { levelOf, levelTitle } from "./levels";
 import { mirroredClips, slugify } from "./audio";
 import { loadRecordings } from "./recordings";
@@ -52,16 +53,18 @@ interface RawUnit {
   words: RawWord[];
 }
 
-const CONTENT_ROOT = resolve(process.cwd(), "content", "units");
+const unitsRoot = (courseId: string): string =>
+  resolve(process.cwd(), "content", "courses", courseId, "units");
 
-export async function loadUnits(): Promise<Unit[]> {
+export async function loadUnits(courseId: string): Promise<Unit[]> {
+  const root = unitsRoot(courseId);
   const clips = await mirroredClips();
   const recorded = new Map((await loadRecordings()).map((rec) => [rec.oromo, rec.file]));
-  const files = (await readdir(CONTENT_ROOT)).filter((name) => name.endsWith(".yaml"));
+  const files = (await readdir(root)).filter((name) => name.endsWith(".yaml"));
 
   const units = await Promise.all(
     files.map(async (name): Promise<Unit> => {
-      const raw = parse(await readFile(resolve(CONTENT_ROOT, name), "utf8")) as RawUnit;
+      const raw = parse(await readFile(resolve(root, name), "utf8")) as RawUnit;
       return {
         id: raw.id,
         order: raw.order,
@@ -98,14 +101,17 @@ export async function loadUnits(): Promise<Unit[]> {
   return units.sort((a, b) => a.order - b.order);
 }
 
-export async function loadUnit(unitId: string): Promise<Unit | null> {
-  const units = await loadUnits();
+export async function loadUnit(courseId: string, unitId: string): Promise<Unit | null> {
+  const units = await loadUnits(courseId);
   return units.find((unit) => unit.id === unitId) ?? null;
 }
 
-export async function loadLevels(): Promise<Level[]> {
+export async function loadLevels(course: Course | string): Promise<Level[]> {
+  const resolved = typeof course === "string" ? courseById(course) : course;
+  if (resolved === null) return [];
+
   const byLevel = new Map<number, Unit[]>();
-  for (const unit of await loadUnits()) {
+  for (const unit of await loadUnits(resolved.id)) {
     const level = levelOf(unit.order);
     const existing = byLevel.get(level);
     if (existing === undefined) byLevel.set(level, [unit]);
@@ -114,5 +120,5 @@ export async function loadLevels(): Promise<Level[]> {
 
   return [...byLevel.entries()]
     .sort(([a], [b]) => a - b)
-    .map(([order, units]) => ({ order, title: levelTitle(order), units }));
+    .map(([order, units]) => ({ order, title: levelTitle(resolved, order), units }));
 }
