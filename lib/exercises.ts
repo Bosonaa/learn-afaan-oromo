@@ -1,17 +1,18 @@
 import type { Word } from "./content";
 
-export type ExerciseKind = "en-to-om" | "om-to-en" | "listen" | "spell";
+/**
+ * Both directions are multiple choice. Answers are never typed and audio is a
+ * future phase, so there is no listening or spelling kind.
+ */
+export type ExerciseKind = "en-to-om" | "om-to-en";
 
 export interface Exercise {
   id: string;
   kind: ExerciseKind;
   word: Word;
   prompt: string;
-  /** Present for multiple-choice kinds only. */
   choices: string[];
   answer: string;
-  /** Other spellings a reviewer marked as acceptable for a typed answer. */
-  accepted: string[];
 }
 
 /** Seeded so a lesson is stable across re-renders and identical on server and client. */
@@ -55,14 +56,6 @@ function distractors(
   return shuffle([correct, ...options], random);
 }
 
-function kindsFor(word: Word, random: () => number): ExerciseKind[] {
-  const kinds: ExerciseKind[] = ["en-to-om", "om-to-en"];
-  if (word.audio !== null) kinds.push("listen");
-  // Typing is the hardest kind; keep it to a minority of prompts.
-  if (random() < 0.4) kinds.push("spell");
-  return kinds;
-}
-
 function build(word: Word, kind: ExerciseKind, unit: Word[], random: () => number): Exercise {
   const id = `${word.oromo}:${kind}`;
   switch (kind) {
@@ -79,7 +72,6 @@ function build(word: Word, kind: ExerciseKind, unit: Word[], random: () => numbe
           3,
         ),
         answer: word.oromo,
-        accepted: [],
       };
     case "om-to-en":
       return {
@@ -94,32 +86,6 @@ function build(word: Word, kind: ExerciseKind, unit: Word[], random: () => numbe
           3,
         ),
         answer: word.english,
-        accepted: [],
-      };
-    case "listen":
-      return {
-        id,
-        kind,
-        word,
-        prompt: word.oromo,
-        choices: distractors(
-          word.oromo,
-          unit.map((other) => other.oromo),
-          random,
-          3,
-        ),
-        answer: word.oromo,
-        accepted: [],
-      };
-    case "spell":
-      return {
-        id,
-        kind,
-        word,
-        prompt: word.english,
-        choices: [],
-        answer: word.oromo,
-        accepted: word.alternates,
       };
   }
 }
@@ -152,19 +118,11 @@ export function buildLesson(
 
   const selected = [...dueWords, ...rest].slice(0, length);
   return selected.map((word) => {
-    const kinds = kindsFor(word, random);
-    const kind = kinds[Math.floor(random() * kinds.length)] ?? "en-to-om";
+    const kind: ExerciseKind = random() < 0.5 ? "en-to-om" : "om-to-en";
     return build(word, kind, unit, random);
   });
 }
 
 export function isCorrect(exercise: Exercise, response: string): boolean {
-  const normalize = (value: string): string =>
-    value
-      .trim()
-      .toLowerCase()
-      .replace(/['’`]/g, "'")
-      .replace(/\s+/g, " ");
-  const accepted = [exercise.answer, ...exercise.accepted].map(normalize);
-  return accepted.includes(normalize(response));
+  return response === exercise.answer;
 }
