@@ -34,6 +34,11 @@ Unit YAML and mirrored audio are committed, so the app runs without regenerating
 Progress (XP, streak, spaced-repetition schedule) is stored in `localStorage` only: no
 accounts, no server, no analytics, nothing about a child leaves the device.
 
+Units are grouped ten at a time into **levels** (`lib/levels.ts`), so the home screen is a
+short list of levels that opens onto the units inside one. Grouping follows unit order, which
+is the teaching order authored in `content/curriculum.ts`, so a new unit joins the level its
+order falls in and a level needs only a title.
+
 Lessons are 10 prompts, all multiple choice, in one of two directions — English→Oromo or
 Oromo→English. Nothing is typed and nothing is played: there are no free-form answers and no
 audio questions. Words due for review lead the lesson; a miss resets its interval so it

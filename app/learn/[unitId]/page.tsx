@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { loadUnit, loadUnits } from "@/lib/content";
+import { loadLevels, loadUnits } from "@/lib/content";
 import { Lesson } from "./lesson";
 
 export async function generateStaticParams(): Promise<{ unitId: string }[]> {
@@ -8,7 +8,19 @@ export async function generateStaticParams(): Promise<{ unitId: string }[]> {
 }
 
 export default async function LearnPage({ params }: { params: { unitId: string } }) {
-  const unit = await loadUnit(params.unitId);
-  if (unit === null) notFound();
-  return <Lesson unitId={unit.id} title={unit.title} words={unit.words} />;
+  const levels = await loadLevels();
+  const level = levels.find((candidate) =>
+    candidate.units.some((unit) => unit.id === params.unitId),
+  );
+  const position = level?.units.findIndex((unit) => unit.id === params.unitId) ?? -1;
+  const unit = level?.units[position];
+  if (level === undefined || unit === undefined) notFound();
+  return (
+    <Lesson
+      unitId={unit.id}
+      title={unit.title}
+      levelLabel={`Level ${level.order} · Unit ${position + 1}`}
+      words={unit.words}
+    />
+  );
 }
