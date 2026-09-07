@@ -1,0 +1,191 @@
+id: unit-78-directions
+order: 78
+title: Roads & directions
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: tunnel
+    pos: noun
+    oromo: hulluuqquu
+    alternates: []
+    ipa: /ˈhʊlːuːkʼːúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: tunnel
+    verified: false
+  - english: traffic
+    pos: noun
+    oromo: tiraafikii
+    alternates:
+      - ibsaa tiraafikaa
+    ipa: /ˈtɪrɑːfɪkíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: traffic
+    verified: false
+  - english: pole
+    pos: noun
+    oromo: michichila
+    alternates:
+      - dongora
+      - helichoo
+      - horduu
+      - utubachuu
+    ipa: /ˈmɪt͡ʃɪt͡ʃɪlɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: pole
+    verified: false
+  - english: column
+    pos: noun
+    oromo: qarxiyyaa
+    alternates:
+      - tarjaa
+    ipa: /ˈkʼɐrtʼɪjːɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: column
+    verified: false
+  - english: diagonal
+    pos: noun
+    oromo: shaffaxa
+    alternates:
+      - habalaka
+    ipa: /ˈʃɐfːɐtʼɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: act of being denying,
+    verified: false
+  - english: parallel
+    pos: noun
+    oromo: cenaayii
+    alternates: []
+    ipa: /ˈt͡ʃʼɛnɑːjíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8f/Om-cenaayii.ogg/Om-cenaayii.ogg.mp3
+    confidence: high
+    glossSeen: parallel
+    verified: false
+  - english: dimension
+    pos: noun
+    oromo: akkamii
+    alternates: []
+    ipa: /ɐkːɐmíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1e/Om-akkamii.ogg/Om-akkamii.ogg.mp3
+    confidence: high
+    glossSeen: dimension
+    verified: false
+  - english: threshold
+    pos: noun
+    oromo: afaala
+    alternates: []
+    ipa: /ɐfɑːlɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1c/Om-afaala.ogg/Om-afaala.ogg.mp3
+    confidence: high
+    glossSeen: threshold
+    verified: false
+  - english: gutter
+    pos: noun
+    oromo: fincoo
+    alternates: []
+    ipa: /ˈfɪnt͡ʃʼóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e9/Om-fincoo.ogg/Om-fincoo.ogg.mp3
+    confidence: high
+    glossSeen: eaves, gutter
+    verified: false
+  - english: hinge
+    pos: noun
+    oromo: hokkolloo
+    alternates:
+      - aguura
+    ipa: /ˈhɔkːɔlːóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: hinge
+    verified: false
+  - english: opposite
+    pos: noun
+    oromo: faallaa
+    alternates:
+      - habalaa
+      - sanyoo
+      - jecha faallaa
+    ipa: /ˈfɑːlːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/42/Om-faallaa.ogg/Om-faallaa.ogg.mp3
+    confidence: high
+    glossSeen: opposite
+    verified: false
+  - english: underneath
+    pos: noun
+    oromo: garajalee
+    alternates:
+      - garjalee
+      - carabamuu
+      - jalasoquu
+      - jalagadhiisuu
+    ipa: /ˈɡɐrɐd͡ʒɐléː/
+    audioUrl: null
+    confidence: high
+    glossSeen: underneath (beneath)
+    verified: false
+  - english: range
+    pos: noun
+    oromo: lafa dheedichaa
+    alternates:
+      - kaleeffama
+      - morgoga
+      - roggee
+    ipa: /ˈlɐfɐ ᶑeːdɪt͡ʃɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: range
+    verified: false
+  - english: zone
+    pos: noun
+    oromo: zoonii
+    alternates:
+      - baddadaroolee
+      - baqqoo
+      - basaqaa
+      - goree
+    ipa: /ˈzoːníː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/02/Om-zoonii.ogg/Om-zoonii.ogg.mp3
+    confidence: high
+    glossSeen: zone
+    verified: false
+  - english: section
+    pos: noun
+    oromo: daadiyyaa
+    alternates: []
+    ipa: /ˈdɑːdɪjːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9c/Om-daadiyyaa.ogg/Om-daadiyyaa.ogg.mp3
+    confidence: high
+    glossSeen: department, section
+    verified: false
+  - english: placement
+    pos: noun
+    oromo: ramadama
+    alternates: []
+    ipa: /ˈrɐmɐdɐmɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: placement, allocation
+    verified: false
+  - english: site
+    pos: noun
+    oromo: bakkallaa
+    alternates:
+      - eddoola
+      - iddoola
+      - bakka
+      - iddoola saphaphuu
+    ipa: /ˈbɐkːɐlːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a6/Om-bakkallaa.ogg/Om-bakkallaa.ogg.mp3
+    confidence: medium
+    glossSeen: site
+    verified: false

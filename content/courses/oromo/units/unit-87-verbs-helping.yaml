@@ -1,0 +1,217 @@
+id: unit-87-verbs-helping
+order: 87
+title: "Verbs: helping & caring"
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: protect
+    pos: verb
+    oromo: hayaachuu
+    alternates:
+      - eeguu
+      - dalasuu
+      - irraa eeguu
+      - egsisuu
+    ipa: /ˈhɐjɑːt͡ʃúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: to protect
+    verified: false
+  - english: defend
+    pos: verb
+    oromo: qoluu
+    alternates:
+      - lolachuu
+    ipa: /ˈkʼɔlúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: defend, hit back the thrown club with one's own club
+    verified: false
+  - english: save
+    pos: verb
+    oromo: qabachuu
+    alternates:
+      - keeyyachuu
+      - hambisuu
+      - qusii
+      - ambifachuu
+    ipa: /ˈkʼɐbɐt͡ʃúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: form or develop
+    verified: false
+  - english: feed
+    pos: verb
+    oromo: nyaachisuu
+    alternates:
+      - soorachuu
+      - dangaloo
+      - waga'uu
+      - bishaan dhuksisuu
+    ipa: /ˈɲɑːt͡ʃɪsúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: feed
+    verified: false
+  - english: encourage
+    pos: verb
+    oromo: onneessuu
+    alternates:
+      - onnachiisuu
+      - onnoomsuu
+      - gootomsuu
+      - waljabeessuu
+    ipa: /ɔnːeːsːúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: to encourage
+    verified: false
+  - english: support
+    pos: verb
+    oromo: deeggeruu
+    alternates:
+      - deeggarsa
+      - utubuu
+      - hirkisa
+      - deeggera
+    ipa: /ˈdeːɡːɛrúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/14/Om-deeggeruu.ogg/Om-deeggeruu.ogg.mp3
+    confidence: medium
+    glossSeen: to help/support
+    verified: false
+  - english: mind
+    pos: verb
+    oromo: qaroo
+    alternates:
+      - seesuu
+      - kutachuu
+      - qalbii
+    ipa: /ˈkʼɐróː/
+    audioUrl: null
+    confidence: high
+    glossSeen: one yoke of oxen as a team
+    verified: false
+  - english: accompany
+    pos: verb
+    oromo: waalessuu
+    alternates:
+      - tumsuu
+      - amaamota
+      - hamaamota
+    ipa: /ˈwɑːlɛsːúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: accompany
+    verified: false
+  - english: forgive
+    pos: verb
+    oromo: atoomuu
+    alternates:
+      - haagii baasuu
+      - aagii tufuu
+    ipa: /ɐtoːmúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6f/Om-atoomuu.ogg/Om-atoomuu.ogg.mp3
+    confidence: high
+    glossSeen: forgive, excuse
+    verified: false
+  - english: assist
+    pos: verb
+    oromo: gargaarsisuu
+    alternates:
+      - tumsuu
+      - gumaawuu
+      - deessisuu
+    ipa: /ˈɡɐrɡɑːrsɪsúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: initiate to help/ assist
+    verified: false
+  - english: aid
+    pos: verb
+    oromo: hirphuu
+    alternates:
+      - nafaquu
+      - gargaaruu
+      - deeggera
+      - hirpha
+    ipa: /ˈhɪrpʼúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: aid/ help/ upport
+    verified: false
+  - english: nurture
+    pos: verb
+    oromo: dagaagsuu
+    alternates: []
+    ipa: /ˈdɐɡɑːɡsúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1a/Om-dagaagsuu.ogg/Om-dagaagsuu.ogg.mp3
+    confidence: high
+    glossSeen: nourish, nurture, make to grow
+    verified: false
+  - english: soothe
+    pos: verb
+    oromo: abaabbaluu
+    alternates:
+      - sossobuu
+      - abaabbala
+      - hurursuu
+    ipa: /ɐbɑːbːɐlúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a1/Om-abaabbaluu.ogg/Om-abaabbaluu.ogg.mp3
+    confidence: medium
+    glossSeen: to soothe, to coax
+    verified: false
+  - english: tend
+    pos: verb
+    oromo: ittisiisuu
+    alternates:
+      - badadachuu
+      - tiksiisuu
+      - hiribbii
+    ipa: /ɪtːɪsiːsúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: cause to make guard, tend
+    verified: false
+  - english: supervise
+    pos: verb
+    oromo: to'achuu
+    alternates: []
+    ipa: /ˈtɔʔɐt͡ʃúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: control/supervise/audit
+    verified: false
+  - english: uphold
+    pos: verb
+    oromo: utubuu
+    alternates: []
+    ipa: /ʊtʊbúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: support, uphold, uplift
+    verified: false
+  - english: obey
+    pos: verb
+    oromo: abboomamuu
+    alternates:
+      - sarmuu
+    ipa: /ɐbːoːmɐmúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a5/Om-abboomamuu.ogg/Om-abboomamuu.ogg.mp3
+    confidence: high
+    glossSeen: to obey
+    verified: false
+  - english: honour
+    pos: verb
+    oromo: ulfeessuu
+    alternates: []
+    ipa: /ʊlfeːsːúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: to honour
+    verified: false

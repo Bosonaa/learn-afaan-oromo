@@ -1,0 +1,246 @@
+id: unit-76-machines
+order: 76
+title: Machines & vehicles
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: taxi
+    pos: noun
+    oromo: taaksii
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: taxi
+    verified: false
+  - english: tractor
+    pos: noun
+    oromo: tiraaktari
+    alternates:
+      - makiinaa qonnaa
+    ipa: /ˈtɪrɑːktɐrɪ/
+    audioUrl: null
+    confidence: high
+    glossSeen: tractor
+    verified: false
+  - english: airplane
+    pos: noun
+    oromo: roophilaa
+    alternates:
+      - xiyyaara
+      - baabur baallee
+    ipa: /ˈroːpʼɪlɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: airplane
+    verified: false
+  - english: tire
+    pos: noun
+    oromo: gommaa
+    alternates:
+      - dadhabuu
+      - hiffisuu
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: tire (for a wheel)
+    verified: false
+  - english: brake
+    pos: noun
+    oromo: fireenii
+    alternates: []
+    ipa: /ˈfɪreːníː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8f/Om-fireenii.ogg/Om-fireenii.ogg.mp3
+    confidence: high
+    glossSeen: brake
+    verified: false
+  - english: battery
+    pos: noun
+    oromo: tiriikaa
+    alternates:
+      - dhagaa baatrii
+    ipa: /ˈtɪriːkɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: battery
+    verified: false
+  - english: generator
+    pos: noun
+    oromo: maddisaa
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: generator (of electricity)
+    verified: false
+  - english: machine
+    pos: noun
+    oromo: maashinii
+    alternates:
+      - zanyaa
+      - quncifu
+      - makiinaa hodhaa
+      - meeshaa madaalaa
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: machine
+    verified: false
+  - english: fan
+    pos: noun
+    oromo: afarsaa
+    alternates:
+      - hafarsaa
+      - afarsuu
+      - hafarsuu
+      - derguu
+    ipa: /ɐfɐrsɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a6/Om-afarsaa.ogg/Om-afarsaa.ogg.mp3
+    confidence: medium
+    glossSeen: fan
+    verified: false
+  - english: refrigerator
+    pos: noun
+    oromo: diilallessaa
+    alternates: []
+    ipa: /ˈdiːlɐlːɛsːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f7/Om-diilallessaa.ogg/Om-diilallessaa.ogg.mp3
+    confidence: high
+    glossSeen: refrigerator
+    verified: false
+  - english: elevator
+    pos: noun
+    oromo: meggoo
+    alternates: []
+    ipa: /ˈmɛɡːóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: elevator
+    verified: false
+  - english: automobile
+    pos: noun
+    oromo: motobilii
+    alternates:
+      - otomobilii
+    ipa: /ˈmɔtɔbɪlíː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: automobile
+    verified: false
+  - english: dynamo
+    pos: noun
+    oromo: dinaamoo
+    alternates: []
+    ipa: /ˈdɪnɑːmóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/dd/Om-dinaamoo.ogg/Om-dinaamoo.ogg.mp3
+    confidence: high
+    glossSeen: dynamo
+    verified: false
+  - english: propeller
+    pos: noun
+    oromo: balaambaleettii
+    alternates: []
+    ipa: /ˈbɐlɑːmbɐleːtːíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a7/Om-balaambaleettii.ogg/Om-balaambaleettii.ogg.mp3
+    confidence: high
+    glossSeen: propeller
+    verified: false
+  - english: pedal
+    pos: noun
+    oromo: hirkoo mallaa
+    alternates:
+      - ejjannoo
+    ipa: /ˈhɪrkoː mɐlːɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: pedal
+    verified: false
+  - english: cable
+    pos: noun
+    oromo: fufoo
+    alternates: []
+    ipa: /ˈfʊfóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ec/Om-fufoo.ogg/Om-fufoo.ogg.mp3
+    confidence: high
+    glossSeen: cable
+    verified: false
+  - english: mixer
+    pos: noun
+    oromo: gaashartuu
+    alternates: []
+    ipa: /ˈɡɑːʃɐrtúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: mixer
+    verified: false
+  - english: heater
+    pos: noun
+    oromo: o'iftuu
+    alternates: []
+    ipa: /ɔʔɪftúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: heater
+    verified: false
+  - english: telescope
+    pos: noun
+    oromo: fagiidhoo
+    alternates:
+      - teeleskooppii
+    ipa: /ˈfɐɡiːᶑóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/65/Om-fagiidhoo.ogg/Om-fagiidhoo.ogg.mp3
+    confidence: medium
+    glossSeen: telescope
+    verified: false
+  - english: microphone
+    pos: noun
+    oromo: noolaa
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: microphone
+    verified: false
+  - english: telegraph
+    pos: noun
+    oromo: meeshaa telegiraamaa
+    alternates:
+      - teelegiraama qilleensaa
+    ipa: /ˈmeːʃɑː tɛlɛɡɪrɑːmɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: telegraph
+    verified: false
+  - english: cassette
+    pos: noun
+    oromo: hajalaa
+    alternates: []
+    ipa: /ˈhɐd͡ʒɐlɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: cassette
+    verified: false
+  - english: adapter
+    pos: noun
+    oromo: amansaa
+    alternates: []
+    ipa: /ɐmɐnsɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c3/Om-amansaa.ogg/Om-amansaa.ogg.mp3
+    confidence: high
+    glossSeen: adapter
+    verified: false
+  - english: canister
+    pos: noun
+    oromo: dhebbee
+    alternates: []
+    ipa: /ˈᶑɛbːéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/df/Om-dhebbee.ogg/Om-dhebbee.ogg.mp3
+    confidence: high
+    glossSeen: canister
+    verified: false

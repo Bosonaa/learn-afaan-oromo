@@ -1,0 +1,266 @@
+id: unit-81-verbs-school
+order: 81
+title: "Verbs: learning & school"
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: study
+    pos: verb
+    oromo: qu'achuu
+    alternates:
+      - qayyabachuu
+      - qu'ata
+      - qorannaa
+      - qo'annoo
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: to study
+    verified: false
+  - english: spell
+    pos: verb
+    oromo: qubeessuu
+    alternates:
+      - moruu
+    ipa: /ˈkʼʊbeːsːúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: spell, alphabetize
+    verified: false
+  - english: explain
+    pos: verb
+    oromo: addeessuu
+    alternates:
+      - gashuu
+    ipa: /ɐdːeːsːúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/09/Om-addeessuu.ogg/Om-addeessuu.ogg.mp3
+    confidence: medium
+    glossSeen: make white
+    verified: false
+  - english: repeat
+    pos: verb
+    oromo: lammeessuu
+    alternates: []
+    ipa: /ˈlɐmːeːsːúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: to repeat, to give or take for a second time
+    verified: false
+  - english: practice
+    pos: verb
+    oromo: shaakaluu
+    alternates:
+      - itti madaquu
+      - shaakala
+      - beembeetoo
+      - bembeetoo
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: to practice
+    verified: false
+  - english: correct
+    pos: verb
+    oromo: halleellachuu
+    alternates:
+      - sirrachuu
+      - soroorsuu
+      - sirreessuu
+      - sirrachiisuu
+    ipa: /ˈhɐlːeːlːɐt͡ʃúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: to correct
+    verified: false
+  - english: calculate
+    pos: verb
+    oromo: shallaguu
+    alternates:
+      - herreeguu
+      - herreegachuu
+      - herreegsisuu
+    ipa: /ˈʃɐlːɐɡúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: to calculate
+    verified: false
+  - english: solve
+    pos: verb
+    oromo: furii
+    alternates: []
+    ipa: /ˈfʊríː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c0/Om-furii.ogg/Om-furii.ogg.mp3
+    confidence: high
+    glossSeen: knot of rope
+    verified: false
+  - english: describe
+    pos: verb
+    oromo: ibsuu
+    alternates:
+      - ibsiisuu
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: to describe
+    verified: false
+  - english: translate
+    pos: verb
+    oromo: afnaquu
+    alternates:
+      - farajuu
+      - qooqiikuu
+      - hiikuu
+    ipa: /ɐfnɐkʼúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/02/Om-afnaquu.ogg/Om-afnaquu.ogg.mp3
+    confidence: medium
+    glossSeen: translate
+    verified: false
+  - english: revise
+    pos: verb
+    oromo: keessa deebi'uu
+    alternates:
+      - irra deeb'uu
+    ipa: /ˈkeːsːɐ deːbɪʔúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: to revise
+    verified: false
+  - english: memorize
+    pos: verb
+    oromo: yaddachuu
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: to memorize
+    verified: false
+  - english: analyse
+    pos: verb
+    oromo: balballoomsuu
+    alternates: []
+    ipa: /ˈbɐlbɐlːoːmsúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cc/Om-balballoomsuu.ogg/Om-balballoomsuu.ogg.mp3
+    confidence: high
+    glossSeen: to analyse
+    verified: false
+  - english: evaluate
+    pos: verb
+    oromo: gamaaggamuu
+    alternates:
+      - madaalsisuu
+      - qocachuu
+      - gamaaggamsiisuu
+    ipa: /ˈɡɐmɑːɡːɐmúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: evaluate
+    verified: false
+  - english: verify
+    pos: verb
+    oromo: mirkaneessuu
+    alternates: []
+    ipa: /ˈmɪrkɐneːsːúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: to verify, confirm, assure
+    verified: false
+  - english: summarize
+    pos: verb
+    oromo: goolabuu
+    alternates: []
+    ipa: /ˈɡoːlɐbúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: to summarize
+    verified: false
+  - english: classify
+    pos: verb
+    oromo: goseessuu
+    alternates: []
+    ipa: /ˈɡɔseːsːúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: classify
+    verified: false
+  - english: differentiate
+    pos: verb
+    oromo: adda baasuu
+    alternates:
+      - addaan baasuu
+      - addaan fuuchuu
+    ipa: /ɐdːɐ bɑːsúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/14/Om-adda_baasuu.ogg/Om-adda_baasuu.ogg.mp3
+    confidence: medium
+    glossSeen: to put apart, separate, differentiate
+    verified: false
+  - english: instruct
+    pos: verb
+    oromo: eemaruu
+    alternates:
+      - ajajuu
+      - himuu
+    ipa: /eːmɐrúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a6/Om-eemaruu.ogg/Om-eemaruu.ogg.mp3
+    confidence: medium
+    glossSeen: to instruct
+    verified: false
+  - english: educate
+    pos: verb
+    oromo: qaroomsuu
+    alternates: []
+    ipa: /ˈkʼɐroːmsúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: educate; train, civilize
+    verified: false
+  - english: tutor
+    pos: verb
+    oromo: qayyabachiisuu
+    alternates: []
+    ipa: /ˈkʼɐjːɐbɐt͡ʃiːsúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: to tutor
+    verified: false
+  - english: edit
+    pos: verb
+    oromo: gulaaluu
+    alternates: []
+    ipa: /ˈɡʊlɑːlúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: to edit
+    verified: false
+  - english: predict
+    pos: verb
+    oromo: raajuu
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: to predict
+    verified: false
+  - english: prove
+    pos: verb
+    oromo: gashuu
+    alternates: []
+    ipa: /ˈɡɐʃúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: explain, inform, persuade, convince, prove
+    verified: false
+  - english: recognize
+    pos: verb
+    oromo: qayyabachuu
+    alternates: []
+    ipa: /ˈkʼɐjːɐbɐt͡ʃúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: to study, recognize
+    verified: false

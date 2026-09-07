@@ -1,0 +1,237 @@
+id: unit-59-relatives
+order: 59
+title: Family & relatives
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: cousin
+    pos: noun
+    oromo: durbii
+    alternates:
+      - dubrii
+      - ilma adeeraa
+      - ilma eessumaa
+    ipa: /ˈdʊrbíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/70/Om-durbii.ogg/Om-durbii.ogg.mp3
+    confidence: medium
+    glossSeen: cousin
+    verified: false
+  - english: sibling
+    pos: noun
+    oromo: daabaloo
+    alternates:
+      - garoo
+    ipa: /ˈdɑːbɐlóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6f/Om-daabaloo.ogg/Om-daabaloo.ogg.mp3
+    confidence: medium
+    glossSeen: sibling
+    verified: false
+  - english: siblings
+    pos: noun
+    oromo: obbolaa
+    alternates: []
+    ipa: /ɔbːɔlɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: siblings
+    verified: false
+  - english: stepfather
+    pos: noun
+    oromo: abbaaddaa
+    alternates:
+      - abbaa buddeenaa
+    ipa: /ɐbːɑːdːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/98/Om-abbaaddaa.ogg/Om-abbaaddaa.ogg.mp3
+    confidence: high
+    glossSeen: stepfather
+    verified: false
+  - english: stepmother
+    pos: noun
+    oromo: ayyaaddaa
+    alternates: []
+    ipa: /ɐjːɑːdːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/62/Om-ayyaaddaa.ogg/Om-ayyaaddaa.ogg.mp3
+    confidence: high
+    glossSeen: stepmother
+    verified: false
+  - english: infant
+    pos: noun
+    oromo: wucii
+    alternates:
+      - daa'ima
+      - sabiyyii
+    ipa: /ˈwʊt͡ʃʼíː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: young of birds and chickens,
+    verified: false
+  - english: toddler
+    pos: noun
+    oromo: kurkura
+    alternates: []
+    ipa: /ˈkʊrkʊrɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: toddler (of male child)
+    verified: false
+  - english: youngster
+    pos: noun
+    oromo: dardarumma
+    alternates: []
+    ipa: /ˈdɐrdɐrʊmːɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/43/Om-dardarumma.ogg/Om-dardarumma.ogg.mp3
+    confidence: high
+    glossSeen: youngster
+    verified: false
+  - english: teenager
+    pos: noun
+    oromo: yarsuma
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: teenager
+    verified: false
+  - english: adult
+    pos: noun
+    oromo: ga'eessa
+    alternates:
+      - namguddaa
+      - xiqqaa guddaa
+      - guddachuu
+    ipa: /ˈɡɐʔeːsːɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: adult
+    verified: false
+  - english: spouse
+    pos: noun
+    oromo: warra
+    alternates: []
+    ipa: /ˈwɐrːɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: family, household, relatives
+    verified: false
+  - english: homestead
+    pos: noun
+    oromo: onnoo
+    alternates: []
+    ipa: /ɔnːóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: homestead
+    verified: false
+  - english: kinship
+    pos: noun
+    oromo: qaccee
+    alternates: []
+    ipa: /ˈkʼɐt͡ʃʼːéː/
+    audioUrl: null
+    confidence: high
+    glossSeen: whip
+    verified: false
+  - english: genealogy
+    pos: noun
+    oromo: lakkoofsa sanyii
+    alternates: []
+    ipa: /ˈlɐkːoːfsɐ sɐɲíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: genealogy
+    verified: false
+  - english: dowry
+    pos: noun
+    oromo: naqata
+    alternates:
+      - gabbara
+      - tirmaa
+      - dungusee
+      - ufiisaa
+    ipa: /ˈnɐkʼɐtɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: dowry
+    verified: false
+  - english: fiance
+    pos: noun
+    oromo: kaadhima
+    alternates: []
+    ipa: /ˈkɑːᶑɪmɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: betrothed person, fiance
+    verified: false
+  - english: fiancee
+    pos: noun
+    oromo: kaadhimaa
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: fiancee
+    verified: false
+  - english: bachelor
+    pos: noun
+    oromo: qeerroo
+    alternates:
+      - leegummaa
+      - qeerrummaa
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: bachelor
+    verified: false
+  - english: mothers
+    pos: noun
+    oromo: aayyolee
+    alternates: []
+    ipa: /ɑːjːɔléː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0c/Om-aayyolee.ogg/Om-aayyolee.ogg.mp3
+    confidence: high
+    glossSeen: mothers
+    verified: false
+  - english: parenthood
+    pos: noun
+    oromo: abbaadhummaa
+    alternates: []
+    ipa: /ɐbːɑːᶑʊmːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/84/Om-abbaadhummaa.ogg/Om-abbaadhummaa.ogg.mp3
+    confidence: high
+    glossSeen: parenthood
+    verified: false
+  - english: infancy
+    pos: noun
+    oromo: kichummaa
+    alternates: []
+    ipa: /ˈkɪt͡ʃʊmːɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: infancy
+    verified: false
+  - english: adolescence
+    pos: noun
+    oromo: dargaggumma
+    alternates:
+      - saafila
+      - dargaggoomuu
+    ipa: /ˈdɐrɡɐɡːʊmːɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e8/Om-dargaggumma.ogg/Om-dargaggumma.ogg.mp3
+    confidence: medium
+    glossSeen: youth hood/adolescence
+    verified: false
+  - english: maternity
+    pos: noun
+    oromo: haadhummaa
+    alternates: []
+    ipa: /ˈhɑːᶑʊmːɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: maternity
+    verified: false

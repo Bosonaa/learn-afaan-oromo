@@ -1,0 +1,171 @@
+id: unit-40-verbs-senses
+order: 40
+title: "Verbs: senses & noticing"
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: look
+    pos: verb
+    oromo: laaluu
+    alternates:
+      - barbaachisuu
+      - barbaaddachuu
+      - doowwachuu
+      - gaarreffachuu
+    ipa: /ˈlɑːlúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: look, see, observe
+    verified: false
+  - english: watch
+    pos: verb
+    oromo: sa'aa
+    alternates:
+      - haada sa'aa
+      - sa'aatii harkaa
+    ipa: /ˈsɐʔɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: watch, timne
+    verified: false
+  - english: notice
+    pos: verb
+    oromo: qalbeeffachiisa
+    alternates:
+      - hubachiisa
+      - beekkachiisa
+      - jamboo-beeksisaa
+      - beeksisa alaa
+    ipa: /ˈkʼɐlbeːfːɐt͡ʃiːsɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: notice
+    verified: false
+  - english: observe
+    pos: verb
+    oromo: do'achuu
+    alternates:
+      - hubachiisuu
+      - laaluu
+      - xiinxaluu
+      - doowwannaa
+    ipa: /ˈdɔʔɐt͡ʃúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/36/Om-do%27achuu.ogg/Om-do%27achuu.ogg.mp3
+    confidence: medium
+    glossSeen: observe
+    verified: false
+  - english: ache
+    pos: verb
+    oromo: waraansa
+    alternates:
+      - halteeta
+      - quuqxoo
+      - ciniina
+      - garaa ciniinuu
+    ipa: /ˈwɐrɑːnsɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: ache, sudden physical pain
+    verified: false
+  - english: hurt
+    pos: verb
+    oromo: dhukkubsuu
+    alternates:
+      - gaaga'uu
+      - dirmuu
+      - gaaga'amuu
+      - hubamuu
+    ipa: /ˈᶑʊkːʊbsúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ab/Om-dhukkubsuu.ogg/Om-dhukkubsuu.ogg.mp3
+    confidence: medium
+    glossSeen: hurt
+    verified: false
+  - english: inspect
+    pos: verb
+    oromo: sakatta'uu
+    alternates:
+      - qorachuu
+      - sakattaasisuu
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: to inspect
+    verified: false
+  - english: glimpse
+    pos: verb
+    oromo: liphii
+    alternates: []
+    ipa: /ˈlɪpʼíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: glimpse, short glance
+    verified: false
+  - english: sniff
+    pos: verb
+    oromo: surachuu
+    alternates: []
+    ipa: /ˈsʊrɐt͡ʃúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: to sniff
+    verified: false
+  - english: lick
+    pos: verb
+    oromo: arraabuu
+    alternates:
+      - araabbachuu
+      - arraabsisuu
+      - gondolchuu
+      - hokkoo
+    ipa: /ɐrːɑːbúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/26/Om-arraabuu.ogg/Om-arraabuu.ogg.mp3
+    confidence: high
+    glossSeen: to lick
+    verified: false
+  - english: vibrate
+    pos: verb
+    oromo: ollachuu
+    alternates:
+      - dha'achuu
+    ipa: /ɔlːɐt͡ʃúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: to vibrate, shiver
+    verified: false
+  - english: shine
+    pos: verb
+    oromo: cululuquu
+    alternates:
+      - cululugsuu
+      - liistiroo
+    ipa: /ˈt͡ʃʼʊlʊlʊkʼúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/77/Om-cululuquu.ogg/Om-cululuquu.ogg.mp3
+    confidence: high
+    glossSeen: shine/ show bright face
+    verified: false
+  - english: glitter
+    pos: verb
+    oromo: calalaquu
+    alternates:
+      - calalagsiisuu
+    ipa: /ˈt͡ʃʼɐlɐlɐkʼúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/29/Om-calalaquu.ogg/Om-calalaquu.ogg.mp3
+    confidence: high
+    glossSeen: glisten, glitter, or shimmer
+    verified: false
+  - english: echo
+    pos: verb
+    oromo: horrisa
+    alternates:
+      - owwaataa
+    ipa: /ˈhɔrːɪsɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: echo
+    verified: false

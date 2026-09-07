@@ -1,0 +1,201 @@
+id: unit-89-verbs-growing
+order: 89
+title: "Verbs: growing & farming"
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: thresh
+    pos: verb
+    oromo: ayiduu
+    alternates:
+      - cagadachuu
+      - dhahuu
+      - dhahicha
+    ipa: /ɐjɪdúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d8/Om-ayiduu.ogg/Om-ayiduu.ogg.mp3
+    confidence: medium
+    glossSeen: thresh
+    verified: false
+  - english: winnow
+    pos: verb
+    oromo: calleessuu
+    alternates:
+      - qoorbawuu
+      - soramuu
+      - qulleessuu
+      - calleeffachuu
+    ipa: /ˈt͡ʃʼɐlːeːsːúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/25/Om-calleessuu.ogg/Om-calleessuu.ogg.mp3
+    confidence: medium
+    glossSeen: to winnow
+    verified: false
+  - english: breed
+    pos: verb
+    oromo: horuu
+    alternates:
+      - qomoo
+      - horsisuu
+      - horfuu
+      - hiribbii
+    ipa: /ˈhɔrúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: breed, raise
+    verified: false
+  - english: hatch
+    pos: verb
+    oromo: yaasuu
+    alternates:
+      - ammachiisuu
+    ipa: /ˈjɑːsúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: pour out
+    verified: false
+  - english: ripen
+    pos: verb
+    oromo: gormuu
+    alternates: []
+    ipa: /ˈɡɔrmúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: to ripen (of grain fruits)
+    verified: false
+  - english: blossom
+    pos: verb
+    oromo: daraaruu
+    alternates:
+      - lalisuu
+      - gadhafuu
+      - daraaraa
+    ipa: /ˈdɐrɑːrúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c1/Om-daraaruu.ogg/Om-daraaruu.ogg.mp3
+    confidence: medium
+    glossSeen: blossom, tassel, or flower
+    verified: false
+  - english: wither
+    pos: verb
+    oromo: coolaguu
+    alternates:
+      - qummisi
+    ipa: /ˈt͡ʃʼoːlɐɡúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d8/Om-coolaguu.ogg/Om-coolaguu.ogg.mp3
+    confidence: medium
+    glossSeen: droop, wither, or wilt
+    verified: false
+  - english: irrigate
+    pos: verb
+    oromo: maagadaa obaasuu
+    alternates: []
+    ipa: /ˈmɑːɡɐdɑː ɔbɑːsúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: irrigate
+    verified: false
+  - english: prune
+    pos: verb
+    oromo: qeexxa'uu
+    alternates:
+      - kumkumuu
+      - maaxuu
+    ipa: /ˈkʼeːtʼːɐʔúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: prune
+    verified: false
+  - english: spray
+    pos: verb
+    oromo: qaanqessuu
+    alternates:
+      - biiffachuu
+      - ramsuu
+    ipa: /ˈkʼɑːnkʼɛsːúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: to spray, make to emit sparks
+    verified: false
+  - english: sprout
+    pos: verb
+    oromo: biqilchiisuu
+    alternates:
+      - biqiluu
+      - marguu
+      - quqummaaduu
+      - margisiisuu
+    ipa: /ˈbɪkʼɪlt͡ʃiːsúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9c/Om-biqilchiisuu.ogg/Om-biqilchiisuu.ogg.mp3
+    confidence: medium
+    glossSeen: cause some body to germinate/sprout
+    verified: false
+  - english: fade
+    pos: verb
+    oromo: haqachuu
+    alternates:
+      - ifachuu
+    ipa: /ˈhɐkʼɐt͡ʃúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: release the colour it is dyed in/fade
+    verified: false
+  - english: wilt
+    pos: verb
+    oromo: laabba'uu
+    alternates:
+      - lapha'uu
+      - soolloguu
+      - coolaga
+      - laabbeessuu
+    ipa: /ˈlɑːbːɐʔúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: wilt
+    verified: false
+  - english: rot
+    pos: verb
+    oromo: raamma'uu
+    alternates:
+      - tortoruu
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: to rot, decay
+    verified: false
+  - english: multiply
+    pos: verb
+    oromo: baay'isuu
+    alternates:
+      - babaay'isuu
+      - baay'ifachuu
+    ipa: /ˈbɑːjʔɪsúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fe/Om-baay%27isuu.ogg/Om-baay%27isuu.ogg.mp3
+    confidence: medium
+    glossSeen: to multiply
+    verified: false
+  - english: reproduce
+    pos: verb
+    oromo: waldhaluu
+    alternates: []
+    ipa: /ˈwɐlᶑɐlúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: to reproduce
+    verified: false
+  - english: scatter
+    pos: verb
+    oromo: facaasuu
+    alternates:
+      - timsuu
+      - firfirsuu
+      - tamsaasuu
+      - tamsa'uu
+    ipa: /ˈfɐt͡ʃʼɑːsúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6c/Om-facaasuu.ogg/Om-facaasuu.ogg.mp3
+    confidence: medium
+    glossSeen: to sow seeds
+    verified: false

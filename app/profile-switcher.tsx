@@ -129,7 +129,7 @@ export function ProfileSwitcher({
             ) : null}
           </div>
           <p className="text-xs text-slate-500">
-            Profiles are just names on this device — each keeps its own XP, streak and review
+            Profiles are just names on this device — each keeps its own points, streak and review
             schedule, and nothing is uploaded.
           </p>
         </div>

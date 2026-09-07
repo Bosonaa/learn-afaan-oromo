@@ -1,0 +1,242 @@
+id: unit-43-shapes-measuring
+order: 43
+title: Numbers, shapes & measuring
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: circle
+    pos: noun
+    oromo: agaggee
+    alternates:
+      - dumbulloo
+      - korabobbee
+      - naannitee
+      - geengoo
+    ipa: /ɐɡɐɡːéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ab/Om-agaggee.ogg/Om-agaggee.ogg.mp3
+    confidence: medium
+    glossSeen: circle
+    verified: false
+  - english: triangle
+    pos: noun
+    oromo: rogsadee
+    alternates:
+      - kofajoo
+      - kofa sadee
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: triangle
+    verified: false
+  - english: rectangle
+    pos: noun
+    oromo: afroggee
+    alternates: []
+    ipa: /ɐfrɔɡːéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/41/Om-afroggee.ogg/Om-afroggee.ogg.mp3
+    confidence: high
+    glossSeen: rectangle
+    verified: false
+  - english: oval
+    pos: noun
+    oromo: molaalee
+    alternates:
+      - molaalachuu
+      - molaalawuu
+    ipa: /ˈmɔlɑːléː/
+    audioUrl: null
+    confidence: high
+    glossSeen: Oval, egg shaped.
+    verified: false
+  - english: sphere
+    pos: noun
+    oromo: luulloo
+    alternates:
+      - zoodiyaak
+    ipa: /ˈluːlːóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: sphere
+    verified: false
+  - english: cone
+    pos: noun
+    oromo: koonii
+    alternates:
+      - biilaluu
+    ipa: /ˈkoːníː/
+    audioUrl: null
+    confidence: high
+    glossSeen: cone
+    verified: false
+  - english: cylinder
+    pos: noun
+    oromo: qaboo
+    alternates: []
+    ipa: /ˈkʼɐbóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: container, cylinder
+    verified: false
+  - english: line
+    pos: noun
+    oromo: sarara
+    alternates:
+      - maaraa
+      - xurree
+      - mudhii
+      - sararoo
+    ipa: /ˈsɐrɐrɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: line
+    verified: false
+  - english: dot
+    pos: noun
+    oromo: qabxii
+    alternates: []
+    ipa: /ˈkʼɐbtʼíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: point, dot.
+    verified: false
+  - english: length
+    pos: noun
+    oromo: dheerina
+    alternates:
+      - dhundhumuu
+      - xaaqaa
+      - dhawuu
+    ipa: /ˈᶑeːrɪnɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3e/Om-dheerina.ogg/Om-dheerina.ogg.mp3
+    confidence: high
+    glossSeen: length
+    verified: false
+  - english: width
+    pos: noun
+    oromo: dalgeeta
+    alternates:
+      - bal'ina
+      - arbii
+    ipa: /ˈdɐlɡeːtɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ee/Om-dalgeeta.ogg/Om-dalgeeta.ogg.mp3
+    confidence: medium
+    glossSeen: width
+    verified: false
+  - english: height
+    pos: noun
+    oromo: hojjaa
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: height
+    verified: false
+  - english: depth
+    pos: noun
+    oromo: tuujuba
+    alternates: []
+    ipa: /ˈtuːd͡ʒʊbɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: deep part of body of water, depth
+    verified: false
+  - english: measurement
+    pos: noun
+    oromo: bikkooma
+    alternates:
+      - malakkee
+      - qazirii
+      - safartuu
+      - farasullaa
+    ipa: /ˈbɪkːoːmɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/85/Om-bikkooma.ogg/Om-bikkooma.ogg.mp3
+    confidence: medium
+    glossSeen: measurement
+    verified: false
+  - english: digit
+    pos: noun
+    oromo: manoo
+    alternates: []
+    ipa: /ˈmɐnóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: digit
+    verified: false
+  - english: fraction
+    pos: noun
+    oromo: hireentaa
+    alternates: []
+    ipa: /ˈhɪreːntɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: fraction
+    verified: false
+  - english: total
+    pos: noun
+    oromo: waliigala
+    alternates: []
+    ipa: /ˈwɐliːɡɐlɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: total
+    verified: false
+  - english: sum
+    pos: noun
+    oromo: ida'ama
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: sum
+    verified: false
+  - english: quantity
+    pos: noun
+    oromo: danata
+    alternates:
+      - daneeta
+    ipa: /ˈdɐnɐtɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/05/Om-danata.ogg/Om-danata.ogg.mp3
+    confidence: medium
+    glossSeen: quantity
+    verified: false
+  - english: amount
+    pos: noun
+    oromo: hammamtaa
+    alternates:
+      - barakatii
+      - gurucii
+      - haasisuu
+      - akkaa ol buufachuu
+    ipa: /ˈhɐmːɐmtɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: amount
+    verified: false
+  - english: pair
+    pos: noun
+    oromo: mirree
+    alternates:
+      - cimdii
+      - lakkooma
+      - bolaalee
+      - buufamuu
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: pair
+    verified: false
+  - english: percent
+    pos: noun
+    oromo: dhibbeenta
+    alternates: []
+    ipa: /ˈᶑɪbːeːntɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a9/Om-dhibbeenta.ogg/Om-dhibbeenta.ogg.mp3
+    confidence: high
+    glossSeen: percent
+    verified: false

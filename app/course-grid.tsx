@@ -100,7 +100,7 @@ export function CourseGrid({ courses }: { courses: CourseSummary[] }) {
                   <p className="mt-1 text-xs text-slate-400">
                     {courseProgress === undefined
                       ? "\u00a0"
-                      : `${mastery}% learned · ${courseProgress.xp} XP`}
+                      : `${mastery}% learned · ${courseProgress.xp} points`}
                   </p>
                 </>
               ) : (

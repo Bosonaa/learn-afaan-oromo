@@ -1,0 +1,298 @@
+id: unit-83-verbs-talking
+order: 83
+title: "Verbs: talking & asking"
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: reply
+    pos: verb
+    oromo: deebii
+    alternates: []
+    ipa: /ˈdeːbíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/43/Om-deebii.ogg/Om-deebii.ogg.mp3
+    confidence: high
+    glossSeen: a party for newly- wed couple (usually by parents)
+    verified: false
+  - english: argue
+    pos: verb
+    oromo: falmachuu
+    alternates:
+      - falmuu
+      - qoccoluu
+      - atakamuu
+      - falmisiisuu
+    ipa: /ˈfɐlmɐt͡ʃúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c5/Om-falmachuu.ogg/Om-falmachuu.ogg.mp3
+    confidence: medium
+    glossSeen: argue, contest, dispute, or litigate for self
+    verified: false
+  - english: discuss
+    pos: verb
+    oromo: mari'achuu
+    alternates:
+      - dudubbachuu
+      - mari'achiisuu
+    ipa: /ˈmɐrɪʔɐt͡ʃúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: to discuss
+    verified: false
+  - english: agree
+    pos: verb
+    oromo: walta'uu
+    alternates:
+      - sifaa'uu
+      - waligalchiisuu
+      - waltaasisuu
+      - sifaayuu
+    ipa: /ˈwɐltɐʔúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: to agree
+    verified: false
+  - english: disagree
+    pos: verb
+    oromo: coqoluu
+    alternates:
+      - waldhabuu
+      - walbaduu
+      - walitti bu'uu
+      - waldidchisiisuu
+    ipa: /ˈt͡ʃʼɔkʼɔlúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/13/Om-coqoluu.ogg/Om-coqoluu.ogg.mp3
+    confidence: medium
+    glossSeen: to disagree
+    verified: false
+  - english: complain
+    pos: verb
+    oromo: xooxeffachuu
+    alternates:
+      - nyaluu
+      - itti himachuu
+      - jimaa'uu
+    ipa: /ˈtʼoːtʼɛfːɐt͡ʃúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: to complain
+    verified: false
+  - english: declare
+    pos: verb
+    oromo: awaajessuu
+    alternates:
+      - labsuu
+      - lahsiisuu
+      - miihibuu
+    ipa: /ɐwɑːd͡ʒɛsːúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/66/Om-awaajessuu.ogg/Om-awaajessuu.ogg.mp3
+    confidence: medium
+    glossSeen: proclaim, declare
+    verified: false
+  - english: warn
+    pos: verb
+    oromo: akkeekkachiisuu
+    alternates:
+      - beekkachiisuu
+      - wajuu
+    ipa: /ɐkːeːkːɐt͡ʃiːsúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a0/Om-akkeekkachiisuu.ogg/Om-akkeekkachiisuu.ogg.mp3
+    confidence: medium
+    glossSeen: warn
+    verified: false
+  - english: advise
+    pos: verb
+    oromo: gorsuu
+    alternates:
+      - gorsachuu
+    ipa: /ˈɡɔrsúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: advise
+    verified: false
+  - english: praise
+    pos: verb
+    oromo: faarfachuu
+    alternates:
+      - jajachuu
+      - galata
+      - faarsuu
+      - leellisuu
+    ipa: /ˈfɑːrfɐt͡ʃúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d8/Om-faarfachuu.ogg/Om-faarfachuu.ogg.mp3
+    confidence: medium
+    glossSeen: sing praise song
+    verified: false
+  - english: blame
+    pos: verb
+    oromo: haalachuu
+    alternates:
+      - sakabuu
+      - komachuu
+      - itti himachuu
+      - qabsiisuu
+    ipa: /ˈhɑːlɐt͡ʃúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: blame
+    verified: false
+  - english: joke
+    pos: verb
+    oromo: baccuu
+    alternates:
+      - qoosuu
+      - qoosaa
+      - baaccisiisuu
+    ipa: /ˈbɐt͡ʃʼːúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f1/Om-baccuu.ogg/Om-baccuu.ogg.mp3
+    confidence: medium
+    glossSeen: to joke, jest (misspelled baacuu)
+    verified: false
+  - english: pronounce
+    pos: verb
+    oromo: afaaneffachuu
+    alternates: []
+    ipa: /ɐfɑːnɛfːɐt͡ʃúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/09/Om-afaaneffachuu.ogg/Om-afaaneffachuu.ogg.mp3
+    confidence: high
+    glossSeen: to pronounce, articulate words
+    verified: false
+  - english: converse
+    pos: verb
+    oromo: dudubbachuu
+    alternates: []
+    ipa: /ˈdʊdʊbːɐt͡ʃúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b7/Om-dudubbachuu.ogg/Om-dudubbachuu.ogg.mp3
+    confidence: high
+    glossSeen: converse/discuss/talk to each other
+    verified: false
+  - english: chat
+    pos: verb
+    oromo: haasa'uu
+    alternates:
+      - taphachuu
+      - qaaqa
+      - haasofsiisuu
+      - qaamuu
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: to chat
+    verified: false
+  - english: inform
+    pos: verb
+    oromo: beeksisuu
+    alternates:
+      - gashuu
+    ipa: /ˈbeːksɪsúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/26/Om-beeksisuu.ogg/Om-beeksisuu.ogg.mp3
+    confidence: medium
+    glossSeen: inform, make a ware, advertise
+    verified: false
+  - english: testify
+    pos: verb
+    oromo: ragaa baw uu
+    alternates: []
+    ipa: /ˈrɐɡɑː bɐw úː/
+    audioUrl: null
+    confidence: high
+    glossSeen: to testify
+    verified: false
+  - english: rebuke
+    pos: verb
+    oromo: ifachuu
+    alternates:
+      - dheekkamuu
+      - ifachiisuu
+      - rifaasisuu
+      - ifaata
+    ipa: /ɪfɐt͡ʃúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: berate
+    verified: false
+  - english: insult
+    pos: verb
+    oromo: arrabsuu
+    alternates:
+      - arrabsoo
+      - ga'isuu
+      - arrabbii
+      - arrabsiisuu
+    ipa: /ɐrːɐbsúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/34/Om-arrabsuu.ogg/Om-arrabsuu.ogg.mp3
+    confidence: high
+    glossSeen: to insult
+    verified: false
+  - english: boast
+    pos: verb
+    oromo: fakkaruu
+    alternates:
+      - ufjajuu
+      - waaccituu
+      - boonuu
+      - of jajuu
+    ipa: /ˈfɐkːɐrúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/af/Om-fakkaruu.ogg/Om-fakkaruu.ogg.mp3
+    confidence: medium
+    glossSeen: to boast, to brag
+    verified: false
+  - english: nag
+    pos: verb
+    oromo: kiraaruu
+    alternates:
+      - nyakkisuu
+    ipa: /ˈkɪrɑːrúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: to nag
+    verified: false
+  - english: tease
+    pos: verb
+    oromo: murgii
+    alternates:
+      - iddisiisuu
+    ipa: /ˈmʊrɡíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: tease
+    verified: false
+  - english: summon
+    pos: verb
+    oromo: billittoo
+    alternates:
+      - aabbo
+      - lallabsiisuu
+      - haadha ilmaa
+    ipa: /ˈbɪlːɪtːóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b4/Om-billittoo.ogg/Om-billittoo.ogg.mp3
+    confidence: high
+    glossSeen: summon
+    verified: false
+  - english: persuade
+    pos: verb
+    oromo: gondoluu
+    alternates:
+      - amansiisuu
+      - gashuu
+      - gondolchuu
+    ipa: /ˈɡɔndɔlúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: licking the genitals of the calf
+    verified: false
+  - english: convince
+    pos: verb
+    oromo: amansiisuu
+    alternates:
+      - gashuu
+      - amansiifachuu
+    ipa: /ɐmɐnsiːsúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ed/Om-amansiisuu.ogg/Om-amansiisuu.ogg.mp3
+    confidence: medium
+    glossSeen: convince, persuade
+    verified: false

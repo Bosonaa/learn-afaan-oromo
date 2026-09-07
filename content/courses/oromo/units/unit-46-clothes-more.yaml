@@ -1,0 +1,245 @@
+id: unit-46-clothes-more
+order: 46
+title: Clothes & things we wear
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: jacket
+    pos: noun
+    oromo: kooluu
+    alternates: []
+    ipa: /ˈkoːlúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: asylum
+    verified: false
+  - english: sweater
+    pos: noun
+    oromo: shurraaba
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: sweater
+    verified: false
+  - english: socks
+    pos: noun
+    oromo: miilee
+    alternates: []
+    ipa: /ˈmiːléː/
+    audioUrl: null
+    confidence: high
+    glossSeen: socks
+    verified: false
+  - english: sandals
+    pos: noun
+    oromo: caantaa
+    alternates: []
+    ipa: /ˈt͡ʃʼɑːntɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c6/Om-caantaa.ogg/Om-caantaa.ogg.mp3
+    confidence: high
+    glossSeen: slipper, sandals
+    verified: false
+  - english: boot
+    pos: noun
+    oromo: astawallii
+    alternates: []
+    ipa: /ɐstɐwɐlːíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2c/Om-astawallii.ogg/Om-astawallii.ogg.mp3
+    confidence: high
+    glossSeen: boot
+    verified: false
+  - english: gloves
+    pos: noun
+    oromo: harkeellaa
+    alternates: []
+    ipa: /ˈhɐrkeːlːɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: gloves
+    verified: false
+  - english: underwear
+    pos: noun
+    oromo: jalaanii
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: underwear
+    verified: false
+  - english: vest
+    pos: noun
+    oromo: sadarya
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: vest
+    verified: false
+  - english: uniform
+    pos: noun
+    oromo: walagoo
+    alternates: []
+    ipa: /ˈwɐlɐɡóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: uniform (of cloth)
+    verified: false
+  - english: zip
+    pos: noun
+    oromo: shaarneellaa
+    alternates:
+      - nooba
+      - iyyaatoo teessoo
+    ipa: /ˈʃɑːrneːlːɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: zip
+    verified: false
+  - english: collar
+    pos: noun
+    oromo: mormee
+    alternates:
+      - calcallee
+    ipa: /ˈmɔrméː/
+    audioUrl: null
+    confidence: high
+    glossSeen: collar
+    verified: false
+  - english: lace
+    pos: noun
+    oromo: teemsaa
+    alternates: []
+    ipa: /ˈteːmsɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: lace
+    verified: false
+  - english: purse
+    pos: noun
+    oromo: koro'oo
+    alternates:
+      - cooruu
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: purse
+    verified: false
+  - english: wallet
+    pos: noun
+    oromo: ilbaa
+    alternates:
+      - korojoo
+    ipa: /ɪlbɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: wallet
+    verified: false
+  - english: umbrella
+    pos: noun
+    oromo: dibaabee
+    alternates:
+      - agoobara
+      - dibaaba
+      - daatuu
+      - dondaa
+    ipa: /ˈdɪbɑːbéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d0/Om-dibaabee.ogg/Om-dibaabee.ogg.mp3
+    confidence: medium
+    glossSeen: umbrella
+    verified: false
+  - english: garment
+    pos: noun
+    oromo: wayaa
+    alternates:
+      - daara
+      - oolbaa
+      - jaanoo
+      - muraa
+    ipa: /ˈwɐjɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: garment
+    verified: false
+  - english: silk
+    pos: noun
+    oromo: arrii
+    alternates:
+      - haarrii
+      - algee
+      - habarir
+    ipa: /ɐrːíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1f/Om-arrii.ogg/Om-arrii.ogg.mp3
+    confidence: high
+    glossSeen: silk
+    verified: false
+  - english: flannel
+    pos: noun
+    oromo: uffannaajalee
+    alternates:
+      - caabetaa
+    ipa: /ʊfːɐnːɑːd͡ʒɐléː/
+    audioUrl: null
+    confidence: high
+    glossSeen: flannel
+    verified: false
+  - english: embroidery
+    pos: noun
+    oromo: kuullata
+    alternates: []
+    ipa: /ˈkuːlːɐtɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: embroidery
+    verified: false
+  - english: veil
+    pos: noun
+    oromo: haguuggii fuulaa
+    alternates: []
+    ipa: /ˈhɐɡuːɡːiː fuːlɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: veil
+    verified: false
+  - english: sheath
+    pos: noun
+    oromo: satoo
+    alternates: []
+    ipa: /ˈsɐtóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: sheath
+    verified: false
+  - english: stocking
+    pos: noun
+    oromo: lukeellaa
+    alternates: []
+    ipa: /ˈlʊkeːlːɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: stocking
+    verified: false
+  - english: accessories
+    pos: noun
+    oromo: iddaannoo
+    alternates: []
+    ipa: /ɪdːɑːnːóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: accessories
+    verified: false
+  - english: badge
+    pos: noun
+    oromo: iyyaatoo
+    alternates: []
+    ipa: /ɪjːɑːtóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: tag, badge
+    verified: false

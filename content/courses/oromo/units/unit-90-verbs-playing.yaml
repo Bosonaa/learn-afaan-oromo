@@ -1,0 +1,194 @@
+id: unit-90-verbs-playing
+order: 90
+title: "Verbs: playing & resting"
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: relax
+    pos: verb
+    oromo: bashananuu
+    alternates:
+      - bashaaduu
+      - bashannanuu
+      - cillaaffachiisuu
+    ipa: /ˈbɐʃɐnɐnúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cd/Om-bashananuu.ogg/Om-bashananuu.ogg.mp3
+    confidence: medium
+    glossSeen: to relax (misspelled bashannanuu)
+    verified: false
+  - english: win
+    pos: verb
+    oromo: mo'achuu
+    alternates:
+      - mohuu
+      - mo'uu
+      - hinjifachuu
+      - irra'aanuu
+    ipa: /ˈmɔʔɐt͡ʃúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: win
+    verified: false
+  - english: compete
+    pos: verb
+    oromo: dorgomsisuu
+    alternates:
+      - morkuu
+      - dorgomuu
+      - walmorkachuu
+      - walmorkisiisuu
+    ipa: /ˈdɔrɡɔmsɪsúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/18/Om-dorgomsisuu.ogg/Om-dorgomsisuu.ogg.mp3
+    confidence: high
+    glossSeen: to compete
+    verified: false
+  - english: celebrate
+    pos: verb
+    oromo: ayyaaneffachuu
+    alternates:
+      - kabajachuu
+    ipa: /ɐjːɑːnɛfːɐt͡ʃúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e9/Om-ayyaaneffachuu.ogg/Om-ayyaaneffachuu.ogg.mp3
+    confidence: high
+    glossSeen: celebrate, celebrate a holiday
+    verified: false
+  - english: clap
+    pos: verb
+    oromo: harka dhawuu
+    alternates: []
+    ipa: /ˈhɐrkɐ ᶑɐwúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: clap
+    verified: false
+  - english: enjoy
+    pos: verb
+    oromo: booharuu
+    alternates:
+      - itti gammaduu
+      - bashannanuu
+    ipa: /ˈboːhɐrúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/24/Om-booharuu.ogg/Om-booharuu.ogg.mp3
+    confidence: medium
+    glossSeen: enjoy, satisfy
+    verified: false
+  - english: wink
+    pos: verb
+    oromo: libsachiisuu
+    alternates:
+      - libsachuu
+      - libsuu
+      - liphsuu
+      - ija qishuu
+    ipa: /ˈlɪbsɐt͡ʃiːsúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: cause to blink, wink
+    verified: false
+  - english: hug
+    pos: verb
+    oromo: hammachuu
+    alternates:
+      - hammachiisuu
+      - ammachuu
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: to hug
+    verified: false
+  - english: sway
+    pos: verb
+    oromo: roogqisuu
+    alternates:
+      - daaquu
+      - daaqsuu
+      - leephisuu
+      - leephisiisuu
+    ipa: /ˈroːɡkʼɪsúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: to sway
+    verified: false
+  - english: roll
+    pos: verb
+    oromo: gangalachuu
+    alternates:
+      - konkolaachuu
+      - maruu
+      - naannessuu
+      - gangalachiisuu
+    ipa: /ˈɡɐnɡɐlɐt͡ʃúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: roll, i.e., turn about (donkeys, horses, etc.)
+    verified: false
+  - english: splash
+    pos: verb
+    oromo: bocorroquu
+    alternates:
+      - borcuu
+    ipa: /ˈbɔt͡ʃʼɔrːɔkʼúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/58/Om-bocorroquu.ogg/Om-bocorroquu.ogg.mp3
+    confidence: medium
+    glossSeen: slop about in puddle or water/ splash
+    verified: false
+  - english: entertain
+    pos: verb
+    oromo: feca'uu
+    alternates:
+      - bohaarsuu
+      - mukuu baasuu
+      - bashannanuu
+      - walkeessummeessuu
+    ipa: /ˈfɛt͡ʃʼɐʔúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a1/Om-feca%27uu.ogg/Om-feca%27uu.ogg.mp3
+    confidence: medium
+    glossSeen: to entertain
+    verified: false
+  - english: amaze
+    pos: verb
+    oromo: raajeffachuu
+    alternates:
+      - bakaksuu
+      - maalalfachuu
+    ipa: /ˈrɑːd͡ʒɛfːɐt͡ʃúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: to for tell
+    verified: false
+  - english: glow
+    pos: verb
+    oromo: finiinsuu
+    alternates:
+      - ramaca
+      - xiifoo
+    ipa: /ˈfɪniːnsúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1e/Om-finiinsuu.ogg/Om-finiinsuu.ogg.mp3
+    confidence: high
+    glossSeen: glow
+    verified: false
+  - english: wobble
+    pos: verb
+    oromo: sochoosuu
+    alternates: []
+    ipa: /ˈsɔt͡ʃoːsúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: budge, wobble
+    verified: false
+  - english: dribble
+    pos: verb
+    oromo: logoguu
+    alternates:
+      - gororuu
+    ipa: /ˈlɔɡɔɡúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: dribble
+    verified: false

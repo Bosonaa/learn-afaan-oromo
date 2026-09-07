@@ -1,0 +1,244 @@
+id: unit-94-country
+order: 94
+title: Country & government
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: government
+    pos: noun
+    oromo: mootummaa
+    alternates:
+      - adulaa
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: government
+    verified: false
+  - english: president
+    pos: noun
+    oromo: pirezidaantii
+    alternates: []
+    ipa: /ˈpɪrɛzɪdɑːntíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: president
+    verified: false
+  - english: parliament
+    pos: noun
+    oromo: paarlaamaa
+    alternates:
+      - parlaamaa
+      - caffee
+    ipa: /ˈpɑːrlɑːmɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/59/Om-paarlaamaa.ogg/Om-paarlaamaa.ogg.mp3
+    confidence: medium
+    glossSeen: parliament
+    verified: false
+  - english: election
+    pos: noun
+    oromo: filannoo
+    alternates: []
+    ipa: /ˈfɪlɐnːóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/02/Om-filannoo.ogg/Om-filannoo.ogg.mp3
+    confidence: high
+    glossSeen: election
+    verified: false
+  - english: citizenship
+    pos: noun
+    oromo: lammummaa
+    alternates: []
+    ipa: /ˈlɐmːʊmːɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: citizenship
+    verified: false
+  - english: mayor
+    pos: noun
+    oromo: kantiibaa
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: mayor
+    verified: false
+  - english: governor
+    pos: noun
+    oromo: bulchaa
+    alternates: []
+    ipa: /ˈbʊlt͡ʃɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/10/Om-bulchaa.ogg/Om-bulchaa.ogg.mp3
+    confidence: high
+    glossSeen: governor
+    verified: false
+  - english: flag
+    pos: noun
+    oromo: alaabaa
+    alternates:
+      - faaijii
+    ipa: /ɐlɑːbɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/88/Om-alaabaa.ogg/Om-alaabaa.ogg.mp3
+    confidence: medium
+    glossSeen: flag, banner
+    verified: false
+  - english: capital
+    pos: noun
+    oromo: dilbeeta
+    alternates:
+      - dilbii
+      - jijjigaa
+      - quca
+      - qadhaaba
+    ipa: /ˈdɪlbeːtɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/ff/Om-dilbeeta.ogg/Om-dilbeeta.ogg.mp3
+    confidence: medium
+    glossSeen: capital (accumulated)
+    verified: false
+  - english: region
+    pos: noun
+    oromo: naannoo
+    alternates:
+      - baqqoo
+      - illee
+      - jijjigaa
+      - sadacha
+    ipa: /ˈnɑːnːóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: region ,surroundings,
+    verified: false
+  - english: province
+    pos: noun
+    oromo: konyaa
+    alternates:
+      - koonyaa
+      - magaalaa konyaa
+    ipa: /ˈkɔɲɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: province
+    verified: false
+  - english: territory
+    pos: noun
+    oromo: dimbara
+    alternates:
+      - daarii
+      - lafayyaa
+    ipa: /ˈdɪmbɐrɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a1/Om-dimbara.ogg/Om-dimbara.ogg.mp3
+    confidence: medium
+    glossSeen: boundary, territory
+    verified: false
+  - english: monarchy
+    pos: noun
+    oromo: mootii moototaa
+    alternates: []
+    ipa: /ˈmoːtiː moːtɔtɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: monarchy
+    verified: false
+  - english: empire
+    pos: noun
+    oromo: isximaara
+    alternates: []
+    ipa: /ɪstʼɪmɑːrɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: empire, a political unit ruled by an emperor or empress.
+    verified: false
+  - english: kingdom
+    pos: noun
+    oromo: mootoma
+    alternates: []
+    ipa: /ˈmoːtɔmɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: kingdom
+    verified: false
+  - english: federation
+    pos: noun
+    oromo: atooma
+    alternates: []
+    ipa: /ɐtoːmɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/14/Om-atooma.ogg/Om-atooma.ogg.mp3
+    confidence: high
+    glossSeen: appease
+    verified: false
+  - english: constitution
+    pos: noun
+    oromo: heera
+    alternates:
+      - heera diinaa
+      - heera odaa
+      - sifaayuu
+    ipa: /ˈheːrɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: constitution
+    verified: false
+  - english: delegation
+    pos: noun
+    oromo: iddoommii
+    alternates: []
+    ipa: /ɪdːoːmːíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: delegation
+    verified: false
+  - english: embargo
+    pos: noun
+    oromo: aguurtoo
+    alternates:
+      - uggurtii
+      - ugguruu
+    ipa: /ɐɡuːrtóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/44/Om-aguurtoo.ogg/Om-aguurtoo.ogg.mp3
+    confidence: medium
+    glossSeen: embargo
+    verified: false
+  - english: militia
+    pos: noun
+    oromo: milishaa
+    alternates:
+      - duultuu
+    ipa: /ˈmɪlɪʃɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: militia
+    verified: false
+  - english: navy
+    pos: noun
+    oromo: humna galaanaa
+    alternates: []
+    ipa: /ˈhʊmnɐ ɡɐlɑːnɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: navy
+    verified: false
+  - english: army
+    pos: noun
+    oromo: raayyaa
+    alternates:
+      - ijaaba
+      - cibroo
+      - lolchiisaa
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: army
+    verified: false
+  - english: sovereignty
+    pos: noun
+    oromo: olaantoo
+    alternates: []
+    ipa: /ɔlɑːntóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: sovereignty
+    verified: false

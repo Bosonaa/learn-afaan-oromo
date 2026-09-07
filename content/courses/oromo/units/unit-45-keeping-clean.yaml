@@ -1,0 +1,279 @@
+id: unit-45-keeping-clean
+order: 45
+title: Washing & keeping clean
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: soap
+    pos: noun
+    oromo: adarqii
+    alternates:
+      - andarqii
+      - saamunaa
+      - oomoo
+    ipa: /ɐdɐrkʼíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b7/Om-adarqii.ogg/Om-adarqii.ogg.mp3
+    confidence: medium
+    glossSeen: soap
+    verified: false
+  - english: comb
+    pos: noun
+    oromo: faaqqee
+    alternates:
+      - filaa
+      - miidoo
+      - mushuxa
+      - chookachuu
+    ipa: /ˈfɑːkʼːéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0f/Om-faaqqee.ogg/Om-faaqqee.ogg.mp3
+    confidence: medium
+    glossSeen: comb
+    verified: false
+  - english: razor
+    pos: noun
+    oromo: haaduu
+    alternates:
+      - chiggiree
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: knife
+    verified: false
+  - english: scissors
+    pos: noun
+    oromo: maqxuu
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: scissors
+    verified: false
+  - english: toilet
+    pos: noun
+    oromo: boolii
+    alternates:
+      - manbobbaa
+      - mana fincaanii
+      - arrigoo
+    ipa: /ˈboːlíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1a/Om-boolii.ogg/Om-boolii.ogg.mp3
+    confidence: medium
+    glossSeen: toilet
+    verified: false
+  - english: shower
+    pos: noun
+    oromo: tiifee
+    alternates:
+      - tiifuu
+      - gonjollu
+      - tittifuu
+    ipa: /ˈtiːféː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: shower (of bath)
+    verified: false
+  - english: sponge
+    pos: noun
+    oromo: liifaa
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: sponge
+    verified: false
+  - english: cleanliness
+    pos: noun
+    oromo: qulqullummaa
+    alternates: []
+    ipa: /ˈkʼʊlkʼʊlːʊmːɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: cleanliness
+    verified: false
+  - english: dirt
+    pos: noun
+    oromo: xurii
+    alternates:
+      - hoogana
+      - hooganuu
+      - seecca'uu
+    ipa: /ˈtʼʊríː/
+    audioUrl: null
+    confidence: high
+    glossSeen: dirt
+    verified: false
+  - english: rubbish
+    pos: noun
+    oromo: hanshaafa
+    alternates:
+      - hoosa
+      - gataa
+      - buyii
+    ipa: /ˈhɐnʃɑːfɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: junk
+    verified: false
+  - english: garbage
+    pos: noun
+    oromo: balfaa
+    alternates:
+      - buquqaa
+      - huuba
+    ipa: /ˈbɐlfɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f3/Om-balfaa.ogg/Om-balfaa.ogg.mp3
+    confidence: medium
+    glossSeen: garbage, trash, waste
+    verified: false
+  - english: washing
+    pos: noun
+    oromo: miiccaa
+    alternates:
+      - dhiqannaa
+      - cafaccafa
+      - handoodee
+      - miiccitoo
+    ipa: /ˈmiːt͡ʃʼːɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: washing (usually cloths)
+    verified: false
+  - english: bathing
+    pos: noun
+    oromo: dhiqannaa
+    alternates: []
+    ipa: /ˈᶑɪkʼɐnːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ea/Om-dhiqannaa.ogg/Om-dhiqannaa.ogg.mp3
+    confidence: high
+    glossSeen: bathing, washing
+    verified: false
+  - english: perfume
+    pos: noun
+    oromo: shittoo
+    alternates:
+      - dibata
+      - marashii
+      - urgoo
+    ipa: /ˈʃɪtːóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: perfume
+    verified: false
+  - english: faucet
+    pos: noun
+    oromo: hoombaa
+    alternates: []
+    ipa: /ˈhoːmbɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: faucet
+    verified: false
+  - english: sieve
+    pos: noun
+    oromo: gingilchaa
+    alternates:
+      - gingilfachuu
+      - haadha ginglichaa
+    ipa: /ˈɡɪnɡɪlt͡ʃɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: sieve
+    verified: false
+  - english: polishing
+    pos: noun
+    oromo: soofa
+    alternates: []
+    ipa: /ˈsoːfɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: polishing
+    verified: false
+  - english: purification
+    pos: noun
+    oromo: qulqulleessa
+    alternates: []
+    ipa: /ˈkʼʊlkʼʊlːeːsːɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: purification
+    verified: false
+  - english: apron
+    pos: noun
+    oromo: dalgee
+    alternates:
+      - marxifannaa
+      - marxoo
+      - marxisuu
+      - marxuu
+    ipa: /ˈdɐlɡéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/91/Om-dalgee.ogg/Om-dalgee.ogg.mp3
+    confidence: medium
+    glossSeen: apron
+    verified: false
+  - english: diaper
+    pos: noun
+    oromo: huccuu fincaanii
+    alternates: []
+    ipa: /ˈhʊt͡ʃʼːuː fɪnt͡ʃʼɑːníː/
+    audioUrl: null
+    confidence: high
+    glossSeen: diaper
+    verified: false
+  - english: pajamas
+    pos: noun
+    oromo: uffannaa halkanii
+    alternates: []
+    ipa: /ʊfːɐnːɑː hɐlkɐníː/
+    audioUrl: null
+    confidence: high
+    glossSeen: pajamas
+    verified: false
+  - english: wax
+    pos: noun
+    oromo: gagaa
+    alternates:
+      - guurii
+      - dungoo
+    ipa: /ˈɡɐɡɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/91/Om-gagaa.ogg/Om-gagaa.ogg.mp3
+    confidence: high
+    glossSeen: wax
+    verified: false
+  - english: filter
+    pos: noun
+    oromo: abaccarii
+    alternates:
+      - dhimbiibaa
+      - abaccaruu
+      - miluu
+      - dhimbiibuu
+    ipa: /ɐbɐt͡ʃʼːɐríː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/82/Om-abaccarii.ogg/Om-abaccarii.ogg.mp3
+    confidence: medium
+    glossSeen: sweeper, filter
+    verified: false
+  - english: filtration
+    pos: noun
+    oromo: calalli
+    alternates:
+      - dhimbiiba
+    ipa: /ˈt͡ʃʼɐlɐlːɪ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/48/Om-calalli.ogg/Om-calalli.ogg.mp3
+    confidence: high
+    glossSeen: filtration
+    verified: false
+  - english: washer
+    pos: noun
+    oromo: wushaala
+    alternates: []
+    ipa: /ˈwʊʃɑːlɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: washer, wedge
+    verified: false

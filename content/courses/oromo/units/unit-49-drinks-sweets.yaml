@@ -1,0 +1,169 @@
+id: unit-49-drinks-sweets
+order: 49
+title: Drinks & sweet things
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: wine
+    pos: noun
+    oromo: aynaba
+    alternates:
+      - hidda reeffaa
+      - mana daadhii
+    ipa: /ɐjnɐbɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e7/Om-aynaba.ogg/Om-aynaba.ogg.mp3
+    confidence: high
+    glossSeen: wine
+    verified: false
+  - english: sweetness
+    pos: noun
+    oromo: mi'aayina
+    alternates: []
+    ipa: /ˈmɪʔɑːjɪnɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: expensiveness
+    verified: false
+  - english: straw
+    pos: noun
+    oromo: hichaacha
+    alternates:
+      - qashxii
+      - barsii
+      - hibbiqii
+      - cidii
+    ipa: /ˈhɪt͡ʃɑːt͡ʃɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: straw
+    verified: false
+  - english: flask
+    pos: noun
+    oromo: faashkoo
+    alternates: []
+    ipa: /ˈfɑːʃkóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3b/Om-faashkoo.ogg/Om-faashkoo.ogg.mp3
+    confidence: high
+    glossSeen: flask
+    verified: false
+  - english: jar
+    pos: noun
+    oromo: siiba
+    alternates:
+      - jaaloo
+      - huuroo
+      - barcaa
+      - cuggee
+    ipa: /ˈsiːbɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: jar
+    verified: false
+  - english: beverage
+    pos: noun
+    oromo: dhugdoo
+    alternates: []
+    ipa: /ˈᶑʊɡdóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/ba/Om-dhugdoo.ogg/Om-dhugdoo.ogg.mp3
+    confidence: high
+    glossSeen: beverage, drink, strong drink
+    verified: false
+  - english: brewer
+    pos: noun
+    oromo: naqxuu
+    alternates: []
+    ipa: /ˈnɐkʼtʼúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: brewer
+    verified: false
+  - english: brewery
+    pos: noun
+    oromo: naqilla
+    alternates: []
+    ipa: /ˈnɐkʼɪlːɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: brewery
+    verified: false
+  - english: whey
+    pos: noun
+    oromo: aangubaa
+    alternates: []
+    ipa: /ɑːnɡʊbɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cb/Om-aangubaa.ogg/Om-aangubaa.ogg.mp3
+    confidence: high
+    glossSeen: whey
+    verified: false
+  - english: sip
+    pos: noun
+    oromo: abbuuqqannoo
+    alternates:
+      - abbuuqqii
+      - habbuuqqannoo
+      - hanbooqqannaa
+      - unuu
+    ipa: /ɐbːuːkʼːɐnːóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5c/Om-abbuuqqannoo.ogg/Om-abbuuqqannoo.ogg.mp3
+    confidence: medium
+    glossSeen: gulp, sip
+    verified: false
+  - english: canteen
+    pos: noun
+    oromo: buraashee
+    alternates: []
+    ipa: /ˈbʊrɑːʃéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/73/Om-buraashee.ogg/Om-buraashee.ogg.mp3
+    confidence: high
+    glossSeen: canteen
+    verified: false
+  - english: pitcher
+    pos: noun
+    oromo: fuggee
+    alternates:
+      - moqorqoraa
+    ipa: /ˈfʊɡːéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c6/Om-fuggee.ogg/Om-fuggee.ogg.mp3
+    confidence: medium
+    glossSeen: pitcher
+    verified: false
+  - english: funnel
+    pos: noun
+    oromo: dhullee
+    alternates:
+      - naqqii
+      - naqxuu
+      - dhimbiibaa
+    ipa: /ˈᶑʊlːéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/39/Om-dhullee.ogg/Om-dhullee.ogg.mp3
+    confidence: medium
+    glossSeen: drinking ground
+    verified: false
+  - english: steam
+    pos: noun
+    oromo: hurka
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: steam
+    verified: false
+  - english: fermented
+    pos: noun
+    oromo: bubbukaa'aa
+    alternates:
+      - budaayaa
+      - siljoo
+      - xafxafa
+      - bilillee
+    ipa: /ˈbʊbːʊkɑːʔɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/47/Om-bubbukaa%27aa.ogg/Om-bubbukaa%27aa.ogg.mp3
+    confidence: high
+    glossSeen: fermented
+    verified: false

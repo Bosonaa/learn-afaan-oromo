@@ -1,0 +1,247 @@
+id: unit-74-jobs-more
+order: 74
+title: Jobs & work
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: mechanic
+    pos: noun
+    oromo: makaanikii
+    alternates: []
+    ipa: /ˈmɐkɑːnɪkíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: mechanic
+    verified: false
+  - english: engineer
+    pos: noun
+    oromo: maandisa
+    alternates:
+      - maandisii
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: engineer
+    verified: false
+  - english: lawyer
+    pos: noun
+    oromo: abukaatoo
+    alternates: []
+    ipa: /ɐbʊkɑːtóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c9/Om-abukaatoo.ogg/Om-abukaatoo.ogg.mp3
+    confidence: high
+    glossSeen: advocate, lawyer
+    verified: false
+  - english: policeman
+    pos: noun
+    oromo: torobbee
+    alternates: []
+    ipa: /ˈtɔrɔbːéː/
+    audioUrl: null
+    confidence: high
+    glossSeen: policeman/ woman
+    verified: false
+  - english: waiter
+    pos: noun
+    oromo: dhiyeessaa
+    alternates: []
+    ipa: /ˈᶑɪjeːsːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d6/Om-dhiyeessaa.ogg/Om-dhiyeessaa.ogg.mp3
+    confidence: high
+    glossSeen: boy, waiter
+    verified: false
+  - english: secretary
+    pos: noun
+    oromo: barreessituu
+    alternates:
+      - barreessaa
+    ipa: /ˈbɐrːeːsːɪtúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/89/Om-barreessituu.ogg/Om-barreessituu.ogg.mp3
+    confidence: medium
+    glossSeen: secretary (fem.)
+    verified: false
+  - english: journalist
+    pos: noun
+    oromo: galalchaa
+    alternates: []
+    ipa: /ˈɡɐlɐlt͡ʃɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: negotiator, conciliator
+    verified: false
+  - english: reporter
+    pos: noun
+    oromo: agabaasaa
+    alternates: []
+    ipa: /ɐɡɐbɑːsɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3d/Om-agabaasaa.ogg/Om-agabaasaa.ogg.mp3
+    confidence: high
+    glossSeen: reporter
+    verified: false
+  - english: artist
+    pos: noun
+    oromo: jifaaraa
+    alternates: []
+    ipa: /ˈd͡ʒɪfɑːrɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: one who beautifies, decorator, artist
+    verified: false
+  - english: architect
+    pos: noun
+    oromo: ogeessa ijaarsaa
+    alternates: []
+    ipa: /ɔɡeːsːɐ ɪd͡ʒɑːrsɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: architect
+    verified: false
+  - english: professor
+    pos: noun
+    oromo: pirofeesarii
+    alternates: []
+    ipa: /ˈpɪrɔfeːsɐríː/
+    audioUrl: null
+    confidence: high
+    glossSeen: professor
+    verified: false
+  - english: editor
+    pos: noun
+    oromo: gulaaltuu
+    alternates: []
+    ipa: /ˈɡʊlɑːltúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: editor
+    verified: false
+  - english: publisher
+    pos: noun
+    oromo: maxxansiisaa
+    alternates: []
+    ipa: /ˈmɐtʼːɐnsiːsɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: publisher
+    verified: false
+  - english: historian
+    pos: noun
+    oromo: ogeessa seenaa
+    alternates: []
+    ipa: /ɔɡeːsːɐ seːnɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: historian
+    verified: false
+  - english: economist
+    pos: noun
+    oromo: hayyuu dinagdee
+    alternates: []
+    ipa: /ˈhɐjːuː dɪnɐɡdéː/
+    audioUrl: null
+    confidence: high
+    glossSeen: economist
+    verified: false
+  - english: mathematician
+    pos: noun
+    oromo: hayyuu herreegaa
+    alternates: []
+    ipa: /ˈhɐjːuː hɛrːeːɡɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: mathematician
+    verified: false
+  - english: naturalist
+    pos: noun
+    oromo: ka uumama qoratu
+    alternates: []
+    ipa: /ˈkɐ uːmɐmɐ kʼɔrɐtʊ/
+    audioUrl: null
+    confidence: high
+    glossSeen: naturalist
+    verified: false
+  - english: miner
+    pos: noun
+    oromo: albuuda baaftuu
+    alternates: []
+    ipa: /ɐlbuːdɐ bɑːftúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d0/Om-albuuda_baaftuu.ogg/Om-albuuda_baaftuu.ogg.mp3
+    confidence: high
+    glossSeen: miner
+    verified: false
+  - english: tanner
+    pos: noun
+    oromo: cawwaa
+    alternates:
+      - duugduu
+      - faaqii
+    ipa: /ˈt͡ʃʼɐwːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/ce/Om-cawwaa.ogg/Om-cawwaa.ogg.mp3
+    confidence: medium
+    glossSeen: tanner
+    verified: false
+  - english: janitor
+    pos: noun
+    oromo: qulqulleessituu
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: janitor
+    verified: false
+  - english: porter
+    pos: noun
+    oromo: hammaalaa
+    alternates:
+      - hammaaluu
+      - hammaalummaa
+    ipa: /ˈhɐmːɑːlɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: porter
+    verified: false
+  - english: admiral
+    pos: noun
+    oromo: abboga
+    alternates: []
+    ipa: /ɐbːɔɡɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/30/Om-abboga.ogg/Om-abboga.ogg.mp3
+    confidence: high
+    glossSeen: admiral
+    verified: false
+  - english: captain
+    pos: noun
+    oromo: aankumaala
+    alternates:
+      - kappiteenii
+      - nurgaa
+      - kaappiteenii doonii
+    ipa: /ɑːnkʊmɑːlɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/85/Om-aankumaala.ogg/Om-aankumaala.ogg.mp3
+    confidence: medium
+    glossSeen: captain
+    verified: false
+  - english: employee
+    pos: noun
+    oromo: ojjetaa
+    alternates:
+      - obarayyuu
+    ipa: /ɔd͡ʒːɛtɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: worker, employee (male)
+    verified: false
+  - english: employer
+    pos: noun
+    oromo: obarayyaa
+    alternates: []
+    ipa: /ɔbɐrɐjːɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: employer
+    verified: false

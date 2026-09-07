@@ -1,0 +1,230 @@
+id: unit-67-wild-more
+order: 67
+title: Wild animals
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: tiger
+    pos: noun
+    oromo: qeerransa
+    alternates:
+      - qeerramsa
+      - deeroo
+      - ilmoo qeerransaa
+    ipa: /ˈkʼeːrːɐnsɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: tiger
+    verified: false
+  - english: ape
+    pos: noun
+    oromo: hilluu
+    alternates:
+      - qamalee
+      - buuqqajee
+    ipa: /ˈhɪlːúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: "clever, cunning: a nick name for ape"
+    verified: false
+  - english: badger
+    pos: noun
+    oromo: hamaagota
+    alternates:
+      - hamaar
+    ipa: /ˈhɐmɑːɡɔtɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: badger, genet
+    verified: false
+  - english: cub
+    pos: noun
+    oromo: kulbee
+    alternates:
+      - saafela
+      - ilmoo sardiida
+    ipa: /ˈkʊlbéː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: young of a lion, cub
+    verified: false
+  - english: predator
+    pos: noun
+    oromo: adamsooyyee
+    alternates: []
+    ipa: /ɐdɐmsoːjːéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/68/Om-adamsooyyee.ogg/Om-adamsooyyee.ogg.mp3
+    confidence: high
+    glossSeen: predator
+    verified: false
+  - english: beast
+    pos: noun
+    oromo: hillisa
+    alternates:
+      - furroo
+      - firixa
+      - baataa
+      - qeerranqaraar
+    ipa: /ˈhɪlːɪsɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: beast
+    verified: false
+  - english: carcass
+    pos: noun
+    oromo: raqa
+    alternates:
+      - goflola
+    ipa: /ˈrɐkʼɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: carcass, rotten
+    verified: false
+  - english: jaguar
+    pos: noun
+    oromo: jaafoo
+    alternates: []
+    ipa: /ˈd͡ʒɑːfóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: jaguar
+    verified: false
+  - english: panda
+    pos: noun
+    oromo: paandaa
+    alternates: []
+    ipa: /ˈpɑːndɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/ca/Om-paandaa.ogg/Om-paandaa.ogg.mp3
+    confidence: high
+    glossSeen: panda
+    verified: false
+  - english: colt
+    pos: noun
+    oromo: darmee
+    alternates:
+      - nyaangoo
+      - ilmoo fardaa
+    ipa: /ˈdɐrméː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/70/Om-darmee.ogg/Om-darmee.ogg.mp3
+    confidence: medium
+    glossSeen: colt
+    verified: false
+  - english: cubs
+    pos: noun
+    oromo: ilmoo leencaa
+    alternates: []
+    ipa: /ɪlmoː leːnt͡ʃʼɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: cubs
+    verified: false
+  - english: kitten
+    pos: noun
+    oromo: ilmoo adurree
+    alternates: []
+    ipa: /ɪlmoː ɐdʊrːéː/
+    audioUrl: null
+    confidence: high
+    glossSeen: kitten/offspring of a cat
+    verified: false
+  - english: puppy
+    pos: noun
+    oromo: cuquu
+    alternates:
+      - xuuxillaa
+      - buchillaa
+    ipa: /ˈt͡ʃʼʊkʼúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/53/Om-cuquu.ogg/Om-cuquu.ogg.mp3
+    confidence: medium
+    glossSeen: puppy
+    verified: false
+  - english: pony
+    pos: noun
+    oromo: gufaayyii
+    alternates: []
+    ipa: /ˈɡʊfɑːjːíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: pony
+    verified: false
+  - english: mules
+    pos: noun
+    oromo: gaangee
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: mules
+    verified: false
+  - english: weasel
+    pos: noun
+    oromo: tuqaa
+    alternates: []
+    ipa: /ˈtʊkʼɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: weasel, a kind of rat
+    verified: false
+  - english: scavenger
+    pos: noun
+    oromo: funaantuu
+    alternates: []
+    ipa: /ˈfʊnɑːntúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/72/Om-funaantuu.ogg/Om-funaantuu.ogg.mp3
+    confidence: high
+    glossSeen: scavenger
+    verified: false
+  - english: venom
+    pos: noun
+    oromo: hancufa jawwee
+    alternates: []
+    ipa: /ˈhɐnt͡ʃʼʊfɐ d͡ʒɐwːéː/
+    audioUrl: null
+    confidence: high
+    glossSeen: venom
+    verified: false
+  - english: burrow
+    pos: noun
+    oromo: qiliilee
+    alternates:
+      - imamii
+    ipa: /ˈkʼɪliːléː/
+    audioUrl: null
+    confidence: high
+    glossSeen: abyss, burrow/hole
+    verified: false
+  - english: habitat
+    pos: noun
+    oromo: bidoollee
+    alternates: []
+    ipa: /ˈbɪdoːlːéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/28/Om-bidoollee.ogg/Om-bidoollee.ogg.mp3
+    confidence: high
+    glossSeen: habitat
+    verified: false
+  - english: mammals
+    pos: noun
+    oromo: hootiyyee
+    alternates: []
+    ipa: /ˈhoːtɪjːéː/
+    audioUrl: null
+    confidence: high
+    glossSeen: mammals
+    verified: false
+  - english: creature
+    pos: noun
+    oromo: huumamaa
+    alternates:
+      - looyaa
+      - roobaan jireetti
+    ipa: /ˈhuːmɐmɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: creature
+    verified: false

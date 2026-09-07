@@ -1,0 +1,275 @@
+id: unit-98-tradition
+order: 98
+title: Religion & tradition
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: faith
+    pos: noun
+    oromo: amantee
+    alternates:
+      - amantii
+    ipa: /ɐmɐntéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c5/Om-amantee.ogg/Om-amantee.ogg.mp3
+    confidence: medium
+    glossSeen: belief, truth, faith
+    verified: false
+  - english: religion
+    pos: noun
+    oromo: amantii
+    alternates:
+      - hiikee
+      - qaalluu
+      - jayii
+      - ammachiifata
+    ipa: /ɐmɐntíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3b/Om-amantii.ogg/Om-amantii.ogg.mp3
+    confidence: high
+    glossSeen: religion
+    verified: false
+  - english: monk
+    pos: noun
+    oromo: buukkoo
+    alternates:
+      - moloksee
+    ipa: /ˈbuːkːóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a9/Om-buukkoo.ogg/Om-buukkoo.ogg.mp3
+    confidence: medium
+    glossSeen: monk
+    verified: false
+  - english: nun
+    pos: noun
+    oromo: gaaltama
+    alternates: []
+    ipa: /ˈɡɑːltɐmɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: nun
+    verified: false
+  - english: prophet
+    pos: noun
+    oromo: raajicha
+    alternates:
+      - raagaa
+      - moorsisuu
+    ipa: /ˈrɑːd͡ʒɪt͡ʃɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: prophet
+    verified: false
+  - english: angel
+    pos: noun
+    oromo: ergamaawaaqaa
+    alternates: []
+    ipa: /ɛrɡɐmɑːwɑːkʼɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/19/Om-ergamaawaaqaa.ogg/Om-ergamaawaaqaa.ogg.mp3
+    confidence: high
+    glossSeen: angel
+    verified: false
+  - english: soul
+    pos: noun
+    oromo: lubbuu
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: soul, spirit
+    verified: false
+  - english: heaven
+    pos: noun
+    oromo: waaqa
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: god
+    verified: false
+  - english: sin
+    pos: noun
+    oromo: cubbuu
+    alternates:
+      - dilii
+      - xuurii
+      - dalagduu
+      - dalagsisuu
+    ipa: /ˈt͡ʃʼʊbːúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7f/Om-cubbuu.ogg/Om-cubbuu.ogg.mp3
+    confidence: medium
+    glossSeen: sin
+    verified: false
+  - english: sacrifice
+    pos: noun
+    oromo: aarsaa
+    alternates:
+      - aarsuu
+      - qalma
+      - kittimuu
+      - kitimachuu
+    ipa: /ɑːrsɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/33/Om-aarsaa.ogg/Om-aarsaa.ogg.mp3
+    confidence: high
+    glossSeen: sacrifice
+    verified: false
+  - english: culture
+    pos: noun
+    oromo: aadaa
+    alternates:
+      - ayyaada
+      - duudhaa
+      - facaafachuu
+      - aadaa afkaalaa
+    ipa: /ɑːdɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b4/Om-aadaa.ogg/Om-aadaa.ogg.mp3
+    confidence: high
+    glossSeen: culture, custom
+    verified: false
+  - english: heritage
+    pos: noun
+    oromo: dhaala
+    alternates:
+      - hambaa
+    ipa: /ˈᶑɑːlɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/82/Om-dhaala.ogg/Om-dhaala.ogg.mp3
+    confidence: medium
+    glossSeen: inheritance, heritage
+    verified: false
+  - english: taboo
+    pos: noun
+    oromo: legoo
+    alternates:
+      - tooba
+      - laguu
+      - cagginoo
+      - lagachuu
+    ipa: /ˈlɛɡóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: taboo
+    verified: false
+  - english: burial
+    pos: noun
+    oromo: awwaala
+    alternates:
+      - gataa
+      - eddoo awwaalaa
+      - kafanuu
+      - lafa awwaalaa
+    ipa: /ɐwːɑːlɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/56/Om-awwaala.ogg/Om-awwaala.ogg.mp3
+    confidence: high
+    glossSeen: burial
+    verified: false
+  - english: covenant
+    pos: noun
+    oromo: kakuu
+    alternates: []
+    ipa: /ˈkɐkúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: covenant
+    verified: false
+  - english: apostle
+    pos: noun
+    oromo: daraasaa
+    alternates: []
+    ipa: /ˈdɐrɑːsɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fc/Om-daraasaa.ogg/Om-daraasaa.ogg.mp3
+    confidence: high
+    glossSeen: deacon, apostle
+    verified: false
+  - english: bishop
+    pos: noun
+    oromo: abuunii
+    alternates:
+      - phaaphaasii
+      - mana qaalluu
+    ipa: /ɐbuːníː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c2/Om-abuunii.ogg/Om-abuunii.ogg.mp3
+    confidence: medium
+    glossSeen: bishop
+    verified: false
+  - english: messiah
+    pos: noun
+    oromo: furaa
+    alternates: []
+    ipa: /ˈfʊrɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8d/Om-furaa.ogg/Om-furaa.ogg.mp3
+    confidence: high
+    glossSeen: key
+    verified: false
+  - english: gospel
+    pos: noun
+    oromo: aaga
+    alternates:
+      - Aagoo
+    ipa: /ɑːɡɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/37/Om-aaga.ogg/Om-aaga.ogg.mp3
+    confidence: medium
+    glossSeen: mercy
+    verified: false
+  - english: worship
+    pos: noun
+    oromo: waaqeffannaa
+    alternates:
+      - sagadachuu
+      - salaatuu
+      - waaqeffachuu
+      - irreeffacha
+    ipa: /ˈwɑːkʼɛfːɐnːɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: worship
+    verified: false
+  - english: circumcision
+    pos: noun
+    oromo: dhannaqabaa
+    alternates:
+      - absumuu
+      - dhagna qabaa
+      - jaaltuu
+      - mata qabuu
+    ipa: /ˈᶑɐnːɐkʼɐbɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cb/Om-dhannaqabaa.ogg/Om-dhannaqabaa.ogg.mp3
+    confidence: high
+    glossSeen: circumcision
+    verified: false
+  - english: sorcerer
+    pos: noun
+    oromo: moraa
+    alternates:
+      - falfala
+      - faguu
+    ipa: /ˈmɔrɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: sorcerer
+    verified: false
+  - english: deity
+    pos: noun
+    oromo: qaracoo
+    alternates:
+      - daddarbaa
+      - hurruubuu
+      - Waaqa
+    ipa: /ˈkʼɐrɐt͡ʃʼóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: deity
+    verified: false
+  - english: mourning
+    pos: noun
+    oromo: boo'a
+    alternates:
+      - gufafa
+      - dagamsuu
+    ipa: /ˈboːʔɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4e/Om-boo%27a.ogg/Om-boo%27a.ogg.mp3
+    confidence: medium
+    glossSeen: weep
+    verified: false

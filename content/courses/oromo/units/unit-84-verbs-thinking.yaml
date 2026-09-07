@@ -1,0 +1,223 @@
+id: unit-84-verbs-thinking
+order: 84
+title: "Verbs: thinking & feeling"
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: doubt
+    pos: verb
+    oromo: bir'achiisuu
+    alternates:
+      - shakkii
+    ipa: /ˈbɪrʔɐt͡ʃiːsúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/46/Om-bir%27achiisuu.ogg/Om-bir%27achiisuu.ogg.mp3
+    confidence: medium
+    glossSeen: cause to hesitate/ doubt
+    verified: false
+  - english: wish
+    pos: verb
+    oromo: dharra'uu
+    alternates:
+      - fedhuu
+      - dambooba
+      - abbala
+      - abbaltii
+    ipa: /ˈᶑɐrːɐʔúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a2/Om-dharra%27uu.ogg/Om-dharra%27uu.ogg.mp3
+    confidence: medium
+    glossSeen: wish
+    verified: false
+  - english: plan
+    pos: verb
+    oromo: karooruu
+    alternates:
+      - abbalachuu
+      - abbaluu
+      - malachuu
+      - karoora
+    ipa: /ˈkɐroːrúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: to plan
+    verified: false
+  - english: guess
+    pos: verb
+    oromo: heduu
+    alternates:
+      - ciicuu
+      - tilmaama
+      - mala dhawa
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: to guess
+    verified: false
+  - english: wonder
+    pos: verb
+    oromo: hajaa'iba
+    alternates:
+      - maalala
+      - naadira
+      - ajaa'ibamuu
+      - hajaa'ibsiisuu
+    ipa: /ˈhɐd͡ʒɑːʔɪbɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: wonder
+    verified: false
+  - english: admire
+    pos: verb
+    oromo: dinqisiifachuu
+    alternates:
+      - jajuu
+      - maalalfachuu
+      - anyarsiisuu
+      - anyarsuu
+    ipa: /ˈdɪnkʼɪsiːfɐt͡ʃúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/39/Om-dinqisiifachuu.ogg/Om-dinqisiifachuu.ogg.mp3
+    confidence: high
+    glossSeen: admire
+    verified: false
+  - english: reckon
+    pos: verb
+    oromo: herreegsisuu
+    alternates:
+      - herreeguu
+      - awwaccuu
+    ipa: /ˈhɛrːeːɡsɪsúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: cause to calculate/ reckon
+    verified: false
+  - english: presume
+    pos: verb
+    oromo: seehuu
+    alternates:
+      - se'uu
+      - tilmaamuu
+    ipa: /ˈseːhúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: presume
+    verified: false
+  - english: suspect
+    pos: verb
+    oromo: shakkuu
+    alternates:
+      - ciicuu
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: to suspect
+    verified: false
+  - english: intend
+    pos: verb
+    oromo: abbaluu
+    alternates:
+      - abbala
+    ipa: /ɐbːɐlúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/09/Om-abbaluu.ogg/Om-abbaluu.ogg.mp3
+    confidence: high
+    glossSeen: to intend
+    verified: false
+  - english: resolve
+    pos: verb
+    oromo: furmaata kennuu
+    alternates:
+      - murteeffamuu
+    ipa: /ˈfʊrmɑːtɐ kɛnːúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/52/Om-furmaata_kennuu.ogg/Om-furmaata_kennuu.ogg.mp3
+    confidence: high
+    glossSeen: resolve
+    verified: false
+  - english: imply
+    pos: verb
+    oromo: irreeruu
+    alternates: []
+    ipa: /ɪrːeːrúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: to imply
+    verified: false
+  - english: assess
+    pos: verb
+    oromo: tilmaamuu
+    alternates: []
+    ipa: /ˈtɪlmɑːmúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: assess, presume
+    verified: false
+  - english: focus
+    pos: verb
+    oromo: xiyyeeffachuu
+    alternates:
+      - fardatu
+      - garee xiyyeeffannoo
+    ipa: /ˈtʼɪjːeːfːɐt͡ʃúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: focus, emphasize
+    verified: false
+  - english: pretend
+    pos: verb
+    oromo: fakkeessuu
+    alternates:
+      - kobobbee
+      - kobobbisuu
+    ipa: /ˈfɐkːeːsːúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2b/Om-fakkeessuu.ogg/Om-fakkeessuu.ogg.mp3
+    confidence: high
+    glossSeen: to pretend
+    verified: false
+  - english: deny
+    pos: verb
+    oromo: aaluu
+    alternates:
+      - didachuu
+      - haaluu
+      - waakkachuu
+      - waakkachiisuu
+    ipa: /ɑːlúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/39/Om-aaluu.ogg/Om-aaluu.ogg.mp3
+    confidence: medium
+    glossSeen: deny
+    verified: false
+  - english: approve
+    pos: verb
+    oromo: raggaasuu
+    alternates: []
+    ipa: /ˈrɐɡːɑːsúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: to approve, confirmation
+    verified: false
+  - english: oppose
+    pos: verb
+    oromo: ajiifachuu
+    alternates:
+      - morkachuu
+      - morkuu
+      - mommachuu
+      - mormuu
+    ipa: /ɐd͡ʒiːfɐt͡ʃúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7d/Om-ajiifachuu.ogg/Om-ajiifachuu.ogg.mp3
+    confidence: high
+    glossSeen: to criticize
+    verified: false
+  - english: dislike
+    pos: verb
+    oromo: jibbuu
+    alternates:
+      - jibbina
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: to dislike
+    verified: false

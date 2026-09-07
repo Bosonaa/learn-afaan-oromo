@@ -1,0 +1,285 @@
+id: unit-100-ideas
+order: 100
+title: Ideas & abstract words
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: idea
+    pos: noun
+    oromo: yaada
+    alternates:
+      - cibra
+      - bulfachuu
+      - handhuura yaadaa
+    ipa: /ˈjɑːdɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: thought, thinking, idea
+    verified: false
+  - english: reason
+    pos: noun
+    oromo: qabata
+    alternates:
+      - sababuu
+      - sabsbamuu
+      - sababa dhiheessuu
+    ipa: /ˈkʼɐbɐtɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: stick
+    verified: false
+  - english: cause
+    pos: noun
+    oromo: daafii
+    alternates:
+      - qabata
+      - bilcheessisuu
+      - bixxilchiisuu
+      - dagachiisuu
+    ipa: /ˈdɑːfíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/de/Om-daafii.ogg/Om-daafii.ogg.mp3
+    confidence: high
+    glossSeen: cause
+    verified: false
+  - english: result
+    pos: noun
+    oromo: maarka
+    alternates:
+      - naatigaa
+      - natijaa
+      - aangubaa
+      - diddaa
+    ipa: /ˈmɑːrkɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: result
+    verified: false
+  - english: solution
+    pos: noun
+    oromo: furmaata
+    alternates:
+      - hiikkaa
+      - hiika
+      - furaa
+      - faloo
+    ipa: /ˈfʊrmɑːtɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b0/Om-furmaata.ogg/Om-furmaata.ogg.mp3
+    confidence: medium
+    glossSeen: solution
+    verified: false
+  - english: choice
+    pos: noun
+    oromo: fohannaa
+    alternates: []
+    ipa: /ˈfɔhɐnːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/81/Om-fohannaa.ogg/Om-fohannaa.ogg.mp3
+    confidence: high
+    glossSeen: choice
+    verified: false
+  - english: decision
+    pos: noun
+    oromo: murtii
+    alternates:
+      - muraamurtii
+      - itti cabsa
+      - itti kutuu
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: decision, judgement
+    verified: false
+  - english: chance
+    pos: noun
+    oromo: hibaabsa
+    alternates:
+      - dunyitii
+      - tafaa'ula
+      - harka bu'uu
+    ipa: /ˈhɪbɑːbsɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: chance
+    verified: false
+  - english: risk
+    pos: noun
+    oromo: gaaga'aa
+    alternates: []
+    ipa: /ˈɡɑːɡɐʔɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: risk, venturous
+    verified: false
+  - english: difficulty
+    pos: noun
+    oromo: qawoo
+    alternates:
+      - rakkina
+      - dhibdee
+      - rakkachuu
+    ipa: /ˈkʼɐwóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: difficulty
+    verified: false
+  - english: progress
+    pos: noun
+    oromo: hiqaa
+    alternates:
+      - hiiqa
+      - tarkaanfachiisuu
+    ipa: /ˈhɪkʼɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: progress, success
+    verified: false
+  - english: development
+    pos: noun
+    oromo: dagaagina
+    alternates:
+      - misooma
+      - cidhaanuu
+    ipa: /ˈdɐɡɑːɡɪnɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/47/Om-dagaagina.ogg/Om-dagaagina.ogg.mp3
+    confidence: medium
+    glossSeen: development
+    verified: false
+  - english: growth
+    pos: noun
+    oromo: margaa
+    alternates:
+      - guddina
+      - oldheerachuu
+      - condorroo
+    ipa: /ˈmɐrɡɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: germinate
+    verified: false
+  - english: beginning
+    pos: noun
+    oromo: calqabbii
+    alternates:
+      - jalqabbii
+      - wiixinee
+      - awwala
+      - wixibiroo
+    ipa: /ˈt͡ʃʼɐlkʼɐbːíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bd/Om-calqabbii.ogg/Om-calqabbii.ogg.mp3
+    confidence: medium
+    glossSeen: the beginning
+    verified: false
+  - english: order
+    pos: noun
+    oromo: ajaja
+    alternates:
+      - abboommii
+      - abboomsa
+      - eemara
+      - abboomuu
+    ipa: /ɐd͡ʒɐd͡ʒɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fb/Om-ajaja.ogg/Om-ajaja.ogg.mp3
+    confidence: medium
+    glossSeen: command, order
+    verified: false
+  - english: phenomenon
+    pos: noun
+    oromo: argamaata
+    alternates:
+      - cibra
+      - tahinsa
+    ipa: /ɐrɡɐmɑːtɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/12/Om-argamaata.ogg/Om-argamaata.ogg.mp3
+    confidence: medium
+    glossSeen: phenomenon
+    verified: false
+  - english: philosophy
+    pos: noun
+    oromo: raagoo
+    alternates:
+      - falaasama
+    ipa: /ˈrɑːɡóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: foretell
+    verified: false
+  - english: concept
+    pos: noun
+    oromo: hiddayaada
+    alternates:
+      - yaadrimee
+    ipa: /ˈhɪdːɐjɑːdɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: concept
+    verified: false
+  - english: criteria
+    pos: noun
+    oromo: ulaagaa
+    alternates: []
+    ipa: /ʊlɑːɡɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: criteria
+    verified: false
+  - english: context
+    pos: noun
+    oromo: haallee
+    alternates: []
+    ipa: /ˈhɑːlːéː/
+    audioUrl: null
+    confidence: high
+    glossSeen: context
+    verified: false
+  - english: contradiction
+    pos: noun
+    oromo: waldhaba
+    alternates: []
+    ipa: /ˈwɐlᶑɐbɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: contradiction
+    verified: false
+  - english: distinction
+    pos: noun
+    oromo: garaagarummaa
+    alternates: []
+    ipa: /ˈɡɐrɑːɡɐrʊmːɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: difference, distinction
+    verified: false
+  - english: priority
+    pos: noun
+    oromo: duraanaa
+    alternates:
+      - dursa
+    ipa: /ˈdʊrɑːnɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4a/Om-duraanaa.ogg/Om-duraanaa.ogg.mp3
+    confidence: medium
+    glossSeen: priority
+    verified: false
+  - english: objective
+    pos: noun
+    oromo: kaayyoo
+    alternates: []
+    ipa: /ˈkɑːjːóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: aim, objective
+    verified: false
+  - english: obligation
+    pos: noun
+    oromo: dirqam
+    alternates:
+      - dirqii
+    ipa: /ˈdɪrkʼɐm/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2d/Om-dirqam.ogg/Om-dirqam.ogg.mp3
+    confidence: medium
+    glossSeen: obligation
+    verified: false

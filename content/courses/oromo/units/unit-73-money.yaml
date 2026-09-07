@@ -1,0 +1,249 @@
+id: unit-73-money
+order: 73
+title: Money & buying
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: cent
+    pos: noun
+    oromo: farankaa
+    alternates:
+      - alaada
+      - beesaa
+      - taamuna
+    ipa: /ˈfɐrɐnkɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/10/Om-farankaa.ogg/Om-farankaa.ogg.mp3
+    confidence: high
+    glossSeen: coin, cent
+    verified: false
+  - english: cents
+    pos: noun
+    oromo: neeraa
+    alternates:
+      - niiraa
+      - chinkoo
+      - dumbulloo
+      - meezoo
+    ipa: /ˈneːrɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: cents
+    verified: false
+  - english: dollar
+    pos: noun
+    oromo: doolaarii
+    alternates:
+      - doolaara
+    ipa: /ˈdoːlɑːríː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fd/Om-doolaarii.ogg/Om-doolaarii.ogg.mp3
+    confidence: medium
+    glossSeen: dollar
+    verified: false
+  - english: payment
+    pos: noun
+    oromo: kaffaltii
+    alternates:
+      - gargaarii
+      - jargii
+      - qabdii
+      - haftoo horii
+    ipa: /ˈkɐfːɐltíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: pay, payment
+    verified: false
+  - english: credit
+    pos: noun
+    oromo: duubee
+    alternates:
+      - gulbata
+    ipa: /ˈduːbéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/00/Om-duubee.ogg/Om-duubee.ogg.mp3
+    confidence: medium
+    glossSeen: credit
+    verified: false
+  - english: savings
+    pos: noun
+    oromo: guduunfaa
+    alternates: []
+    ipa: /ˈɡʊduːnfɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: a firm knot
+    verified: false
+  - english: budget
+    pos: noun
+    oromo: baajata
+    alternates:
+      - baajata atoomaa
+      - burqaa bajataa
+      - hirqu baajataa
+    ipa: /ˈbɑːd͡ʒɐtɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d4/Om-baajata.ogg/Om-baajata.ogg.mp3
+    confidence: high
+    glossSeen: budget
+    verified: false
+  - english: rent
+    pos: noun
+    oromo: kireeffachuu
+    alternates:
+      - kireessuu
+      - kiraa
+    ipa: /ˈkɪreːfːɐt͡ʃúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: to rent (for self)
+    verified: false
+  - english: fee
+    pos: noun
+    oromo: kaffaltii ogummaa
+    alternates: []
+    ipa: /ˈkɐfːɐltiː ɔɡʊmːɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: fee
+    verified: false
+  - english: charity
+    pos: noun
+    oromo: baalcha
+    alternates:
+      - arjooma
+      - raamata
+    ipa: /ˈbɑːlt͡ʃɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/22/Om-baalcha.ogg/Om-baalcha.ogg.mp3
+    confidence: medium
+    glossSeen: gift
+    verified: false
+  - english: capitalism
+    pos: noun
+    oromo: dilbeeltuu
+    alternates: []
+    ipa: /ˈdɪlbeːltúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1f/Om-dilbeeltuu.ogg/Om-dilbeeltuu.ogg.mp3
+    confidence: high
+    glossSeen: capitalism
+    verified: false
+  - english: deposit
+    pos: noun
+    oromo: cimmisa
+    alternates:
+      - keeyyata
+    ipa: /ˈt͡ʃʼɪmːɪsɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e5/Om-cimmisa.ogg/Om-cimmisa.ogg.mp3
+    confidence: medium
+    glossSeen: deposit
+    verified: false
+  - english: dividend
+    pos: noun
+    oromo: qoodama
+    alternates: []
+    ipa: /ˈkʼoːdɐmɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: allotment,dividend
+    verified: false
+  - english: allowance
+    pos: noun
+    oromo: durgoo
+    alternates:
+      - dirgoo
+    ipa: /ˈdʊrɡóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c9/Om-durgoo.ogg/Om-durgoo.ogg.mp3
+    confidence: medium
+    glossSeen: allowance
+    verified: false
+  - english: pension
+    pos: noun
+    oromo: soorama
+    alternates:
+      - mana cisichaa
+      - soorama ba'uu
+    ipa: /ˈsoːrɐmɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: pension
+    verified: false
+  - english: ransom
+    pos: noun
+    oromo: wajoo
+    alternates: []
+    ipa: /ˈwɐd͡ʒóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: ransom
+    verified: false
+  - english: bribe
+    pos: noun
+    oromo: gunaa
+    alternates:
+      - matta aa
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: bribe
+    verified: false
+  - english: wager
+    pos: noun
+    oromo: jirraa
+    alternates:
+      - nokkorroo
+      - seetoo
+    ipa: /ˈd͡ʒɪrːɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: bet, wager
+    verified: false
+  - english: lottery
+    pos: noun
+    oromo: lootarii
+    alternates: []
+    ipa: /ˈloːtɐríː/
+    audioUrl: null
+    confidence: high
+    glossSeen: lottery
+    verified: false
+  - english: riches
+    pos: noun
+    oromo: qabeenya
+    alternates: []
+    ipa: /ˈkʼɐbeːɲɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: wealth ,property, riches
+    verified: false
+  - english: prosperity
+    pos: noun
+    oromo: duniyaa
+    alternates:
+      - deebana
+    ipa: /ˈdʊnɪjɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/ba/Om-duniyaa.ogg/Om-duniyaa.ogg.mp3
+    confidence: high
+    glossSeen: wealth/prosperity
+    verified: false
+  - english: expense
+    pos: noun
+    oromo: baasii
+    alternates:
+      - farjii
+    ipa: /ˈbɑːsíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9e/Om-baasii.ogg/Om-baasii.ogg.mp3
+    confidence: high
+    glossSeen: expense
+    verified: false
+  - english: fare
+    pos: noun
+    oromo: kaffaltii geejibaa
+    alternates:
+      - gaggeessa
+    ipa: /ˈkɐfːɐltiː ɡeːd͡ʒɪbɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: fare
+    verified: false

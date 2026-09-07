@@ -71,7 +71,7 @@ export function LevelList({
       )}
 
       <div className="flex gap-4 rounded-xl bg-white p-4 shadow-sm">
-        <Stat label="XP" value={String(progress.xp)} />
+        <Stat label="Points" value={String(progress.xp)} />
         <Stat label="Day streak" value={String(progress.streakDays)} />
         <Stat label="Words to review" value={String(due.size)} />
       </div>

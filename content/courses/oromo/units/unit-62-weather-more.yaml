@@ -1,0 +1,190 @@
+id: unit-62-weather-more
+order: 62
+title: Weather & seasons
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: drizzle
+    pos: noun
+    oromo: tiifuu
+    alternates:
+      - qacacuu
+      - karfaffuu
+      - tittifuu
+    ipa: /ˈtiːfúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: drizzle, shower
+    verified: false
+  - english: whirlwind
+    pos: noun
+    oromo: hobonboleessa
+    alternates:
+      - ububbee
+    ipa: /ˈhɔbɔnbɔleːsːɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: whirlwind, storm
+    verified: false
+  - english: tornado
+    pos: noun
+    oromo: obbombolessa
+    alternates:
+      - obomboleessa
+    ipa: /ɔbːɔmbɔlɛsːɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: tornado, cyclone
+    verified: false
+  - english: cloudy
+    pos: noun
+    oromo: booruu
+    alternates:
+      - booreffamuu
+      - dukukuu
+      - boora'uu
+    ipa: /ˈboːrúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/78/Om-booruu.ogg/Om-booruu.ogg.mp3
+    confidence: high
+    glossSeen: impure/ cloudy/ turbid
+    verified: false
+  - english: windy
+    pos: noun
+    oromo: bubbisaa
+    alternates:
+      - mirgisuu
+    ipa: /ˈbʊbːɪsɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a1/Om-bubbisaa.ogg/Om-bubbisaa.ogg.mp3
+    confidence: high
+    glossSeen: windy, blowing
+    verified: false
+  - english: rainy
+    pos: noun
+    oromo: rooba
+    alternates:
+      - darabii
+      - wasoraa
+      - mirgisuu
+      - roobaan jireetti
+    ipa: /ˈroːbɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: rain, rainy
+    verified: false
+  - english: climate
+    pos: noun
+    oromo: akkuleensa
+    alternates: []
+    ipa: /ɐkːʊleːnsɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9b/Om-akkuleensa.ogg/Om-akkuleensa.ogg.mp3
+    confidence: high
+    glossSeen: climate
+    verified: false
+  - english: forecast
+    pos: noun
+    oromo: raagama
+    alternates: []
+    ipa: /ˈrɑːɡɐmɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: forecast
+    verified: false
+  - english: moisture
+    pos: noun
+    oromo: jiidha
+    alternates:
+      - jiifamuu
+      - xuuxxachuu
+    ipa: /ˈd͡ʒiːᶑɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: moisture
+    verified: false
+  - english: evaporation
+    pos: noun
+    oromo: hurkaa
+    alternates: []
+    ipa: /ˈhʊrkɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: vapor, evaporation
+    verified: false
+  - english: chill
+    pos: noun
+    oromo: dhaamocha
+    alternates:
+      - qorra
+      - waaqlaalee
+    ipa: /ˈᶑɑːmɔt͡ʃɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/30/Om-dhaamocha.ogg/Om-dhaamocha.ogg.mp3
+    confidence: medium
+    glossSeen: cause to cool (male)
+    verified: false
+  - english: warming
+    pos: noun
+    oromo: o'isa
+    alternates:
+      - immisa
+      - qaammannaa
+    ipa: /ɔʔɪsɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: warming, heating
+    verified: false
+  - english: cooling
+    pos: noun
+    oromo: qabbanessa
+    alternates: []
+    ipa: /ˈkʼɐbːɐnɛsːɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: cooling
+    verified: false
+  - english: earthquake
+    pos: noun
+    oromo: kirkira lafaa
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: earthquake
+    verified: false
+  - english: erosion
+    pos: noun
+    oromo: galoo
+    alternates:
+      - lolaa
+      - dhiqam biyyee
+    ipa: /ˈɡɐlóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: erosion, flood
+    verified: false
+  - english: tropics
+    pos: noun
+    oromo: gammoojjii
+    alternates: []
+    ipa: /ˈɡɐmːoːd͡ʒːíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: lowland, tropics, desert
+    verified: false
+  - english: dried
+    pos: noun
+    oromo: gu'eessa
+    alternates:
+      - qoonxaa
+      - qonxaa
+      - goggogaa
+      - hanfalii
+    ipa: /ˈɡʊʔeːsːɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: a cow with dried milk, dried
+    verified: false

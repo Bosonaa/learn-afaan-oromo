@@ -1,0 +1,229 @@
+id: unit-48-fruit-more
+order: 48
+title: More fruit & vegetables
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: lime
+    pos: noun
+    oromo: habaraasaa
+    alternates:
+      - loomii
+      - baraasa
+      - baraashaa
+      - hoofii
+    ipa: /ˈhɐbɐrɑːsɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: lime (chemical compound)
+    verified: false
+  - english: peach
+    pos: noun
+    oromo: kookii
+    alternates: []
+    ipa: /ˈkoːkíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: peach
+    verified: false
+  - english: watermelon
+    pos: noun
+    oromo: luxxe
+    alternates: []
+    ipa: /ˈlʊtʼːɛ/
+    audioUrl: null
+    confidence: high
+    glossSeen: watermelon
+    verified: false
+  - english: coconut
+    pos: noun
+    oromo: bugii
+    alternates: []
+    ipa: /ˈbʊɡíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/12/Om-bugii.ogg/Om-bugii.ogg.mp3
+    confidence: high
+    glossSeen: coconut, coconut palm
+    verified: false
+  - english: peas
+    pos: noun
+    oromo: carandada
+    alternates:
+      - ashuuqqii
+      - hardooma
+      - unkutachuu
+    ipa: /ˈt͡ʃʼɐrɐndɐdɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6e/Om-carandada.ogg/Om-carandada.ogg.mp3
+    confidence: high
+    glossSeen: boiled beans, peas, on crucifixion
+    verified: false
+  - english: ginger
+    pos: noun
+    oromo: ginjibila
+    alternates:
+      - jijimbila
+    ipa: /ˈɡɪnd͡ʒɪbɪlɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: ginger
+    verified: false
+  - english: chili
+    pos: noun
+    oromo: mimmixa
+    alternates:
+      - daabbusee
+      - xiriffee
+      - hocola
+      - qocqocaa
+    ipa: /ˈmɪmːɪtʼɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: chili
+    verified: false
+  - english: fruits
+    pos: noun
+    oromo: ija mukaa
+    alternates:
+      - gumarii
+      - koshommii
+      - mattaree
+      - midhoo
+    ipa: /ɪd͡ʒɐ mʊkɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: fruits/seeds of trees
+    verified: false
+  - english: vegetable
+    pos: noun
+    oromo: ashaakiltii
+    alternates:
+      - kuduraa
+      - bonee
+      - gordii
+      - liimmaa
+    ipa: /ɐʃɑːkɪltíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/72/Om-ashaakiltii.ogg/Om-ashaakiltii.ogg.mp3
+    confidence: medium
+    glossSeen: vegetable
+    verified: false
+  - english: beet
+    pos: noun
+    oromo: dindaa
+    alternates:
+      - burii
+    ipa: /ˈdɪndɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d7/Om-dindaa.ogg/Om-dindaa.ogg.mp3
+    confidence: high
+    glossSeen: beet
+    verified: false
+  - english: berry
+    pos: noun
+    oromo: goraa
+    alternates:
+      - hugufee
+      - duuddoo
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: berry
+    verified: false
+  - english: peanut
+    pos: noun
+    oromo: ocholoonii
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: peanut
+    verified: false
+  - english: soybean
+    pos: noun
+    oromo: ashanquree
+    alternates: []
+    ipa: /ɐʃɐnkʼʊréː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/3/37/Om-ashanquree.ogg/Om-ashanquree.ogg.mp3
+    confidence: high
+    glossSeen: soybean
+    verified: false
+  - english: rye
+    pos: noun
+    oromo: omborii
+    alternates: []
+    ipa: /ɔmbɔríː/
+    audioUrl: null
+    confidence: high
+    glossSeen: Rye
+    verified: false
+  - english: seedlings
+    pos: noun
+    oromo: magartuu
+    alternates: []
+    ipa: /ˈmɐɡɐrtúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: seedlings, proper name (fem)
+    verified: false
+  - english: stalk
+    pos: noun
+    oromo: hagadaa
+    alternates:
+      - somaa
+      - mujaa
+      - qummoo
+      - sandaaboo
+    ipa: /ˈhɐɡɐdɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: stalk
+    verified: false
+  - english: ripe
+    pos: noun
+    oromo: bilchina
+    alternates:
+      - gaamaruu
+      - samsuu
+      - samuu
+      - asheeta
+    ipa: /ˈbɪlt͡ʃɪnɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fa/Om-bilchina.ogg/Om-bilchina.ogg.mp3
+    confidence: high
+    glossSeen: ripe, maturity
+    verified: false
+  - english: harvesting
+    pos: noun
+    oromo: haamicha
+    alternates:
+      - sabsii
+      - imamii
+      - imamuu
+      - imamii baasuu
+    ipa: /ˈhɑːmɪt͡ʃɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: the act of mowing/harvesting
+    verified: false
+  - english: compost
+    pos: noun
+    oromo: kosii
+    alternates:
+      - dikeessuu
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: compost
+    verified: false
+  - english: fertile
+    pos: noun
+    oromo: qaljii
+    alternates:
+      - gabbachuu
+    ipa: /ˈkʼɐld͡ʒíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: fertile, rich (soil)
+    verified: false

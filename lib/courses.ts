@@ -23,7 +23,7 @@ export interface Course {
 
 /**
  * The first course keeps the storage keys the app used before courses existed,
- * so a device that has been practising Afaan Oromo keeps its XP and streak.
+ * so a device that has been practising Afaan Oromo keeps its points and streak.
  */
 export const FIRST_COURSE_ID = "oromo";
 
@@ -39,6 +39,12 @@ export const COURSES: Course[] = [
       "The world around you",
       "Out and about",
       "Doing, describing, thinking",
+      "School, home and mealtimes",
+      "Body, health and feelings",
+      "The natural world",
+      "Town, work and travel",
+      "Actions, day to day",
+      "Ideas, culture and school subjects",
     ],
     available: true,
   },

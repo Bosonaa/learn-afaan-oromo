@@ -1,0 +1,218 @@
+id: unit-39-describing-more
+order: 39
+title: Describing people & things
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: slim
+    pos: adj
+    oromo: kuyyisa
+    alternates: []
+    ipa: /ˈkʊjːɪsɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: thin, slim
+    verified: false
+  - english: brave
+    pos: adj
+    oromo: goota
+    alternates:
+      - dhiirti
+      - doora
+      - gichillaa'
+      - dhiiromuu
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: brave
+    verified: false
+  - english: shy
+    pos: adj
+    oromo: saalfachuu
+    alternates:
+      - yeella'uu
+      - qola laafessa
+      - qaaneffachuu
+      - saalfannaa
+    ipa: /ˈsɑːlfɐt͡ʃúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: to be ashamed, shy
+    verified: false
+  - english: clever
+    pos: adj
+    oromo: kushee
+    alternates:
+      - goolee
+      - hilluu
+      - haxxee
+    ipa: /ˈkʊʃéː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: clever
+    verified: false
+  - english: lazy
+    pos: adj
+    oromo: masluufa
+    alternates:
+      - boosa
+      - dhibaawuu
+      - daagi
+      - ceemma'uu
+    ipa: /ˈmɐsluːfɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: lazy
+    verified: false
+  - english: cruel
+    pos: adj
+    oromo: ibisa
+    alternates:
+      - garaa jabaachuu
+    ipa: /ɪbɪsɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: devil, cruel
+    verified: false
+  - english: proud
+    pos: adj
+    oromo: baajiguu
+    alternates:
+      - boontuu
+      - caaquu
+      - xennequu
+      - bajiga
+    ipa: /ˈbɑːd͡ʒɪɡúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6a/Om-baajiguu.ogg/Om-baajiguu.ogg.mp3
+    confidence: medium
+    glossSeen: to proud
+    verified: false
+  - english: handsome
+    pos: adj
+    oromo: leensaa
+    alternates:
+      - bareeda
+      - abbaa simboo
+      - bifa baduu
+      - lookoo
+    ipa: /ˈleːnsɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: handsome, fine appearance (male)
+    verified: false
+  - english: tender
+    pos: adj
+    oromo: bosoqqee
+    alternates:
+      - caalbasii
+      - lallaafuu
+      - busuqqee
+    ipa: /ˈbɔsɔkʼːéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7a/Om-bosoqqee.ogg/Om-bosoqqee.ogg.mp3
+    confidence: medium
+    glossSeen: tender, i.e., not tough
+    verified: false
+  - english: delicious
+    pos: adj
+    oromo: mi'aawaa
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: sweet
+    verified: false
+  - english: eager
+    pos: adj
+    oromo: haafoftuu
+    alternates:
+      - hafa'uu
+      - bololuu
+      - roora'uu
+      - kaajessuu
+    ipa: /ˈhɑːfɔftúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: eager/anxious for something (fem)
+    verified: false
+  - english: foolish
+    pos: adj
+    oromo: raatuu
+    alternates:
+      - jiidhuu
+      - harsama
+      - xebexxebduu
+      - xebexxebuu
+    ipa: /ˈrɑːtúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: confused, foolish
+    verified: false
+  - english: evil
+    pos: adj
+    oromo: daabiloos
+    alternates:
+      - badaa
+      - farrisaa
+      - cagginaa'uu
+      - farrisiisuu
+    ipa: /ˈdɑːbɪloːs/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a2/Om-daabiloos.ogg/Om-daabiloos.ogg.mp3
+    confidence: medium
+    glossSeen: evil
+    verified: false
+  - english: visible
+    pos: adj
+    oromo: muldhataa
+    alternates:
+      - muldhataa
+      - zoodiyaak
+    ipa: /ˈmʊlᶑɐtɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: visible, tangible
+    verified: false
+  - english: alive
+    pos: adj
+    oromo: jiraataa
+    alternates:
+      - jiraa
+      - dibamuu
+      - jiraachisuu
+      - jira
+    ipa: /ˈd͡ʒɪrɑːtɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: resident; inhabiting (male)
+    verified: false
+  - english: lean
+    pos: adj
+    oromo: goggogaa
+    alternates:
+      - burundoo
+      - maagoftuu
+      - collagsiisuu
+      - erkachuu
+    ipa: /ˈɡɔɡːɔɡɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: dried, thin, lean, masculine
+    verified: false
+  - english: younger
+    pos: adj
+    oromo: maandhaa
+    alternates:
+      - obboo
+      - abbaa xiqqaa
+      - ayyaa xiqqoo
+      - abbaa simboo
+    ipa: /ˈmɑːnᶑɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: younger
+    verified: false

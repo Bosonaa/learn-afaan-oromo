@@ -1,0 +1,156 @@
+id: unit-91-time-more
+order: 91
+title: Time & calendar
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: moment
+    pos: noun
+    oromo: mil'ata
+    alternates:
+      - seega
+      - mil'achuu
+    ipa: /ˈmɪlʔɐtɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: aspiit second, moment
+    verified: false
+  - english: century
+    pos: noun
+    oromo: jaarraa
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: century
+    verified: false
+  - english: monday
+    pos: noun
+    oromo: wiixatee
+    alternates:
+      - Wiixata
+    ipa: /ˈwiːtʼɐtéː/
+    audioUrl: null
+    confidence: high
+    glossSeen: monday (name of market day)
+    verified: false
+  - english: tuesday
+    pos: noun
+    oromo: facaasaa
+    alternates:
+      - Kibxata
+    ipa: /ˈfɐt͡ʃʼɑːsɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/79/Om-facaasaa.ogg/Om-facaasaa.ogg.mp3
+    confidence: medium
+    glossSeen: see 'Kibxata'
+    verified: false
+  - english: wednesday
+    pos: noun
+    oromo: roobii
+    alternates:
+      - Roobbii
+    ipa: /ˈroːbíː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: Wednesday
+    verified: false
+  - english: friday
+    pos: noun
+    oromo: arbaa
+    alternates:
+      - Jimmata
+    ipa: /ɐrbɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/87/Om-arbaa.ogg/Om-arbaa.ogg.mp3
+    confidence: high
+    glossSeen: Friday
+    verified: false
+  - english: future
+    pos: noun
+    oromo: durana
+    alternates:
+      - waahimaa
+      - bulfachuu
+      - fuulduratti
+    ipa: /ˈdʊrɐnɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f3/Om-durana.ogg/Om-durana.ogg.mp3
+    confidence: high
+    glossSeen: future
+    verified: false
+  - english: duration
+    pos: noun
+    oromo: hagamtaa
+    alternates:
+      - safii
+    ipa: /ˈhɐɡɐmtɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: duration
+    verified: false
+  - english: period
+    pos: noun
+    oromo: laguu
+    alternates:
+      - mosina
+      - tuqaa
+      - gannoo
+      - majisa
+    ipa: /ˈlɐɡúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: menstruation/period
+    verified: false
+  - english: phase
+    pos: noun
+    oromo: murneessuu
+    alternates:
+      - sadarkaa guddinaa
+    ipa: /ˈmʊrneːsːúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: phase
+    verified: false
+  - english: sequence
+    pos: noun
+    oromo: tartiibessa
+    alternates: []
+    ipa: /ˈtɐrtiːbɛsːɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: sequence
+    verified: false
+  - english: eternity
+    pos: noun
+    oromo: baraabarummaa
+    alternates:
+      - jireenya bara baraa
+    ipa: /ˈbɐrɑːbɐrʊmːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/19/Om-baraabarummaa.ogg/Om-baraabarummaa.ogg.mp3
+    confidence: high
+    glossSeen: eternity, perpetuation
+    verified: false
+  - english: eve
+    pos: noun
+    oromo: jalbultii
+    alternates:
+      - hacamooyyaa
+    ipa: /ˈd͡ʒɐlbʊltíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: eve
+    verified: false
+  - english: continuation
+    pos: noun
+    oromo: fufinsa
+    alternates:
+      - itti fufiinsa
+    ipa: /ˈfʊfɪnsɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e0/Om-fufinsa.ogg/Om-fufinsa.ogg.mp3
+    confidence: high
+    glossSeen: continuous, continuation,
+    verified: false

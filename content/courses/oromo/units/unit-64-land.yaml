@@ -1,0 +1,258 @@
+id: unit-64-land
+order: 64
+title: Mountains & land
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: highland
+    pos: noun
+    oromo: baddaa
+    alternates:
+      - ilaala
+    ipa: /ˈbɐdːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b3/Om-baddaa.ogg/Om-baddaa.ogg.mp3
+    confidence: high
+    glossSeen: highland
+    verified: false
+  - english: canyon
+    pos: noun
+    oromo: bowwaa
+    alternates: []
+    ipa: /ˈbɔwːɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b1/Om-bowwaa.ogg/Om-bowwaa.ogg.mp3
+    confidence: high
+    glossSeen: cave, canyon
+    verified: false
+  - english: gorge
+    pos: noun
+    oromo: fodooddoo
+    alternates:
+      - qilee
+      - foluu
+      - hallayyaa qilee
+    ipa: /ˈfɔdoːdːóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0e/Om-fodooddoo.ogg/Om-fodooddoo.ogg.mp3
+    confidence: high
+    glossSeen: gorge, i.e. opening
+    verified: false
+  - english: plain
+    pos: noun
+    oromo: leexaa
+    alternates:
+      - alabicha
+      - attaa
+      - badaasaa
+      - godoomuu
+    ipa: /ˈleːtʼɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: un loaded draft animal
+    verified: false
+  - english: plateau
+    pos: noun
+    oromo: koobii
+    alternates:
+      - abaxallaloo
+    ipa: /ˈkoːbíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: hill, plateau
+    verified: false
+  - english: jungle
+    pos: noun
+    oromo: bosona
+    alternates: []
+    ipa: /ˈbɔsɔnɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d2/Om-bosona.ogg/Om-bosona.ogg.mp3
+    confidence: high
+    glossSeen: forest, jungle
+    verified: false
+  - english: wilderness
+    pos: noun
+    oromo: warab
+    alternates:
+      - ona
+      - alloo
+      - corree
+      - lafa onaa
+    ipa: /ˈwɐrɐb/
+    audioUrl: null
+    confidence: medium
+    glossSeen: wilderness
+    verified: false
+  - english: boulder
+    pos: noun
+    oromo: jigoo
+    alternates: []
+    ipa: /ˈd͡ʒɪɡóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: boulder, landslip, land slide
+    verified: false
+  - english: pebble
+    pos: noun
+    oromo: cancullee
+    alternates:
+      - qacaacullec
+      - saddeeqa
+    ipa: /ˈt͡ʃʼɐnt͡ʃʼʊlːéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9f/Om-cancullee.ogg/Om-cancullee.ogg.mp3
+    confidence: medium
+    glossSeen: pebble
+    verified: false
+  - english: ground
+    pos: noun
+    oromo: martata
+    alternates:
+      - dachee
+      - qocqocaa
+      - lafa
+      - bullaa'uu
+    ipa: /ˈmɐrtɐtɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: ground
+    verified: false
+  - english: ridge
+    pos: noun
+    oromo: bungulluu
+    alternates:
+      - abaxallaloo
+      - xiwoo
+      - gadamsa
+    ipa: /ˈbʊnɡʊlːúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bb/Om-bungulluu.ogg/Om-bungulluu.ogg.mp3
+    confidence: medium
+    glossSeen: ridge
+    verified: false
+  - english: peak
+    pos: noun
+    oromo: qarree
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: summit, peak (of a mountain)
+    verified: false
+  - english: slope
+    pos: noun
+    oromo: labbaa
+    alternates: []
+    ipa: /ˈlɐbːɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: slope, area of steep land
+    verified: false
+  - english: topography
+    pos: noun
+    oromo: adoolfa
+    alternates:
+      - hatila
+      - teessuma lafaa
+    ipa: /ɐdoːlfɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/93/Om-adoolfa.ogg/Om-adoolfa.ogg.mp3
+    confidence: medium
+    glossSeen: topography
+    verified: false
+  - english: peninsula
+    pos: noun
+    oromo: edegoo
+    alternates: []
+    ipa: /ɛdɛɡóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/ba/Om-edegoo.ogg/Om-edegoo.ogg.mp3
+    confidence: high
+    glossSeen: peninsula
+    verified: false
+  - english: meadow
+    pos: noun
+    oromo: araddee
+    alternates: []
+    ipa: /ɐrɐdːéː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4f/Om-araddee.ogg/Om-araddee.ogg.mp3
+    confidence: high
+    glossSeen: meadow
+    verified: false
+  - english: hollow
+    pos: noun
+    oromo: qotaa
+    alternates:
+      - olqeessuu
+      - harawwa
+      - homborokkee
+      - qasamii
+    ipa: /ˈkʼɔtɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: fortification plow, hollow
+    verified: false
+  - english: mound
+    pos: noun
+    oromo: guttee
+    alternates:
+      - kubee
+      - kobbii
+      - koobii
+      - kaabii
+    ipa: /ˈɡʊtːéː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: mound
+    verified: false
+  - english: trench
+    pos: noun
+    oromo: beroo
+    alternates: []
+    ipa: /ˈbɛróː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4b/Om-beroo.ogg/Om-beroo.ogg.mp3
+    confidence: high
+    glossSeen: trench (protection for soldiers)
+    verified: false
+  - english: terrace
+    pos: noun
+    oromo: daaga
+    alternates:
+      - sangii
+    ipa: /ˈdɑːɡɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fc/Om-daaga.ogg/Om-daaga.ogg.mp3
+    confidence: medium
+    glossSeen: terrace
+    verified: false
+  - english: boundary
+    pos: noun
+    oromo: daangaa
+    alternates:
+      - dimbara
+      - daarii
+      - daangessuu
+    ipa: /ˈdɑːnɡɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/94/Om-daangaa.ogg/Om-daangaa.ogg.mp3
+    confidence: medium
+    glossSeen: boundary
+    verified: false
+  - english: landscape
+    pos: noun
+    oromo: dalgeessa
+    alternates:
+      - caffaa
+    ipa: /ˈdɐlɡeːsːɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a9/Om-dalgeessa.ogg/Om-dalgeessa.ogg.mp3
+    confidence: high
+    glossSeen: landscape
+    verified: false
+  - english: cavity
+    pos: noun
+    oromo: boolla'oo
+    alternates:
+      - holqoo
+      - keessa ilkaanii
+    ipa: /ˈboːlːɐʔóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/46/Om-boolla%27oo.ogg/Om-boolla%27oo.ogg.mp3
+    confidence: medium
+    glossSeen: cavity
+    verified: false

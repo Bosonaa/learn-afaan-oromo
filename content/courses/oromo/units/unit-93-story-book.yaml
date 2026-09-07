@@ -1,0 +1,157 @@
+id: unit-93-story-book
+order: 93
+title: Story, poem & book
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: tale
+    pos: noun
+    oromo: oddirii
+    alternates:
+      - aabboo guddaa
+    ipa: /ɔdːɪríː/
+    audioUrl: null
+    confidence: high
+    glossSeen: tale
+    verified: false
+  - english: tales
+    pos: noun
+    oromo: durdurii
+    alternates:
+      - mammaakamuu
+    ipa: /ˈdʊrdʊríː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/20/Om-durdurii.ogg/Om-durdurii.ogg.mp3
+    confidence: high
+    glossSeen: story, tales, fable
+    verified: false
+  - english: folklore
+    pos: noun
+    oromo: afoola
+    alternates: []
+    ipa: /ɐfoːlɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/46/Om-afoola.ogg/Om-afoola.ogg.mp3
+    confidence: high
+    glossSeen: folklore
+    verified: false
+  - english: rhyme
+    pos: noun
+    oromo: meegaraa
+    alternates: []
+    ipa: /ˈmeːɡɐrɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: rhyme
+    verified: false
+  - english: newspaper
+    pos: noun
+    oromo: gaazexaa
+    alternates:
+      - magalata
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: newspaper
+    verified: false
+  - english: magazine
+    pos: noun
+    oromo: barruulee
+    alternates: []
+    ipa: /ˈbɐrːuːléː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1c/Om-barruulee.ogg/Om-barruulee.ogg.mp3
+    confidence: high
+    glossSeen: magazine
+    verified: false
+  - english: report
+    pos: noun
+    oromo: gabaasa
+    alternates:
+      - gabaasuu
+      - gabaasisuu
+      - haftee gabaasaa
+    ipa: /ˈɡɐbɑːsɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: report
+    verified: false
+  - english: bibliography
+    pos: noun
+    oromo: macaafa wabii
+    alternates: []
+    ipa: /ˈmɐt͡ʃʼɑːfɐ wɐbíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: bibliography
+    verified: false
+  - english: catalogue
+    pos: noun
+    oromo: lakkamidaa
+    alternates: []
+    ipa: /ˈlɐkːɐmɪdɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: catalogue
+    verified: false
+  - english: pseudonym
+    pos: noun
+    oromo: maqsobee
+    alternates: []
+    ipa: /ˈmɐkʼsɔbéː/
+    audioUrl: null
+    confidence: high
+    glossSeen: pseudonym
+    verified: false
+  - english: biography
+    pos: noun
+    oromo: seenjiree
+    alternates: []
+    ipa: /ˈseːnd͡ʒɪréː/
+    audioUrl: null
+    confidence: high
+    glossSeen: biography, memories
+    verified: false
+  - english: nonfiction
+    pos: noun
+    oromo: alasoosama
+    alternates: []
+    ipa: /ɐlɐsoːsɐmɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cc/Om-alasoosama.ogg/Om-alasoosama.ogg.mp3
+    confidence: high
+    glossSeen: nonfiction
+    verified: false
+  - english: revision
+    pos: noun
+    oromo: irra deebii
+    alternates:
+      - keessa deebii
+    ipa: /ɪrːɐ deːbíː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: revision
+    verified: false
+  - english: summary
+    pos: noun
+    oromo: xumura
+    alternates:
+      - goolaba
+      - goolabbii
+      - guduunfaa
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: summary
+    verified: false
+  - english: preface
+    pos: noun
+    oromo: ariirrata
+    alternates: []
+    ipa: /ɐriːrːɐtɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/2/23/Om-ariirrata.ogg/Om-ariirrata.ogg.mp3
+    confidence: high
+    glossSeen: preface
+    verified: false

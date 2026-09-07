@@ -1,0 +1,259 @@
+id: unit-79-phone-computer
+order: 79
+title: Post, phone & computers
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: envelope
+    pos: noun
+    oromo: poostaa
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: envelope
+    verified: false
+  - english: stamp
+    pos: noun
+    oromo: teembera
+    alternates:
+      - sumuda
+      - sumuduu
+    ipa: /ˈteːmbɛrɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: stamp
+    verified: false
+  - english: parcel
+    pos: noun
+    oromo: baakkoo
+    alternates: []
+    ipa: /ˈbɑːkːóː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8e/Om-baakkoo.ogg/Om-baakkoo.ogg.mp3
+    confidence: high
+    glossSeen: pocket, box, parcel
+    verified: false
+  - english: package
+    pos: noun
+    oromo: awwagii
+    alternates:
+      - haqaarrii
+      - haqaara
+    ipa: /ɐwːɐɡíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/55/Om-awwagii.ogg/Om-awwagii.ogg.mp3
+    confidence: medium
+    glossSeen: package
+    verified: false
+  - english: mail
+    pos: noun
+    oromo: ergata
+    alternates:
+      - sanduqa poostaa
+    ipa: /ɛrɡɐtɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b1/Om-ergata.ogg/Om-ergata.ogg.mp3
+    confidence: high
+    glossSeen: message (something to be bought from market)
+    verified: false
+  - english: telephone
+    pos: noun
+    oromo: bilbila
+    alternates:
+      - teelefoona
+      - bilbiluu
+      - bilbilchiisuu
+      - haadha bilbilaa
+    ipa: /ˈbɪlbɪlɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e7/Om-bilbila.ogg/Om-bilbila.ogg.mp3
+    confidence: medium
+    glossSeen: small bell
+    verified: false
+  - english: phone
+    pos: noun
+    oromo: bilbiluu
+    alternates:
+      - baafata bilbilaa
+      - noola
+    ipa: /ˈbɪlbɪlúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5b/Om-bilbiluu.ogg/Om-bilbiluu.ogg.mp3
+    confidence: high
+    glossSeen: ring, phone
+    verified: false
+  - english: message
+    pos: noun
+    oromo: ergaa
+    alternates:
+      - beenoo
+      - ergata
+      - dhaamsa
+      - dhaammachuu
+    ipa: /ɛrɡɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b4/Om-ergaa.ogg/Om-ergaa.ogg.mp3
+    confidence: medium
+    glossSeen: message
+    verified: false
+  - english: radio
+    pos: noun
+    oromo: raadiyoo
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: radio
+    verified: false
+  - english: television
+    pos: noun
+    oromo: teelevizyiini
+    alternates: []
+    ipa: /ˈteːlɛvɪʒiːnɪ/
+    audioUrl: null
+    confidence: high
+    glossSeen: television
+    verified: false
+  - english: screen
+    pos: noun
+    oromo: argii
+    alternates:
+      - dayeessoo
+    ipa: /ɐrɡíː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/92/Om-argii.ogg/Om-argii.ogg.mp3
+    confidence: medium
+    glossSeen: screen
+    verified: false
+  - english: computer
+    pos: noun
+    oromo: kompuutara
+    alternates: []
+    ipa: /ˈkɔmpuːtɐrɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: computer
+    verified: false
+  - english: keyboard
+    pos: noun
+    oromo: gabatee cuqoo
+    alternates: []
+    ipa: /ˈɡɐbɐteː t͡ʃʼʊkʼóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: keyboard
+    verified: false
+  - english: printer
+    pos: noun
+    oromo: maxxansaa
+    alternates: []
+    ipa: /ˈmɐtʼːɐnsɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: printer
+    verified: false
+  - english: file
+    pos: noun
+    oromo: dosee
+    alternates:
+      - moroda
+      - morodee
+      - guma'uu
+      - morodachiisuu
+    ipa: /ˈdɔséː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/92/Om-dosee.ogg/Om-dosee.ogg.mp3
+    confidence: medium
+    glossSeen: file/holder/record
+    verified: false
+  - english: password
+    pos: noun
+    oromo: barreertuu
+    alternates:
+      - iggitaa
+    ipa: /ˈbɐrːeːrtúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c0/Om-barreertuu.ogg/Om-barreertuu.ogg.mp3
+    confidence: medium
+    glossSeen: password
+    verified: false
+  - english: network
+    pos: noun
+    oromo: cimdaa
+    alternates:
+      - cimdaa asoo
+    ipa: /ˈt͡ʃʼɪmdɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9f/Om-cimdaa.ogg/Om-cimdaa.ogg.mp3
+    confidence: high
+    glossSeen: network
+    verified: false
+  - english: database
+    pos: noun
+    oromo: kuusdeetaa
+    alternates: []
+    ipa: /ˈkuːsdeːtɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: database
+    verified: false
+  - english: software
+    pos: noun
+    oromo: mosaji
+    alternates: []
+    ipa: /ˈmɔsɐd͡ʒɪ/
+    audioUrl: null
+    confidence: high
+    glossSeen: software
+    verified: false
+  - english: spreadsheet
+    pos: noun
+    oromo: wardii
+    alternates: []
+    ipa: /ˈwɐrdíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: spreadsheet
+    verified: false
+  - english: keyword
+    pos: noun
+    oromo: jefuraa
+    alternates: []
+    ipa: /ˈd͡ʒɛfʊrɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: keyword
+    verified: false
+  - english: inbox
+    pos: noun
+    oromo: simergaa
+    alternates: []
+    ipa: /ˈsɪmɛrɡɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: inbox
+    verified: false
+  - english: mailbox
+    pos: noun
+    oromo: sanduuqa ergataa
+    alternates: []
+    ipa: /ˈsɐnduːkʼɐ ɛrɡɐtɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: mailbox
+    verified: false
+  - english: sidebar
+    pos: noun
+    oromo: kabala moggaa
+    alternates: []
+    ipa: /ˈkɐbɐlɐ mɔɡːɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: sidebar
+    verified: false
+  - english: snapshot
+    pos: noun
+    oromo: fanyartu
+    alternates: []
+    ipa: /ˈfɐɲɐrtʊ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6b/Om-fanyartu.ogg/Om-fanyartu.ogg.mp3
+    confidence: high
+    glossSeen: snapshot
+    verified: false

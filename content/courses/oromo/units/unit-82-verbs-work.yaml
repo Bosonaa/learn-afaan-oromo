@@ -1,0 +1,245 @@
+id: unit-82-verbs-work
+order: 82
+title: "Verbs: work & making"
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: create
+    pos: verb
+    oromo: huumuu
+    alternates:
+      - uummachuu
+      - kalaquu
+      - kalquu
+      - uumuu
+    ipa: /ˈhuːmúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: to create
+    verified: false
+  - english: construct
+    pos: verb
+    oromo: dagalchuu
+    alternates:
+      - dagalchiisuu
+      - dagaluu
+      - ijaarsisuu
+      - baabbuu
+    ipa: /ˈdɐɡɐlt͡ʃúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d3/Om-dagalchuu.ogg/Om-dagalchuu.ogg.mp3
+    confidence: high
+    glossSeen: lay something horizontally, construct
+    verified: false
+  - english: repair
+    pos: verb
+    oromo: suphuu
+    alternates:
+      - tolchuu
+      - suphisiisuu
+      - suphachuu
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: to repair, fix
+    verified: false
+  - english: join
+    pos: verb
+    oromo: fufuu
+    alternates:
+      - qarqabuu
+      - fufsiisuu
+      - itti baafamuu
+      - itti fufuu
+    ipa: /ˈfʊfúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/0/05/Om-fufuu.ogg/Om-fufuu.ogg.mp3
+    confidence: high
+    glossSeen: continue, extend, join
+    verified: false
+  - english: fasten
+    pos: verb
+    oromo: cinqaarsuu
+    alternates:
+      - maagarachuu
+      - maagaramuu
+      - maagarsiisuu
+      - maagaruu
+    ipa: /ˈt͡ʃʼɪnkʼɑːrsúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c6/Om-cinqaarsuu.ogg/Om-cinqaarsuu.ogg.mp3
+    confidence: high
+    glossSeen: to drive on
+    verified: false
+  - english: carve
+    pos: verb
+    oromo: bocuu
+    alternates:
+      - soqachuu
+      - bocsisuu
+      - ija facaasuu
+    ipa: /ˈbɔt͡ʃʼúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/5/59/Om-bocuu.ogg/Om-bocuu.ogg.mp3
+    confidence: medium
+    glossSeen: carve
+    verified: false
+  - english: sharpen
+    pos: verb
+    oromo: qaruu
+    alternates:
+      - qarsiifachuu
+      - qarsiisuu
+      - waqarachuu
+      - waqarsiifachuu
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: to sharpen
+    verified: false
+  - english: lift
+    pos: verb
+    oromo: kaastoo
+    alternates:
+      - kaasuu
+      - hamilee ijaaruu
+    ipa: /ˈkɑːstóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: lift
+    verified: false
+  - english: load
+    pos: verb
+    oromo: maammaachuu
+    alternates:
+      - fe'achuu
+      - fe'uu
+      - fe'aa
+      - ba'aa
+    ipa: /ˈmɑːmːɑːt͡ʃúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: to load
+    verified: false
+  - english: manufacture
+    pos: verb
+    oromo: oomishuu
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: to manufacture, produce
+    verified: false
+  - english: assemble
+    pos: verb
+    oromo: warshaaluu
+    alternates:
+      - dacha'uu
+      - warshaalachuu
+      - warshaalsifachuu
+      - warshaalsisuu
+    ipa: /ˈwɐrʃɑːlúː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: to assemble
+    verified: false
+  - english: braid
+    pos: verb
+    oromo: dha'achuu
+    alternates:
+      - dhayuu
+      - ginna baasuu
+    ipa: /ˈᶑɐʔɐt͡ʃúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a6/Om-dha%27achuu.ogg/Om-dha%27achuu.ogg.mp3
+    confidence: high
+    glossSeen: see 'dahachuu'
+    verified: false
+  - english: forge
+    pos: verb
+    oromo: tumuu
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: to beat, hit, strike
+    verified: false
+  - english: install
+    pos: verb
+    oromo: habaqaalchuu
+    alternates: []
+    ipa: /ˈhɐbɐkʼɑːlt͡ʃúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: to install
+    verified: false
+  - english: operate
+    pos: verb
+    oromo: badhuu
+    alternates: []
+    ipa: /ˈbɐᶑúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/1/10/Om-badhuu.ogg/Om-badhuu.ogg.mp3
+    confidence: high
+    glossSeen: to operate
+    verified: false
+  - english: arrange
+    pos: verb
+    oromo: kurfeessuu
+    alternates:
+      - tarreeffachuu
+      - tarreessuu
+    ipa: /ˈkʊrfeːsːúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: arrange, prepare
+    verified: false
+  - english: rearrange
+    pos: verb
+    oromo: qixeessuu
+    alternates: []
+    ipa: /ˈkʼɪtʼeːsːúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: to prepare, rearrange
+    verified: false
+  - english: stack
+    pos: verb
+    oromo: guuruu
+    alternates: []
+    ipa: /ˈɡuːrúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: pile/stack
+    verified: false
+  - english: pile
+    pos: verb
+    oromo: tuuluu
+    alternates:
+      - kuusuu
+      - guuruu
+      - tuulama
+      - tuullaa
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: to pile
+    verified: false
+  - english: trim
+    pos: verb
+    oromo: maaxuu
+    alternates: []
+    ipa: /ˈmɑːtʼúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: prune branches, trim
+    verified: false
+  - english: tile
+    pos: verb
+    oromo: moroduu
+    alternates: []
+    ipa: /ˈmɔrɔdúː/
+    audioUrl: null
+    confidence: high
+    glossSeen: to tile
+    verified: false

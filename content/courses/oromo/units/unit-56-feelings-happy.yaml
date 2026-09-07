@@ -1,0 +1,258 @@
+id: unit-56-feelings-happy
+order: 56
+title: "Feelings: happy & sad"
+status: draft-unreviewed
+source:
+  name: kaikki.org machine-readable Oromo dictionary (wiktextract of English
+    Wiktionary)
+  url: https://kaikki.org/dictionary/Oromo/
+  license: CC BY-SA 4.0
+  note: Audio files are individually licensed on Wikimedia Commons; per-file
+    licence must be checked before redistribution.
+words:
+  - english: happiness
+    pos: noun
+    oromo: jija
+    alternates:
+      - qannoo
+    ipa: null
+    audioUrl: null
+    confidence: medium
+    glossSeen: happiness
+    verified: false
+  - english: pleasure
+    pos: noun
+    oromo: qannoo
+    alternates:
+      - basaquu
+    ipa: /ˈkʼɐnːóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: luxury
+    verified: false
+  - english: delight
+    pos: noun
+    oromo: bohaarsuu
+    alternates: []
+    ipa: /ˈbɔhɑːrsúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/40/Om-bohaarsuu.ogg/Om-bohaarsuu.ogg.mp3
+    confidence: high
+    glossSeen: to entertain
+    verified: false
+  - english: laughter
+    pos: noun
+    oromo: kolfa
+    alternates:
+      - basaquu
+    ipa: null
+    audioUrl: null
+    confidence: high
+    glossSeen: laughter
+    verified: false
+  - english: comfort
+    pos: noun
+    oromo: makkoo
+    alternates:
+      - qananii
+      - badhaadha
+    ipa: /ˈmɐkːóː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: comfort
+    verified: false
+  - english: friendship
+    pos: noun
+    oromo: michoomummaa
+    alternates:
+      - firummaa
+    ipa: /ˈmɪt͡ʃoːmʊmːɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: friendship
+    verified: false
+  - english: sorrow
+    pos: noun
+    oromo: addeenna
+    alternates:
+      - addeenya
+      - gadda
+      - garaa booressuu
+    ipa: /ɐdːeːnːɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4e/Om-addeenna.ogg/Om-addeenna.ogg.mp3
+    confidence: medium
+    glossSeen: whiteness
+    verified: false
+  - english: grief
+    pos: noun
+    oromo: boossiftuu
+    alternates: []
+    ipa: /ˈboːsːɪftúː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/89/Om-boossiftuu.ogg/Om-boossiftuu.ogg.mp3
+    confidence: high
+    glossSeen: professional mourner something that causes to weep/ grief (fem)
+    verified: false
+  - english: loneliness
+    pos: noun
+    oromo: ko'ummaa
+    alternates:
+      - kophumma
+    ipa: /ˈkɔʔʊmːɑ́ː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: loneliness
+    verified: false
+  - english: misery
+    pos: noun
+    oromo: abasaa
+    alternates:
+      - gidiraa
+      - darara
+      - fitnaa
+      - dhiphuu
+    ipa: /ɐbɐsɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/6/61/Om-abasaa.ogg/Om-abasaa.ogg.mp3
+    confidence: medium
+    glossSeen: misery
+    verified: false
+  - english: disappointment
+    pos: noun
+    oromo: mufata
+    alternates:
+      - mufannaa
+    ipa: /ˈmʊfɐtɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: disappointment
+    verified: false
+  - english: regret
+    pos: noun
+    oromo: gaabbii
+    alternates:
+      - seenaa
+      - gaabbuu
+      - sheena'uu
+      - gaabbisiisuu
+    ipa: /ˈɡɑːbːíː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: regret
+    verified: false
+  - english: longing
+    pos: noun
+    oromo: halcaa
+    alternates:
+      - dharraa
+      - yaaddoo
+      - yaadamuu
+    ipa: /ˈhɐlt͡ʃʼɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: longing
+    verified: false
+  - english: mood
+    pos: noun
+    oromo: inaajii
+    alternates:
+      - ookkoo
+      - dallansisuu
+      - jinaa'uu
+    ipa: /ɪnɑːd͡ʒíː/
+    audioUrl: null
+    confidence: high
+    glossSeen: mood, style
+    verified: false
+  - english: feeling
+    pos: noun
+    oromo: anniisaa
+    alternates:
+      - obobsa
+      - sabboonaa
+      - sabboontuu
+      - sinsinnii
+    ipa: /ɐnːiːsɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8e/Om-anniisaa.ogg/Om-anniisaa.ogg.mp3
+    confidence: high
+    glossSeen: see 'dhuka'
+    verified: false
+  - english: emotion
+    pos: noun
+    oromo: miirbu'uuree
+    alternates:
+      - miira
+      - bakfachuu
+      - hamilee cabsuu
+    ipa: /ˈmiːrbʊʔuːréː/
+    audioUrl: null
+    confidence: medium
+    glossSeen: emotion
+    verified: false
+  - english: relief
+    pos: noun
+    oromo: obbaafata
+    alternates:
+      - furaa
+      - furamuu
+      - hooquu
+    ipa: /ɔbːɑːfɐtɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: relief
+    verified: false
+  - english: hopeful
+    pos: noun
+    oromo: abdataa
+    alternates: []
+    ipa: /ɐbdɐtɑ́ː/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/75/Om-abdataa.ogg/Om-abdataa.ogg.mp3
+    confidence: high
+    glossSeen: hopeful
+    verified: false
+  - english: closeness
+    pos: noun
+    oromo: dhiyeenya
+    alternates: []
+    ipa: /ˈᶑɪjeːɲɐ/
+    audioUrl: https://upload.wikimedia.org/wikipedia/commons/transcoded/7/70/Om-dhiyeenya.ogg/Om-dhiyeenya.ogg.mp3
+    confidence: high
+    glossSeen: nearness, closeness
+    verified: false
+  - english: fun
+    pos: noun
+    oromo: kolacha
+    alternates:
+      - bashannanuu
+      - ga'isa
+      - ga'isuu
+    ipa: /ˈkɔlɐt͡ʃɐ/
+    audioUrl: null
+    confidence: high
+    glossSeen: fun
+    verified: false
+  - english: amazement
+    pos: noun
+    oromo: maalaloo
+    alternates: []
+    ipa: /ˈmɑːlɐlóː/
+    audioUrl: null
+    confidence: high
+    glossSeen: admiration, amazement
+    verified: false
+  - english: affectionate
+    pos: noun
+    oromo: mararsisaa
+    alternates: []
+    ipa: /ˈmɐrɐrsɪsɑ́ː/
+    audioUrl: null
+    confidence: high
+    glossSeen: affectionate(male)
+    verified: false
+  - english: goodness
+    pos: noun
+    oromo: gaarumina
+    alternates:
+      - gaarummaa
+    ipa: /ˈɡɑːrʊmɪnɐ/
+    audioUrl: null
+    confidence: medium
+    glossSeen: goodness
+    verified: false
