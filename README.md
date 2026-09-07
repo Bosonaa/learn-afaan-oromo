@@ -81,6 +81,15 @@ review.
 
 ## Reviewing the draft
 
+Easiest way is the built-in review tool at `/review` while running locally (`npm run dev`):
+pick a unit, then edit the Afaan Oromo answer as free text — the drafted word is often only
+misspelled, and the alternates the lexicon offers often do not include the right word at all.
+Saving writes both `content/overrides.yaml` and the unit's YAML, so the lesson teaches the
+correction immediately; commit those files to keep it. The tool refuses to save on a hosted
+deployment, where the checkout is read-only.
+
+The CSV sheets are the alternative for reviewing away from a computer:
+
 `review/<unit-id>.csv` (plus a combined `review/all-units-review.csv`) proposes an Oromo word per English concept, with alternates,
 IPA, audio availability and a confidence flag. Automatic gloss inversion produces plausible
 errors (e.g. English "head" can map to `abbaa manaa`, head of a household), so every row

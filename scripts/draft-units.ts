@@ -11,23 +11,14 @@ import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { resolve } from "node:path";
 import { parse, stringify } from "yaml";
 import { UNITS, type UnitSpec } from "../content/courses/oromo/curriculum.js";
-import { courseUnitsDir, LEXICON_PATH, OVERRIDES_PATH, REVIEW_DIR } from "./config.js";
+import { courseUnitsDir, LEXICON_PATH, REVIEW_DIR } from "./config.js";
+import { loadOverrides, type Override } from "../lib/overrides.js";
 import type { Lexicon, LexiconEntry } from "./build-lexicon.js";
 
 /** The curriculum imported above is this course's; other courses get their own script run. */
 const COURSE_ID = "oromo";
 
 type Confidence = "high" | "medium" | "low" | "none";
-
-interface Override {
-  oromo: string;
-  alternates?: string[];
-  reviewer?: string;
-  note?: string;
-}
-
-/** unit id -> English prompt -> reviewer's correction. */
-type Overrides = Record<string, Record<string, Override>>;
 
 interface Candidate {
   entry: LexiconEntry;
@@ -47,15 +38,6 @@ interface DraftedWord {
   /** True once a fluent speaker has signed the word off in overrides.yaml. */
   verified: boolean;
   reviewer?: string;
-}
-
-async function loadOverrides(): Promise<Overrides> {
-  try {
-    return (parse(await readFile(OVERRIDES_PATH, "utf8")) as Overrides | null) ?? {};
-  } catch (error) {
-    if ((error as NodeJS.ErrnoException).code === "ENOENT") return {};
-    throw error;
-  }
 }
 
 /**
