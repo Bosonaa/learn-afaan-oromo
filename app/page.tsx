@@ -11,7 +11,6 @@ export default async function HomePage() {
         order: unit.order,
         reviewed: unit.reviewed,
         words: unit.words.map((word) => word.oromo),
-        withAudio: unit.words.filter((word) => word.audio !== null).length,
         verified: unit.words.filter((word) => word.verified).length,
       }))}
     />

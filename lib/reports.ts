@@ -2,7 +2,6 @@
 export const REPORT_CATEGORIES = [
   "wrong translation",
   "wrong spelling",
-  "wrong audio",
   "grammar",
   "other",
 ] as const;

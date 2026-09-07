@@ -34,18 +34,16 @@ Unit YAML and mirrored audio are committed, so the app runs without regenerating
 Progress (XP, streak, spaced-repetition schedule) is stored in `localStorage` only: no
 accounts, no server, no analytics, nothing about a child leaves the device.
 
-Lessons are 10 prompts drawn from four exercise kinds — English→Oromo choice, Oromo→English
-choice, listen-and-choose (only for words with a recording), and type-the-word.
-Words due for review lead the lesson; a miss resets its interval so it returns the same day.
+Lessons are 10 prompts, all multiple choice, in one of two directions — English→Oromo or
+Oromo→English. Nothing is typed and nothing is played: there are no free-form answers and no
+audio questions. Words due for review lead the lesson; a miss resets its interval so it
+returns the same day.
 
-## Recording the missing words
+## Later phases (built, but not part of the app)
 
-About half the vocabulary has no Wikimedia recording, so `/record` (dev only) walks through
-exactly those words and captures a clip per word straight into `public/audio/recorded/`,
-listed in `content/recordings.json`. Commit both; the listening exercises then use a family
-voice wherever no licensed native clip exists. `ffmpeg`, if installed, transcodes the take
-to mp3 so iOS can play it. The route refuses to run in production because a hosted
-deployment has a read-only checkout.
+`app/_future/` holds finished work that the current phase deliberately excludes: the
+in-browser pronunciation recorder and the lexicon-wide dictionary search. Next.js does not
+route folders starting with `_`, so none of it loads. See `app/_future/README.md`.
 
 ## Regenerating content
 
@@ -65,8 +63,7 @@ author; anything unresolved is skipped and reported rather than shipped uncredit
 `content/overrides.yaml` holds fluent-speaker verdicts keyed by unit and English
 prompt. `npm run draft:units` applies them over whatever the lexicon proposes and
 marks those words `verified: true`, so regenerating content never discards a
-review. IPA and audio are re-looked-up for the corrected spelling; a word the
-lexicon does not carry simply ships without a recording.
+review.
 
 ## Reviewing the draft
 

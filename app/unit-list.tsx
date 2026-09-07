@@ -12,7 +12,6 @@ export interface UnitSummary {
   order: number;
   reviewed: boolean;
   words: string[];
-  withAudio: number;
   verified: number;
 }
 
@@ -77,8 +76,7 @@ export function UnitList({ units }: { units: UnitSummary[] }) {
                   <div className="h-full bg-teal-600" style={{ width: `${mastery}%` }} />
                 </div>
                 <p className="mt-2 text-sm text-slate-500">
-                  {unit.words.length} words · {unit.withAudio} with native audio ·{" "}
-                  {unit.verified} checked
+                  {unit.words.length} words · {unit.verified} checked
                   {dueHere > 0 ? ` · ${dueHere} to review` : ""}
                 </p>
               </Link>
