@@ -68,17 +68,25 @@ interface RawUnit {
   words: RawWord[];
 }
 
+const contentPath = (courseId: string, dir: string, unitId: string): string =>
+  resolve(process.cwd(), "content", "courses", courseId, dir, `${unitId}.yaml`);
+
+/** Word units and phrase sets live in sibling directories, same YAML shape. */
+async function readUnit(correction: Correction): Promise<{ path: string; text: string }> {
+  const paths = ["units", "phrases"].map((dir) =>
+    contentPath(correction.courseId, dir, correction.unitId),
+  );
+  for (const path of paths) {
+    const text = await readFile(path, "utf8").catch(() => null);
+    if (text !== null) return { path, text };
+  }
+  throw new Error("no such unit");
+}
+
 /** Teaches the correction now, instead of waiting for the next draft run. */
 async function applyToUnit(correction: Correction): Promise<boolean> {
-  const path = resolve(
-    process.cwd(),
-    "content",
-    "courses",
-    correction.courseId,
-    "units",
-    `${correction.unitId}.yaml`,
-  );
-  const unit = parse(await readFile(path, "utf8")) as RawUnit;
+  const { path, text } = await readUnit(correction);
+  const unit = parse(text) as RawUnit;
   const word = unit.words.find(
     (candidate) => candidate.english === correction.english,
   );
@@ -117,13 +125,13 @@ export async function POST(request: Request): Promise<NextResponse> {
     applied = await applyToUnit(correction);
   } catch {
     return NextResponse.json(
-      { error: "could not read the unit" },
+      { error: "could not read that unit or phrase set" },
       { status: 404 },
     );
   }
   if (!applied) {
     return NextResponse.json(
-      { error: "no such word in that unit" },
+      { error: "no such prompt in that unit" },
       { status: 404 },
     );
   }

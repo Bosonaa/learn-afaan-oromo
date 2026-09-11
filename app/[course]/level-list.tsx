@@ -20,13 +20,19 @@ export interface UnitSummary {
   reviewed: boolean;
   words: string[];
   verified: number;
+  /** Prompts still waiting for a fluent speaker to supply the answer. */
+  unanswered: number;
+  locked: boolean;
 }
 
 export interface LevelSummary {
+  kind: "words" | "phrases";
   order: number;
   title: string;
   units: UnitSummary[];
 }
+
+const levelKey = (level: LevelSummary): string => `${level.kind}-${level.order}`;
 
 export function LevelList({
   courseId,
@@ -40,7 +46,9 @@ export function LevelList({
   // Progress is client-only, so render the server view first and fill it in after mount.
   const [progress, setProgress] = useState<Progress>(emptyProgress);
   const [profiles, setProfiles] = useState<Profiles | null>(null);
-  const [openLevel, setOpenLevel] = useState(levels[0]?.order ?? 1);
+  const [openLevel, setOpenLevel] = useState(
+    levels[0] === undefined ? "" : levelKey(levels[0]),
+  );
 
   useEffect(() => {
     const stored = loadProfiles();
@@ -58,10 +66,12 @@ export function LevelList({
   };
 
   const due = new Set(dueWords(progress));
-  const units = levels.flatMap((level) => level.units);
-  const anyUnreviewed = units.some((unit) => !unit.reviewed);
-  const verified = units.reduce((sum, unit) => sum + unit.verified, 0);
-  const total = units.reduce((sum, unit) => sum + unit.words.length, 0);
+  const wordUnits = levels
+    .filter((level) => level.kind === "words")
+    .flatMap((level) => level.units);
+  const anyUnreviewed = wordUnits.some((unit) => !unit.reviewed);
+  const verified = wordUnits.reduce((sum, unit) => sum + unit.verified, 0);
+  const total = wordUnits.reduce((sum, unit) => sum + unit.words.length, 0);
 
   return (
     <div className="space-y-6">
@@ -101,23 +111,30 @@ export function LevelList({
         {levels.map((level) => {
           const words = level.units.flatMap((unit) => unit.words);
           const mastery = Math.round(100 * unitMastery(progress, words));
-          const open = level.order === openLevel;
+          const open = levelKey(level) === openLevel;
+          const phrases = level.kind === "phrases";
+          const waiting = level.units.reduce(
+            (sum, unit) => sum + unit.unanswered,
+            0,
+          );
           return (
             <li
-              key={level.order}
+              key={levelKey(level)}
               className="overflow-hidden rounded-xl bg-white shadow-sm"
             >
               <button
                 type="button"
-                onClick={() => setOpenLevel(open ? 0 : level.order)}
+                onClick={() => setOpenLevel(open ? "" : levelKey(level))}
                 aria-expanded={open}
                 className="w-full p-4 text-left"
               >
                 <div className="flex items-baseline justify-between gap-3">
                   <h2 className="text-lg font-semibold">
-                    <span className="text-slate-400">
-                      Level {level.order} ·{" "}
-                    </span>
+                    {phrases ? null : (
+                      <span className="text-slate-400">
+                        Level {level.order} ·{" "}
+                      </span>
+                    )}
                     {level.title}
                   </h2>
                   <span className="whitespace-nowrap text-sm text-slate-500">
@@ -131,7 +148,9 @@ export function LevelList({
                   />
                 </div>
                 <p className="mt-2 text-sm text-slate-500">
-                  {level.units.length} units · {words.length} words
+                  {level.units.length} {phrases ? "sets" : "units"} ·{" "}
+                  {words.length} {phrases ? "phrases" : "words"}
+                  {waiting > 0 ? ` · ${waiting} awaiting a translation` : ""}
                   {open ? "" : " · tap to open"}
                 </p>
               </button>
@@ -145,29 +164,42 @@ export function LevelList({
                     const dueHere = unit.words.filter((word) =>
                       due.has(word),
                     ).length;
+                    const detail = (
+                      <>
+                        <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-teal-50 text-sm font-semibold text-teal-700">
+                          {unit.position}
+                        </span>
+                        <span className="min-w-0 flex-1">
+                          <span className="block truncate font-medium">
+                            {unit.title}
+                          </span>
+                          <span className="block text-sm text-slate-500">
+                            {unit.locked
+                              ? `${unit.unanswered} phrases waiting for a fluent speaker`
+                              : `${unit.words.length} ${phrases ? "phrases" : "words"} · ${unit.verified} checked${
+                                  dueHere > 0 ? ` · ${dueHere} to review` : ""
+                                }`}
+                          </span>
+                        </span>
+                        <span className="text-sm text-slate-500">
+                          {unit.locked ? "Locked" : `${unitDone}%`}
+                        </span>
+                      </>
+                    );
                     return (
                       <li key={unit.id}>
-                        <Link
-                          href={`/${courseId}/learn/${unit.id}`}
-                          className="flex items-center gap-3 px-4 py-3 transition hover:bg-slate-50"
-                        >
-                          <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-teal-50 text-sm font-semibold text-teal-700">
-                            {unit.position}
-                          </span>
-                          <span className="min-w-0 flex-1">
-                            <span className="block truncate font-medium">
-                              {unit.title}
-                            </span>
-                            <span className="block text-sm text-slate-500">
-                              {unit.words.length} words · {unit.verified}{" "}
-                              checked
-                              {dueHere > 0 ? ` · ${dueHere} to review` : ""}
-                            </span>
-                          </span>
-                          <span className="text-sm text-slate-500">
-                            {unitDone}%
-                          </span>
-                        </Link>
+                        {unit.locked ? (
+                          <div className="flex items-center gap-3 px-4 py-3 opacity-60">
+                            {detail}
+                          </div>
+                        ) : (
+                          <Link
+                            href={`/${courseId}/learn/${unit.id}`}
+                            className="flex items-center gap-3 px-4 py-3 transition hover:bg-slate-50"
+                          >
+                            {detail}
+                          </Link>
+                        )}
                       </li>
                     );
                   })}
@@ -182,15 +214,20 @@ export function LevelList({
 }
 
 /** The first level with words left to learn — where a child should carry on. */
-function currentLevel(levels: LevelSummary[], progress: Progress): number {
-  const unfinished = levels.find(
+function currentLevel(levels: LevelSummary[], progress: Progress): string {
+  const teachable = levels.filter((level) =>
+    level.units.some((unit) => !unit.locked),
+  );
+  const unfinished = teachable.find(
     (level) =>
       unitMastery(
         progress,
         level.units.flatMap((unit) => unit.words),
       ) < 1,
   );
-  return unfinished?.order ?? levels[levels.length - 1]?.order ?? 1;
+  const fallback = teachable[teachable.length - 1] ?? levels[0];
+  const level = unfinished ?? fallback;
+  return level === undefined ? "" : levelKey(level);
 }
 
 function Stat({ label, value }: { label: string; value: string }) {

@@ -1,0 +1,127 @@
+id: phrases-02-family
+order: 2
+title: My family
+kind: phrases
+status: draft-unreviewed
+source: authored in content/courses/oromo/phrasebook.ts; answers from a fluent speaker
+words:
+  - english: This is my mother.
+    pos: phrase
+    note: introducing someone nearby
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: This is my father.
+    pos: phrase
+    note: introducing someone nearby
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: I have two sisters.
+    pos: phrase
+    note: null
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: I have one brother.
+    pos: phrase
+    note: null
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: My brother is small.
+    pos: phrase
+    note: null
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: My sister is tall.
+    pos: phrase
+    note: null
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: Where is my mother?
+    pos: phrase
+    note: null
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: My grandmother is at home.
+    pos: phrase
+    note: null
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: We are one family.
+    pos: phrase
+    note: null
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: My father is working.
+    pos: phrase
+    note: null
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: The baby is sleeping.
+    pos: phrase
+    note: null
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: I love my family.
+    pos: phrase
+    note: null
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false

@@ -11,6 +11,8 @@ export interface Word {
   pos: string;
   oromo: string;
   alternates: string[];
+  /** Context for a translator, on phrases: who is speaking, and to whom. */
+  note: string | null;
   ipa: string | null;
   /** Playable clip, or null when nobody has recorded this word yet. */
   audio: string | null;
@@ -21,15 +23,22 @@ export interface Word {
   verified: boolean;
 }
 
+/** Words are drafted from the lexicon; phrases only ever come from a person. */
+export type UnitKind = "words" | "phrases";
+
 export interface Unit {
   id: string;
   order: number;
   title: string;
+  kind: UnitKind;
   reviewed: boolean;
   words: Word[];
+  /** Prompts nobody has answered yet, so they cannot be taught. */
+  unanswered: number;
 }
 
 export interface Level {
+  kind: UnitKind;
   order: number;
   title: string;
   units: Unit[];
@@ -40,6 +49,7 @@ interface RawWord {
   pos: string;
   oromo: string | null;
   alternates: string[];
+  note?: string | null;
   ipa: string | null;
   confidence: Word["confidence"];
   verified?: boolean;
@@ -49,18 +59,32 @@ interface RawUnit {
   id: string;
   order: number;
   title: string;
+  kind?: UnitKind;
   status: string;
   words: RawWord[];
 }
 
-const unitsRoot = (courseId: string): string =>
-  resolve(process.cwd(), "content", "courses", courseId, "units");
+const contentDir = (courseId: string, kind: UnitKind): string =>
+  resolve(process.cwd(), "content", "courses", courseId, kind === "words" ? "units" : "phrases");
 
-export async function loadUnits(courseId: string): Promise<Unit[]> {
-  const root = unitsRoot(courseId);
+export interface LoadOptions {
+  /**
+   * Keep prompts with no answer, as the empty string. The review tool needs
+   * them — an unanswered phrase is exactly what a reviewer is there to fix —
+   * but lessons must never show one.
+   */
+  includeUnanswered?: boolean;
+}
+
+async function loadDir(
+  courseId: string,
+  kind: UnitKind,
+  { includeUnanswered = false }: LoadOptions,
+): Promise<Unit[]> {
+  const root = contentDir(courseId, kind);
   const clips = await mirroredClips();
   const recorded = new Map((await loadRecordings()).map((rec) => [rec.oromo, rec.file]));
-  const files = (await readdir(root)).filter((name) => name.endsWith(".yaml"));
+  const files = (await readdir(root).catch(() => [])).filter((name) => name.endsWith(".yaml"));
 
   const units = await Promise.all(
     files.map(async (name): Promise<Unit> => {
@@ -69,12 +93,15 @@ export async function loadUnits(courseId: string): Promise<Unit[]> {
         id: raw.id,
         order: raw.order,
         title: raw.title,
+        kind: raw.kind ?? "words",
         reviewed: raw.status !== "draft-unreviewed",
+        unanswered: raw.words.filter((word) => word.oromo === null).length,
         words: raw.words.flatMap((word): Word[] => {
-          if (word.oromo === null) return [];
-          const file = `${slugify(word.oromo)}.mp3`;
+          if (word.oromo === null && !includeUnanswered) return [];
+          const oromo = word.oromo ?? "";
+          const file = `${slugify(oromo)}.mp3`;
           // A licensed native recording wins; a family recording fills the gaps.
-          const ownRecording = recorded.get(word.oromo);
+          const ownRecording = recorded.get(oromo);
           const audio = clips.has(file)
             ? `/audio/${file}`
             : ownRecording === undefined
@@ -84,8 +111,9 @@ export async function loadUnits(courseId: string): Promise<Unit[]> {
             {
               english: word.english,
               pos: word.pos,
-              oromo: word.oromo,
+              oromo,
               alternates: word.alternates,
+              note: word.note ?? null,
               ipa: word.ipa,
               audio,
               audioSource: audio === null ? null : clips.has(file) ? "commons" : "family",
@@ -101,17 +129,25 @@ export async function loadUnits(courseId: string): Promise<Unit[]> {
   return units.sort((a, b) => a.order - b.order);
 }
 
+export async function loadUnits(courseId: string, options: LoadOptions = {}): Promise<Unit[]> {
+  return loadDir(courseId, "words", options);
+}
+
+export async function loadPhraseSets(courseId: string, options: LoadOptions = {}): Promise<Unit[]> {
+  return loadDir(courseId, "phrases", options);
+}
+
 export async function loadUnit(courseId: string, unitId: string): Promise<Unit | null> {
-  const units = await loadUnits(courseId);
+  const units = [...(await loadUnits(courseId)), ...(await loadPhraseSets(courseId))];
   return units.find((unit) => unit.id === unitId) ?? null;
 }
 
-export async function loadLevels(course: Course | string): Promise<Level[]> {
-  const resolved = typeof course === "string" ? courseById(course) : course;
-  if (resolved === null) return [];
+/** A lesson needs a correct answer plus three distractors from the same unit. */
+export const MIN_TEACHABLE = 4;
 
+function group(units: Unit[], title: (order: number) => string, kind: UnitKind): Level[] {
   const byLevel = new Map<number, Unit[]>();
-  for (const unit of await loadUnits(resolved.id)) {
+  for (const unit of units) {
     const level = levelOf(unit.order);
     const existing = byLevel.get(level);
     if (existing === undefined) byLevel.set(level, [unit]);
@@ -120,5 +156,23 @@ export async function loadLevels(course: Course | string): Promise<Level[]> {
 
   return [...byLevel.entries()]
     .sort(([a], [b]) => a - b)
-    .map(([order, units]) => ({ order, title: levelTitle(resolved, order), units }));
+    .map(([order, grouped]) => ({ kind, order, title: title(order), units: grouped }));
+}
+
+/**
+ * Word levels first, then phrase levels: phrases build on words the child has
+ * already met, so they come after the whole word course rather than inside it.
+ */
+export async function loadLevels(course: Course | string): Promise<Level[]> {
+  const resolved = typeof course === "string" ? courseById(course) : course;
+  if (resolved === null) return [];
+
+  return [
+    ...group(await loadUnits(resolved.id), (order) => levelTitle(resolved, order), "words"),
+    ...group(
+      await loadPhraseSets(resolved.id),
+      (order) => (order === 1 ? "Phrases" : `More phrases ${order - 1}`),
+      "phrases",
+    ),
+  ];
 }

@@ -7,6 +7,7 @@
     "fetch:lexicon": "tsx scripts/fetch-lexicon.ts",
     "build:lexicon": "tsx scripts/build-lexicon.ts",
     "draft:units": "tsx scripts/draft-units.ts",
+    "draft:phrases": "tsx scripts/draft-phrases.ts",
     "mirror:audio": "tsx scripts/mirror-audio.ts",
     "dev": "next dev",
     "build": "next build",

@@ -137,7 +137,10 @@ export function Lesson({
           {promptLabel(exercise)}
         </p>
 
-        <p className="mt-2 text-3xl font-bold" data-testid="prompt">
+        <p
+          className={`mt-2 font-bold ${exercise.prompt.length > 24 ? "text-2xl" : "text-3xl"}`}
+          data-testid="prompt"
+        >
           {exercise.prompt}
         </p>
 
