@@ -3,7 +3,13 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { loadProfiles, type Profiles } from "@/lib/profiles";
-import { dueWords, emptyProgress, loadProgress, unitMastery, type Progress } from "@/lib/progress";
+import {
+  dueWords,
+  emptyProgress,
+  loadProgress,
+  unitMastery,
+  type Progress,
+} from "@/lib/progress";
 import { ProfileSwitcher } from "@/app/profile-switcher";
 
 export interface UnitSummary {
@@ -61,7 +67,10 @@ export function LevelList({
     <div className="space-y-6">
       <div className="flex items-baseline justify-between gap-3">
         <h1 className="text-2xl font-bold">{courseName}</h1>
-        <Link href="/" className="text-sm font-medium text-teal-700 hover:underline">
+        <Link
+          href="/"
+          className="text-sm font-medium text-teal-700 hover:underline"
+        >
           Change language
         </Link>
       </div>
@@ -78,9 +87,13 @@ export function LevelList({
 
       {anyUnreviewed ? (
         <p className="rounded-xl border border-amber-300 bg-amber-50 p-3 text-sm text-amber-900">
-          {verified} of {total} words are <strong>checked by a fluent speaker</strong>. The rest are
-          still a machine-generated draft from open dictionary data — some are wrong, so check them
-          against the review sheet before trusting a lesson.
+          {verified} of {total} words are{" "}
+          <strong>checked by a fluent speaker</strong>. The rest are still a
+          machine-generated draft from open dictionary data — some are wrong, so
+          check them against the review sheet before trusting a lesson.{" "}
+          <Link href="/review" className="font-semibold underline">
+            Fix a word
+          </Link>
         </p>
       ) : null}
 
@@ -90,7 +103,10 @@ export function LevelList({
           const mastery = Math.round(100 * unitMastery(progress, words));
           const open = level.order === openLevel;
           return (
-            <li key={level.order} className="overflow-hidden rounded-xl bg-white shadow-sm">
+            <li
+              key={level.order}
+              className="overflow-hidden rounded-xl bg-white shadow-sm"
+            >
               <button
                 type="button"
                 onClick={() => setOpenLevel(open ? 0 : level.order)}
@@ -99,13 +115,20 @@ export function LevelList({
               >
                 <div className="flex items-baseline justify-between gap-3">
                   <h2 className="text-lg font-semibold">
-                    <span className="text-slate-400">Level {level.order} · </span>
+                    <span className="text-slate-400">
+                      Level {level.order} ·{" "}
+                    </span>
                     {level.title}
                   </h2>
-                  <span className="whitespace-nowrap text-sm text-slate-500">{mastery}%</span>
+                  <span className="whitespace-nowrap text-sm text-slate-500">
+                    {mastery}%
+                  </span>
                 </div>
                 <div className="mt-2 h-2 overflow-hidden rounded-full bg-slate-100">
-                  <div className="h-full bg-teal-600" style={{ width: `${mastery}%` }} />
+                  <div
+                    className="h-full bg-teal-600"
+                    style={{ width: `${mastery}%` }}
+                  />
                 </div>
                 <p className="mt-2 text-sm text-slate-500">
                   {level.units.length} units · {words.length} words
@@ -116,8 +139,12 @@ export function LevelList({
               {open ? (
                 <ul className="border-t border-slate-100">
                   {level.units.map((unit) => {
-                    const unitDone = Math.round(100 * unitMastery(progress, unit.words));
-                    const dueHere = unit.words.filter((word) => due.has(word)).length;
+                    const unitDone = Math.round(
+                      100 * unitMastery(progress, unit.words),
+                    );
+                    const dueHere = unit.words.filter((word) =>
+                      due.has(word),
+                    ).length;
                     return (
                       <li key={unit.id}>
                         <Link
@@ -128,13 +155,18 @@ export function LevelList({
                             {unit.position}
                           </span>
                           <span className="min-w-0 flex-1">
-                            <span className="block truncate font-medium">{unit.title}</span>
+                            <span className="block truncate font-medium">
+                              {unit.title}
+                            </span>
                             <span className="block text-sm text-slate-500">
-                              {unit.words.length} words · {unit.verified} checked
+                              {unit.words.length} words · {unit.verified}{" "}
+                              checked
                               {dueHere > 0 ? ` · ${dueHere} to review` : ""}
                             </span>
                           </span>
-                          <span className="text-sm text-slate-500">{unitDone}%</span>
+                          <span className="text-sm text-slate-500">
+                            {unitDone}%
+                          </span>
                         </Link>
                       </li>
                     );
@@ -152,7 +184,11 @@ export function LevelList({
 /** The first level with words left to learn — where a child should carry on. */
 function currentLevel(levels: LevelSummary[], progress: Progress): number {
   const unfinished = levels.find(
-    (level) => unitMastery(progress, level.units.flatMap((unit) => unit.words)) < 1,
+    (level) =>
+      unitMastery(
+        progress,
+        level.units.flatMap((unit) => unit.words),
+      ) < 1,
   );
   return unfinished?.order ?? levels[levels.length - 1]?.order ?? 1;
 }
@@ -161,7 +197,9 @@ function Stat({ label, value }: { label: string; value: string }) {
   return (
     <div className="flex-1">
       <div className="text-2xl font-bold text-teal-700">{value}</div>
-      <div className="text-xs uppercase tracking-wide text-slate-500">{label}</div>
+      <div className="text-xs uppercase tracking-wide text-slate-500">
+        {label}
+      </div>
     </div>
   );
 }
