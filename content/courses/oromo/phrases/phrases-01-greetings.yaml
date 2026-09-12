@@ -1,0 +1,127 @@
+id: phrases-01-greetings
+order: 1
+title: Greetings and manners
+kind: phrases
+status: draft-unreviewed
+source: authored in content/courses/oromo/phrasebook.ts; answers from a fluent speaker
+words:
+  - english: Hello!
+    pos: phrase
+    note: everyday greeting to anyone
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: Good morning.
+    pos: phrase
+    note: greeting before noon
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: Good evening.
+    pos: phrase
+    note: greeting at the end of the day
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: How are you?
+    pos: phrase
+    note: speaking to one friend
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: I am fine, thank you.
+    pos: phrase
+    note: answering how are you
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: What is your name?
+    pos: phrase
+    note: asking one child
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: My name is Caalaa.
+    pos: phrase
+    note: keep the name Caalaa
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: Please.
+    pos: phrase
+    note: null
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: Thank you very much.
+    pos: phrase
+    note: null
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: Yes, please.
+    pos: phrase
+    note: null
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: No, thank you.
+    pos: phrase
+    note: null
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: Goodbye!
+    pos: phrase
+    note: null
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false

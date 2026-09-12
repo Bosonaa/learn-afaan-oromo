@@ -1,0 +1,127 @@
+id: phrases-04-school
+order: 4
+title: At school
+kind: phrases
+status: draft-unreviewed
+source: authored in content/courses/oromo/phrasebook.ts; answers from a fluent speaker
+words:
+  - english: I am going to school.
+    pos: phrase
+    note: a child speaking about himself
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: Where is my book?
+    pos: phrase
+    note: looking for something
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: This is my teacher.
+    pos: phrase
+    note: null
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: I am reading a book.
+    pos: phrase
+    note: null
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: I am writing my name.
+    pos: phrase
+    note: null
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: I do not know.
+    pos: phrase
+    note: null
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: I know the answer.
+    pos: phrase
+    note: null
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: Please say it again.
+    pos: phrase
+    note: null
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: What does this word mean?
+    pos: phrase
+    note: null
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: The lesson is easy.
+    pos: phrase
+    note: null
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: The lesson is hard.
+    pos: phrase
+    note: null
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: I am learning Afaan Oromo.
+    pos: phrase
+    note: null
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false

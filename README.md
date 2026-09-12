@@ -53,6 +53,18 @@ Oromo→English. Nothing is typed and nothing is played: there are no free-form 
 audio questions. Words due for review lead the lesson; a miss resets its interval so it
 returns the same day.
 
+## Phrases
+
+After the word levels come **phrase sets**: an English sentence, answered by choosing the
+Afaan Oromo sentence — same choice-only exercise engine, same progress model. The English
+side is authored in `content/courses/oromo/phrasebook.ts` (ten themed sets, 120 sentences,
+each with a note saying who is speaking); the Afaan Oromo side is deliberately empty.
+
+Nothing proposes it: the lexicon is a word list, and stitching a sentence together from
+single-word glosses teaches broken grammar. So a phrase ships as `oromo: null` and a set
+stays locked in the app until a fluent speaker has answered at least four of its phrases in
+`/review` — four being the minimum for a question plus three distractors.
+
 ## Later phases (built, but not part of the app)
 
 `app/_future/` holds finished work that the current phase deliberately excludes: the
@@ -65,6 +77,7 @@ route folders starting with `_`, so none of it loads. See `app/_future/README.md
 npm run fetch:lexicon   # ~92 MB download, gitignored
 npm run build:lexicon   # -> data/lexicon.json
 npm run draft:units     # -> content/courses/oromo/units/*.yaml + review/*.csv
+npm run draft:phrases   # -> content/courses/oromo/phrases/*.yaml + review/all-phrases-review.csv
 npm run mirror:audio    # -> public/audio/*.mp3 + credits.json
 npm run typecheck && npm run lint
 ```
@@ -82,7 +95,7 @@ review.
 ## Reviewing the draft
 
 Easiest way is the built-in review tool at `/review` while running locally (`npm run dev`):
-pick a unit, then edit the Afaan Oromo answer as free text — the drafted word is often only
+pick a unit or phrase set, then edit the Afaan Oromo answer as free text — the drafted word is often only
 misspelled, and the alternates the lexicon offers often do not include the right word at all.
 Saving writes both `content/overrides.yaml` and the unit's YAML, so the lesson teaches the
 correction immediately; commit those files to keep it. The tool refuses to save on a hosted

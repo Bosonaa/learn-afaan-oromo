@@ -17,6 +17,8 @@ export interface ReviewWord {
   pos: string;
   oromo: string;
   alternates: string[];
+  /** On phrases: who is speaking, and to whom. */
+  note: string | null;
   confidence: string;
   verified: boolean;
 }
@@ -25,6 +27,7 @@ export interface ReviewUnit {
   id: string;
   order: number;
   title: string;
+  kind: "words" | "phrases";
   words: ReviewWord[];
 }
 
@@ -134,10 +137,13 @@ export function ReviewTool({ courses }: { courses: ReviewCourse[] }) {
   return (
     <div className="space-y-4">
       <section className="space-y-2 rounded-xl bg-white p-5 shadow-sm">
-        <h1 className="text-xl font-bold">Review words</h1>
+        <h1 className="text-xl font-bold">Review words and phrases</h1>
         <p className="text-sm text-slate-600">
           Fix the Afaan Oromo answer for any prompt: edit the text, or type the
-          right word if it is not offered at all. Saving writes{" "}
+          right word if it is not offered at all. Phrase sets start out empty on
+          purpose — nothing can translate a sentence for you, so a set stays
+          locked in the app until you have answered at least four of its
+          phrases. Saving writes{" "}
           <code>content/overrides.yaml</code> and updates the lesson, so the
           correction survives regenerating the content — commit the two changed
           files to keep it.
@@ -182,6 +188,7 @@ export function ReviewTool({ courses }: { courses: ReviewCourse[] }) {
           >
             {course.units.map((candidate) => (
               <option key={candidate.id} value={candidate.id}>
+                {candidate.kind === "phrases" ? "Phrases " : ""}
                 {candidate.order}. {candidate.title} ({outstanding(candidate)}{" "}
                 left)
               </option>
@@ -205,7 +212,7 @@ export function ReviewTool({ courses }: { courses: ReviewCourse[] }) {
             checked={onlyUnreviewed}
             onChange={(event) => setOnlyUnreviewed(event.target.checked)}
           />
-          Show only words nobody has signed off yet
+          Show only prompts nobody has signed off yet
         </label>
       </section>
 
@@ -221,6 +228,9 @@ export function ReviewTool({ courses }: { courses: ReviewCourse[] }) {
               <div className="flex flex-wrap items-baseline gap-2">
                 <span className="font-semibold">{word.english}</span>
                 <span className="text-xs text-slate-500">{word.pos}</span>
+                {word.note === null ? null : (
+                  <span className="text-xs text-slate-500">({word.note})</span>
+                )}
                 {word.verified ? (
                   <span className="rounded-full bg-emerald-100 px-2 py-0.5 text-xs text-emerald-800">
                     reviewed
@@ -245,6 +255,11 @@ export function ReviewTool({ courses }: { courses: ReviewCourse[] }) {
                         { oromo: event.target.value },
                         word,
                       )
+                    }
+                    placeholder={
+                      unit.kind === "phrases"
+                        ? "Type the Afaan Oromo phrase"
+                        : undefined
                     }
                     className="w-full rounded-lg border border-slate-300 px-2 py-2"
                     aria-label={`Afaan Oromo for ${word.english}`}

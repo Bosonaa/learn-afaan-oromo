@@ -1,0 +1,127 @@
+id: phrases-10-day
+order: 10
+title: My day
+kind: phrases
+status: draft-unreviewed
+source: authored in content/courses/oromo/phrasebook.ts; answers from a fluent speaker
+words:
+  - english: Today is Monday.
+    pos: phrase
+    note: keep the day name in Afaan Oromo
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: I get up in the morning.
+    pos: phrase
+    note: a child describing a habit
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: I am going now.
+    pos: phrase
+    note: null
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: I will come tomorrow.
+    pos: phrase
+    note: null
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: We went yesterday.
+    pos: phrase
+    note: null
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: It is raining today.
+    pos: phrase
+    note: null
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: The sun is hot today.
+    pos: phrase
+    note: null
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: I am busy now.
+    pos: phrase
+    note: null
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: Let us go quickly.
+    pos: phrase
+    note: null
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: See you tomorrow.
+    pos: phrase
+    note: null
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: Good night.
+    pos: phrase
+    note: null
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false
+  - english: Sleep well.
+    pos: phrase
+    note: null
+    oromo: null
+    alternates: []
+    ipa: null
+    audioUrl: null
+    confidence: none
+    glossSeen: null
+    verified: false

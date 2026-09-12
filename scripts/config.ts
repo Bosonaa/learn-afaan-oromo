@@ -11,6 +11,9 @@ export const REVIEW_DIR = resolve(REPO_ROOT, "review");
 /** Each course keeps its units under `content/courses/<id>/units`. */
 export const courseUnitsDir = (courseId: string): string =>
   resolve(CONTENT_DIR, "courses", courseId, "units");
+/** Phrase sets sit beside the word units, in the same YAML shape. */
+export const coursePhrasesDir = (courseId: string): string =>
+  resolve(CONTENT_DIR, "courses", courseId, "phrases");
 export const OVERRIDES_PATH = resolve(CONTENT_DIR, "overrides.yaml");
 
 export const PUBLIC_DIR = resolve(REPO_ROOT, "public");
