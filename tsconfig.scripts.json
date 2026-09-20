@@ -10,7 +10,14 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "noEmit": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": { "@/*": ["./*"] }
   },
-  "include": ["scripts/**/*.ts", "content/**/*.ts", "lib/overrides.ts"]
+  "include": [
+    "scripts/**/*.ts",
+    "content/**/*.ts",
+    "lib/overrides.ts",
+    "lib/corrections.ts"
+  ]
 }

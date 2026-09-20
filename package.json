@@ -9,6 +9,8 @@
     "draft:units": "tsx scripts/draft-units.ts",
     "draft:phrases": "tsx scripts/draft-phrases.ts",
     "mirror:audio": "tsx scripts/mirror-audio.ts",
+    "apply:corrections": "tsx scripts/apply-corrections.ts",
+    "build:static": "tsx scripts/build-static.ts",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
