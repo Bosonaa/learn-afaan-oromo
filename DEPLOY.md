@@ -155,6 +155,33 @@ npm run typecheck && npm run lint && npm run build
 `npm run fetch:lexicon` / `build:lexicon` are only needed to refresh the upstream
 dictionary (~92 MB download) and are not part of normal work.
 
+### Review from a phone, with no checkout
+
+The reviewer usually has no laptop and no repo, so `/review` also works on a hosted copy:
+it detects that it cannot write files, keeps every answer in that browser, and offers
+**Download and send them** — a small `corrections-YYYY-MM-DD.json`. Answers already kept on
+the device reappear in the boxes, so a reviewer can stop and come back.
+
+Host a copy anywhere that serves files (or put `out/` on Vercel, Netlify, GitHub Pages):
+
+```bash
+npm run build:static     # writes out/ with no server behind it
+npx serve out            # or upload out/ to any static host
+```
+
+The static copy has no API routes at all, so the local-only review and report endpoints
+simply are not there.
+
+When the file comes back, fold it into the checkout and commit the result:
+
+```bash
+npm run apply:corrections -- ~/Downloads/corrections-2026-08-17.json
+git diff        # overrides.yaml plus the units and phrase sets it touched
+```
+
+Each correction lands in `content/overrides.yaml` and in the generated YAML, exactly as if
+it had been typed locally; anything it cannot match is reported and skipped.
+
 ## 9. If something goes wrong
 
 | Symptom | Fix |

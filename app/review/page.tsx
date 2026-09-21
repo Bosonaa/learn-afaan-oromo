@@ -5,8 +5,13 @@ import { ReviewTool, type ReviewCourse, type ReviewUnit } from "./review-tool";
 
 export const metadata: Metadata = { title: "Review words · Barsiisaa" };
 
-/** The reviewer edits files in the checkout, so this page is never prerendered. */
-export const dynamic = "force-dynamic";
+/**
+ * Locally the reviewer edits files in the checkout, so the page reads content
+ * fresh on every request; a static export has no checkout to read, and the
+ * page keeps corrections on the reviewer's device instead.
+ */
+export const dynamic =
+  process.env.STATIC_EXPORT === "1" ? "force-static" : "force-dynamic";
 
 const summarize = (unit: Unit): ReviewUnit => ({
   id: unit.id,
