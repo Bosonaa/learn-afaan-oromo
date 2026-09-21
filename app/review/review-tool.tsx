@@ -15,6 +15,7 @@
  */
 
 import { useEffect, useMemo, useState } from "react";
+import { asset } from "@/lib/base-path";
 
 export interface ReviewWord {
   english: string;
@@ -89,7 +90,7 @@ export function ReviewTool({ courses }: { courses: ReviewCourse[] }) {
   useEffect(() => {
     setReviewer(window.localStorage.getItem(REVIEWER_KEY) ?? "");
     setPending(readPending());
-    void fetch("/api/review")
+    void fetch(asset("/api/review"))
       .then((response) => (response.ok ? response.json() : { editable: false }))
       .then((body: { editable?: boolean }) =>
         setEditable(body.editable === true),
@@ -184,7 +185,7 @@ export function ReviewTool({ courses }: { courses: ReviewCourse[] }) {
       return;
     }
 
-    void fetch("/api/review", {
+    void fetch(asset("/api/review"), {
       method: "POST",
       headers: { "content-type": "application/json" },
       body: JSON.stringify(correction),

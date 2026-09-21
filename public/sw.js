@@ -8,16 +8,18 @@
  *   /_next/static, audio cache first (immutable, content-hashed or never edited)
  *   everything else      straight to the network
  */
-const VERSION = "v1";
+const VERSION = "v2";
 const SHELL = `barsiisaa-shell-${VERSION}`;
 const ASSETS = `barsiisaa-assets-${VERSION}`;
-const OFFLINE_URL = "/offline";
+// `/` on its own domain, `/<repo>` on GitHub Pages: the scope knows which.
+const BASE = new URL(self.registration.scope).pathname.replace(/\/$/, "");
+const OFFLINE_URL = `${BASE}/offline`;
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
     caches
       .open(SHELL)
-      .then((cache) => cache.addAll(["/", OFFLINE_URL, "/manifest.webmanifest"]))
+      .then((cache) => cache.addAll([`${BASE}/`, OFFLINE_URL, `${BASE}/manifest.webmanifest`]))
       .then(() => self.skipWaiting()),
   );
 });
@@ -60,14 +62,14 @@ self.addEventListener("fetch", (event) => {
 
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
-  if (url.pathname.startsWith("/api/")) return;
+  if (url.pathname.startsWith(`${BASE}/api/`)) return;
 
   if (request.mode === "navigate") {
     event.respondWith(networkFirst(request));
     return;
   }
 
-  if (url.pathname.startsWith("/_next/static/") || url.pathname.startsWith("/audio/")) {
+  if (url.pathname.startsWith(`${BASE}/_next/static/`) || url.pathname.startsWith(`${BASE}/audio/`)) {
     event.respondWith(cacheFirst(request, ASSETS));
   }
 });
