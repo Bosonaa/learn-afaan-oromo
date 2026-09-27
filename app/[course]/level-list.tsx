@@ -6,6 +6,7 @@ import { loadProfiles, type Profiles } from "@/lib/profiles";
 import {
   dueWords,
   emptyProgress,
+  learnedCount,
   loadProgress,
   unitMastery,
   type Progress,
@@ -161,6 +162,7 @@ export function LevelList({
                     const unitDone = Math.round(
                       100 * unitMastery(progress, unit.words),
                     );
+                    const learned = learnedCount(progress, unit.words);
                     const dueHere = unit.words.filter((word) =>
                       due.has(word),
                     ).length;
@@ -176,7 +178,7 @@ export function LevelList({
                           <span className="block text-sm text-slate-500">
                             {unit.locked
                               ? `${unit.unanswered} phrases waiting for a fluent speaker`
-                              : `${unit.words.length} ${phrases ? "phrases" : "words"} · ${unit.verified} checked${
+                              : `${learned} of ${unit.words.length} ${phrases ? "phrases" : "words"} done · ${unit.verified} checked${
                                   dueHere > 0 ? ` · ${dueHere} to review` : ""
                                 }`}
                           </span>
