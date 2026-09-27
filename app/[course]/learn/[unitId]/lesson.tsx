@@ -5,10 +5,29 @@ import { useEffect, useState } from "react";
 import type { Word } from "@/lib/content";
 import { buildLesson, isCorrect, type Exercise } from "@/lib/exercises";
 import { loadProfiles, type Profile } from "@/lib/profiles";
-import { dueWords, loadProgress, recordAnswer, saveProgress } from "@/lib/progress";
+import {
+  dueWords,
+  isLearned,
+  loadProgress,
+  recordAnswer,
+  saveProgress,
+  type Progress,
+} from "@/lib/progress";
 import { ReportWord } from "@/app/report-word";
 
-const LESSON_LENGTH = 10;
+/**
+ * A lesson covers the whole unit, asking only what is still unlearned, so a
+ * child can stop after a few words and be picked up where they left off; the
+ * unit reads 100% exactly when every word has been answered correctly. Once
+ * there is nothing left to learn the unit stays available as practice.
+ */
+const lessonFor = (words: Word[], progress: Progress, unitId: string): Exercise[] => {
+  const remaining = words.filter((word) => !isLearned(progress, word.oromo));
+  return buildLesson(words, `${unitId}:${progress.xp}`, {
+    due: dueWords(progress),
+    ask: remaining.length === 0 ? words : remaining,
+  });
+};
 
 type Verdict = { correct: boolean; expected: string } | null;
 
@@ -37,13 +56,7 @@ export function Lesson({
   useEffect(() => {
     const { profiles, activeId } = loadProfiles();
     setLearner(profiles.find((profile) => profile.id === activeId) ?? null);
-    const progress = loadProgress(courseId, activeId);
-    setExercises(
-      buildLesson(words, `${unitId}:${progress.xp}`, {
-        due: dueWords(progress),
-        length: LESSON_LENGTH,
-      }),
-    );
+    setExercises(lessonFor(words, loadProgress(courseId, activeId), unitId));
   }, [courseId, unitId, words]);
 
   const exercise = exercises?.[index] ?? null;
@@ -76,11 +89,23 @@ export function Lesson({
   }
 
   if (exercise === null) {
+    const learned = words.filter((word) =>
+      isLearned(loadProgress(courseId, learner?.id), word.oromo),
+    ).length;
+    const finished = learned === words.length;
+
     return (
       <div className="space-y-4 rounded-xl bg-white p-6 text-center shadow-sm">
-        <h1 className="text-2xl font-bold text-teal-700">Lesson complete</h1>
+        <h1 className="text-2xl font-bold text-teal-700">
+          {finished ? "Unit complete!" : "Lesson complete"}
+        </h1>
         <p className="text-slate-600">
           {score} of {exercises.length} correct
+        </p>
+        <p className="text-slate-600">
+          {finished
+            ? `All ${words.length} words learned — 100%`
+            : `${learned} of ${words.length} words learned — come back to finish the unit`}
         </p>
         <div className="flex justify-center gap-3">
           <Link
@@ -92,19 +117,13 @@ export function Lesson({
           <button
             type="button"
             onClick={() => {
-              const progress = loadProgress(courseId, learner?.id);
-              setExercises(
-                buildLesson(words, `${unitId}:${progress.xp}`, {
-                  due: dueWords(progress),
-                  length: LESSON_LENGTH,
-                }),
-              );
+              setExercises(lessonFor(words, loadProgress(courseId, learner?.id), unitId));
               setIndex(0);
               setScore(0);
             }}
             className="rounded-lg bg-teal-600 px-4 py-2 font-semibold text-white"
           >
-            Practise again
+            {finished ? "Practise again" : "Keep going"}
           </button>
         </div>
       </div>

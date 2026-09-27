@@ -122,8 +122,11 @@ export function dueWords(progress: Progress, now = Date.now()): string[] {
     .map(([oromo]) => oromo);
 }
 
+/** A word counts as learned once it has been answered correctly and scheduled ahead. */
+export const isLearned = (progress: Progress, oromo: string): boolean =>
+  (progress.words[oromo]?.intervalDays ?? 0) >= 1;
+
 export function unitMastery(progress: Progress, words: string[]): number {
   if (words.length === 0) return 0;
-  const learned = words.filter((oromo) => (progress.words[oromo]?.intervalDays ?? 0) >= 1).length;
-  return learned / words.length;
+  return words.filter((oromo) => isLearned(progress, oromo)).length / words.length;
 }
