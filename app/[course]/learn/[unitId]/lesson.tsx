@@ -8,8 +8,10 @@ import { loadProfiles, type Profile } from "@/lib/profiles";
 import {
   dueWords,
   isLearned,
+  learnedCount,
   loadProgress,
   recordAnswer,
+  resetWords,
   saveProgress,
   type Progress,
 } from "@/lib/progress";
@@ -21,13 +23,24 @@ import { ReportWord } from "@/app/report-word";
  * unit reads 100% exactly when every word has been answered correctly. Once
  * there is nothing left to learn the unit stays available as practice.
  */
-const lessonFor = (words: Word[], progress: Progress, unitId: string): Exercise[] => {
+interface Session {
+  exercises: Exercise[];
+  /** Words of the unit already learned when the lesson was built. */
+  done: number;
+}
+
+const lessonFor = (words: Word[], progress: Progress, unitId: string): Session => {
   const remaining = words.filter((word) => !isLearned(progress, word.oromo));
-  return buildLesson(words, `${unitId}:${progress.xp}`, {
-    due: dueWords(progress),
-    ask: remaining.length === 0 ? words : remaining,
-  });
+  return {
+    exercises: buildLesson(words, `${unitId}:${progress.xp}`, {
+      due: dueWords(progress),
+      ask: remaining.length === 0 ? words : remaining,
+    }),
+    done: learnedCount(progress, oromoOf(words)),
+  };
 };
+
+const oromoOf = (words: Word[]): string[] => words.map((word) => word.oromo);
 
 type Verdict = { correct: boolean; expected: string } | null;
 
@@ -44,7 +57,7 @@ export function Lesson({
   levelLabel: string;
   words: Word[];
 }) {
-  const [exercises, setExercises] = useState<Exercise[] | null>(null);
+  const [session, setSession] = useState<Session | null>(null);
   const [index, setIndex] = useState(0);
   const [verdict, setVerdict] = useState<Verdict>(null);
   const [score, setScore] = useState(0);
@@ -56,10 +69,18 @@ export function Lesson({
   useEffect(() => {
     const { profiles, activeId } = loadProfiles();
     setLearner(profiles.find((profile) => profile.id === activeId) ?? null);
-    setExercises(lessonFor(words, loadProgress(courseId, activeId), unitId));
+    setSession(lessonFor(words, loadProgress(courseId, activeId), unitId));
   }, [courseId, unitId, words]);
 
+  const exercises = session?.exercises ?? null;
   const exercise = exercises?.[index] ?? null;
+
+  const restart = (progress: Progress): void => {
+    setSession(lessonFor(words, progress, unitId));
+    setIndex(0);
+    setScore(0);
+    setVerdict(null);
+  };
 
   const submit = (response: string): void => {
     if (exercise === null || verdict !== null) return;
@@ -79,7 +100,7 @@ export function Lesson({
     setIndex((current) => current + 1);
   };
 
-  if (exercises === null) {
+  if (session === null || exercises === null) {
     return (
       <div className="space-y-4">
         <BackToLevels courseId={courseId} />
@@ -89,9 +110,7 @@ export function Lesson({
   }
 
   if (exercise === null) {
-    const learned = words.filter((word) =>
-      isLearned(loadProgress(courseId, learner?.id), word.oromo),
-    ).length;
+    const learned = learnedCount(loadProgress(courseId, learner?.id), oromoOf(words));
     const finished = learned === words.length;
 
     return (
@@ -116,19 +135,27 @@ export function Lesson({
           </Link>
           <button
             type="button"
-            onClick={() => {
-              setExercises(lessonFor(words, loadProgress(courseId, learner?.id), unitId));
-              setIndex(0);
-              setScore(0);
-            }}
+            onClick={() => restart(loadProgress(courseId, learner?.id))}
             className="rounded-lg bg-teal-600 px-4 py-2 font-semibold text-white"
           >
             {finished ? "Practise again" : "Keep going"}
           </button>
         </div>
+        <StartOver
+          words={words}
+          courseId={courseId}
+          profileId={learner?.id}
+          onReset={restart}
+        />
       </div>
     );
   }
+
+  // Counted across the unit, not the session, so a resumed lesson reads
+  // "12 / 25" rather than starting back at one.
+  const practising = session.done === words.length;
+  const position = practising ? index + 1 : session.done + index + 1;
+  const total = practising ? exercises.length : words.length;
 
   return (
     <div className="space-y-5">
@@ -140,13 +167,13 @@ export function Lesson({
             {learner === null ? "" : ` · ${learner.name}`}
           </span>
           <span className="whitespace-nowrap">
-            {index + 1} / {exercises.length}
+            {position} / {total}
           </span>
         </div>
         <div className="mt-1 h-2 overflow-hidden rounded-full bg-slate-200">
           <div
             className="h-full bg-teal-600 transition-all"
-            style={{ width: `${(100 * index) / exercises.length}%` }}
+            style={{ width: `${(100 * (position - 1)) / total}%` }}
           />
         </div>
       </div>
@@ -204,6 +231,60 @@ export function Lesson({
           />
         </div>
       ) : null}
+    </div>
+  );
+}
+
+/** Forgets this unit's words so the next lesson asks all of them again. */
+function StartOver({
+  words,
+  courseId,
+  profileId,
+  onReset,
+}: {
+  words: Word[];
+  courseId: string;
+  profileId: string | undefined;
+  onReset: (progress: Progress) => void;
+}) {
+  const [confirming, setConfirming] = useState(false);
+
+  if (!confirming) {
+    return (
+      <button
+        type="button"
+        onClick={() => setConfirming(true)}
+        className="text-sm font-medium text-slate-500 hover:underline"
+      >
+        Start this unit over
+      </button>
+    );
+  }
+
+  return (
+    <div className="space-y-2 text-sm text-slate-600">
+      <p>Forget this unit and ask all {words.length} words again?</p>
+      <div className="flex justify-center gap-3">
+        <button
+          type="button"
+          onClick={() => setConfirming(false)}
+          className="rounded-lg bg-slate-100 px-3 py-2 font-semibold"
+        >
+          Keep my progress
+        </button>
+        <button
+          type="button"
+          onClick={() => {
+            const reset = resetWords(loadProgress(courseId, profileId), oromoOf(words));
+            saveProgress(reset, courseId, profileId);
+            setConfirming(false);
+            onReset(reset);
+          }}
+          className="rounded-lg bg-rose-600 px-3 py-2 font-semibold text-white"
+        >
+          Start over
+        </button>
+      </div>
     </div>
   );
 }

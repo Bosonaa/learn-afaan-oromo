@@ -126,7 +126,22 @@ export function dueWords(progress: Progress, now = Date.now()): string[] {
 export const isLearned = (progress: Progress, oromo: string): boolean =>
   (progress.words[oromo]?.intervalDays ?? 0) >= 1;
 
+export function learnedCount(progress: Progress, words: string[]): number {
+  return words.filter((oromo) => isLearned(progress, oromo)).length;
+}
+
+/** Forgets a unit so its words are all asked again; points and streak are kept. */
+export function resetWords(progress: Progress, words: string[]): Progress {
+  const forget = new Set(words);
+  return {
+    ...progress,
+    words: Object.fromEntries(
+      Object.entries(progress.words).filter(([oromo]) => !forget.has(oromo)),
+    ),
+  };
+}
+
 export function unitMastery(progress: Progress, words: string[]): number {
   if (words.length === 0) return 0;
-  return words.filter((oromo) => isLearned(progress, oromo)).length / words.length;
+  return learnedCount(progress, words) / words.length;
 }

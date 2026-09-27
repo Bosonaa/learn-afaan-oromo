@@ -8,7 +8,7 @@
  *   /_next/static, audio cache first (immutable, content-hashed or never edited)
  *   everything else      straight to the network
  */
-const VERSION = "v2";
+const VERSION = "v3";
 const SHELL = `barsiisaa-shell-${VERSION}`;
 const ASSETS = `barsiisaa-assets-${VERSION}`;
 // `/` on its own domain, `/<repo>` on GitHub Pages: the scope knows which.
