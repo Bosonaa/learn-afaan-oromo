@@ -94,29 +94,31 @@ export interface LessonOptions {
   /** Words the learner is due to review, in priority order. */
   due?: string[];
   length?: number;
+  /** Words to ask; the whole unit still supplies the wrong choices. */
+  ask?: Word[];
 }
 
 /**
- * A lesson mixes words due for review with new words from the unit, then draws
+ * A lesson mixes words due for review with the words still to learn, then draws
  * one exercise kind per word so the same word is never asked twice in a row.
  */
 export function buildLesson(
   unit: Word[],
   seed: string,
-  { due = [], length = 10 }: LessonOptions = {},
+  { due = [], length, ask = unit }: LessonOptions = {},
 ): Exercise[] {
   const random = makeRandom(seed);
-  const byOromo = new Map(unit.map((word) => [word.oromo, word]));
+  const byOromo = new Map(ask.map((word) => [word.oromo, word]));
   const dueWords = due.flatMap((oromo) => {
     const word = byOromo.get(oromo);
     return word === undefined ? [] : [word];
   });
   const rest = shuffle(
-    unit.filter((word) => !due.includes(word.oromo)),
+    ask.filter((word) => !due.includes(word.oromo)),
     random,
   );
 
-  const selected = [...dueWords, ...rest].slice(0, length);
+  const selected = [...dueWords, ...rest].slice(0, length ?? ask.length);
   return selected.map((word) => {
     const kind: ExerciseKind = random() < 0.5 ? "en-to-om" : "om-to-en";
     return build(word, kind, unit, random);
