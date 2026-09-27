@@ -22,12 +22,21 @@ export interface Progress {
   version: 1;
   /** Shown to children as "Points"; the key stays `xp` so saved progress reads back. */
   xp: number;
+  /** Consecutive days the daily goal was met. */
   streakDays: number;
   lastPracticedDay: string | null;
   words: Record<string, WordProgress>;
+  /** Correct answers wanted each day; absent on progress saved before goals. */
+  goal?: number;
+  today?: { day: string; correct: number };
+  lastGoalDay?: string | null;
 }
 
 const DAY_MS = 24 * 60 * 60 * 1000;
+
+/** Words a day a child can pick from; ten is a few minutes of practice. */
+export const GOAL_CHOICES = [5, 10, 20, 30];
+export const DEFAULT_GOAL = 10;
 
 export const emptyProgress = (): Progress => ({
   version: 1,
@@ -35,9 +44,20 @@ export const emptyProgress = (): Progress => ({
   streakDays: 0,
   lastPracticedDay: null,
   words: {},
+  goal: DEFAULT_GOAL,
+  today: undefined,
+  lastGoalDay: null,
 });
 
-const dayKey = (at: number): string => new Date(at).toISOString().slice(0, 10);
+/**
+ * The child's own calendar day, not UTC: a goal reached at 8pm must not count
+ * for tomorrow, which is what UTC does west of Greenwich.
+ */
+const dayKey = (at: number): string => {
+  const date = new Date(at);
+  const month = `${date.getMonth() + 1}`.padStart(2, "0");
+  return `${date.getFullYear()}-${month}-${`${date.getDate()}`.padStart(2, "0")}`;
+};
 
 export function loadProgress(courseId: string, profileId?: string): Progress {
   if (typeof window === "undefined") return emptyProgress();
@@ -91,6 +111,24 @@ export function scheduleWord(
   };
 }
 
+export const dailyGoal = (progress: Progress): number => progress.goal ?? DEFAULT_GOAL;
+
+/** Correct answers given today, in any unit of this course. */
+export function answeredToday(progress: Progress, now = Date.now()): number {
+  return progress.today?.day === dayKey(now) ? progress.today.correct : 0;
+}
+
+export const goalMet = (progress: Progress, now = Date.now()): boolean =>
+  answeredToday(progress, now) >= dailyGoal(progress);
+
+export function setDailyGoal(progress: Progress, goal: number): Progress {
+  return { ...progress, goal };
+}
+
+/**
+ * The streak counts days the daily goal was met, not days the app was opened,
+ * so "keep the streak" and "do today's practice" are the same thing.
+ */
 export function recordAnswer(
   progress: Progress,
   oromo: string,
@@ -99,18 +137,29 @@ export function recordAnswer(
 ): Progress {
   const today = dayKey(now);
   const yesterday = dayKey(now - DAY_MS);
+  const correctToday = answeredToday(progress, now) + (correct ? 1 : 0);
+  const met = correctToday >= dailyGoal(progress);
+  // Progress saved before goals existed has no goal day at all: treat its last
+  // practice day as one, so an existing streak is not thrown away. A stored
+  // `null` means "goal never met" and must not fall back.
+  const lastGoalDay =
+    progress.lastGoalDay === undefined ? progress.lastPracticedDay : progress.lastGoalDay;
   const streakDays =
-    progress.lastPracticedDay === today
+    lastGoalDay === today
       ? progress.streakDays
-      : progress.lastPracticedDay === yesterday
-        ? progress.streakDays + 1
-        : 1;
+      : met
+        ? lastGoalDay === yesterday
+          ? progress.streakDays + 1
+          : 1
+        : progress.streakDays;
 
   return {
     ...progress,
     xp: progress.xp + (correct ? 10 : 2),
     streakDays,
     lastPracticedDay: today,
+    lastGoalDay: met ? today : lastGoalDay ?? null,
+    today: { day: today, correct: correctToday },
     words: { ...progress.words, [oromo]: scheduleWord(progress.words[oromo], correct, now) },
   };
 }
