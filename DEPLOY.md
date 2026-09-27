@@ -172,6 +172,22 @@ npx serve out            # or upload out/ to any static host
 The static copy has no API routes at all, so the local-only review and report endpoints
 simply are not there.
 
+### Free hosting on GitHub Pages
+
+`.github/workflows/pages.yml` builds and publishes that copy on every push to `develop`.
+Enable it once: **Settings → Pages → Build and deployment → Source: GitHub Actions**. The
+site then lives at `https://bosonaa.github.io/learn-afaan-oromo/` — installable on a phone
+("Add to Home Screen") and enough for both the kids and a reviewer.
+
+Pages serves a project site from a subdirectory, so the build needs to know its prefix:
+
+```bash
+BASE_PATH=/learn-afaan-oromo npm run build:static   # what the workflow runs
+```
+
+Without `BASE_PATH` the output assumes the site sits at the root, which is what Vercel,
+Netlify and `npx serve out` want.
+
 When the file comes back, fold it into the checkout and commit the result:
 
 ```bash

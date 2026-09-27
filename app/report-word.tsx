@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { asset } from "@/lib/base-path";
 import { REPORT_CATEGORIES } from "@/lib/reports";
 
 type State = "hidden" | "closed" | "open" | "sending" | "sent" | "failed";
@@ -39,7 +40,7 @@ export function ReportWord({
 
   useEffect(() => {
     let cancelled = false;
-    void fetch("/api/reports")
+    void fetch(asset("/api/reports"))
       .then((response) => (response.ok ? response.json() : { configured: false }))
       .then((body: { configured?: boolean }) => {
         if (!cancelled && body.configured === true) setState("closed");
@@ -87,7 +88,7 @@ export function ReportWord({
       onSubmit={(event) => {
         event.preventDefault();
         setState("sending");
-        void fetch("/api/reports", {
+        void fetch(asset("/api/reports"), {
           method: "POST",
           headers: { "content-type": "application/json" },
           body: JSON.stringify({ courseId, unitId, english, oromo, category, note }),

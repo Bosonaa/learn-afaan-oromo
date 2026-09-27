@@ -1,20 +1,21 @@
 import type { Metadata, Viewport } from "next";
 import Link from "next/link";
 import "./globals.css";
+import { asset } from "@/lib/base-path";
 import { ServiceWorker } from "./service-worker";
 
 export const metadata: Metadata = {
   title: "Barsiisaa — learn Afaan Oromo",
   description: "Practise Afaan Oromo words with short daily lessons.",
-  manifest: "/manifest.webmanifest",
+  manifest: asset("/manifest.webmanifest"),
   applicationName: "Barsiisaa",
   appleWebApp: { capable: true, title: "Barsiisaa", statusBarStyle: "default" },
   icons: {
     icon: [
-      { url: "/icons/icon-192.png", sizes: "192x192", type: "image/png" },
-      { url: "/icons/icon-512.png", sizes: "512x512", type: "image/png" },
+      { url: asset("/icons/icon-192.png"), sizes: "192x192", type: "image/png" },
+      { url: asset("/icons/icon-512.png"), sizes: "512x512", type: "image/png" },
     ],
-    apple: "/icons/apple-touch-icon.png",
+    apple: asset("/icons/apple-touch-icon.png"),
   },
 };
 
