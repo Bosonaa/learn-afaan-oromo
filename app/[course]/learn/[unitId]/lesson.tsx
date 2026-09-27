@@ -6,6 +6,8 @@ import type { Word } from "@/lib/content";
 import { buildLesson, isCorrect, type Exercise } from "@/lib/exercises";
 import { loadProfiles, type Profile } from "@/lib/profiles";
 import {
+  answeredToday,
+  dailyGoal,
   dueWords,
   isLearned,
   learnedCount,
@@ -110,8 +112,11 @@ export function Lesson({
   }
 
   if (exercise === null) {
-    const learned = learnedCount(loadProgress(courseId, learner?.id), oromoOf(words));
+    const saved = loadProgress(courseId, learner?.id);
+    const learned = learnedCount(saved, oromoOf(words));
     const finished = learned === words.length;
+    const goal = dailyGoal(saved);
+    const today = answeredToday(saved);
 
     return (
       <div className="space-y-4 rounded-xl bg-white p-6 text-center shadow-sm">
@@ -125,6 +130,11 @@ export function Lesson({
           {finished
             ? `All ${words.length} words learned — 100%`
             : `${learned} of ${words.length} words learned — come back to finish the unit`}
+        </p>
+        <p className={today >= goal ? "font-semibold text-amber-600" : "text-slate-500"}>
+          {today >= goal
+            ? `Today's goal is done — ${saved.streakDays} day streak`
+            : `Today's goal: ${today} of ${goal} right answers`}
         </p>
         <div className="flex justify-center gap-3">
           <Link

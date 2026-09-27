@@ -12,6 +12,7 @@ import {
   type Progress,
 } from "@/lib/progress";
 import { ProfileSwitcher } from "@/app/profile-switcher";
+import { DailyGoal } from "./daily-goal";
 
 export interface UnitSummary {
   id: string;
@@ -34,6 +35,30 @@ export interface LevelSummary {
 }
 
 const levelKey = (level: LevelSummary): string => `${level.kind}-${level.order}`;
+
+const levelWords = (level: LevelSummary): string[] =>
+  level.units.flatMap((unit) => unit.words);
+
+/**
+ * A level opens only once the one before it is fully learned, so children work
+ * through the course in order. Phrase levels are gated among themselves, not
+ * behind the whole vocabulary course.
+ */
+function lockedLevels(levels: LevelSummary[], progress: Progress): Set<string> {
+  const locked = new Set<string>();
+  const previous = new Map<LevelSummary["kind"], LevelSummary>();
+  for (const level of levels) {
+    const before = previous.get(level.kind);
+    if (
+      before !== undefined &&
+      (locked.has(levelKey(before)) || unitMastery(progress, levelWords(before)) < 1)
+    ) {
+      locked.add(levelKey(level));
+    }
+    previous.set(level.kind, level);
+  }
+  return locked;
+}
 
 export function LevelList({
   courseId,
@@ -67,6 +92,7 @@ export function LevelList({
   };
 
   const due = new Set(dueWords(progress));
+  const locked = lockedLevels(levels, progress);
   const wordUnits = levels
     .filter((level) => level.kind === "words")
     .flatMap((level) => level.units);
@@ -87,7 +113,15 @@ export function LevelList({
       </div>
 
       {profiles === null ? null : (
-        <ProfileSwitcher profiles={profiles} onChange={switchProfiles} />
+        <>
+          <ProfileSwitcher profiles={profiles} onChange={switchProfiles} />
+          <DailyGoal
+            courseId={courseId}
+            profileId={profiles.activeId}
+            progress={progress}
+            onChange={setProgress}
+          />
+        </>
       )}
 
       <div className="flex gap-4 rounded-xl bg-white p-4 shadow-sm">
@@ -109,10 +143,15 @@ export function LevelList({
       ) : null}
 
       <ul className="space-y-4">
-        {levels.map((level) => {
-          const words = level.units.flatMap((unit) => unit.words);
+        {levels.map((level, order) => {
+          const words = levelWords(level);
           const mastery = Math.round(100 * unitMastery(progress, words));
-          const open = levelKey(level) === openLevel;
+          const shut = locked.has(levelKey(level));
+          const open = !shut && levelKey(level) === openLevel;
+          const previous = levels
+            .slice(0, order)
+            .filter((earlier) => earlier.kind === level.kind)
+            .pop();
           const phrases = level.kind === "phrases";
           const waiting = level.units.reduce(
             (sum, unit) => sum + unit.unanswered,
@@ -127,7 +166,8 @@ export function LevelList({
                 type="button"
                 onClick={() => setOpenLevel(open ? "" : levelKey(level))}
                 aria-expanded={open}
-                className="w-full p-4 text-left"
+                disabled={shut}
+                className={`w-full p-4 text-left ${shut ? "opacity-60" : ""}`}
               >
                 <div className="flex items-baseline justify-between gap-3">
                   <h2 className="text-lg font-semibold">
@@ -139,7 +179,7 @@ export function LevelList({
                     {level.title}
                   </h2>
                   <span className="whitespace-nowrap text-sm text-slate-500">
-                    {mastery}%
+                    {shut ? "🔒" : `${mastery}%`}
                   </span>
                 </div>
                 <div className="mt-2 h-2 overflow-hidden rounded-full bg-slate-100">
@@ -149,10 +189,13 @@ export function LevelList({
                   />
                 </div>
                 <p className="mt-2 text-sm text-slate-500">
-                  {level.units.length} {phrases ? "sets" : "units"} ·{" "}
-                  {words.length} {phrases ? "phrases" : "words"}
-                  {waiting > 0 ? ` · ${waiting} awaiting a translation` : ""}
-                  {open ? "" : " · tap to open"}
+                  {shut && previous !== undefined
+                    ? `Finish ${previous.title} to unlock`
+                    : `${level.units.length} ${phrases ? "sets" : "units"} · ${words.length} ${
+                        phrases ? "phrases" : "words"
+                      }${waiting > 0 ? ` · ${waiting} awaiting a translation` : ""}${
+                        open ? "" : " · tap to open"
+                      }`}
                 </p>
               </button>
 
